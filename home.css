@@ -12,7 +12,7 @@ header.on-paper a {color:#272822;background:#f8f6efed}
 .stage {--inset:4%;--show:1;position:sticky;top:0;height:100vh;height:100svh;height:100dvh;overflow:hidden;isolation:isolate;--art-height:max(60cqw,100cqh);--horizon-y:calc(50cqh + .03 * var(--art-height))}
 .motion #top.opened {height:auto}
 .opened .stage {position:relative}
-.cover-title {position:absolute;left:0;bottom:calc(100% - var(--horizon-y) + clamp(72px,18cqh,190px));width:100%;text-align:center;pointer-events:none;color:#f9f6ee;font:400 clamp(44px,min(8cqw,10cqh),100px)/.94 Georgia,serif;letter-spacing:-.05em}
+.cover-title {position:absolute;inset:0;width:100%;height:100%;overflow:visible;text-align:center;pointer-events:none;color:#f9f6ee;fill:currentColor;font:400 clamp(44px,min(8cqw,10cqh),100px)/.94 Georgia,serif;letter-spacing:-.05em}
 nav {position:absolute;top:min(calc(var(--horizon-y) + clamp(54px,17cqh,170px)),calc(100% - 160px));left:50%;transform:translateX(-50%);width:min(340px,calc(100% - 48px));opacity:var(--show)}
 nav a {display:flex;align-items:center;gap:13px;text-decoration:none;min-height:44px;font-size:clamp(18px,2vw,25px)}
 nav i {flex:1;border-bottom:1px dotted #ffefd280}
@@ -30,7 +30,7 @@ footer {border-top:1px solid #c9c5b9;display:flex;justify-content:space-between;
 @media(max-width:620px){article{grid-template-columns:1fr;gap:24px}article img{max-height:220px;object-fit:cover}header{padding:12px 3vw}}
 @media(max-height:560px) and (min-width:621px){
  header{padding:10px 3vw}
- .cover-title{bottom:calc(100% - var(--horizon-y) + clamp(80px,20cqh,110px));font-size:clamp(28px,9cqh,48px)}
+ .cover-title{font-size:clamp(28px,9cqh,48px)}
  .stage nav{top:auto;bottom:78px;display:flex;gap:32px;width:min(580px,calc(100% - 64px))}
  .stage nav a{flex:1;min-width:0;min-height:36px;font-size:clamp(18px,4cqh,22px)}
  .scroll{bottom:16px}
@@ -38,3 +38,6 @@ footer {border-top:1px solid #c9c5b9;display:flex;justify-content:space-between;
 @media(prefers-reduced-motion:reduce){.motion #top{height:auto}.stage{position:relative}}
 
 @media(max-height:340px) and (min-width:621px){header{padding-block:6px}}
+
+/* Fine, stationary grain unifies the photographic fields and printed lettering. */
+.stage::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.055;mix-blend-mode:screen;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23grain)'/%3E%3C/svg%3E")}

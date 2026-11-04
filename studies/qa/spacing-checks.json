@@ -1,0 +1,128 @@
+[
+  {
+    "variant": "common-arc",
+    "viewport": [
+      1512,
+      982
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "common-arc",
+    "viewport": [
+      1728,
+      1117
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "common-arc",
+    "viewport": [
+      768,
+      1024
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "common-arc",
+    "viewport": [
+      390,
+      844
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "common-arc",
+    "viewport": [
+      320,
+      568
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "common-arc",
+    "viewport": [
+      844,
+      390
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "common-arc",
+    "viewport": [
+      667,
+      300
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      1512,
+      982
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      1728,
+      1117
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      768,
+      1024
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      390,
+      844
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      320,
+      568
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      844,
+      390
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  },
+  {
+    "variant": "eclipse-arc",
+    "viewport": [
+      667,
+      300
+    ],
+    "dpr": 2,
+    "checks": "text clearance, artboard proportions, no overflow, monotonic opening passed"
+  }
+]

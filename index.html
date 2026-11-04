@@ -15,7 +15,7 @@
 <section id="top" aria-label="Research contents">
 <div class="stage">
 <div class="arc-study common-arc" aria-hidden="true"><i></i><i></i><i></i></div>
-<div class="cover-title">Research</div>
+<svg class="cover-title" viewBox="0 0 1600 960" role="img" aria-label="Research"><defs><path id="title-arc" d="M 0 538 A 2250 2250 0 0 1 1600 538"/></defs><text><textPath href="#title-arc" startOffset="50%" text-anchor="middle">Research</textPath></text></svg>
 <nav aria-label="Research areas">
 <a href="#oceanography"><small>01</small><i></i>Oceanography</a>
 <a href="#mathematics"><small>02</small><i></i>Mathematics</a>
@@ -32,22 +32,37 @@
 <script>
 const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
 const study = chooseOpening();
+const finalInset=study==='eclipse-arc'?10:4;
 stage.querySelector('.arc-study').classList.add(study);
 function framePlates(inset) {stage.style.setProperty('--inset', inset + '%');}
+function layoutOpening() {
+  const width=stage.clientWidth, height=stage.clientHeight;
+  const art=stage.querySelector('.arc-study').getBoundingClientRect();
+  const portrait=width<=height;
+  const radius=2250*art.height/(portrait?1280:960);
+  const horizon=height/2+.03*art.height;
+  const gap=study==='eclipse-arc'?Math.max(70,Math.min(100,.10*art.height)):Math.max(82,Math.min(160,.12*art.height));
+  const centerY=radius+horizon-gap;
+  const edgeY=centerY-Math.sqrt(radius*radius-(width/2)**2);
+  stage.querySelector('.cover-title').setAttribute('viewBox',`0 0 ${width} ${height}`);
+  stage.querySelector('#title-arc').setAttribute('d',`M 0 ${edgeY} A ${radius} ${radius} 0 0 1 ${width} ${edgeY}`);
+}
+new ResizeObserver(layoutOpening).observe(stage);
+layoutOpening();
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 document.documentElement.classList.add('motion');
 const clamp = x => Math.max(0, Math.min(1,x));
 let openingProgress = 0;
 function setOpening() {
-  if (topSection.classList.contains('opened')) return framePlates(4);
+  if (topSection.classList.contains('opened')) return framePlates(finalInset);
   const runway = topSection.offsetHeight - stage.offsetHeight;
   if (runway <= 0 && !reduced.matches) return;
   const distance = -topSection.getBoundingClientRect().top;
   openingProgress = reduced.matches ? 1 : Math.max(openingProgress, clamp(distance / runway));
   const progress = clamp(openingProgress / .83);
   const eased = progress * progress * (3 - 2 * progress);
-  const initialInset = stage.querySelector('.arc-study') ? 26 : 20;
-  const inset = initialInset - (initialInset - 4) * eased;
+  const initialInset = parseFloat(getComputedStyle(stage).getPropertyValue('--opening-inset')) || 26;
+  const inset = initialInset - (initialInset - finalInset) * eased;
   framePlates(inset);
   stage.style.setProperty('--inset', inset + '%');
   stage.style.setProperty('--show', clamp((openingProgress - .48) / .34));

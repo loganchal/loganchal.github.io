@@ -66,6 +66,75 @@
       "credit": "NASA/JPL/Space Science Institute",
       "source_sha256": "0938b9e0c44a1e81efdca6560b1d75200e9e60caa6a02060bac0466357b9bae6",
       "native_pixels_per_artboard_pixel": 5.128362818961372
+    },
+    {
+      "name": "eclipse",
+      "file": "artemis2-tonal/art002e010782.jpg",
+      "circle": [
+        -1731.5687548,
+        -6398.7995555,
+        9093.4252407
+      ],
+      "source_angle": 1.077119731,
+      "target_x": 800,
+      "black_point": 18,
+      "page": "https://images.nasa.gov/details/art002e010782",
+      "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+      "rights": "NASA informational/personal website image use guidelines",
+      "credit": "NASA",
+      "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+      "native_pixels_per_artboard_pixel": 4.0415223292
     }
-  ]
+  ],
+  "profiles": [
+    {
+      "name": "wide",
+      "artboard": [
+        1600,
+        960
+      ],
+      "radius": 2250,
+      "center": [
+        800,
+        2758.8
+      ],
+      "side_contact_x": {
+        "celadon": 208,
+        "artemis": 800,
+        "eclipse": 800,
+        "saturn": 1392
+      }
+    },
+    {
+      "name": "portrait",
+      "artboard": [
+        768,
+        1280
+      ],
+      "radius": 2250,
+      "center": [
+        384,
+        2928.4
+      ],
+      "side_contact_x": {
+        "celadon": 96,
+        "artemis": 384,
+        "eclipse": 384,
+        "saturn": 672
+      },
+      "source_x_overrides": {
+        "saturn": 3800
+      }
+    }
+  ],
+  "variants": {
+    "common-arc": {
+      "middle": "artemis",
+      "final_inset": 4
+    },
+    "eclipse-arc": {
+      "middle": "eclipse",
+      "final_inset": 10
+    }
+  }
 }

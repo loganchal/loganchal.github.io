@@ -1,5 +1,5 @@
 // Only compositions that have passed contour and native-resolution checks belong here.
-const openings = ['common-arc'];
+const openings = ['eclipse-arc', 'common-arc'];
 function chooseOpening() {
   const requested = new URLSearchParams(location.search).get('study');
   if (openings.includes(requested)) return requested;
