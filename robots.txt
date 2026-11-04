@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://loganchalmers.net/sitemap.xml
+Sitemap: https://loganchalmers.net/sitemap.xml
