@@ -13,6 +13,7 @@
 
 <link rel="stylesheet" href="home.css">
 <link rel="stylesheet" href="studies/studies.css">
+<link rel="stylesheet" href="studies/scenes.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal"]}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers \u00b7 Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
 </head>
 <body>
@@ -35,24 +36,34 @@
 <article id="mathematics"><img src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Equilateral sets</h2><p>How many points can all lie at the same distance from one another? In a 56-dimensional space with the ℓ₅ norm, a construction gives 58. The accompanying Lean formalisation checks the result.</p><a href="https://arxiv.org/abs/2608.14013">Paper ↗</a>　<a href="https://doi.org/10.5281/zenodo.23786173">Lean formalisation ↗</a></div></article>
 </section></main>
 <footer><span>Logan Chalmers</span><a href="plates/credits.html">Image credits</a><a href="#top">Back to top ↑</a></footer>
+<script src="studies/catalogue.js"></script>
 <script src="studies/shuffle.js"></script>
 <script>
 const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
 const study = chooseOpening();
-const finalInset=study==='eclipse-arc'?10:4;
-stage.querySelector('.arc-study').classList.add(study);
+const scene=openingScenes.find(item=>item.id===study);
+const finalInset=scene.finalInset;
+stage.dataset.scene=study;
+stage.classList.add('scene-loading');
+stage.querySelector('.arc-study').className='arc-study '+study;
+const loadImage=url=>new Promise(resolve=>{const image=new Image();image.onload=()=>resolve(true);image.onerror=()=>resolve(false);image.src=url;});
+const profile=matchMedia('(max-aspect-ratio:1/1)').matches?'portrait':'wide';
+Promise.all(scene.assets[profile].map(loadImage)).then(()=>{stage.classList.remove('scene-loading');stage.dataset.ready='true';for(const url of scene.assets[profile==='wide'?'portrait':'wide'])loadImage(url);});
 function framePlates(inset) {stage.style.setProperty('--inset', inset + '%');}
 function layoutOpening() {
   const width=stage.clientWidth, height=stage.clientHeight;
   const art=stage.querySelector('.arc-study').getBoundingClientRect();
   const portrait=width<=height;
-  const radius=2250*art.height/(portrait?1280:960);
+  const radius=scene.radius*art.height/(portrait?1280:960);
+  const tilt=scene.angle*Math.PI/180;
+  const centerX=width/2+radius*Math.sin(tilt);
   const horizon=height/2+.03*art.height;
-  const gap=study==='eclipse-arc'?Math.max(70,Math.min(100,.10*art.height)):Math.max(82,Math.min(160,.12*art.height));
-  const centerY=radius+horizon-gap;
-  const edgeY=centerY-Math.sqrt(radius*radius-(width/2)**2);
+  const gap=scene.gap==='glow'?Math.max(70,Math.min(100,.10*art.height)):Math.max(82,Math.min(160,.12*art.height));
+  const centerY=radius*Math.cos(tilt)+horizon-gap;
+  const leftY=centerY-Math.sqrt(radius*radius-centerX*centerX);
+  const rightY=centerY-Math.sqrt(radius*radius-(width-centerX)**2);
   stage.querySelector('.cover-title').setAttribute('viewBox',`0 0 ${width} ${height}`);
-  stage.querySelector('#title-arc').setAttribute('d',`M 0 ${edgeY} A ${radius} ${radius} 0 0 1 ${width} ${edgeY}`);
+  stage.querySelector('#title-arc').setAttribute('d',`M 0 ${leftY} A ${radius} ${radius} 0 0 1 ${width} ${rightY}`);
 }
 new ResizeObserver(layoutOpening).observe(stage);
 layoutOpening();

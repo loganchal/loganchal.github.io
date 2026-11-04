@@ -1,0 +1,24 @@
+.arc-study.observatory>i:first-child{background-image:image-set(url(scenes/observatory/0-wide-1600.webp) 1x,url(scenes/observatory/0-wide-3840.webp) 2x)}
+.arc-study.observatory>i:last-child{background-image:image-set(url(scenes/observatory/1-wide-1600.webp) 1x,url(scenes/observatory/1-wide-3840.webp) 2x)}
+.arc-study.observatory>i:nth-child(2){background-image:image-set(url(scenes/observatory/2-wide-1600.webp) 1x,url(scenes/observatory/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.observatory>i:first-child{background-image:image-set(url(scenes/observatory/0-portrait-768.webp) 1x,url(scenes/observatory/0-portrait-1843.webp) 2x)}
+.stage .arc-study.observatory>i:last-child{background-image:image-set(url(scenes/observatory/1-portrait-768.webp) 1x,url(scenes/observatory/1-portrait-1843.webp) 2x)}
+.stage .arc-study.observatory>i:nth-child(2){background-image:image-set(url(scenes/observatory/2-portrait-768.webp) 1x,url(scenes/observatory/2-portrait-1843.webp) 2x)}
+}
+.arc-study.earth-glaze>i:first-child{background-image:image-set(url(scenes/earth-glaze/0-wide-1600.webp) 1x,url(scenes/earth-glaze/0-wide-3840.webp) 2x)}
+.arc-study.earth-glaze>i:last-child{background-image:image-set(url(scenes/earth-glaze/1-wide-1600.webp) 1x,url(scenes/earth-glaze/1-wide-3840.webp) 2x)}
+.arc-study.earth-glaze>i:nth-child(2){background-image:image-set(url(scenes/earth-glaze/2-wide-1600.webp) 1x,url(scenes/earth-glaze/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.earth-glaze>i:first-child{background-image:image-set(url(scenes/earth-glaze/0-portrait-768.webp) 1x,url(scenes/earth-glaze/0-portrait-1843.webp) 2x)}
+.stage .arc-study.earth-glaze>i:last-child{background-image:image-set(url(scenes/earth-glaze/1-portrait-768.webp) 1x,url(scenes/earth-glaze/1-portrait-1843.webp) 2x)}
+.stage .arc-study.earth-glaze>i:nth-child(2){background-image:image-set(url(scenes/earth-glaze/2-portrait-768.webp) 1x,url(scenes/earth-glaze/2-portrait-1843.webp) 2x)}
+}
+.arc-study.night-archive>i:first-child{background-image:image-set(url(scenes/night-archive/0-wide-1600.webp) 1x,url(scenes/night-archive/0-wide-3840.webp) 2x)}
+.arc-study.night-archive>i:last-child{background-image:image-set(url(scenes/night-archive/1-wide-1600.webp) 1x,url(scenes/night-archive/1-wide-3840.webp) 2x)}
+.arc-study.night-archive>i:nth-child(2){background-image:image-set(url(scenes/night-archive/2-wide-1600.webp) 1x,url(scenes/night-archive/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.night-archive>i:first-child{background-image:image-set(url(scenes/night-archive/0-portrait-768.webp) 1x,url(scenes/night-archive/0-portrait-1843.webp) 2x)}
+.stage .arc-study.night-archive>i:last-child{background-image:image-set(url(scenes/night-archive/1-portrait-768.webp) 1x,url(scenes/night-archive/1-portrait-1843.webp) 2x)}
+.stage .arc-study.night-archive>i:nth-child(2){background-image:image-set(url(scenes/night-archive/2-portrait-768.webp) 1x,url(scenes/night-archive/2-portrait-1843.webp) 2x)}
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "observatory",
+    "slots": [
+      "aratus",
+      "eclipse",
+      "celadon"
+    ],
+    "radius": 2000,
+    "angle": -4,
+    "end": 16,
+    "title": "Ink, eclipse & glaze",
+    "finalInset": 16,
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg"
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.0415223292,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 208,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.4686399311908307,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif"
+      }
+    ]
+  },
+  {
+    "id": "earth-glaze",
+    "slots": [
+      "saturn",
+      "artemis",
+      "crackle"
+    ],
+    "radius": 2250,
+    "angle": 3,
+    "end": 4,
+    "title": "Rings, Earthset & crackle",
+    "finalInset": 4,
+    "source_geometry": [
+      {
+        "name": "saturn",
+        "file": "PIA06193-original.jpg",
+        "circle": [
+          4298.307499770874,
+          12843.84085469785,
+          11538.816342663087
+        ],
+        "source_angle": -1.6661292001813166,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://science.nasa.gov/photojournal/the-greatest-saturn-portrait-yet/",
+        "original": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia06/pia06193/PIA06193.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA/JPL/Space Science Institute",
+        "source_sha256": "0938b9e0c44a1e81efdca6560b1d75200e9e60caa6a02060bac0466357b9bae6",
+        "native_pixels_per_artboard_pixel": 5.128362818961372,
+        "source_file": "curve-sources/PIA06193-original.jpg"
+      },
+      {
+        "name": "artemis",
+        "file": "artemis2/art002e009289.jpg",
+        "circle": [
+          5715.066713765433,
+          7635.715124877271,
+          7586.069271970781
+        ],
+        "source_angle": -2.0230502815122455,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e009289",
+        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+        "native_pixels_per_artboard_pixel": 3.371586343098125,
+        "source_file": "curve-sources/artemis2/art002e009289.jpg"
+      },
+      {
+        "circle": [
+          8040.943762850675,
+          2167.5501187990812,
+          6292.451203306024
+        ],
+        "source_angle": 2.785809006723504,
+        "black_point": 0,
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif"
+      }
+    ]
+  },
+  {
+    "id": "night-archive",
+    "slots": [
+      "crackle",
+      "eclipse",
+      "aratus"
+    ],
+    "radius": 2000,
+    "angle": -5,
+    "end": 16,
+    "title": "Crackle, eclipse & engraving",
+    "finalInset": 16,
+    "source_geometry": [
+      {
+        "circle": [
+          8040.943762850675,
+          2167.5501187990812,
+          6292.451203306024
+        ],
+        "source_angle": 2.785809006723504,
+        "black_point": 0,
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif"
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.0415223292,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
+      },
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg"
+      }
+    ]
+  }
+]

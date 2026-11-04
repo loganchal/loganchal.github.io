@@ -1,0 +1,156 @@
+{
+  "layouts": [
+    {
+      "scene": "eclipse-arc",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "eclipse-arc",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "eclipse-arc",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "common-arc",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "common-arc",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "common-arc",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "observatory",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "observatory",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "observatory",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "earth-glaze",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "earth-glaze",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "earth-glaze",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "night-archive",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "night-archive",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    },
+    {
+      "scene": "night-archive",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "layout_and_one_way_scroll": "passed"
+    }
+  ],
+  "opening_sequence": [
+    "night-archive",
+    "eclipse-arc",
+    "earth-glaze",
+    "common-arc",
+    "observatory",
+    "common-arc",
+    "night-archive",
+    "earth-glaze",
+    "eclipse-arc",
+    "observatory",
+    "earth-glaze",
+    "observatory",
+    "eclipse-arc",
+    "night-archive",
+    "common-arc"
+  ]
+}

@@ -19,3 +19,11 @@ Responsive layout: the heading and links are positioned relative to the rendered
 Typography follows a parallel arc derived from the image registration radius. Its baseline is positioned optically above Earth or the eclipse glow. A fine stationary grain layer joins the photographed fields and lettering; it does not blur the source photographs or change their edges. Portrait and landscape profiles are recorded in `registration.json` and rebuilt by `build_registered.py`.
 
 The current captive opening uses a 280dvh section: 180dvh of scroll is consumed while the stage remains pinned. Initial composition holds for the first 10% of that runway, expands through 78%, then holds the resolved frame until release. Typography and gutters are shared root tokens in home.css. The direct skip link bypasses the sequence.
+
+## Scene catalogue
+
+Five accepted scene families are defined in catalogue.js. Fresh visits to the bare homepage draw from a shuffled deck; every scene is visited once before reshuffling, with no consecutive repeat at the deck boundary. Explicit ?study= links remain stable for review. Catalogue changes invalidate older decks. The selected three photographs load together before the artwork is revealed.
+
+New scenes can have a different shared radius and inclination. Each source is translated, proportionally scaled and rotated against that one target circle; inclination is never changed for just one member of a group. The title follows a parallel circle with the same inclination. New scene sources and transforms are in scenes.json and can be rebuilt with build_scenes.py. Smaller-radius eclipse scenes end at16% inset to keep the entire visible arc inside the camera.
+
+The personal-photo archive is source material only. No personal photographs are published by this update. Koru/NZ/other image searches remain review candidates in the local source library, not unreviewed additions to the opening.
