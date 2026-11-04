@@ -1,0 +1,58 @@
+[
+  {
+    "viewport": [
+      1512,
+      982
+    ],
+    "dpr": 2,
+    "artboard": {
+      "width": 1636.65625,
+      "height": 982
+    },
+    "mid_inset": "11.66773991014136%",
+    "one_way": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      1728,
+      1117
+    ],
+    "dpr": 2,
+    "artboard": {
+      "width": 1861.65625,
+      "height": 1117
+    },
+    "mid_inset": "11.66773991014136%",
+    "one_way": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "dpr": 2,
+    "artboard": {
+      "width": 1280,
+      "height": 768
+    },
+    "mid_inset": "11.709076460657904%",
+    "one_way": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "dpr": 2,
+    "artboard": {
+      "width": 1406.65625,
+      "height": 844
+    },
+    "mid_inset": "11.686545820329295%",
+    "one_way": true,
+    "errors": []
+  }
+]

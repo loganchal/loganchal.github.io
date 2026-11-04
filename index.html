@@ -1,18 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Logan Chalmers | Academic website</title>
-  <style>
-    body { max-width: 42rem; margin: 20vh auto; padding: 0 2rem; color: #18343a; background: #fafaf7; font: 1.2rem/1.6 Georgia, serif; }
-    h1 { font-size: clamp(2.5rem, 7vw, 4rem); margin-bottom: 0; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Logan Chalmers’ research in upper-ocean stratification and the geometry of equilateral sets.">
+<title>Logan Chalmers · Oceanography and Mathematics</title>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="studies/studies.css">
 </head>
 <body>
-  <main>
-    <h1>Logan Chalmers</h1>
-    <p>Oceanography and mathematics</p>
-  </main>
-</body>
-</html>
+<a class="skip" href="#research">Skip to research</a>
+<header><h1><a href="#top">Logan Chalmers</a></h1></header>
+<main>
+<section id="top" aria-label="Research contents">
+<div class="stage">
+<div class="arc-study common-arc" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="cover-title">Research</div>
+<nav aria-label="Research areas">
+<a href="#oceanography"><small>01</small><i></i>Oceanography</a>
+<a href="#mathematics"><small>02</small><i></i>Mathematics</a>
+</nav>
+<a class="scroll" href="#research">Scroll to explore ↓</a></div>
+</section>
+<section id="research" aria-label="Research index">
+<p class="index-label">Research index</p>
+<article id="oceanography"><img src="soundings.svg" alt="Illustrated sounding chart crossed by a transect"><div><small>01　/　Oceanography</small><h2>Upper-ocean stratification</h2><p>How does the ocean carry the effects of winter mixing into summer? My MSc research uses potential energy anomaly to trace how surface heating and mixing shape the seasonal cycle of stratification.</p></div></article>
+<article id="mathematics"><img src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Equilateral sets</h2><p>How many points can all lie at the same distance from one another? In a 56-dimensional space with the ℓ₅ norm, a construction gives 58. The accompanying Lean formalisation checks the result.</p><a href="https://arxiv.org/abs/2608.14013">Paper ↗</a>　<a href="https://doi.org/10.5281/zenodo.23786173">Lean formalisation ↗</a></div></article>
+</section></main>
+<footer><span>Logan Chalmers</span><a href="plates/credits.html">Image credits</a><a href="#top">Back to top ↑</a></footer>
+<script src="studies/shuffle.js"></script>
+<script>
+const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
+const study = chooseOpening();
+stage.querySelector('.arc-study').classList.add(study);
+function framePlates(inset) {stage.style.setProperty('--inset', inset + '%');}
+const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+document.documentElement.classList.add('motion');
+const clamp = x => Math.max(0, Math.min(1,x));
+let openingProgress = 0;
+function setOpening() {
+  if (topSection.classList.contains('opened')) return framePlates(4);
+  const runway = topSection.offsetHeight - stage.offsetHeight;
+  if (runway <= 0 && !reduced.matches) return;
+  const distance = -topSection.getBoundingClientRect().top;
+  openingProgress = reduced.matches ? 1 : Math.max(openingProgress, clamp(distance / runway));
+  const progress = clamp(openingProgress / .83);
+  const eased = progress * progress * (3 - 2 * progress);
+  const initialInset = stage.querySelector('.arc-study') ? 26 : 20;
+  const inset = initialInset - (initialInset - 4) * eased;
+  framePlates(inset);
+  stage.style.setProperty('--inset', inset + '%');
+  stage.style.setProperty('--show', clamp((openingProgress - .48) / .34));
+
+  if (openingProgress === 1) {
+    // Retire the consumed scroll space while preserving the visible frame.
+    const landing = Math.max(0, window.scrollY - runway);
+    topSection.classList.add('opened');
+    window.scrollTo({top: landing, behavior: 'instant'});
+  }
+}
+const header = document.querySelector('header');
+function setHeaderTone() {
+  setOpening();
+  header.classList.toggle('on-paper', document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2);
+}
+addEventListener('scroll', setHeaderTone, {passive:true});
+addEventListener('resize', setHeaderTone);
+reduced.addEventListener('change',setHeaderTone);
+setHeaderTone();
+</script>
+</body></html>

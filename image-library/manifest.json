@@ -1,0 +1,466 @@
+[
+  {
+    "id": "astronomy-jsc2004e52772",
+    "category": "astronomy",
+    "title": "Panorama view of Apollo 17 Lunar surface photos",
+    "image": "images/astronomy-jsc2004e52772.webp",
+    "source": "https://images.nasa.gov/details/jsc2004e52772",
+    "original": "https://images-assets.nasa.gov/image/jsc2004e52772/jsc2004e52772~orig.jpg",
+    "dimensions": [
+      29524,
+      3000
+    ],
+    "credit": "NASA / Johnson Space Center",
+    "rights": "NASA media generally not copyrighted in the US; check NASA media guidelines and any third-party rights: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "palette": "ash gray, black, ochre",
+    "motif": "Apollo 17 panoramic lunar terrain and equipment"
+  },
+  {
+    "id": "astronomy-jsc2004e52775",
+    "category": "astronomy",
+    "title": "Panorama view of Apollo 17 Lunar surface photos",
+    "image": "images/astronomy-jsc2004e52775.webp",
+    "source": "https://images.nasa.gov/details/jsc2004e52775",
+    "original": "https://images-assets.nasa.gov/image/jsc2004e52775/jsc2004e52775~orig.jpg",
+    "dimensions": [
+      26968,
+      5001
+    ],
+    "credit": "NASA / Johnson Space Center",
+    "rights": "NASA media generally not copyrighted in the US; check NASA media guidelines and any third-party rights: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "palette": "chalk gray, black, muted rust",
+    "motif": "Apollo 17 lunar hills, rover and open sky"
+  },
+  {
+    "id": "astronomy-art002e016324",
+    "category": "astronomy",
+    "title": "Solar Eclipse During Artemis II",
+    "image": "images/astronomy-art002e016324.webp",
+    "source": "https://images.nasa.gov/details/art002e016324",
+    "original": "https://images-assets.nasa.gov/image/art002e016324/art002e016324~orig.jpg",
+    "dimensions": [
+      4000,
+      3000
+    ],
+    "credit": "NASA / Johnson Space Center",
+    "rights": "NASA media generally not copyrighted in the US; check NASA media guidelines and any third-party rights: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "palette": "ink black, sea green, silver",
+    "motif": "Artemis II solar eclipse and spacecraft"
+  },
+  {
+    "id": "astronomy-art002e016318",
+    "category": "astronomy",
+    "title": "Orion and the Eclipse",
+    "image": "images/astronomy-art002e016318.webp",
+    "source": "https://images.nasa.gov/details/art002e016318",
+    "original": "https://images-assets.nasa.gov/image/art002e016318/art002e016318~orig.jpg",
+    "dimensions": [
+      4000,
+      3000
+    ],
+    "credit": "NASA / Johnson Space Center",
+    "rights": "NASA media generally not copyrighted in the US; check NASA media guidelines and any third-party rights: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "palette": "ink black, green-gray, silver",
+    "motif": "Artemis II eclipse with off-axis glare"
+  },
+  {
+    "id": "astronomy-S66-41851",
+    "category": "astronomy",
+    "title": "SPACECRAFT (S/C)-012 - COMMAND MODULE (CM) - HEAT SHIELD INSTALLATION",
+    "image": "images/astronomy-S66-41851.webp",
+    "source": "https://images.nasa.gov/details/S66-41851",
+    "original": "https://images-assets.nasa.gov/image/S66-41851/S66-41851~orig.jpg",
+    "dimensions": [
+      3000,
+      2478
+    ],
+    "credit": "NASA / Johnson Space Center",
+    "rights": "NASA media generally not copyrighted in the US; check NASA media guidelines and any third-party rights: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "palette": "tarnished gold, gray, black",
+    "motif": "Apollo command module heat shield installation"
+  },
+  {
+    "id": "astronomy-S72-37257",
+    "category": "astronomy",
+    "title": "Apollo 17 Lunar Surface Experiment: Lunar Ejecta and Meteorites Experiment",
+    "image": "images/astronomy-S72-37257.webp",
+    "source": "https://images.nasa.gov/details/S72-37257",
+    "original": "https://images-assets.nasa.gov/image/S72-37257/S72-37257~orig.jpg",
+    "dimensions": [
+      3256,
+      4080
+    ],
+    "credit": "NASA / Johnson Space Center",
+    "rights": "NASA media generally not copyrighted in the US; check NASA media guidelines and any third-party rights: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "palette": "black, ivory, ochre, blue",
+    "motif": "Apollo lunar ejecta instrument studio photograph"
+  },
+  {
+    "id": "engineering-control-panel",
+    "category": "engineering",
+    "title": "Cos Cob power plant control panel",
+    "image": "images/engineering-control-panel.webp",
+    "source": "https://www.loc.gov/pictures/item/ct0568.photos.383677p/",
+    "original": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ct/ct0500/ct0568/photos/383677pu.tif",
+    "dimensions": [
+      5672,
+      4066
+    ],
+    "credit": "Jet Lowe",
+    "rights": "LOC: no known restrictions on U.S. Government images; copied source images may be restricted.",
+    "palette": "silver, charcoal",
+    "motif": "soapstone panels, gauges, repeated geometry"
+  },
+  {
+    "id": "engineering-grist-machinery",
+    "category": "engineering",
+    "title": "Plante Grist Mill water-powered machinery",
+    "image": "images/engineering-grist-machinery.webp",
+    "source": "https://www.loc.gov/pictures/item/ri0100.photos.145102p/",
+    "original": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ri/ri0100/ri0100/photos/145102pu.tif",
+    "dimensions": [
+      3981,
+      4982
+    ],
+    "credit": "Not specified",
+    "rights": "LOC: no known restrictions on U.S. Government images; copied source images may be restricted.",
+    "palette": "silver, charcoal",
+    "motif": "wheel, mill ruins, water"
+  },
+  {
+    "id": "engineering-taft-bridge",
+    "category": "engineering",
+    "title": "Details of Taft Bridge",
+    "image": "images/engineering-taft-bridge.webp",
+    "source": "https://www.loc.gov/pictures/item/2010642102/",
+    "original": "https://tile.loc.gov/storage-services/master/pnp/highsm/10200/10291u.tif",
+    "dimensions": [
+      4067,
+      4992
+    ],
+    "credit": "Carol M. Highsmith",
+    "rights": "LOC: no known restrictions on publication.",
+    "palette": "blue, stone, green",
+    "motif": "stone lion; sculpture detail rather than arch"
+  },
+  {
+    "id": "landscape-art-01-view-on-the-south-downs",
+    "category": "landscape-art",
+    "title": "View on the South Downs",
+    "image": "images/landscape-art-01-view-on-the-south-downs.webp",
+    "source": "https://www.metmuseum.org/art/collection/search/895898",
+    "original": "https://images.metmuseum.org/CRDImages/dp/original/DP-28061-001.jpg",
+    "dimensions": [
+      4000,
+      2997
+    ],
+    "credit": "John Martin",
+    "rights": "Public Domain; Met Open Access CC0",
+    "palette": "earth green, ochre, blue-grey",
+    "motif": "rolling watercolor hills; miniature figures"
+  },
+  {
+    "id": "landscape-art-02-dendritic-landscape",
+    "category": "landscape-art",
+    "title": "Dendritic Landscape",
+    "image": "images/landscape-art-02-dendritic-landscape.webp",
+    "source": "https://www.metmuseum.org/art/collection/search/953835",
+    "original": "https://images.metmuseum.org/CRDImages/dp/original/DP-47100-001.jpg",
+    "dimensions": [
+      4000,
+      3144
+    ],
+    "credit": "George Sand",
+    "rights": "Public Domain; Met Open Access CC0",
+    "palette": "moss green, sepia, cream",
+    "motif": "watercolor dendrites; branching geological and vegetal textures"
+  },
+  {
+    "id": "museum-1948.206_full",
+    "category": "museum",
+    "title": "Tea Bowl",
+    "image": "images/museum-1948.206_full.webp",
+    "source": "https://www.clevelandart.org/art/1948.206",
+    "original": "https://openaccess-cdn.clevelandart.org/1948.206/1948.206_full.tif",
+    "dimensions": [
+      10398,
+      7244
+    ],
+    "credit": "China, Fujian province, Southern Song dynasty (1127-1279)",
+    "rights": "CC0",
+    "palette": "blue-black, umber, warm cream",
+    "motif": ""
+  },
+  {
+    "id": "museum-1918.478_full",
+    "category": "museum",
+    "title": "Bowl with Lotus and Child Design in Relief",
+    "image": "images/museum-1918.478_full.webp",
+    "source": "https://www.clevelandart.org/art/1918.478",
+    "original": "https://openaccess-cdn.clevelandart.org/1918.478/1918.478_full.tif",
+    "dimensions": [
+      14204,
+      10407
+    ],
+    "credit": "Korea, Goryeo dynasty (918–1392)",
+    "rights": "CC0",
+    "palette": "muted sage green, cream",
+    "motif": ""
+  },
+  {
+    "id": "museum-2025.179_full",
+    "category": "museum",
+    "title": "Celadon Bowl",
+    "image": "images/museum-2025.179_full.webp",
+    "source": "https://www.clevelandart.org/art/2025.179",
+    "original": "https://openaccess-cdn.clevelandart.org/2025.179/2025.179_full.tif",
+    "dimensions": [
+      11414,
+      8315
+    ],
+    "credit": "Korea, Goryeo dynasty (918–1392)",
+    "rights": "CC0",
+    "palette": "sage celadon, cream, grey",
+    "motif": ""
+  },
+  {
+    "id": "museum-2023.107_full",
+    "category": "museum",
+    "title": "Bowl",
+    "image": "images/museum-2023.107_full.webp",
+    "source": "https://www.clevelandart.org/art/2023.107",
+    "original": "https://openaccess-cdn.clevelandart.org/2023.107/2023.107_full.tif",
+    "dimensions": [
+      11026,
+      10307
+    ],
+    "credit": "Roman, Imperial",
+    "rights": "CC0",
+    "palette": "charcoal, muted bronze, grey",
+    "motif": ""
+  },
+  {
+    "id": "museum-2023.129_full",
+    "category": "museum",
+    "title": "Bowl",
+    "image": "images/museum-2023.129_full.webp",
+    "source": "https://www.clevelandart.org/art/2023.129",
+    "original": "https://openaccess-cdn.clevelandart.org/2023.129/2023.129_full.tif",
+    "dimensions": [
+      11606,
+      8980
+    ],
+    "credit": "Tiffany Glass & Decorating Company (America, New York, 1892–1902)",
+    "rights": "CC0",
+    "palette": "amber, ochre, cream, iridescent blue-green",
+    "motif": ""
+  },
+  {
+    "id": "museum-1985.112_full",
+    "category": "museum",
+    "title": "Basin with Inscribed Figures and Calligraphy",
+    "image": "images/museum-1985.112_full.webp",
+    "source": "https://www.clevelandart.org/art/1985.112",
+    "original": "https://openaccess-cdn.clevelandart.org/1985.112/1985.112_full.tif",
+    "dimensions": [
+      13457,
+      10218
+    ],
+    "credit": "Korea, Goryeo dynasty (918–1392)",
+    "rights": "CC0",
+    "palette": "dark bronze, umber, warm grey",
+    "motif": ""
+  },
+  {
+    "id": "natural-history-01-mosses-and-liverworts",
+    "category": "natural-history",
+    "title": "Hepaticae. - Lebermoose LCCN2015648963.jpg",
+    "image": "images/natural-history-01-mosses-and-liverworts.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Hepaticae._-_Lebermoose_LCCN2015648963.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Hepaticae._-_Lebermoose_LCCN2015648963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      6124,
+      8696
+    ],
+    "credit": "Giltsch, Adolf, 1852-1911, lithographer; Haeckel, Ernst, 1834-1919, artist",
+    "rights": "Public domain; Public domain",
+    "palette": "olive, cream, rust",
+    "motif": "mosses and liverworts"
+  },
+  {
+    "id": "natural-history-02-barnacles",
+    "category": "natural-history",
+    "title": "Cirripedia. - Rankenkreble LCCN2015648939.jpg",
+    "image": "images/natural-history-02-barnacles.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirripedia._-_Rankenkreble_LCCN2015648939.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cirripedia._-_Rankenkreble_LCCN2015648939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      6252,
+      8376
+    ],
+    "credit": "Giltsch, Adolf, 1852-1911, lithographer; Haeckel, Ernst, 1834-1919, artist",
+    "rights": "Public domain; Public domain",
+    "palette": "black, ivory, grey",
+    "motif": "barnacles"
+  },
+  {
+    "id": "natural-history-03-radiolarians",
+    "category": "natural-history",
+    "title": "Acanthometra. - Stachelstrahlinge LCCN2015648908.jpg",
+    "image": "images/natural-history-03-radiolarians.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Acanthometra._-_Stachelstrahlinge_LCCN2015648908.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Acanthometra._-_Stachelstrahlinge_LCCN2015648908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      6252,
+      8536
+    ],
+    "credit": "Giltsch, Adolf, 1852-1911, lithographer; Haeckel, Ernst, 1834-1919, artist",
+    "rights": "Public domain; Public domain",
+    "palette": "cream, charcoal, warm brown",
+    "motif": "radiolarians"
+  },
+  {
+    "id": "natural-history-04-starfish",
+    "category": "natural-history",
+    "title": "Asteridea. - Seesterne LCCN2015648926.jpg",
+    "image": "images/natural-history-04-starfish.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Asteridea._-_Seesterne_LCCN2015648926.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Asteridea._-_Seesterne_LCCN2015648926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      6252,
+      8408
+    ],
+    "credit": "Giltsch, Adolf, 1852-1911, lithographer; Haeckel, Ernst, 1834-1919, artist",
+    "rights": "Public domain; Public domain",
+    "palette": "cream, muted red, green",
+    "motif": "starfish"
+  },
+  {
+    "id": "natural-history-05-fern-photogram",
+    "category": "natural-history",
+    "title": "Anna Atkins, Ferns. Specimen of Cyanotype, 1840s, NGA 136477.jpg",
+    "image": "images/natural-history-05-fern-photogram.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Anna_Atkins,_Ferns._Specimen_of_Cyanotype,_1840s,_NGA_136477.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Anna_Atkins%2C_Ferns._Specimen_of_Cyanotype%2C_1840s%2C_NGA_136477.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      3101,
+      4000
+    ],
+    "credit": "Anna Atkins",
+    "rights": "CC0; Creative Commons Zero, Public Domain Dedication",
+    "palette": "deep blue, white",
+    "motif": "fern photogram"
+  },
+  {
+    "id": "natural-history-06-natural-history-plate",
+    "category": "natural-history",
+    "title": "Arcana, or, The museum of natural history (Pl. 35) (6927549688).jpg",
+    "image": "images/natural-history-06-natural-history-plate.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Arcana,_or,_The_museum_of_natural_history_(Pl._35)_(6927549688).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Arcana%2C_or%2C_The_museum_of_natural_history_%28Pl._35%29_%286927549688%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "dimensions": [
+      3200,
+      1781
+    ],
+    "credit": "Busby, Thomas Lord; Mathews, Gregory M.; Perry, George",
+    "rights": "Public domain; Public domain",
+    "palette": "ochre paper, dark brown, small blue and red accents",
+    "motif": "two spiny sea shells"
+  },
+  {
+    "id": "scientific-seale_solar",
+    "category": "scientific",
+    "title": "Seale Solar",
+    "image": "images/scientific-seale_solar.webp",
+    "source": "https://wellcomecollection.org/works/kgm2vwt2",
+    "original": "https://iiif.wellcomecollection.org/image/V0024727/full/max/0/default.jpg",
+    "dimensions": [
+      3071,
+      2409
+    ],
+    "credit": "Seale",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "palette": "muted parchment, ink, hand colour",
+    "motif": ""
+  },
+  {
+    "id": "scientific-emsli_latitude",
+    "category": "scientific",
+    "title": "Emsli Latitude",
+    "image": "images/scientific-emsli_latitude.webp",
+    "source": "https://wellcomecollection.org/works/z2jdwwzg",
+    "original": "https://iiif.wellcomecollection.org/image/V0025019/full/max/0/default.jpg",
+    "dimensions": [
+      2392,
+      3000
+    ],
+    "credit": "John Emslie",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "palette": "blue, cream, ochre",
+    "motif": ""
+  },
+  {
+    "id": "scientific-fussli_cosmology",
+    "category": "scientific",
+    "title": "Fussli Cosmology",
+    "image": "images/scientific-fussli_cosmology.webp",
+    "source": "https://wellcomecollection.org/works/bxb6umba",
+    "original": "https://iiif.wellcomecollection.org/image/V0034160/full/max/0/default.jpg",
+    "dimensions": [
+      3144,
+      2448
+    ],
+    "credit": "Jacob Andreas Fridrich after Melchior Füssli",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "palette": "warm grey-brown, engraved black",
+    "motif": ""
+  },
+  {
+    "id": "scientific-williamson_optics",
+    "category": "scientific",
+    "title": "Williamson Optics",
+    "image": "images/scientific-williamson_optics.webp",
+    "source": "https://wellcomecollection.org/works/hbz45zms",
+    "original": "https://iiif.wellcomecollection.org/image/V0025363/full/max/0/default.jpg",
+    "dimensions": [
+      2953,
+      2369
+    ],
+    "credit": "R. & E. Williamson",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "palette": "cream, black, pastel",
+    "motif": ""
+  },
+  {
+    "id": "scientific-camera_obscura",
+    "category": "scientific",
+    "title": "Camera Obscura",
+    "image": "images/scientific-camera_obscura.webp",
+    "source": "https://wellcomecollection.org/works/fkvmntbq",
+    "original": "https://iiif.wellcomecollection.org/image/V0025358/full/max/0/default.jpg",
+    "dimensions": [
+      3308,
+      2126
+    ],
+    "credit": "unknown",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "palette": "sepia, charcoal",
+    "motif": ""
+  },
+  {
+    "id": "scientific-optical_instruments",
+    "category": "scientific",
+    "title": "Optical Instruments",
+    "image": "images/scientific-optical_instruments.webp",
+    "source": "https://wellcomecollection.org/works/tbwgwcwf",
+    "original": "https://iiif.wellcomecollection.org/image/V0015918/full/max/0/default.jpg",
+    "dimensions": [
+      3425,
+      2047
+    ],
+    "credit": "unknown",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "palette": "ivory and black",
+    "motif": ""
+  }
+]

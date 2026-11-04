@@ -1,0 +1,7 @@
+
+.stage,.frame {container-type:size}
+.arc-study {position:absolute;left:50%;top:50%;width:max(100cqw,166.666667cqh);height:max(60cqw,100cqh);transform:translate(-50%,-50%);background:#000;isolation:isolate}
+.arc-study > i {position:absolute;inset:0;background-position:center;background-repeat:no-repeat;background-size:100% 100%}
+.arc-study > i:first-child {clip-path:inset(0 50% 0 0);background-image:image-set(url(registered/celadon-1600.webp) 1x,url(registered/celadon-3840.webp) 2x)}
+.arc-study > i:nth-child(2) {clip-path:inset(0 0 0 50%);background-image:image-set(url(registered/saturn-1600.webp) 1x,url(registered/saturn-3840.webp) 2x)}
+.arc-study > i:last-child {clip-path:inset(0 var(--inset,26%));background-image:image-set(url(registered/artemis-1600.webp) 1x,url(registered/artemis-3840.webp) 2x)}

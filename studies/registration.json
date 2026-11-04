@@ -1,0 +1,71 @@
+{
+  "artboard": [
+    1600,
+    960
+  ],
+  "radius": 2250,
+  "center": [
+    800,
+    2758.8
+  ],
+  "retina_output": [
+    3840,
+    2304
+  ],
+  "sources": [
+    {
+      "name": "celadon",
+      "file": "cleveland-celadon-1918.442.tif",
+      "circle": [
+        4808.513807080769,
+        8274.734954818676,
+        5554.439845179369
+      ],
+      "source_angle": -1.694177068911731,
+      "target_x": 208,
+      "black_point": 0,
+      "page": "https://www.clevelandart.org/art/1918.442",
+      "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+      "rights": "CC0",
+      "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+      "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+      "native_pixels_per_artboard_pixel": 2.4686399311908307
+    },
+    {
+      "name": "artemis",
+      "file": "artemis2/art002e009289.jpg",
+      "circle": [
+        5715.066713765433,
+        7635.715124877271,
+        7586.069271970781
+      ],
+      "source_angle": -2.0230502815122455,
+      "target_x": 800,
+      "black_point": 18,
+      "page": "https://images.nasa.gov/details/art002e009289",
+      "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+      "rights": "NASA informational/personal website image use guidelines",
+      "credit": "NASA",
+      "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+      "native_pixels_per_artboard_pixel": 3.371586343098125
+    },
+    {
+      "name": "saturn",
+      "file": "PIA06193-original.jpg",
+      "circle": [
+        4298.307499770874,
+        12843.84085469785,
+        11538.816342663087
+      ],
+      "source_angle": -1.6661292001813166,
+      "target_x": 1392,
+      "black_point": 0,
+      "page": "https://science.nasa.gov/photojournal/the-greatest-saturn-portrait-yet/",
+      "original": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia06/pia06193/PIA06193.jpg",
+      "rights": "NASA informational/personal website image use guidelines",
+      "credit": "NASA/JPL/Space Science Institute",
+      "source_sha256": "0938b9e0c44a1e81efdca6560b1d75200e9e60caa6a02060bac0466357b9bae6",
+      "native_pixels_per_artboard_pixel": 5.128362818961372
+    }
+  ]
+}
