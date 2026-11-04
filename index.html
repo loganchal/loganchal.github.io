@@ -5,8 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Logan Chalmers’ research in upper-ocean stratification and the geometry of equilateral sets.">
 <title>Logan Chalmers · Oceanography and Mathematics</title>
+<link rel="canonical" href="http://loganchalmers.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Logan Chalmers · Oceanography and Mathematics">
+<meta property="og:description" content="Research in upper-ocean stratification and the geometry of equilateral sets.">
+<meta property="og:url" content="http://loganchalmers.net/">
+
 <link rel="stylesheet" href="home.css">
 <link rel="stylesheet" href="studies/studies.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "http://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "http://loganchalmers.net/", "sameAs": ["https://github.com/loganchal"]}, {"@type": "WebSite", "@id": "http://loganchalmers.net/#website", "url": "http://loganchalmers.net/", "name": "Logan Chalmers \u00b7 Oceanography and Mathematics", "author": {"@id": "http://loganchalmers.net/#person"}}]}</script>
 </head>
 <body>
 <a class="skip" href="#research">Skip to research</a>
@@ -59,13 +66,14 @@ function setOpening() {
   if (runway <= 0 && !reduced.matches) return;
   const distance = -topSection.getBoundingClientRect().top;
   openingProgress = reduced.matches ? 1 : Math.max(openingProgress, clamp(distance / runway));
-  const progress = clamp(openingProgress / .83);
+  // Hold the initial composition, expand slowly, then hold the resolved frame.
+  const progress = clamp((openingProgress - .10) / .68);
   const eased = progress * progress * (3 - 2 * progress);
   const initialInset = parseFloat(getComputedStyle(stage).getPropertyValue('--opening-inset')) || 26;
   const inset = initialInset - (initialInset - finalInset) * eased;
   framePlates(inset);
   stage.style.setProperty('--inset', inset + '%');
-  stage.style.setProperty('--show', clamp((openingProgress - .48) / .34));
+  stage.style.setProperty('--show', clamp((openingProgress - .58) / .20));
 
   if (openingProgress === 1) {
     // Retire the consumed scroll space while preserving the visible frame.
