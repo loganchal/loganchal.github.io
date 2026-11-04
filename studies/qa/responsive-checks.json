@@ -1,0 +1,152 @@
+[
+  {
+    "viewport": [
+      1512,
+      982
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": -62.328125,
+      "y": 0,
+      "width": 1636.65625,
+      "height": 982,
+      "bottom": 982,
+      "right": 1574.328125
+    }
+  },
+  {
+    "viewport": [
+      1728,
+      1117
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": -66.828125,
+      "y": 0,
+      "width": 1861.65625,
+      "height": 1117,
+      "bottom": 1117,
+      "right": 1794.828125
+    }
+  },
+  {
+    "viewport": [
+      2560,
+      1080
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": 0,
+      "y": -228,
+      "width": 2560,
+      "height": 1536,
+      "bottom": 1308,
+      "right": 2560
+    }
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": -128,
+      "y": 0,
+      "width": 1280,
+      "height": 768,
+      "bottom": 768,
+      "right": 1152
+    }
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": -469.328125,
+      "y": 0,
+      "width": 1706.65625,
+      "height": 1024,
+      "bottom": 1024,
+      "right": 1237.328125
+    }
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": -508.328125,
+      "y": 0,
+      "width": 1406.65625,
+      "height": 844,
+      "bottom": 844,
+      "right": 898.328125
+    }
+  },
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": -313.328125,
+      "y": 0,
+      "width": 946.65625,
+      "height": 568,
+      "bottom": 568,
+      "right": 633.328125
+    }
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": 0,
+      "y": -58.1953125,
+      "width": 844,
+      "height": 506.390625,
+      "bottom": 448.1953125,
+      "right": 844
+    }
+  },
+  {
+    "viewport": [
+      667,
+      375
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": 0,
+      "y": -12.59375,
+      "width": 667,
+      "height": 400.1875,
+      "bottom": 387.59375,
+      "right": 667
+    }
+  },
+  {
+    "viewport": [
+      667,
+      300
+    ],
+    "geometry_and_text_clearance": "passed",
+    "artboard": {
+      "x": 0,
+      "y": -50.09375,
+      "width": 667,
+      "height": 400.1875,
+      "bottom": 350.09375,
+      "right": 667
+    }
+  }
+]

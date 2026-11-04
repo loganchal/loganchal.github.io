@@ -13,3 +13,5 @@ Only accepted compositions enter `shuffle.js` or the studies gallery. There is c
 Intro progress is monotonic. After completion, consume the scroll runway and retain the expanded image on return to the top. Reduced motion opens immediately.
 
 Original downloads remain outside Git; retrieve them from the URLs in `registration.json`. The large museum TIFF is deliberately excluded. Build with Pillow and NumPy via `python3 studies/build_registered.py --sources /path/to/originals`.
+
+Responsive layout: the heading and links are positioned relative to the rendered horizon (`--horizon-y`), accounting for the shared artboard crop. Short landscape viewports use a horizontal research menu. The stage and scroll runway follow the dynamic viewport height. Portrait screens reframe the same uniformly scaled artboard around Artemis; no panel is independently stretched.
