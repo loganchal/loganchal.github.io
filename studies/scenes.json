@@ -71,7 +71,7 @@
         "native_pixels_per_portrait_artboard_pixel": 2.7772199225896843
       }
     ],
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "engraving",
       "space",
@@ -148,7 +148,7 @@
         "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       }
     ],
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "ceramic",
       "space",
@@ -228,7 +228,7 @@
     "finalInset": 18,
     "end": 18,
     "render_density": 2.3,
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "optics",
       "space",
@@ -307,7 +307,7 @@
     "finalInset": 8,
     "end": 8,
     "render_density": 2.4,
-    "lead": "artemis",
+    "lead": "art002e009289",
     "motifs": [
       "ceramic",
       "space",
@@ -387,7 +387,7 @@
     "finalInset": 8,
     "end": 8,
     "render_density": 2.28,
-    "lead": "artemis",
+    "lead": "art002e009289",
     "motifs": [
       "fibre",
       "space",
@@ -946,7 +946,7 @@
         "native_pixels_per_portrait_artboard_pixel": 2.0852556058514127
       }
     ],
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "engraving",
       "space",
@@ -1029,7 +1029,7 @@
         "native_pixels_per_portrait_artboard_pixel": 2.4149738457301604
       }
     ],
-    "lead": "artemis",
+    "lead": "art002e009289",
     "motifs": [
       "engraving",
       "space",
@@ -1109,7 +1109,7 @@
         "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       }
     ],
-    "lead": "artemis",
+    "lead": "art002e009289",
     "motifs": [
       "optics",
       "space",
@@ -1189,7 +1189,7 @@
         "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       }
     ],
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "fibre",
       "space",
@@ -1268,7 +1268,7 @@
         "source_sha256": "c4d401b6ab504ffd6febfc853eec7013bcf129882bde79ea1618f004cb5cd56b"
       }
     ],
-    "lead": "artemis",
+    "lead": "art002e009289",
     "motifs": [
       "engraving",
       "space",
@@ -1351,7 +1351,7 @@
     "portrait_density": 1.8,
     "cycle_expansion": true,
     "fresh_family": true,
-    "lead": "atlantic-dawn",
+    "lead": "iss061e123823",
     "motifs": [
       "mineral",
       "space",
@@ -1438,7 +1438,7 @@
     "portrait_density": 1.5,
     "cycle_expansion": true,
     "fresh_family": true,
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "microscopy",
       "space",
@@ -1521,7 +1521,7 @@
     "portrait_density": 1.8,
     "cycle_expansion": true,
     "fresh_family": true,
-    "lead": "atlantic-dawn",
+    "lead": "iss061e123823",
     "motifs": [
       "mineral",
       "space",
@@ -1603,7 +1603,7 @@
         "native_pixels_per_portrait_artboard_pixel": 1.9837285161354887
       }
     ],
-    "lead": "eclipse",
+    "lead": "art002e010782",
     "motifs": [
       "engraving",
       "space",
@@ -1778,7 +1778,7 @@
       "solar-phi",
       "celadon"
     ],
-    "lead": "solar-phi",
+    "lead": "phi2023",
     "motifs": [
       "engraving",
       "space",
@@ -1866,7 +1866,7 @@
     "portrait_density": 1.35,
     "finalInset": 18,
     "title": "Polarized fossil, White Sands & porcelain",
-    "lead": "white-sands",
+    "lead": "relentless-dune",
     "motifs": [
       "mineral",
       "landscape",
@@ -1956,7 +1956,7 @@
       "apollo-earth",
       "celadon"
     ],
-    "lead": "apollo-earth",
+    "lead": "as17-148-22718",
     "motifs": [
       "engraving",
       "space",
@@ -2455,7 +2455,7 @@
       "ocean-earth",
       "crackle"
     ],
-    "lead": "ocean-earth",
+    "lead": "art002e023575",
     "motifs": [
       "engraving",
       "space",
@@ -2950,7 +2950,7 @@
       "sunlit-earth",
       "crackle"
     ],
-    "lead": "sunlit-earth",
+    "lead": "art002e023175",
     "motifs": [
       "engraving",
       "space",
@@ -3036,7 +3036,7 @@
       "station-aurora",
       "clematis"
     ],
-    "lead": "station-aurora",
+    "lead": "iss073e0420541",
     "motifs": [
       "mineral",
       "space",
@@ -3045,6 +3045,1519 @@
     "gap": "glow",
     "render_density": 2.4,
     "portrait_density": 1.8,
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "patina-airglow",
+    "slots": [
+      "patina",
+      "green-airglow",
+      "belemnite"
+    ],
+    "source_geometry": [
+      {
+        "circle": [
+          3281.4942276742427,
+          33464.48430461098,
+          32000.970735442486
+        ],
+        "source_angle": -1.5764678797669742,
+        "source_file": "opening-expansion-2026-11-06/material/1983.1036.tif",
+        "name": "patina",
+        "black_point": 0,
+        "page": "https://clevelandart.org/art/1983.1036",
+        "rights": "CC0",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.9091791577674986,
+        "native_pixels_per_portrait_artboard_pixel": 2.181884363366796,
+        "source_sha256": "18073f3f94a6745cf787a654ebe2c5195dc5ab5568e93d7c943fa08bbf666381",
+        "original": "https://openaccess-cdn.clevelandart.org/1983.1036/1983.1036_full.tif",
+        "credit": "Bowl (\uc720\uae30\uc644 [\u936e\u5668\u7897]), 1700s. Korea, Joseon dynasty (1392\u20131910). Bronze; overall: 7.3 cm (2 7/8 in.). The Cleveland Museum of Art, Gift of Helen L. Marshall, 1983.1036"
+      },
+      {
+        "circle": [
+          3969.0251531262356,
+          39216.43169595207,
+          36278.49152921181
+        ],
+        "source_angle": -1.567737191827467,
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/astronaut-1/iss073e0830977.jpg",
+        "black_point": 0,
+        "rights": "NASA personal and informational site use generally permitted; credit source and do not imply endorsement",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 3.2980446844738007,
+        "native_pixels_per_portrait_artboard_pixel": 2.4735335077336837,
+        "source_sha256": "afc2df2960707c9e26a71300886682de6280a2f96fc41446dbdeb8e94d1d6af8",
+        "original": "https://images-assets.nasa.gov/image/iss073e0830977/iss073e0830977~orig.jpg",
+        "page": "https://images.nasa.gov/details/iss073e0830977",
+        "credit": "NASA / ISS crew"
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 3.157912179004157,
+        "native_pixels_per_portrait_artboard_pixel": 2.368434128870313,
+        "target_x": 1392
+      }
+    ],
+    "radius": 11000,
+    "portraitRadius": 14666.6667,
+    "horizon": 0.4,
+    "angle": 0,
+    "render_density": 2.4,
+    "portrait_density": 2.0,
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "motifs": [
+      "metal",
+      "space",
+      "mineral"
+    ],
+    "lead": "iss073e0830977",
+    "finalInset": 18,
+    "title": "Bronze, green airglow & polarized fossil"
+  },
+  {
+    "id": "silver-earth",
+    "slots": [
+      "aratus",
+      "apollo-earth",
+      "silver"
+    ],
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.2144274097340855,
+        "native_pixels_per_portrait_artboard_pixel": 1.6608205573005639,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 3.8942795249813194,
+        "native_pixels_per_portrait_artboard_pixel": 2.9207096437359894
+      },
+      {
+        "circle": [
+          3900.875028627851,
+          8190.029241622161,
+          6356.481295137013
+        ],
+        "source_angle": -1.5866666265053242,
+        "source_file": "opening-expansion-2026-11-06/material/1940.274.tif",
+        "name": "silver",
+        "black_point": 0,
+        "page": "https://clevelandart.org/art/1940.274",
+        "rights": "CC0",
+        "target_x": 1392,
+        "native_pixels_per_artboard_pixel": 2.6485338729737555,
+        "native_pixels_per_portrait_artboard_pixel": 1.9864004047303165,
+        "source_sha256": "1a94c361044e5a7e292ab60ee12cea7d5e14e27c686e6b49e68567ab7bbf5376",
+        "original": "https://openaccess-cdn.clevelandart.org/1940.274/1940.274_full.tif",
+        "credit": "Porringer, c. 1725\u201330. Andrew Tyler (American, 1692\u20131741). Silver; overall: 5.3 cm (2 1/16 in.); with handle: 20.8 cm (8 3/16 in.); without handle: 14.3 cm (5 5/8 in.). The Cleveland Museum of Art, Gift of Hollis French, 1940.274"
+      }
+    ],
+    "radius": 2400,
+    "portraitRadius": 3200,
+    "horizon": 0.53,
+    "angle": 0,
+    "render_density": 2.1,
+    "portrait_density": 1.5,
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "motifs": [
+      "engraving",
+      "space",
+      "metal"
+    ],
+    "lead": "as17-148-22718",
+    "finalInset": 18,
+    "title": "Celestial engraving, Earth & silver"
+  },
+  {
+    "id": "cloud-airglow",
+    "radius": 8000,
+    "portraitRadius": 9000,
+    "angle": 0,
+    "horizon": 0.64,
+    "render_density": 2.0,
+    "portrait_density": 2.0,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 4.342129246130716,
+        "native_pixels_per_portrait_artboard_pixel": 3.859670441005081,
+        "target_x": 208,
+        "portrait_source_angle": 0.37624412431402293
+      },
+      {
+        "source_file": "opening-expansion-2026-11-06/unusual-earth/iss074e0043595.jpg",
+        "circle": [
+          3954.102894817608,
+          21708.261264385175,
+          18118.437361886063
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 0,
+        "credit": "NASA / ISS crew",
+        "page": "https://images.nasa.gov/details/iss074e0043595",
+        "original": "https://images-assets.nasa.gov/image/iss074e0043595/iss074e0043595~orig.jpg",
+        "rights": "NASA personal and informational site use generally permitted; credit source and do not imply endorsement",
+        "source_sha256": "324b2ecbd398568ed5717b8053f0d37eef6b84828c4868581fba9bccf2ef036b",
+        "contour_kind": "brightest transition through the photographed atmosphere/cloud boundary, measured by smoothed brightness gradient",
+        "fit_points": [
+          [
+            412.8,
+            3921.6
+          ],
+          [
+            577.9200000000001,
+            3896.8320000000003
+          ],
+          [
+            743.04,
+            3872.0640000000003
+          ],
+          [
+            908.1600000000001,
+            3847.2960000000003
+          ],
+          [
+            1073.28,
+            3822.5280000000002
+          ],
+          [
+            1238.4,
+            3797.76
+          ],
+          [
+            1403.52,
+            3772.992
+          ],
+          [
+            1568.64,
+            3748.224
+          ],
+          [
+            1733.76,
+            3731.712
+          ],
+          [
+            1898.88,
+            3715.2000000000003
+          ],
+          [
+            2064.0,
+            3698.688
+          ],
+          [
+            2229.12,
+            3682.176
+          ],
+          [
+            2394.2400000000002,
+            3657.408
+          ],
+          [
+            2559.36,
+            3649.152
+          ],
+          [
+            2724.48,
+            3632.6400000000003
+          ],
+          [
+            2889.6,
+            3624.384
+          ],
+          [
+            3054.7200000000003,
+            3616.128
+          ],
+          [
+            3219.84,
+            3607.8720000000003
+          ],
+          [
+            3384.96,
+            3599.616
+          ],
+          [
+            3550.08,
+            3599.616
+          ],
+          [
+            3715.2000000000003,
+            3591.36
+          ],
+          [
+            3880.32,
+            3591.36
+          ],
+          [
+            4045.44,
+            3591.36
+          ],
+          [
+            4210.56,
+            3591.36
+          ],
+          [
+            4375.68,
+            3591.36
+          ],
+          [
+            4540.8,
+            3591.36
+          ],
+          [
+            4705.92,
+            3599.616
+          ],
+          [
+            4871.04,
+            3607.8720000000003
+          ],
+          [
+            5036.16,
+            3616.128
+          ],
+          [
+            5201.28,
+            3624.384
+          ],
+          [
+            5366.400000000001,
+            3640.896
+          ],
+          [
+            5531.52,
+            3649.152
+          ],
+          [
+            5696.64,
+            3673.92
+          ],
+          [
+            5861.76,
+            3690.4320000000002
+          ],
+          [
+            6026.88,
+            3706.944
+          ],
+          [
+            6192.0,
+            3731.712
+          ],
+          [
+            6357.12,
+            3748.224
+          ],
+          [
+            6522.24,
+            3772.992
+          ],
+          [
+            6687.360000000001,
+            3797.76
+          ],
+          [
+            6852.4800000000005,
+            3822.5280000000002
+          ],
+          [
+            7017.6,
+            3847.2960000000003
+          ],
+          [
+            7182.72,
+            3880.32
+          ],
+          [
+            7347.84,
+            3921.6
+          ],
+          [
+            7512.96,
+            3946.368
+          ],
+          [
+            7678.08,
+            3979.3920000000003
+          ],
+          [
+            7843.2,
+            4012.416
+          ]
+        ],
+        "fit_rms_source_pixels": 5.43438931650449,
+        "portrait_source_angle": -1.5707963267948966,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 2.264804670235758,
+        "native_pixels_per_portrait_artboard_pixel": 2.013159706876229
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+        "circle": [
+          5097.417769867889,
+          22526.559916560633,
+          20543.472272171355
+        ],
+        "source_angle": -1.6359421204144906,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/2022.156",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif",
+        "credit": "Seifu Yohei III, Dining Bowl with Clematis, 1893\u201397. The Cleveland Museum of Art, 2022.156",
+        "rights": "CC0",
+        "source_sha256": "7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74",
+        "native_pixels_per_artboard_pixel": 2.567934034021419,
+        "native_pixels_per_portrait_artboard_pixel": 2.2826080302412617,
+        "target_x": 1392,
+        "portrait_source_angle": -1.6359421204144906
+      }
+    ],
+    "title": "Polarized fossil, cloud airglow & porcelain",
+    "slots": [
+      "belemnite",
+      "cloud-airglow",
+      "clematis"
+    ],
+    "motifs": [
+      "mineral",
+      "space",
+      "ceramic"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "lead": "iss074e0043595"
+  },
+  {
+    "id": "milky-airglow",
+    "radius": 8500,
+    "portraitRadius": 9600,
+    "angle": 0,
+    "horizon": 0.58,
+    "render_density": 2.0,
+    "portrait_density": 2.0,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+        "circle": [
+          5097.417769867889,
+          22526.559916560633,
+          20543.472272171355
+        ],
+        "source_angle": -1.6359421204144906,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/2022.156",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif",
+        "credit": "Seifu Yohei III, Dining Bowl with Clematis, 1893\u201397. The Cleveland Museum of Art, 2022.156",
+        "rights": "CC0",
+        "source_sha256": "7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74",
+        "native_pixels_per_artboard_pixel": 2.416879090843689,
+        "native_pixels_per_portrait_artboard_pixel": 2.1399450283511827,
+        "target_x": 208,
+        "portrait_source_angle": -1.6359421204144906
+      },
+      {
+        "source_file": "opening-expansion-2026-11-06/unusual-earth/iss073e0830977.jpg",
+        "circle": [
+          4078.2957756863657,
+          39375.406756759905,
+          36504.564051447545
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 0,
+        "credit": "NASA / ISS crew",
+        "page": "https://images.nasa.gov/details/iss073e0830977",
+        "original": "https://images-assets.nasa.gov/image/iss073e0830977/iss073e0830977~orig.jpg",
+        "rights": "NASA personal and informational site use generally permitted; credit source and do not imply endorsement",
+        "source_sha256": "afc2df2960707c9e26a71300886682de6280a2f96fc41446dbdeb8e94d1d6af8",
+        "contour_kind": "brightest transition through the photographed atmosphere/cloud boundary, measured by smoothed brightness gradient",
+        "fit_points": [
+          [
+            412.8,
+            3054.7200000000003
+          ],
+          [
+            577.9200000000001,
+            3038.208
+          ],
+          [
+            743.04,
+            3021.696
+          ],
+          [
+            908.1600000000001,
+            3005.184
+          ],
+          [
+            1073.28,
+            2996.928
+          ],
+          [
+            1238.4,
+            2980.416
+          ],
+          [
+            1403.52,
+            2972.16
+          ],
+          [
+            1568.64,
+            2955.648
+          ],
+          [
+            1733.76,
+            2947.3920000000003
+          ],
+          [
+            1898.88,
+            2939.136
+          ],
+          [
+            2064.0,
+            2930.88
+          ],
+          [
+            2229.12,
+            2914.368
+          ],
+          [
+            2394.2400000000002,
+            2914.368
+          ],
+          [
+            2559.36,
+            2906.112
+          ],
+          [
+            2724.48,
+            2897.856
+          ],
+          [
+            2889.6,
+            2889.6
+          ],
+          [
+            3054.7200000000003,
+            2881.344
+          ],
+          [
+            3219.84,
+            2873.088
+          ],
+          [
+            3384.96,
+            2873.088
+          ],
+          [
+            3550.08,
+            2873.088
+          ],
+          [
+            3715.2000000000003,
+            2873.088
+          ],
+          [
+            3880.32,
+            2873.088
+          ],
+          [
+            4045.44,
+            2873.088
+          ],
+          [
+            4210.56,
+            2873.088
+          ],
+          [
+            4375.68,
+            2873.088
+          ],
+          [
+            4540.8,
+            2873.088
+          ],
+          [
+            4705.92,
+            2873.088
+          ],
+          [
+            4871.04,
+            2881.344
+          ],
+          [
+            5036.16,
+            2881.344
+          ],
+          [
+            5201.28,
+            2889.6
+          ],
+          [
+            5366.400000000001,
+            2897.856
+          ],
+          [
+            5531.52,
+            2897.856
+          ],
+          [
+            5696.64,
+            2906.112
+          ],
+          [
+            5861.76,
+            2914.368
+          ],
+          [
+            6026.88,
+            2922.6240000000003
+          ],
+          [
+            6192.0,
+            2930.88
+          ],
+          [
+            6357.12,
+            2939.136
+          ],
+          [
+            6522.24,
+            2955.648
+          ],
+          [
+            6687.360000000001,
+            2963.904
+          ],
+          [
+            6852.4800000000005,
+            2980.416
+          ],
+          [
+            7017.6,
+            2988.672
+          ],
+          [
+            7182.72,
+            3005.184
+          ],
+          [
+            7347.84,
+            3021.696
+          ],
+          [
+            7512.96,
+            3029.952
+          ],
+          [
+            7678.08,
+            3046.464
+          ],
+          [
+            7843.2,
+            3062.976
+          ]
+        ],
+        "fit_rms_source_pixels": 2.7427273415853883,
+        "portrait_source_angle": -1.5707963267948966,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 4.294654594287946,
+        "native_pixels_per_portrait_artboard_pixel": 3.802558755359119
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 4.086709878711262,
+        "native_pixels_per_portrait_artboard_pixel": 3.618441038442263,
+        "target_x": 1392,
+        "portrait_source_angle": 0.37624412431402293
+      }
+    ],
+    "title": "Porcelain, blue-green airglow & polarized fossil",
+    "slots": [
+      "clematis",
+      "milky-airglow",
+      "belemnite"
+    ],
+    "motifs": [
+      "ceramic",
+      "space",
+      "mineral"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "lead": "iss073e0830977"
+  },
+  {
+    "id": "eimmart-earth",
+    "title": "Eimmart, Apollo Earth & celadon",
+    "radius": 1500,
+    "portraitRadius": 2000,
+    "angle": 0,
+    "horizon": 0.53,
+    "render_density": 2.05,
+    "portrait_density": 1.5,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "name": "eimmart",
+        "circle": [
+          4325.48108518,
+          6387.38151502,
+          3136.9003184
+        ],
+        "source_angle": -1.57,
+        "source_file": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "rights": "Public Domain Mark",
+        "credit": "Georg Christoph Eimmart / RareMaps",
+        "contour_kind": "actual printed chart outer yellow band; local native fit",
+        "source_sha256": "0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb",
+        "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "fit_rms_native_px": 1.5879800235571546,
+        "fit_max_native_px": 5.865152456262422,
+        "fit_excluded": 0,
+        "fit_n": 270,
+        "black_point": 0,
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.0912668789333333,
+        "native_pixels_per_portrait_artboard_pixel": 1.5684501592
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.54,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 6.230847239970111,
+        "native_pixels_per_portrait_artboard_pixel": 4.673135429977583
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 3.7029598967862456,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.7772199225896843
+      }
+    ],
+    "slots": [
+      "eimmart",
+      "apollo-earth",
+      "celadon"
+    ],
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "lead": "as17-148-22718"
+  },
+  {
+    "id": "eimmart-earth-m10",
+    "title": "Eimmart, Apollo Earth & celadon \u00b7 \u221210\u00b0",
+    "radius": 1500,
+    "portraitRadius": 2000,
+    "angle": -10,
+    "horizon": 0.53,
+    "render_density": 2.05,
+    "portrait_density": 1.5,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "name": "eimmart",
+        "circle": [
+          4325.48108518,
+          6387.38151502,
+          3136.9003184
+        ],
+        "source_angle": -1.57,
+        "source_file": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "rights": "Public Domain Mark",
+        "credit": "Georg Christoph Eimmart / RareMaps",
+        "contour_kind": "actual printed chart outer yellow band; local native fit",
+        "source_sha256": "0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb",
+        "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "fit_rms_native_px": 1.5879800235571546,
+        "fit_max_native_px": 5.865152456262422,
+        "fit_excluded": 0,
+        "fit_n": 270,
+        "black_point": 0,
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.0912668789333333,
+        "native_pixels_per_portrait_artboard_pixel": 1.5684501592
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.54,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 6.230847239970111,
+        "native_pixels_per_portrait_artboard_pixel": 4.673135429977583
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 3.7029598967862456,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.7772199225896843
+      }
+    ],
+    "slots": [
+      "eimmart",
+      "apollo-earth",
+      "celadon"
+    ],
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "lead": "as17-148-22718"
+  },
+  {
+    "id": "brunacci-earth",
+    "title": "Brunacci, Apollo Earth & vermilion",
+    "radius": 1500,
+    "portraitRadius": 2000,
+    "angle": 0,
+    "horizon": 0.45,
+    "render_density": 2.05,
+    "portrait_density": 1.5,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "name": "brunacci",
+        "circle": [
+          3916.02974918,
+          4475.26776389,
+          3169.89055537
+        ],
+        "source_angle": -1.57,
+        "source_file": "opening-expansion-2026-11-06/historical-math/brunacci-1687.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1687_celestial_map_-_Planisfero_Del_Globo_Celeste.jpg",
+        "rights": "Public Domain Mark",
+        "credit": "Francesco Brunacci / Giovanni Giacomo de Rossi; RareMaps",
+        "contour_kind": "actual printed chart outer yellow band; local native fit",
+        "source_sha256": "1c9ba622853642c96c3602ed48e2dc653f934e087ba79c42647365a2eab4944d",
+        "original": "https://commons.wikimedia.org/wiki/Special:FilePath/1687_celestial_map_-_Planisfero_Del_Globo_Celeste.jpg",
+        "fit_rms_native_px": 1.8834527880765486,
+        "fit_max_native_px": 6.916755797886708,
+        "fit_excluded": 24,
+        "fit_n": 270,
+        "black_point": 0,
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.1132603702466666,
+        "native_pixels_per_portrait_artboard_pixel": 1.5849452776850002
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.54,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 6.230847239970111,
+        "native_pixels_per_portrait_artboard_pixel": 4.673135429977583
+      },
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.2814544306140367,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 3.197391928972166,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.3980439467291244
+      }
+    ],
+    "slots": [
+      "brunacci",
+      "apollo-earth",
+      "red"
+    ],
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "gap": "glow",
+    "lead": "as17-148-22718"
+  },
+  {
+    "id": "apollo-earth-m12",
+    "title": "Star chart, Apollo Earth & celadon",
+    "radius": 2000,
+    "portraitRadius": 2666.6666667,
+    "angle": -12,
+    "horizon": 0.53,
+    "render_density": 2.4,
+    "portrait_density": 1.8,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.9966474093386486,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.247485556975893
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 4.673135429977583,
+        "native_pixels_per_portrait_artboard_pixel": 3.5048515724393767,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.7772199225896843,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.082914941916227
+      }
+    ],
+    "slots": [
+      "lahire",
+      "apollo-earth",
+      "celadon"
+    ],
+    "lead": "as17-148-22718",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "lion-dawn-m6",
+    "title": "Star chart, sunrise & glaze",
+    "radius": 2300,
+    "angle": -6,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.4,
+    "slots": [
+      "lahire",
+      "iss072e340644",
+      "celadon"
+    ],
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.605780355946651,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.605780355946651
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 20,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 7.067904141928192,
+        "native_pixels_per_portrait_artboard_pixel": 7.067904141928192,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.4149738457301604,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.4149738457301604
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "celestial-eclipse-m3",
+    "title": "De Wit, eclipse & celadon",
+    "slots": [
+      "dewit",
+      "eclipse",
+      "celadon"
+    ],
+    "radius": 2100,
+    "angle": -3,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+        "circle": [
+          4795.507682608558,
+          6034.785734101051,
+          4212.200491443607
+        ],
+        "source_angle": 4.101523742186674,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "credit": "Frederik de Wit, Planisphaerium Coeleste, 1680",
+        "rights": "Public-domain faithful reproduction, Wikimedia Commons / RareMaps",
+        "source_sha256": "8d045d764155a8b14fa2c92a2bd17e20110043e394769fa11e622550a48cbf74",
+        "native_pixels_per_artboard_pixel": 2.005809757830289,
+        "native_pixels_per_portrait_artboard_pixel": 1.5043573183727166,
+        "target_x": 208
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.330202495571429,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.2476518716785714,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.6449713548473186,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 1.9837285161354887
+      }
+    ],
+    "lead": "art002e010782",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "portraitRadius": 2800,
+    "portrait_density": 1.5,
+    "horizon": 0.53,
+    "gap": "glow",
+    "fresh_family": true
+  },
+  {
+    "id": "celestial-eclipse-p3",
+    "title": "De Wit, eclipse & celadon",
+    "slots": [
+      "dewit",
+      "eclipse",
+      "celadon"
+    ],
+    "radius": 2100,
+    "angle": 3,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+        "circle": [
+          4795.507682608558,
+          6034.785734101051,
+          4212.200491443607
+        ],
+        "source_angle": 4.101523742186674,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "credit": "Frederik de Wit, Planisphaerium Coeleste, 1680",
+        "rights": "Public-domain faithful reproduction, Wikimedia Commons / RareMaps",
+        "source_sha256": "8d045d764155a8b14fa2c92a2bd17e20110043e394769fa11e622550a48cbf74",
+        "native_pixels_per_artboard_pixel": 2.005809757830289,
+        "native_pixels_per_portrait_artboard_pixel": 1.5043573183727166,
+        "target_x": 208
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.330202495571429,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.2476518716785714,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.6449713548473186,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 1.9837285161354887
+      }
+    ],
+    "lead": "art002e010782",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "portraitRadius": 2800,
+    "portrait_density": 1.5,
+    "horizon": 0.53,
+    "gap": "glow",
+    "fresh_family": true
+  },
+  {
+    "id": "lion-dawn-p6",
+    "title": "Star chart, sunrise & glaze",
+    "radius": 2300,
+    "angle": 6,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.4,
+    "slots": [
+      "lahire",
+      "iss072e340644",
+      "celadon"
+    ],
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.605780355946651,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.605780355946651
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 20,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 7.067904141928192,
+        "native_pixels_per_portrait_artboard_pixel": 7.067904141928192,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.4149738457301604,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.4149738457301604
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "apollo-earth-p12",
+    "title": "Star chart, Apollo Earth & celadon",
+    "radius": 2000,
+    "portraitRadius": 2666.6666667,
+    "angle": 12,
+    "horizon": 0.53,
+    "render_density": 2.4,
+    "portrait_density": 1.8,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.9966474093386486,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.247485556975893
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 4.673135429977583,
+        "native_pixels_per_portrait_artboard_pixel": 3.5048515724393767,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.7772199225896843,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.082914941916227
+      }
+    ],
+    "slots": [
+      "lahire",
+      "apollo-earth",
+      "celadon"
+    ],
+    "lead": "as17-148-22718",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
     "cycle_expansion": true,
     "fresh_family": true
   }

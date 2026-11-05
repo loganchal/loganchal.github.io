@@ -2010,5 +2010,961 @@
     ],
     "native_pixels_per_output_pixel": 1.033941579360823,
     "visible_source_clearance_px": 286.66310433151153
+  },
+  {
+    "scene": "patina-airglow",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/material/1983.1036.tif",
+    "source_pixels": [
+      6014,
+      4517
+    ],
+    "native_pixels_per_output_pixel": 1.2121579824031246,
+    "visible_source_clearance_px": 272.73740499492123
+  },
+  {
+    "scene": "patina-airglow",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/fresh-elements/astronaut-1/iss073e0830977.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.374185285197417,
+    "visible_source_clearance_px": 661.0595875489325
+  },
+  {
+    "scene": "patina-airglow",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.3157967412517322,
+    "visible_source_clearance_px": -776.4179979494384
+  },
+  {
+    "scene": "patina-airglow",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/material/1983.1036.tif",
+    "source_pixels": [
+      6014,
+      4517
+    ],
+    "native_pixels_per_output_pixel": 1.090942181683398,
+    "visible_source_clearance_px": 337.91758034503437
+  },
+  {
+    "scene": "patina-airglow",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/fresh-elements/astronaut-1/iss073e0830977.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.2367667538668419,
+    "visible_source_clearance_px": 664.3656039141388
+  },
+  {
+    "scene": "patina-airglow",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.1842170644351564,
+    "visible_source_clearance_px": -592.3889336355196
+  },
+  {
+    "scene": "silver-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.0544892427305168,
+    "visible_source_clearance_px": 1321.3283038210793
+  },
+  {
+    "scene": "silver-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 1.8544188214196757,
+    "visible_source_clearance_px": 2776.503866538571
+  },
+  {
+    "scene": "silver-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-expansion-2026-11-06/material/1940.274.tif",
+    "source_pixels": [
+      7139,
+      4576
+    ],
+    "native_pixels_per_output_pixel": 1.2612066061779788,
+    "visible_source_clearance_px": 199.95984422571314
+  },
+  {
+    "scene": "silver-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1072137048670425,
+    "visible_source_clearance_px": 1523.9590252282906
+  },
+  {
+    "scene": "silver-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 1.9471397624906597,
+    "visible_source_clearance_px": 4052.58138128445
+  },
+  {
+    "scene": "silver-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-expansion-2026-11-06/material/1940.274.tif",
+    "source_pixels": [
+      7139,
+      4576
+    ],
+    "native_pixels_per_output_pixel": 1.3242669364868778,
+    "visible_source_clearance_px": 448.5112316809325
+  },
+  {
+    "scene": "cloud-airglow",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.171064623065358,
+    "visible_source_clearance_px": -2251.090353932348
+  },
+  {
+    "scene": "cloud-airglow",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-expansion-2026-11-06/unusual-earth/iss074e0043595.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.132402335117879,
+    "visible_source_clearance_px": 1131.4596034674096
+  },
+  {
+    "scene": "cloud-airglow",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.2839670170107096,
+    "visible_source_clearance_px": 334.2919545908044
+  },
+  {
+    "scene": "cloud-airglow",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.9298352205025404,
+    "visible_source_clearance_px": -2435.8130126928154
+  },
+  {
+    "scene": "cloud-airglow",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-expansion-2026-11-06/unusual-earth/iss074e0043595.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.0065798534381145,
+    "visible_source_clearance_px": 986.5121045723208
+  },
+  {
+    "scene": "cloud-airglow",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.1413040151206308,
+    "visible_source_clearance_px": 133.84357899457873
+  },
+  {
+    "scene": "milky-airglow",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.2084395454218444,
+    "visible_source_clearance_px": 628.7844264498563
+  },
+  {
+    "scene": "milky-airglow",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-expansion-2026-11-06/unusual-earth/iss073e0830977.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.147327297143973,
+    "visible_source_clearance_px": 479.5790272128361
+  },
+  {
+    "scene": "milky-airglow",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.043354939355631,
+    "visible_source_clearance_px": -1876.724325494055
+  },
+  {
+    "scene": "milky-airglow",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.0699725141755914,
+    "visible_source_clearance_px": 422.49218239709444
+  },
+  {
+    "scene": "milky-airglow",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-expansion-2026-11-06/unusual-earth/iss073e0830977.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.9012793776795596,
+    "visible_source_clearance_px": 47.823085333751806
+  },
+  {
+    "scene": "milky-airglow",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.8092205192211315,
+    "visible_source_clearance_px": -2029.894902421549
+  },
+  {
+    "scene": "eimmart-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 1.0201301848455284,
+    "visible_source_clearance_px": 1867.2732485360239
+  },
+  {
+    "scene": "eimmart-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 3.0394376780342007,
+    "visible_source_clearance_px": 1782.913382197794
+  },
+  {
+    "scene": "eimmart-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.8063219008713394,
+    "visible_source_clearance_px": 358.06593918815315
+  },
+  {
+    "scene": "eimmart-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 1.0456334394666666,
+    "visible_source_clearance_px": 2143.507519604367
+  },
+  {
+    "scene": "eimmart-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 3.115423619985055,
+    "visible_source_clearance_px": 3823.6692827471534
+  },
+  {
+    "scene": "eimmart-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.8514799483931228,
+    "visible_source_clearance_px": 819.2555057906436
+  },
+  {
+    "scene": "eimmart-earth-m10",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 1.0201301848455284,
+    "visible_source_clearance_px": 2087.2950803297745
+  },
+  {
+    "scene": "eimmart-earth-m10",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 3.0394376780342007,
+    "visible_source_clearance_px": 1446.7506295757314
+  },
+  {
+    "scene": "eimmart-earth-m10",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.8063219008713394,
+    "visible_source_clearance_px": 171.6513791243351
+  },
+  {
+    "scene": "eimmart-earth-m10",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 1.0456334394666666,
+    "visible_source_clearance_px": 2228.802569059436
+  },
+  {
+    "scene": "eimmart-earth-m10",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 3.115423619985055,
+    "visible_source_clearance_px": 3467.419717335775
+  },
+  {
+    "scene": "eimmart-earth-m10",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.8514799483931228,
+    "visible_source_clearance_px": 764.7595759195574
+  },
+  {
+    "scene": "brunacci-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/historical-math/brunacci-1687.jpg",
+    "source_pixels": [
+      14212,
+      10869
+    ],
+    "native_pixels_per_output_pixel": 1.030858717193496,
+    "visible_source_clearance_px": 56.69496896757573
+  },
+  {
+    "scene": "brunacci-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 3.0394376780342007,
+    "visible_source_clearance_px": 1768.1787739797865
+  },
+  {
+    "scene": "brunacci-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.5597033799864226,
+    "visible_source_clearance_px": 311.42237880295215,
+    "contour_rms_artboard_px": 0.4794426976608793,
+    "contour_max_artboard_px": 1.6322050950540279
+  },
+  {
+    "scene": "brunacci-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/historical-math/brunacci-1687.jpg",
+    "source_pixels": [
+      14212,
+      10869
+    ],
+    "native_pixels_per_output_pixel": 1.0566301851233335,
+    "visible_source_clearance_px": 347.349891212476
+  },
+  {
+    "scene": "brunacci-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 3.115423619985055,
+    "visible_source_clearance_px": 3808.9346745291464
+  },
+  {
+    "scene": "brunacci-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.598695964486083,
+    "visible_source_clearance_px": 701.5047084811085,
+    "contour_rms_artboard_px": 0.6392569302145058,
+    "contour_max_artboard_px": 2.176273460072037
+  },
+  {
+    "scene": "apollo-earth-m12",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.248603087224437,
+    "visible_source_clearance_px": 2890.88258014631,
+    "contour_rms_artboard_px": 0.41829188820988766,
+    "contour_max_artboard_px": 1.245229903463067
+  },
+  {
+    "scene": "apollo-earth-m12",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 1.9471397624906595,
+    "visible_source_clearance_px": 1935.6648646220333
+  },
+  {
+    "scene": "apollo-earth-m12",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.157174967745702,
+    "visible_source_clearance_px": 783.3731107348235
+  },
+  {
+    "scene": "apollo-earth-m12",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.2486030872088294,
+    "visible_source_clearance_px": 3047.2564758984263,
+    "contour_rms_artboard_px": 0.557722517620155,
+    "contour_max_artboard_px": 1.6603065379715098
+  },
+  {
+    "scene": "apollo-earth-m12",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 1.9471397624663203,
+    "visible_source_clearance_px": 3433.495455917591
+  },
+  {
+    "scene": "apollo-earth-m12",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.157174967731237,
+    "visible_source_clearance_px": 1253.7190071742361
+  },
+  {
+    "scene": "lion-dawn-m6",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 3057.3324902305085,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "lion-dawn-m6",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -3500.0400584129666
+  },
+  {
+    "scene": "lion-dawn-m6",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.006239102387567,
+    "visible_source_clearance_px": 1137.689723189415
+  },
+  {
+    "scene": "lion-dawn-m6",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 3013.9991594679086,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "lion-dawn-m6",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -4511.649423769249
+  },
+  {
+    "scene": "lion-dawn-m6",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.006239102387567,
+    "visible_source_clearance_px": 1035.0655922096446
+  },
+  {
+    "scene": "celestial-eclipse-m3",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+    "source_pixels": [
+      17663,
+      12168
+    ],
+    "native_pixels_per_output_pixel": 1.0029048789151445,
+    "visible_source_clearance_px": 1382.7127382414842
+  },
+  {
+    "scene": "celestial-eclipse-m3",
+    "profile": "wide",
+    "slot": 1,
+    "source": "curve-sources/artemis2-tonal/art002e010782.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 2.1651012477857146,
+    "visible_source_clearance_px": -1212.1767239235232
+  },
+  {
+    "scene": "celestial-eclipse-m3",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.3224856774236593,
+    "visible_source_clearance_px": 1034.0148135255672
+  },
+  {
+    "scene": "celestial-eclipse-m3",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+    "source_pixels": [
+      17663,
+      12168
+    ],
+    "native_pixels_per_output_pixel": 1.0029048789151445,
+    "visible_source_clearance_px": 1643.4376768025265
+  },
+  {
+    "scene": "celestial-eclipse-m3",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "curve-sources/artemis2-tonal/art002e010782.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 2.165101247785714,
+    "visible_source_clearance_px": -475.32531843729294
+  },
+  {
+    "scene": "celestial-eclipse-m3",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.322485677423659,
+    "visible_source_clearance_px": 1359.0153642069436
+  },
+  {
+    "scene": "celestial-eclipse-p3",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+    "source_pixels": [
+      17663,
+      12168
+    ],
+    "native_pixels_per_output_pixel": 1.0029048789151445,
+    "visible_source_clearance_px": 1261.5709084845973
+  },
+  {
+    "scene": "celestial-eclipse-p3",
+    "profile": "wide",
+    "slot": 1,
+    "source": "curve-sources/artemis2-tonal/art002e010782.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 2.1651012477857146,
+    "visible_source_clearance_px": -1104.7305873949217
+  },
+  {
+    "scene": "celestial-eclipse-p3",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.3224856774236593,
+    "visible_source_clearance_px": 1177.4837068547106
+  },
+  {
+    "scene": "celestial-eclipse-p3",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+    "source_pixels": [
+      17663,
+      12168
+    ],
+    "native_pixels_per_output_pixel": 1.0029048789151445,
+    "visible_source_clearance_px": 1563.518517285794
+  },
+  {
+    "scene": "celestial-eclipse-p3",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "curve-sources/artemis2-tonal/art002e010782.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 2.165101247785714,
+    "visible_source_clearance_px": -498.6664004071504
+  },
+  {
+    "scene": "celestial-eclipse-p3",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.322485677423659,
+    "visible_source_clearance_px": 1404.6164892809086
+  },
+  {
+    "scene": "lion-dawn-p6",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 3031.2532016247005,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "lion-dawn-p6",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -3512.3701377641796
+  },
+  {
+    "scene": "lion-dawn-p6",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.006239102387567,
+    "visible_source_clearance_px": 1409.7492140276597
+  },
+  {
+    "scene": "lion-dawn-p6",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 2881.1811364518107,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "lion-dawn-p6",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -4516.248665384082
+  },
+  {
+    "scene": "lion-dawn-p6",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.006239102387567,
+    "visible_source_clearance_px": 1136.8241640652695
+  },
+  {
+    "scene": "apollo-earth-p12",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.248603087224437,
+    "visible_source_clearance_px": 2542.18173796266,
+    "contour_rms_artboard_px": 0.41829188820988766,
+    "contour_max_artboard_px": 1.245229903463067
+  },
+  {
+    "scene": "apollo-earth-p12",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 1.9471397624906595,
+    "visible_source_clearance_px": 1991.628995169253
+  },
+  {
+    "scene": "apollo-earth-p12",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.157174967745702,
+    "visible_source_clearance_px": 1357.2275465643809
+  },
+  {
+    "scene": "apollo-earth-p12",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.2486030872088294,
+    "visible_source_clearance_px": 3066.375907247131,
+    "contour_rms_artboard_px": 0.557722517620155,
+    "contour_max_artboard_px": 1.6603065379715098
+  },
+  {
+    "scene": "apollo-earth-p12",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+    "source_pixels": [
+      14160,
+      16020
+    ],
+    "native_pixels_per_output_pixel": 1.9471397624663203,
+    "visible_source_clearance_px": 3489.45958646411
+  },
+  {
+    "scene": "apollo-earth-p12",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.157174967731237,
+    "visible_source_clearance_px": 1438.7533795773043
   }
 ]

@@ -214,3 +214,107 @@
 .stage .arc-study.station-aurora>i:last-child{background-image:image-set(url(scenes/station-aurora/1-portrait-768.webp) 1x,url(scenes/station-aurora/1-portrait-1382.webp) 2x)}
 .stage .arc-study.station-aurora>i:nth-child(2){background-image:image-set(url(scenes/station-aurora/2-portrait-768.webp) 1x,url(scenes/station-aurora/2-portrait-1382.webp) 2x)}
 }
+.arc-study.patina-airglow>i:first-child{background-image:image-set(url(scenes/patina-airglow/0-wide-1600.webp) 1x,url(scenes/patina-airglow/0-wide-3840.webp) 2x)}
+.arc-study.patina-airglow>i:last-child{background-image:image-set(url(scenes/patina-airglow/1-wide-1600.webp) 1x,url(scenes/patina-airglow/1-wide-3840.webp) 2x)}
+.arc-study.patina-airglow>i:nth-child(2){background-image:image-set(url(scenes/patina-airglow/2-wide-1600.webp) 1x,url(scenes/patina-airglow/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.patina-airglow>i:first-child{background-image:image-set(url(scenes/patina-airglow/0-portrait-768.webp) 1x,url(scenes/patina-airglow/0-portrait-1536.webp) 2x)}
+.stage .arc-study.patina-airglow>i:last-child{background-image:image-set(url(scenes/patina-airglow/1-portrait-768.webp) 1x,url(scenes/patina-airglow/1-portrait-1536.webp) 2x)}
+.stage .arc-study.patina-airglow>i:nth-child(2){background-image:image-set(url(scenes/patina-airglow/2-portrait-768.webp) 1x,url(scenes/patina-airglow/2-portrait-1536.webp) 2x)}
+}
+.arc-study.silver-earth>i:first-child{background-image:image-set(url(scenes/silver-earth/0-wide-1600.webp) 1x,url(scenes/silver-earth/0-wide-3360.webp) 2x)}
+.arc-study.silver-earth>i:last-child{background-image:image-set(url(scenes/silver-earth/1-wide-1600.webp) 1x,url(scenes/silver-earth/1-wide-3360.webp) 2x)}
+.arc-study.silver-earth>i:nth-child(2){background-image:image-set(url(scenes/silver-earth/2-wide-1600.webp) 1x,url(scenes/silver-earth/2-wide-3360.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.silver-earth>i:first-child{background-image:image-set(url(scenes/silver-earth/0-portrait-768.webp) 1x,url(scenes/silver-earth/0-portrait-1152.webp) 2x)}
+.stage .arc-study.silver-earth>i:last-child{background-image:image-set(url(scenes/silver-earth/1-portrait-768.webp) 1x,url(scenes/silver-earth/1-portrait-1152.webp) 2x)}
+.stage .arc-study.silver-earth>i:nth-child(2){background-image:image-set(url(scenes/silver-earth/2-portrait-768.webp) 1x,url(scenes/silver-earth/2-portrait-1152.webp) 2x)}
+}
+.arc-study.cloud-airglow>i:first-child{background-image:image-set(url(scenes/cloud-airglow/0-wide-1600.webp) 1x,url(scenes/cloud-airglow/0-wide-3200.webp) 2x)}
+.arc-study.cloud-airglow>i:last-child{background-image:image-set(url(scenes/cloud-airglow/1-wide-1600.webp) 1x,url(scenes/cloud-airglow/1-wide-3200.webp) 2x)}
+.arc-study.cloud-airglow>i:nth-child(2){background-image:image-set(url(scenes/cloud-airglow/2-wide-1600.webp) 1x,url(scenes/cloud-airglow/2-wide-3200.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.cloud-airglow>i:first-child{background-image:image-set(url(scenes/cloud-airglow/0-portrait-768.webp) 1x,url(scenes/cloud-airglow/0-portrait-1536.webp) 2x)}
+.stage .arc-study.cloud-airglow>i:last-child{background-image:image-set(url(scenes/cloud-airglow/1-portrait-768.webp) 1x,url(scenes/cloud-airglow/1-portrait-1536.webp) 2x)}
+.stage .arc-study.cloud-airglow>i:nth-child(2){background-image:image-set(url(scenes/cloud-airglow/2-portrait-768.webp) 1x,url(scenes/cloud-airglow/2-portrait-1536.webp) 2x)}
+}
+.arc-study.milky-airglow>i:first-child{background-image:image-set(url(scenes/milky-airglow/0-wide-1600.webp) 1x,url(scenes/milky-airglow/0-wide-3200.webp) 2x)}
+.arc-study.milky-airglow>i:last-child{background-image:image-set(url(scenes/milky-airglow/1-wide-1600.webp) 1x,url(scenes/milky-airglow/1-wide-3200.webp) 2x)}
+.arc-study.milky-airglow>i:nth-child(2){background-image:image-set(url(scenes/milky-airglow/2-wide-1600.webp) 1x,url(scenes/milky-airglow/2-wide-3200.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.milky-airglow>i:first-child{background-image:image-set(url(scenes/milky-airglow/0-portrait-768.webp) 1x,url(scenes/milky-airglow/0-portrait-1536.webp) 2x)}
+.stage .arc-study.milky-airglow>i:last-child{background-image:image-set(url(scenes/milky-airglow/1-portrait-768.webp) 1x,url(scenes/milky-airglow/1-portrait-1536.webp) 2x)}
+.stage .arc-study.milky-airglow>i:nth-child(2){background-image:image-set(url(scenes/milky-airglow/2-portrait-768.webp) 1x,url(scenes/milky-airglow/2-portrait-1536.webp) 2x)}
+}
+.arc-study.eimmart-earth>i:first-child{background-image:image-set(url(scenes/eimmart-earth/0-wide-1600.webp) 1x,url(scenes/eimmart-earth/0-wide-3280.webp) 2x)}
+.arc-study.eimmart-earth>i:last-child{background-image:image-set(url(scenes/eimmart-earth/1-wide-1600.webp) 1x,url(scenes/eimmart-earth/1-wide-3280.webp) 2x)}
+.arc-study.eimmart-earth>i:nth-child(2){background-image:image-set(url(scenes/eimmart-earth/2-wide-1600.webp) 1x,url(scenes/eimmart-earth/2-wide-3280.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.eimmart-earth>i:first-child{background-image:image-set(url(scenes/eimmart-earth/0-portrait-768.webp) 1x,url(scenes/eimmart-earth/0-portrait-1152.webp) 2x)}
+.stage .arc-study.eimmart-earth>i:last-child{background-image:image-set(url(scenes/eimmart-earth/1-portrait-768.webp) 1x,url(scenes/eimmart-earth/1-portrait-1152.webp) 2x)}
+.stage .arc-study.eimmart-earth>i:nth-child(2){background-image:image-set(url(scenes/eimmart-earth/2-portrait-768.webp) 1x,url(scenes/eimmart-earth/2-portrait-1152.webp) 2x)}
+}
+.arc-study.eimmart-earth-m10>i:first-child{background-image:image-set(url(scenes/eimmart-earth-m10/0-wide-1600.webp) 1x,url(scenes/eimmart-earth-m10/0-wide-3280.webp) 2x)}
+.arc-study.eimmart-earth-m10>i:last-child{background-image:image-set(url(scenes/eimmart-earth-m10/1-wide-1600.webp) 1x,url(scenes/eimmart-earth-m10/1-wide-3280.webp) 2x)}
+.arc-study.eimmart-earth-m10>i:nth-child(2){background-image:image-set(url(scenes/eimmart-earth-m10/2-wide-1600.webp) 1x,url(scenes/eimmart-earth-m10/2-wide-3280.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.eimmart-earth-m10>i:first-child{background-image:image-set(url(scenes/eimmart-earth-m10/0-portrait-768.webp) 1x,url(scenes/eimmart-earth-m10/0-portrait-1152.webp) 2x)}
+.stage .arc-study.eimmart-earth-m10>i:last-child{background-image:image-set(url(scenes/eimmart-earth-m10/1-portrait-768.webp) 1x,url(scenes/eimmart-earth-m10/1-portrait-1152.webp) 2x)}
+.stage .arc-study.eimmart-earth-m10>i:nth-child(2){background-image:image-set(url(scenes/eimmart-earth-m10/2-portrait-768.webp) 1x,url(scenes/eimmart-earth-m10/2-portrait-1152.webp) 2x)}
+}
+.arc-study.brunacci-earth>i:first-child{background-image:image-set(url(scenes/brunacci-earth/0-wide-1600.webp) 1x,url(scenes/brunacci-earth/0-wide-3280.webp) 2x)}
+.arc-study.brunacci-earth>i:last-child{background-image:image-set(url(scenes/brunacci-earth/1-wide-1600.webp) 1x,url(scenes/brunacci-earth/1-wide-3280.webp) 2x)}
+.arc-study.brunacci-earth>i:nth-child(2){background-image:image-set(url(scenes/brunacci-earth/2-wide-1600.webp) 1x,url(scenes/brunacci-earth/2-wide-3280.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.brunacci-earth>i:first-child{background-image:image-set(url(scenes/brunacci-earth/0-portrait-768.webp) 1x,url(scenes/brunacci-earth/0-portrait-1152.webp) 2x)}
+.stage .arc-study.brunacci-earth>i:last-child{background-image:image-set(url(scenes/brunacci-earth/1-portrait-768.webp) 1x,url(scenes/brunacci-earth/1-portrait-1152.webp) 2x)}
+.stage .arc-study.brunacci-earth>i:nth-child(2){background-image:image-set(url(scenes/brunacci-earth/2-portrait-768.webp) 1x,url(scenes/brunacci-earth/2-portrait-1152.webp) 2x)}
+}
+.arc-study.apollo-earth-m12>i:first-child{background-image:image-set(url(scenes/apollo-earth-m12/0-wide-1600.webp) 1x,url(scenes/apollo-earth-m12/0-wide-3840.webp) 2x)}
+.arc-study.apollo-earth-m12>i:last-child{background-image:image-set(url(scenes/apollo-earth-m12/1-wide-1600.webp) 1x,url(scenes/apollo-earth-m12/1-wide-3840.webp) 2x)}
+.arc-study.apollo-earth-m12>i:nth-child(2){background-image:image-set(url(scenes/apollo-earth-m12/2-wide-1600.webp) 1x,url(scenes/apollo-earth-m12/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.apollo-earth-m12>i:first-child{background-image:image-set(url(scenes/apollo-earth-m12/0-portrait-768.webp) 1x,url(scenes/apollo-earth-m12/0-portrait-1382.webp) 2x)}
+.stage .arc-study.apollo-earth-m12>i:last-child{background-image:image-set(url(scenes/apollo-earth-m12/1-portrait-768.webp) 1x,url(scenes/apollo-earth-m12/1-portrait-1382.webp) 2x)}
+.stage .arc-study.apollo-earth-m12>i:nth-child(2){background-image:image-set(url(scenes/apollo-earth-m12/2-portrait-768.webp) 1x,url(scenes/apollo-earth-m12/2-portrait-1382.webp) 2x)}
+}
+.arc-study.lion-dawn-m6>i:first-child{background-image:image-set(url(scenes/lion-dawn-m6/0-wide-1600.webp) 1x,url(scenes/lion-dawn-m6/0-wide-3840.webp) 2x)}
+.arc-study.lion-dawn-m6>i:last-child{background-image:image-set(url(scenes/lion-dawn-m6/1-wide-1600.webp) 1x,url(scenes/lion-dawn-m6/1-wide-3840.webp) 2x)}
+.arc-study.lion-dawn-m6>i:nth-child(2){background-image:image-set(url(scenes/lion-dawn-m6/2-wide-1600.webp) 1x,url(scenes/lion-dawn-m6/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.lion-dawn-m6>i:first-child{background-image:image-set(url(scenes/lion-dawn-m6/0-portrait-768.webp) 1x,url(scenes/lion-dawn-m6/0-portrait-1843.webp) 2x)}
+.stage .arc-study.lion-dawn-m6>i:last-child{background-image:image-set(url(scenes/lion-dawn-m6/1-portrait-768.webp) 1x,url(scenes/lion-dawn-m6/1-portrait-1843.webp) 2x)}
+.stage .arc-study.lion-dawn-m6>i:nth-child(2){background-image:image-set(url(scenes/lion-dawn-m6/2-portrait-768.webp) 1x,url(scenes/lion-dawn-m6/2-portrait-1843.webp) 2x)}
+}
+.arc-study.celestial-eclipse-m3>i:first-child{background-image:image-set(url(scenes/celestial-eclipse-m3/0-wide-1600.webp) 1x,url(scenes/celestial-eclipse-m3/0-wide-3200.webp) 2x)}
+.arc-study.celestial-eclipse-m3>i:last-child{background-image:image-set(url(scenes/celestial-eclipse-m3/1-wide-1600.webp) 1x,url(scenes/celestial-eclipse-m3/1-wide-3200.webp) 2x)}
+.arc-study.celestial-eclipse-m3>i:nth-child(2){background-image:image-set(url(scenes/celestial-eclipse-m3/2-wide-1600.webp) 1x,url(scenes/celestial-eclipse-m3/2-wide-3200.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.celestial-eclipse-m3>i:first-child{background-image:image-set(url(scenes/celestial-eclipse-m3/0-portrait-768.webp) 1x,url(scenes/celestial-eclipse-m3/0-portrait-1152.webp) 2x)}
+.stage .arc-study.celestial-eclipse-m3>i:last-child{background-image:image-set(url(scenes/celestial-eclipse-m3/1-portrait-768.webp) 1x,url(scenes/celestial-eclipse-m3/1-portrait-1152.webp) 2x)}
+.stage .arc-study.celestial-eclipse-m3>i:nth-child(2){background-image:image-set(url(scenes/celestial-eclipse-m3/2-portrait-768.webp) 1x,url(scenes/celestial-eclipse-m3/2-portrait-1152.webp) 2x)}
+}
+.arc-study.celestial-eclipse-p3>i:first-child{background-image:image-set(url(scenes/celestial-eclipse-p3/0-wide-1600.webp) 1x,url(scenes/celestial-eclipse-p3/0-wide-3200.webp) 2x)}
+.arc-study.celestial-eclipse-p3>i:last-child{background-image:image-set(url(scenes/celestial-eclipse-p3/1-wide-1600.webp) 1x,url(scenes/celestial-eclipse-p3/1-wide-3200.webp) 2x)}
+.arc-study.celestial-eclipse-p3>i:nth-child(2){background-image:image-set(url(scenes/celestial-eclipse-p3/2-wide-1600.webp) 1x,url(scenes/celestial-eclipse-p3/2-wide-3200.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.celestial-eclipse-p3>i:first-child{background-image:image-set(url(scenes/celestial-eclipse-p3/0-portrait-768.webp) 1x,url(scenes/celestial-eclipse-p3/0-portrait-1152.webp) 2x)}
+.stage .arc-study.celestial-eclipse-p3>i:last-child{background-image:image-set(url(scenes/celestial-eclipse-p3/1-portrait-768.webp) 1x,url(scenes/celestial-eclipse-p3/1-portrait-1152.webp) 2x)}
+.stage .arc-study.celestial-eclipse-p3>i:nth-child(2){background-image:image-set(url(scenes/celestial-eclipse-p3/2-portrait-768.webp) 1x,url(scenes/celestial-eclipse-p3/2-portrait-1152.webp) 2x)}
+}
+.arc-study.lion-dawn-p6>i:first-child{background-image:image-set(url(scenes/lion-dawn-p6/0-wide-1600.webp) 1x,url(scenes/lion-dawn-p6/0-wide-3840.webp) 2x)}
+.arc-study.lion-dawn-p6>i:last-child{background-image:image-set(url(scenes/lion-dawn-p6/1-wide-1600.webp) 1x,url(scenes/lion-dawn-p6/1-wide-3840.webp) 2x)}
+.arc-study.lion-dawn-p6>i:nth-child(2){background-image:image-set(url(scenes/lion-dawn-p6/2-wide-1600.webp) 1x,url(scenes/lion-dawn-p6/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.lion-dawn-p6>i:first-child{background-image:image-set(url(scenes/lion-dawn-p6/0-portrait-768.webp) 1x,url(scenes/lion-dawn-p6/0-portrait-1843.webp) 2x)}
+.stage .arc-study.lion-dawn-p6>i:last-child{background-image:image-set(url(scenes/lion-dawn-p6/1-portrait-768.webp) 1x,url(scenes/lion-dawn-p6/1-portrait-1843.webp) 2x)}
+.stage .arc-study.lion-dawn-p6>i:nth-child(2){background-image:image-set(url(scenes/lion-dawn-p6/2-portrait-768.webp) 1x,url(scenes/lion-dawn-p6/2-portrait-1843.webp) 2x)}
+}
+.arc-study.apollo-earth-p12>i:first-child{background-image:image-set(url(scenes/apollo-earth-p12/0-wide-1600.webp) 1x,url(scenes/apollo-earth-p12/0-wide-3840.webp) 2x)}
+.arc-study.apollo-earth-p12>i:last-child{background-image:image-set(url(scenes/apollo-earth-p12/1-wide-1600.webp) 1x,url(scenes/apollo-earth-p12/1-wide-3840.webp) 2x)}
+.arc-study.apollo-earth-p12>i:nth-child(2){background-image:image-set(url(scenes/apollo-earth-p12/2-wide-1600.webp) 1x,url(scenes/apollo-earth-p12/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.apollo-earth-p12>i:first-child{background-image:image-set(url(scenes/apollo-earth-p12/0-portrait-768.webp) 1x,url(scenes/apollo-earth-p12/0-portrait-1382.webp) 2x)}
+.stage .arc-study.apollo-earth-p12>i:last-child{background-image:image-set(url(scenes/apollo-earth-p12/1-portrait-768.webp) 1x,url(scenes/apollo-earth-p12/1-portrait-1382.webp) 2x)}
+.stage .arc-study.apollo-earth-p12>i:nth-child(2){background-image:image-set(url(scenes/apollo-earth-p12/2-portrait-768.webp) 1x,url(scenes/apollo-earth-p12/2-portrait-1382.webp) 2x)}
+}

@@ -4,7 +4,13 @@ from pathlib import Path
 b=Path(__file__).resolve().parent
 scenes=json.loads((b/'scenes.json').read_text())
 entries=[];css=[]
+assert len({scene['id'] for scene in scenes})==len(scenes),'Duplicate scene ID'
 for scene in scenes:
+ for key in ('id','title','radius','angle','finalInset','lead','motifs'):
+  assert scene.get(key) is not None,(scene.get('id'), 'Missing scene field', key)
+ for source in scene['source_geometry']:
+  for key in ('source_file','circle','source_angle','black_point','page','original','credit','rights','source_sha256'):
+   assert source.get(key) is not None,(scene['id'], 'Missing source field', key)
  assert len(scene['motifs'])==3 and len(set(scene['motifs']))==3,scene['id']
  entry={k:scene[k] for k in ('id','title','radius','portraitRadius','horizon','angle','finalInset','gap','tone','lead','motifs') if k in scene}
  entry['assets']={}
