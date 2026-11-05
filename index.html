@@ -11,9 +11,9 @@
 <meta property="og:description" content="Research in upper-ocean stratification and the geometry of equilateral sets.">
 <meta property="og:url" content="https://loganchalmers.net/">
 
-<link rel="stylesheet" href="home.css?v=20261106-curated27">
+<link rel="stylesheet" href="home.css?v=20261106-slider">
 <link rel="stylesheet" href="studies/studies.css">
-<link rel="stylesheet" href="studies/scenes.css?v=20261106-curated27">
+<link rel="stylesheet" href="studies/scenes.css?v=20261106-slider">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal", "https://scholar.google.com/citations?user=fGeMPeEAAAAJ&hl=en"]}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers \u00b7 Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
 </head>
 <body>
@@ -22,7 +22,13 @@
 <main>
 <section id="top" aria-label="Research contents">
 <div class="stage">
-<button class="scene-switch" type="button" aria-label="Change opening scene" disabled><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M15.5 6.5A6 6 0 1 0 16 12M15.5 2.5v4h-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="switch-wide">Change scene</span><span class="switch-small">Scene</span><span class="scene-count" aria-hidden="true"></span></button>
+<div class="scene-controls" aria-label="Opening scenes">
+<button class="scene-switch" type="button" title="Shuffle scene" aria-label="Change opening scene" disabled><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M15.5 6.5A6 6 0 1 0 16 12M15.5 2.5v4h-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<label class="sr-only" for="scene-angle">Browse scenes by curve angle</label>
+<input id="scene-angle" class="scene-range" type="range" min="0" max="0" step="1" value="0" disabled>
+<output class="scene-angle-value" for="scene-angle">0°</output>
+<span class="scene-count" aria-hidden="true"></span>
+</div>
 <span id="scene-status" class="sr-only" role="status" aria-live="polite"></span>
 <div class="arc-study common-arc" aria-hidden="true"><i></i><i></i><i></i></div>
 <svg class="cover-title" viewBox="0 0 1600 960" role="img" aria-label="Research"><defs><path id="title-arc" d="M 0 538 A 2250 2250 0 0 1 1600 538"/></defs><text><textPath href="#title-arc" startOffset="50%" text-anchor="middle">Research</textPath></text></svg>
@@ -38,8 +44,8 @@
 <article id="mathematics"><img src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Mathematics</h2><a href="https://scholar.google.com/citations?user=fGeMPeEAAAAJ&amp;hl=en">Google Scholar ↗</a>　<a href="https://arxiv.org/search/math?query=Chalmers%2C+L+R&amp;searchtype=author">arXiv ↗</a>　<a href="https://sciprofiles.com/profile/5708743">Preprints.org ↗</a></div></article>
 </section></main>
 <footer><span>Logan Chalmers</span><a href="plates/credits.html">Image credits</a><a href="#top">Back to top ↑</a></footer>
-<script src="studies/catalogue.js?v=20261106-curated27"></script>
-<script src="studies/shuffle.js?v=20261106-curated27"></script>
+<script src="studies/catalogue.js?v=20261106-slider"></script>
+<script src="studies/shuffle.js?v=20261106-slider"></script>
 <script>
 const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
 let study = chooseOpening();
@@ -49,19 +55,29 @@ stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
 stage.classList.add('scene-loading');
 stage.querySelector('.arc-study').className='arc-study '+study;
 const sceneButton=stage.querySelector('.scene-switch'), sceneStatus=stage.querySelector('#scene-status');
+const sceneSlider=stage.querySelector('#scene-angle'),sceneAngle=stage.querySelector('.scene-angle-value'),sceneCount=stage.querySelector('.scene-count');
+const sceneOrder=openingScenes.filter(item=>item.active!==false).slice().sort((a,b)=>a.angle-b.angle||a.radius-b.radius||a.id.localeCompare(b.id));
+sceneSlider.max=sceneOrder.length-1;
+const angleLabel=angle=>angle===0?'0°':`${angle<0?'−':'+'}${Math.abs(angle)}°`;
+let selectionRevision=0,sliderTimer;
 sceneButton.hidden=openings.length<2;
 const loadImage=url=>new Promise(resolve=>{const image=new Image();image.onload=async()=>{try{await image.decode();}catch{}resolve(true);};image.onerror=()=>resolve(false);image.src=url;});
 const currentProfile=()=>matchMedia('(max-aspect-ratio:1/1)').matches?'portrait':'wide';
+const displayAssets=(next,profile)=>devicePixelRatio>1?next.assets[profile]:next.assets[profile].map(url=>url.replace(/-\d+\.webp$/,`-${profile==='wide'?1600:768}.webp`));
 async function prepareScene(next){
  const profile=currentProfile();
- if(!(await Promise.all(next.assets[profile].map(loadImage))).every(Boolean))return false;
- if(currentProfile()!==profile&&!(await Promise.all(next.assets[currentProfile()].map(loadImage))).every(Boolean))return false;
- for(const url of next.assets[currentProfile()==='wide'?'portrait':'wide'])loadImage(url);
+ if(!(await Promise.all(displayAssets(next,profile).map(loadImage))).every(Boolean))return false;
+ if(currentProfile()!==profile&&!(await Promise.all(displayAssets(next,currentProfile()).map(loadImage))).every(Boolean))return false;
+ for(const url of displayAssets(next,currentProfile()==='wide'?'portrait':'wide'))loadImage(url);
  return true;
 }
 function updateSceneControl(){
- const position=openings.indexOf(study)+1;
- sceneButton.querySelector('.scene-count').textContent=position?`${position} / ${openings.length}`:`— / ${openings.length}`;
+ const position=sceneOrder.findIndex(item=>item.id===study)+1;
+ sceneCount.textContent=`${position} / ${sceneOrder.length}`;
+ sceneSlider.value=position-1;
+ sceneSlider.style.setProperty('--slider-progress',`${(position-1)/Math.max(1,sceneOrder.length-1)*100}%`);
+ sceneSlider.setAttribute('aria-valuetext',`${scene.title}, ${angleLabel(scene.angle)}, scene ${position} of ${sceneOrder.length}`);
+ sceneAngle.value=angleLabel(scene.angle);
  sceneButton.setAttribute('aria-label',`Change opening scene. Current scene: ${scene.title}${position?`, ${position} of ${openings.length}`:''}.`);
 }
 function releaseReviewLink(){
@@ -74,26 +90,49 @@ updateSceneControl();
    study=scene.id;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
    stage.querySelector('.arc-study').className='arc-study '+study;
    layoutOpening();setOpening();updateSceneControl();
-   stage.classList.remove('scene-loading');stage.dataset.ready='true';sceneButton.disabled=false;releaseReviewLink();return;
+   stage.classList.remove('scene-loading');stage.dataset.ready='true';sceneButton.disabled=false;sceneSlider.disabled=false;releaseReviewLink();return;
   }
   const replacement=chooseOpening({ignoreRequested:true,current:scene.id});
   scene=openingScenes.find(item=>item.id===replacement);
  }
- stage.classList.remove('scene-loading');stage.dataset.tone='light';sceneButton.disabled=false;
+ stage.classList.remove('scene-loading');stage.dataset.tone='light';sceneButton.disabled=false;sceneSlider.disabled=false;
  sceneStatus.textContent='The opening images could not load. You can retry with Change scene or scroll to research.';
 })();
-sceneButton.addEventListener('click',async()=>{
- sceneButton.disabled=true;sceneButton.setAttribute('aria-busy','true');
- const nextStudy=chooseOpening({ignoreRequested:true,current:study});
- const next=openingScenes.find(item=>item.id===nextStudy);
+async function selectScene(nextStudy,{explicit=false}={}){
+ const revision=++selectionRevision,next=openingScenes.find(item=>item.id===nextStudy);
+ if(!next)return;
+ if(nextStudy===study){sceneButton.disabled=false;sceneSlider.removeAttribute('aria-busy');updateSceneControl();return;}
+ sceneButton.disabled=true;sceneSlider.setAttribute('aria-busy','true');
  try{
-  if(!await prepareScene(next)){sceneStatus.textContent='This scene could not load. Please try another.';return;}
+  const ready=await prepareScene(next);
+  if(revision!==selectionRevision)return;
+  if(!ready){sceneStatus.textContent='This scene could not load. Please try another.';updateSceneControl();return;}
+  if(explicit)chooseOpening({selected:nextStudy,ignoreRequested:true,current:study});
   scene=next;study=nextStudy;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
   stage.querySelector('.arc-study').className='arc-study '+study;
   layoutOpening();setOpening();updateSceneControl();releaseReviewLink();
-  sceneStatus.textContent=`${scene.title}. Scene ${openings.indexOf(study)+1} of ${openings.length}.`;
- }finally{sceneButton.disabled=false;sceneButton.removeAttribute('aria-busy');}
+  sceneStatus.textContent=`${scene.title}. Curve angle ${angleLabel(scene.angle)}.`;
+ }finally{
+  if(revision===selectionRevision){sceneButton.disabled=false;sceneSlider.removeAttribute('aria-busy');}
+ }
+}
+sceneButton.addEventListener('click',()=>{
+ clearTimeout(sliderTimer);
+ selectScene(chooseOpening({ignoreRequested:true,current:study}));
 });
+function requestSliderScene(immediate=false){
+ clearTimeout(sliderTimer);
+ const next=sceneOrder[Number(sceneSlider.value)];
+ sceneAngle.value=angleLabel(next.angle);
+ sceneSlider.style.setProperty('--slider-progress',`${Number(sceneSlider.value)/Math.max(1,sceneOrder.length-1)*100}%`);
+ sceneSlider.setAttribute('aria-valuetext',`${next.title}, ${angleLabel(next.angle)}, scene ${Number(sceneSlider.value)+1} of ${sceneOrder.length}`);
+ // Cancel a stale decode immediately while keeping the last complete scene visible.
+ ++selectionRevision;
+ const apply=()=>selectScene(next.id,{explicit:true});
+ if(immediate)apply();else sliderTimer=setTimeout(apply,75);
+}
+sceneSlider.addEventListener('input',()=>requestSliderScene());
+sceneSlider.addEventListener('change',()=>requestSliderScene(true));
 function framePlates(inset) {stage.style.setProperty('--inset', inset + '%');}
 function layoutOpening() {
   const width=stage.clientWidth, height=stage.clientHeight;

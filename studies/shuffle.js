@@ -1,7 +1,7 @@
 const openings=openingScenes.filter(scene=>scene.active!==false).map(scene=>scene.id);
 let openingDeckMemory;
-function chooseOpening({ignoreRequested=false,current=null}={}){
- const requested=ignoreRequested?null:new URLSearchParams(location.search).get('study');
+function chooseOpening({ignoreRequested=false,current=null,selected=null}={}){
+ const requested=selected||(ignoreRequested?null:new URLSearchParams(location.search).get('study'));
  const catalogue=openings.join('|'),key='opening-deck-v4';let deck=[],last,seenFamilies=[];
  const lead=id=>openingScenes.find(scene=>scene.id===id)?.lead;
  try{const saved=openingDeckMemory||JSON.parse(localStorage.getItem(key));if(saved){last=saved.last;if(saved.catalogue===catalogue&&Array.isArray(saved.deck)&&saved.deck.every(id=>openings.includes(id))&&new Set(saved.deck).size===saved.deck.length){deck=[...saved.deck];seenFamilies=Array.isArray(saved.seenFamilies)?saved.seenFamilies.filter(family=>openingScenes.some(scene=>scene.lead===family)):[];}}}catch{}

@@ -14,7 +14,7 @@ def change(page,keyboard=False):
  page.wait_for_function('!document.querySelector(".scene-switch").disabled')
  assert current(page) in active
  assert not page.locator('.scene-switch').get_attribute('aria-busy')
- assert str(count) in button.inner_text()
+ assert str(count) in page.locator('.scene-count').inner_text()
  return current(page)
 with sync_playwright() as p:
  browser=p.chromium.launch(channel='chrome')

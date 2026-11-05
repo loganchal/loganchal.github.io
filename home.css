@@ -65,3 +65,20 @@ footer {border-top:1px solid #c9c5b9;display:flex;justify-content:space-between;
 .stage[data-tone="ink"] nav a{text-shadow:0 1px 4px #f8f6ef99}
 
 .stage[data-scene="station-aurora"] nav a{text-shadow:0 1px 4px #101a20,0 0 14px #101a20aa}
+
+/* Each stop selects a finished composition; the slider never deforms an image. */
+.scene-controls{position:absolute;z-index:3;top:18px;right:var(--page-gutter);width:310px;height:46px;display:flex;align-items:center;gap:8px;padding:0 10px 0 2px;border:1px solid #fff8ec33;border-radius:4px;background:#1b2327e6;color:#fff8ec;font:12px system-ui}
+.scene-controls .scene-switch{position:static;flex:0 0 40px;width:40px;min-height:44px;padding:0;display:grid;place-items:center;border:0;background:none}
+.scene-controls .scene-switch:hover{background:#ffffff0b}
+.scene-controls .scene-count{padding:0 0 0 8px;margin-left:0;min-width:43px;border-left:1px solid #fff8ec33;font-size:11px;text-align:right}
+.scene-range{--slider-progress:0%;appearance:none;-webkit-appearance:none;flex:1;min-width:0;height:44px;margin:0;background:transparent;cursor:pointer;touch-action:pan-y}
+.scene-range::-webkit-slider-runnable-track{height:2px;background:linear-gradient(to right,#fff8ec var(--slider-progress),#fff8ec55 var(--slider-progress));border-radius:1px}
+.scene-range::-moz-range-track{height:2px;background:#fff8ec55}
+.scene-range::-moz-range-progress{height:2px;background:#fff8ec}
+.scene-range::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:12px;height:12px;margin-top:-5px;background:#fff8ec;border:0;border-radius:50%}
+.scene-range::-moz-range-thumb{width:12px;height:12px;background:#fff8ec;border:0;border-radius:50%}
+.scene-range:focus-visible{outline:1px solid #fff8ec;outline-offset:2px;border-radius:3px}
+.scene-range:disabled{opacity:.45;cursor:wait}
+.scene-angle-value{flex:0 0 30px;text-align:right;font-variant-numeric:tabular-nums}
+@media(max-width:620px){.scene-controls{top:56px;width:min(246px,calc(100% - 40px))}.scene-controls .scene-count{display:none}}
+@media(max-height:560px) and (min-width:621px){.scene-controls{top:10px}}
