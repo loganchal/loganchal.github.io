@@ -3,8 +3,12 @@ from pathlib import Path
 from PIL import Image
 import argparse,json,math,numpy as np
 Image.MAX_IMAGE_PIXELS=None
-parser=argparse.ArgumentParser();parser.add_argument('--cache',type=Path,required=True);parser.add_argument('--output',type=Path,default=Path(__file__).parent/'scenes');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--cache',type=Path,required=True);parser.add_argument('--output',type=Path,default=Path(__file__).parent/'scenes');parser.add_argument('--scene',action='append',help='Build only these scene IDs (repeatable)');args=parser.parse_args()
 scenes=json.loads((Path(__file__).parent/'scenes.json').read_text())
+if args.scene:
+ unknown=set(args.scene)-{scene['id'] for scene in scenes}
+ if unknown:parser.error('Unknown scene: '+', '.join(sorted(unknown)))
+ scenes=[scene for scene in scenes if scene['id'] in args.scene]
 for scene in scenes:
  folder=args.output/scene['id'];folder.mkdir(parents=True,exist_ok=True)
  images=[]
@@ -19,7 +23,7 @@ for scene in scenes:
    if name=='saturn' and (profile=='portrait' or slot==0):angle=math.atan2(-math.sqrt(r*r-(3800-cx)**2),3800-cx)
    theta=math.atan2(-math.sqrt(R*R-(contact-center[0])**2),contact-center[0])-angle
    inverse=np.array([[math.cos(theta),math.sin(theta)],[-math.sin(theta),math.cos(theta)]])*r/R;offset=np.array([cx,cy])-inverse@center
-   for density in (1,2.4):
+   for density in (1,scene.get('render_density',2.4)):
     assert R*density/r<=1+1e-8,'Would enlarge native source pixels'
     coeff=(inverse[0,0]/density,inverse[0,1]/density,offset[0],inverse[1,0]/density,inverse[1,1]/density,offset[1]);result=image.transform((round(W*density),round(H*density)),Image.Transform.AFFINE,coeff,Image.Resampling.BICUBIC,fillcolor=(0,0,0));result.save(folder/f'{slot}-{profile}-{round(W*density)}.webp',quality=95,method=5)
  print(scene['id'],'rebuilt')

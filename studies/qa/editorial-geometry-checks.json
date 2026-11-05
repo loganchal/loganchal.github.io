@@ -1,0 +1,314 @@
+[
+  {
+    "scene": "prism-eclipse",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/instruments/umpqua-clear-original.jpg",
+    "source_pixels": [
+      6000,
+      3376
+    ],
+    "native_pixels_per_output_pixel": 1.007382385814047,
+    "visible_source_clearance_px": 426.8226645797572,
+    "contour_rms_artboard_px": 1.6849407638078844,
+    "contour_max_artboard_px": 4.611392125731432
+  },
+  {
+    "scene": "prism-eclipse",
+    "profile": "wide",
+    "slot": 1,
+    "source": "curve-sources/artemis2-tonal/art002e010782.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 2.0808753411212817,
+    "visible_source_clearance_px": -1509.1258290912388
+  },
+  {
+    "scene": "prism-eclipse",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.097502950448112,
+    "visible_source_clearance_px": 503.095934248553,
+    "contour_rms_artboard_px": 0.6072940837037805,
+    "contour_max_artboard_px": 2.0674597870684353
+  },
+  {
+    "scene": "prism-eclipse",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/instruments/umpqua-clear-original.jpg",
+    "source_pixels": [
+      6000,
+      3376
+    ],
+    "native_pixels_per_output_pixel": 1.007382385814047,
+    "visible_source_clearance_px": 44.88647790794539,
+    "contour_rms_artboard_px": 1.6849407638078844,
+    "contour_max_artboard_px": 4.611392125731432
+  },
+  {
+    "scene": "prism-eclipse",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "curve-sources/artemis2-tonal/art002e010782.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 2.0808753411212817,
+    "visible_source_clearance_px": -1462.5614154090672
+  },
+  {
+    "scene": "prism-eclipse",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.097502950448112,
+    "visible_source_clearance_px": 330.9427579188141,
+    "contour_rms_artboard_px": 0.6072940837037805,
+    "contour_max_artboard_px": 2.0674597870684353
+  },
+  {
+    "scene": "porcelain-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.0042060078430168,
+    "visible_source_clearance_px": 629.4619657658113,
+    "contour_rms_artboard_px": 0.6360606455634333,
+    "contour_max_artboard_px": 2.165392092771677
+  },
+  {
+    "scene": "porcelain-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "curve-sources/artemis2/art002e009289.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.5862368402434743,
+    "visible_source_clearance_px": -2029.3021894286385
+  },
+  {
+    "scene": "porcelain-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1127775928311987,
+    "visible_source_clearance_px": 1067.1916482308116
+  },
+  {
+    "scene": "porcelain-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.0042060078430168,
+    "visible_source_clearance_px": 516.0101093141784,
+    "contour_rms_artboard_px": 0.6360606455634333,
+    "contour_max_artboard_px": 2.165392092771677
+  },
+  {
+    "scene": "porcelain-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "curve-sources/artemis2/art002e009289.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.5862368402434743,
+    "visible_source_clearance_px": -2165.098132643357
+  },
+  {
+    "scene": "porcelain-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1127775928311987,
+    "visible_source_clearance_px": 832.3553323407978
+  },
+  {
+    "scene": "woven-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+    "source_pixels": [
+      7323,
+      4894
+    ],
+    "native_pixels_per_output_pixel": 1.388919259916734,
+    "visible_source_clearance_px": 103.74351177196945,
+    "contour_rms_artboard_px": 1.3121176982326415,
+    "contour_max_artboard_px": 4.076916876580974
+  },
+  {
+    "scene": "woven-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "curve-sources/artemis2/art002e009289.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.582261309315546,
+    "visible_source_clearance_px": -2149.493397968204
+  },
+  {
+    "scene": "woven-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.0016892008058165,
+    "visible_source_clearance_px": 524.9847578133831,
+    "contour_rms_artboard_px": 0.6712197767252311,
+    "contour_max_artboard_px": 2.2850871330756393
+  },
+  {
+    "scene": "woven-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+    "source_pixels": [
+      7323,
+      4894
+    ],
+    "native_pixels_per_output_pixel": 1.388919259916734,
+    "visible_source_clearance_px": 41.17784220604079,
+    "contour_rms_artboard_px": 1.3121176982326415,
+    "contour_max_artboard_px": 4.076916876580974
+  },
+  {
+    "scene": "woven-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "curve-sources/artemis2/art002e009289.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.582261309315546,
+    "visible_source_clearance_px": -2009.5691736426886
+  },
+  {
+    "scene": "woven-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.0016892008058165,
+    "visible_source_clearance_px": 451.4317257020848,
+    "contour_rms_artboard_px": 0.6712197767252311,
+    "contour_max_artboard_px": 2.2850871330756393
+  },
+  {
+    "scene": "night-gradient",
+    "profile": "wide",
+    "slot": 0,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1553534311656097,
+    "visible_source_clearance_px": 1000.1783174116754
+  },
+  {
+    "scene": "night-gradient",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 3.533952070964096,
+    "visible_source_clearance_px": -3718.4597920943684
+  },
+  {
+    "scene": "night-gradient",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.0426278029257063,
+    "visible_source_clearance_px": 706.5052598217608,
+    "contour_rms_artboard_px": 0.6392569302145058,
+    "contour_max_artboard_px": 2.176273460072037
+  },
+  {
+    "scene": "night-gradient",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1553534311656097,
+    "visible_source_clearance_px": 803.7343038548715
+  },
+  {
+    "scene": "night-gradient",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 3.533952070964096,
+    "visible_source_clearance_px": -5092.94817956984
+  },
+  {
+    "scene": "night-gradient",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+    "source_pixels": [
+      11549,
+      7616
+    ],
+    "native_pixels_per_output_pixel": 1.0426278029257063,
+    "visible_source_clearance_px": 458.2442539310523,
+    "contour_rms_artboard_px": 0.6392569302145058,
+    "contour_max_artboard_px": 2.176273460072037
+  }
+]

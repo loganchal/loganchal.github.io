@@ -42,7 +42,7 @@
 const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
 const study = chooseOpening();
 const scene=openingScenes.find(item=>item.id===study);
-const finalInset=scene.finalInset;
+let finalInset=scene.finalInset;
 stage.dataset.scene=study;
 stage.classList.add('scene-loading');
 stage.querySelector('.arc-study').className='arc-study '+study;
@@ -53,6 +53,10 @@ function framePlates(inset) {stage.style.setProperty('--inset', inset + '%');}
 function layoutOpening() {
   const width=stage.clientWidth, height=stage.clientHeight;
   const art=stage.querySelector('.arc-study').getBoundingClientRect();
+  // Keep a visible side image after the artboard is cropped to a tall viewport.
+  const visibleSide=Math.min(40,width*.06);
+  const minimumInset=((art.width-width)/2+visibleSide)/art.width*100;
+  finalInset=Math.max(scene.finalInset,minimumInset);
   const portrait=width<=height;
   const radius=scene.radius*art.height/(portrait?1280:960);
   const tilt=scene.angle*Math.PI/180;
@@ -64,6 +68,7 @@ function layoutOpening() {
   const rightY=centerY-Math.sqrt(radius*radius-(width-centerX)**2);
   stage.querySelector('.cover-title').setAttribute('viewBox',`0 0 ${width} ${height}`);
   stage.querySelector('#title-arc').setAttribute('d',`M 0 ${leftY} A ${radius} ${radius} 0 0 1 ${width} ${rightY}`);
+  if(topSection.classList.contains('opened'))framePlates(finalInset);
 }
 new ResizeObserver(layoutOpening).observe(stage);
 layoutOpening();
@@ -99,7 +104,7 @@ function setHeaderTone() {
   header.classList.toggle('on-paper', document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2);
 }
 addEventListener('scroll', setHeaderTone, {passive:true});
-addEventListener('resize', setHeaderTone);
+addEventListener('resize',()=>{layoutOpening();setHeaderTone();});
 reduced.addEventListener('change',setHeaderTone);
 setHeaderTone();
 </script>

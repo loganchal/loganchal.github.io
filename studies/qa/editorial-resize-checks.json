@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "prism-eclipse",
+    "viewport": [
+      390,
+      844
+    ],
+    "visible_side_px": 32.955
+  },
+  {
+    "scene": "prism-eclipse",
+    "viewport": [
+      1512,
+      982
+    ],
+    "visible_side_px": 232.26999999999998
+  },
+  {
+    "scene": "porcelain-earth",
+    "viewport": [
+      390,
+      844
+    ],
+    "visible_side_px": 23.400000000000006
+  },
+  {
+    "scene": "porcelain-earth",
+    "viewport": [
+      1512,
+      982
+    ],
+    "visible_side_px": 68.604375
+  },
+  {
+    "scene": "woven-earth",
+    "viewport": [
+      390,
+      844
+    ],
+    "visible_side_px": 23.400000000000006
+  },
+  {
+    "scene": "woven-earth",
+    "viewport": [
+      1512,
+      982
+    ],
+    "visible_side_px": 68.604375
+  },
+  {
+    "scene": "night-gradient",
+    "viewport": [
+      390,
+      844
+    ],
+    "visible_side_px": 48.14671874999999
+  },
+  {
+    "scene": "night-gradient",
+    "viewport": [
+      1512,
+      982
+    ],
+    "visible_side_px": 281.3696875
+  }
+]

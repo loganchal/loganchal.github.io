@@ -38,7 +38,7 @@
         "rights": "NASA informational/personal website image use guidelines",
         "credit": "NASA",
         "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
-        "native_pixels_per_artboard_pixel": 4.0415223292,
+        "native_pixels_per_artboard_pixel": 4.54671262035,
         "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
       },
       {
@@ -57,7 +57,7 @@
         "rights": "CC0",
         "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
         "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
-        "native_pixels_per_artboard_pixel": 2.4686399311908307,
+        "native_pixels_per_artboard_pixel": 2.7772199225896843,
         "source_file": "curve-sources/cleveland-celadon-1918.442.tif"
       }
     ]
@@ -164,7 +164,7 @@
         "rights": "NASA informational/personal website image use guidelines",
         "credit": "NASA",
         "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
-        "native_pixels_per_artboard_pixel": 4.0415223292,
+        "native_pixels_per_artboard_pixel": 4.54671262035,
         "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
       },
       {
@@ -176,6 +176,265 @@
         "source_angle": -0.05212271421310095,
         "black_point": 0,
         "source_file": "curve-sources/aratus-1660.jpg"
+      }
+    ]
+  },
+  {
+    "id": "prism-eclipse",
+    "title": "Glass, eclipse & vermilion",
+    "slots": [
+      "glass",
+      "eclipse",
+      "red"
+    ],
+    "source_geometry": [
+      {
+        "circle": [
+          2414.488818471057,
+          -2940.9613202140267,
+          4402.261026007384
+        ],
+        "source_angle": 1.6694222220818733,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/instruments/umpqua-clear-original.jpg",
+        "name": "glass",
+        "page": "https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_the_Umpqua_Lighthouse_%284%29_%2830449653068%29.jpg",
+        "rights": "CC BY-SA 2.0; cropped derivatives retain this license",
+        "credit": "Kristina D.C. Hoeppner",
+        "source_sha256": "ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3",
+        "native_pixels_per_artboard_pixel": 2.3169794873723077
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.786013284578948,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
+      },
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.2814544306140367,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 2.5242567860306573
+      }
+    ],
+    "radius": 1900,
+    "angle": -3,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2.3
+  },
+  {
+    "id": "porcelain-earth",
+    "title": "Vermilion, Earthset & ink",
+    "slots": [
+      "red",
+      "artemis",
+      "aratus"
+    ],
+    "source_geometry": [
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.2814544306140367,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 2.4100944188232405
+      },
+      {
+        "name": "artemis",
+        "file": "artemis2/art002e009289.jpg",
+        "circle": [
+          5710.339957244175,
+          7625.713522801497,
+          7575.867149002834
+        ],
+        "source_angle": -1.9830502815122455,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e009289",
+        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+        "native_pixels_per_artboard_pixel": 3.8069684165843385,
+        "source_file": "curve-sources/artemis2/art002e009289.jpg"
+      },
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg"
+      }
+    ],
+    "radius": 1990,
+    "angle": 3,
+    "finalInset": 8,
+    "end": 8,
+    "render_density": 2.4
+  },
+  {
+    "id": "woven-earth",
+    "title": "Fibre, Earthset & vermilion",
+    "slots": [
+      "basket",
+      "artemis",
+      "red"
+    ],
+    "source_geometry": [
+      {
+        "circle": [
+          6876.106563485158,
+          -1055.1479242889286,
+          6650.145416481321
+        ],
+        "source_angle": 2.4344726590487094,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+        "name": "basket",
+        "page": "https://www.clevelandart.org/art/1917.482",
+        "original": "https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif",
+        "rights": "CC0",
+        "credit": "Presentation Bowl, 1880\u201390, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482",
+        "source_sha256": "f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2",
+        "native_pixels_per_artboard_pixel": 3.166735912610153
+      },
+      {
+        "name": "artemis",
+        "file": "artemis2/art002e009289.jpg",
+        "circle": [
+          5710.339957244175,
+          7625.713522801497,
+          7575.867149002834
+        ],
+        "source_angle": -1.9830502815122455,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e009289",
+        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+        "native_pixels_per_artboard_pixel": 3.6075557852394446,
+        "source_file": "curve-sources/artemis2/art002e009289.jpg"
+      },
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.27475139603685866,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 2.2838513778372613
+      }
+    ],
+    "radius": 2100,
+    "angle": -8,
+    "finalInset": 8,
+    "end": 8,
+    "render_density": 2.28
+  },
+  {
+    "id": "night-gradient",
+    "title": "Ink, sunrise & vermilion",
+    "slots": [
+      "aratus",
+      "iss072e340644",
+      "red"
+    ],
+    "radius": 2000,
+    "angle": 0,
+    "finalInset": 21,
+    "end": 21,
+    "render_density": 2.3,
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg"
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 18,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116"
+      },
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.2814544306140367,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 2.3980439467291244
       }
     ]
   }
