@@ -1,0 +1,27 @@
+Glass, lunar horizon & ink
+
+Found photographs, one shared curve. Uniform scaling, rotation and crops.
+
+glass
+Kristina D.C. Hoeppner
+https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg
+CC BY-SA 2.0; cropped derivatives retain this license
+Original: https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_the_Umpqua_Lighthouse_%284%29_%2830449653068%29.jpg
+Original SHA-256: ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3
+Global black point: 0
+
+artemis
+NASA
+https://images.nasa.gov/details/art002e009289
+NASA informational/personal website image use guidelines
+Original: https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg
+Original SHA-256: 2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75
+Global black point: 18
+
+aratus
+Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
+https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
+Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Original SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
+Global black point: 0

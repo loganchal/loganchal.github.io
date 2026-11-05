@@ -33,6 +33,8 @@ with sync_playwright() as p:
   page.goto(args.url+'/');page.wait_for_selector('.stage[data-ready=true]');sequence.append(page.locator('.stage').get_attribute('data-scene'))
  assert all(a!=b for a,b in zip(sequence,sequence[1:]))
  assert all(len(set(sequence[i:i+count]))==count for i in range(0,count*3,count))
+ leads={scene['id']:scene.get('lead') for scene in catalogue}
+ assert all(leads[a]!=leads[b] for a,b in zip(sequence,sequence[1:])), 'Consecutive visits reused the central photograph'
  assert not set(sequence)&inactive
  page.close()
  for id in ids:

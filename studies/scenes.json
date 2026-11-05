@@ -20,7 +20,15 @@
         ],
         "source_angle": -0.05212271421310095,
         "black_point": 0,
-        "source_file": "curve-sources/aratus-1660.jpg"
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.657312891680902,
+        "native_pixels_per_portrait_artboard_pixel": 2.657312891680902,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       },
       {
         "name": "eclipse",
@@ -39,7 +47,8 @@
         "credit": "NASA",
         "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
         "native_pixels_per_artboard_pixel": 4.54671262035,
-        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 4.54671262035
       },
       {
         "name": "celadon",
@@ -50,7 +59,7 @@
           5554.439845179369
         ],
         "source_angle": -1.694177068911731,
-        "target_x": 208,
+        "target_x": 1392,
         "black_point": 0,
         "page": "https://www.clevelandart.org/art/1918.442",
         "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
@@ -58,71 +67,15 @@
         "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
         "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
         "native_pixels_per_artboard_pixel": 2.7772199225896843,
-        "source_file": "curve-sources/cleveland-celadon-1918.442.tif"
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.7772199225896843
       }
-    ]
-  },
-  {
-    "id": "earth-glaze",
-    "slots": [
-      "saturn",
-      "artemis",
-      "crackle"
     ],
-    "radius": 2250,
-    "angle": 3,
-    "end": 4,
-    "title": "Rings, Earthset & crackle",
-    "finalInset": 4,
-    "source_geometry": [
-      {
-        "name": "saturn",
-        "file": "PIA06193-original.jpg",
-        "circle": [
-          4298.307499770874,
-          12843.84085469785,
-          11538.816342663087
-        ],
-        "source_angle": -1.6661292001813166,
-        "target_x": 1392,
-        "black_point": 0,
-        "page": "https://science.nasa.gov/photojournal/the-greatest-saturn-portrait-yet/",
-        "original": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia06/pia06193/PIA06193.jpg",
-        "rights": "NASA informational/personal website image use guidelines",
-        "credit": "NASA/JPL/Space Science Institute",
-        "source_sha256": "0938b9e0c44a1e81efdca6560b1d75200e9e60caa6a02060bac0466357b9bae6",
-        "native_pixels_per_artboard_pixel": 5.128362818961372,
-        "source_file": "curve-sources/PIA06193-original.jpg"
-      },
-      {
-        "name": "artemis",
-        "file": "artemis2/art002e009289.jpg",
-        "circle": [
-          5715.066713765433,
-          7635.715124877271,
-          7586.069271970781
-        ],
-        "source_angle": -2.0230502815122455,
-        "target_x": 800,
-        "black_point": 18,
-        "page": "https://images.nasa.gov/details/art002e009289",
-        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
-        "rights": "NASA informational/personal website image use guidelines",
-        "credit": "NASA",
-        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
-        "native_pixels_per_artboard_pixel": 3.371586343098125,
-        "source_file": "curve-sources/artemis2/art002e009289.jpg"
-      },
-      {
-        "circle": [
-          8040.943762850675,
-          2167.5501187990812,
-          6292.451203306024
-        ],
-        "source_angle": 2.785809006723504,
-        "black_point": 0,
-        "source_file": "anthropic-image-library/museum/2025.179_full.tif"
-      }
+    "lead": "eclipse",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
     ]
   },
   {
@@ -146,7 +99,15 @@
         ],
         "source_angle": 2.785809006723504,
         "black_point": 0,
-        "source_file": "anthropic-image-library/museum/2025.179_full.tif"
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 3.1462256016530117,
+        "native_pixels_per_portrait_artboard_pixel": 3.1462256016530117,
+        "page": "https://www.clevelandart.org/art/2025.179",
+        "original": "https://openaccess-cdn.clevelandart.org/2025.179/2025.179_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Celadon Bowl, 1200s, 2025.179",
+        "source_sha256": "c4d401b6ab504ffd6febfc853eec7013bcf129882bde79ea1618f004cb5cd56b"
       },
       {
         "name": "eclipse",
@@ -165,7 +126,8 @@
         "credit": "NASA",
         "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
         "native_pixels_per_artboard_pixel": 4.54671262035,
-        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 4.54671262035
       },
       {
         "circle": [
@@ -175,8 +137,22 @@
         ],
         "source_angle": -0.05212271421310095,
         "black_point": 0,
-        "source_file": "curve-sources/aratus-1660.jpg"
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 1392,
+        "native_pixels_per_artboard_pixel": 2.657312891680902,
+        "native_pixels_per_portrait_artboard_pixel": 2.657312891680902,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       }
+    ],
+    "lead": "eclipse",
+    "motifs": [
+      "ceramic",
+      "space",
+      "engraving"
     ]
   },
   {
@@ -203,7 +179,9 @@
         "rights": "CC BY-SA 2.0; cropped derivatives retain this license",
         "credit": "Kristina D.C. Hoeppner",
         "source_sha256": "ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3",
-        "native_pixels_per_artboard_pixel": 2.3169794873723077
+        "native_pixels_per_artboard_pixel": 2.3169794873723077,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.3169794873723077
       },
       {
         "name": "eclipse",
@@ -222,7 +200,8 @@
         "credit": "NASA",
         "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
         "native_pixels_per_artboard_pixel": 4.786013284578948,
-        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg"
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 4.786013284578948
       },
       {
         "circle": [
@@ -239,18 +218,26 @@
         "rights": "CC0",
         "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
         "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
-        "native_pixels_per_artboard_pixel": 2.5242567860306573
+        "native_pixels_per_artboard_pixel": 2.5242567860306573,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.5242567860306573
       }
     ],
     "radius": 1900,
     "angle": -3,
     "finalInset": 18,
     "end": 18,
-    "render_density": 2.3
+    "render_density": 2.3,
+    "lead": "eclipse",
+    "motifs": [
+      "optics",
+      "space",
+      "ceramic"
+    ]
   },
   {
     "id": "porcelain-earth",
-    "title": "Vermilion, Earthset & ink",
+    "title": "Vermilion, lunar horizon & ink",
     "slots": [
       "red",
       "artemis",
@@ -272,7 +259,9 @@
         "rights": "CC0",
         "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
         "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
-        "native_pixels_per_artboard_pixel": 2.4100944188232405
+        "native_pixels_per_artboard_pixel": 2.4100944188232405,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.4100944188232405
       },
       {
         "name": "artemis",
@@ -291,7 +280,8 @@
         "credit": "NASA",
         "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
         "native_pixels_per_artboard_pixel": 3.8069684165843385,
-        "source_file": "curve-sources/artemis2/art002e009289.jpg"
+        "source_file": "curve-sources/artemis2/art002e009289.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.8069684165843385
       },
       {
         "circle": [
@@ -301,18 +291,32 @@
         ],
         "source_angle": -0.05212271421310095,
         "black_point": 0,
-        "source_file": "curve-sources/aratus-1660.jpg"
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 1392,
+        "native_pixels_per_artboard_pixel": 2.6706662227948765,
+        "native_pixels_per_portrait_artboard_pixel": 2.6706662227948765,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       }
     ],
     "radius": 1990,
     "angle": 3,
     "finalInset": 8,
     "end": 8,
-    "render_density": 2.4
+    "render_density": 2.4,
+    "lead": "artemis",
+    "motifs": [
+      "ceramic",
+      "space",
+      "engraving"
+    ]
   },
   {
     "id": "woven-earth",
-    "title": "Fibre, Earthset & vermilion",
+    "title": "Fibre, lunar horizon & vermilion",
     "slots": [
       "basket",
       "artemis",
@@ -334,7 +338,9 @@
         "rights": "CC0",
         "credit": "Presentation Bowl, 1880\u201390, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482",
         "source_sha256": "f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2",
-        "native_pixels_per_artboard_pixel": 3.166735912610153
+        "native_pixels_per_artboard_pixel": 3.166735912610153,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 3.166735912610153
       },
       {
         "name": "artemis",
@@ -353,7 +359,8 @@
         "credit": "NASA",
         "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
         "native_pixels_per_artboard_pixel": 3.6075557852394446,
-        "source_file": "curve-sources/artemis2/art002e009289.jpg"
+        "source_file": "curve-sources/artemis2/art002e009289.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.6075557852394446
       },
       {
         "circle": [
@@ -370,14 +377,22 @@
         "rights": "CC0",
         "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
         "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
-        "native_pixels_per_artboard_pixel": 2.2838513778372613
+        "native_pixels_per_artboard_pixel": 2.2838513778372613,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.2838513778372613
       }
     ],
     "radius": 2100,
     "angle": -8,
     "finalInset": 8,
     "end": 8,
-    "render_density": 2.28
+    "render_density": 2.28,
+    "lead": "artemis",
+    "motifs": [
+      "fibre",
+      "space",
+      "ceramic"
+    ]
   },
   {
     "id": "night-gradient",
@@ -401,7 +416,15 @@
         ],
         "source_angle": -0.05212271421310095,
         "black_point": 0,
-        "source_file": "curve-sources/aratus-1660.jpg"
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.657312891680902,
+        "native_pixels_per_portrait_artboard_pixel": 2.657312891680902,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       },
       {
         "name": "iss072e340644",
@@ -417,7 +440,10 @@
         "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
         "rights": "NASA informational/personal website image use guidelines",
         "credit": "NASA / ISS crew",
-        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116"
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 8.128089763217421,
+        "native_pixels_per_portrait_artboard_pixel": 8.128089763217421
       },
       {
         "circle": [
@@ -434,8 +460,16 @@
         "rights": "CC0",
         "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
         "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
-        "native_pixels_per_artboard_pixel": 2.3980439467291244
+        "native_pixels_per_artboard_pixel": 2.3980439467291244,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.3980439467291244
       }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
     ]
   },
   {
@@ -468,7 +502,9 @@
         "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
         "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
         "contour_kind": "center of original thick engraved circular band; no new line drawn",
-        "native_pixels_per_artboard_pixel": 2.605780355946651
+        "native_pixels_per_artboard_pixel": 2.605780355946651,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.605780355946651
       },
       {
         "name": "iss072e340644",
@@ -484,8 +520,54 @@
         "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
         "rights": "NASA informational/personal website image use guidelines",
         "credit": "NASA / ISS crew",
-        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116"
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 7.067904141928192,
+        "native_pixels_per_portrait_artboard_pixel": 7.067904141928192
       },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.4149738457301604,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.4149738457301604
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "glaze-dawn",
+    "title": "Glaze, sunrise & ink",
+    "slots": [
+      "celadon",
+      "iss072e340644",
+      "aratus"
+    ],
+    "radius": 2100,
+    "angle": -3,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.4,
+    "cycle_expansion": true,
+    "source_geometry": [
       {
         "name": "celadon",
         "file": "cleveland-celadon-1918.442.tif",
@@ -502,9 +584,1121 @@
         "rights": "CC0",
         "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
         "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
-        "native_pixels_per_artboard_pixel": 2.7772199225896843,
-        "source_file": "curve-sources/cleveland-celadon-1918.442.tif"
+        "native_pixels_per_artboard_pixel": 2.6449713548473186,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.6449713548473186
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 18,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "native_pixels_per_artboard_pixel": 7.741037869730877,
+        "target_x": 800,
+        "native_pixels_per_portrait_artboard_pixel": 7.741037869730877
+      },
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "native_pixels_per_artboard_pixel": 2.53077418255324,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.53077418255324,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
       }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "ceramic",
+      "space",
+      "engraving"
     ]
+  },
+  {
+    "id": "prism-dawn",
+    "title": "Glass, sunrise & vermilion",
+    "slots": [
+      "glass",
+      "iss072e340644",
+      "red"
+    ],
+    "radius": 1900,
+    "angle": 2,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.3,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "circle": [
+          2414.488818471057,
+          -2940.9613202140267,
+          4402.261026007384
+        ],
+        "source_angle": 1.6694222220818733,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/instruments/umpqua-clear-original.jpg",
+        "name": "glass",
+        "page": "https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_the_Umpqua_Lighthouse_%284%29_%2830449653068%29.jpg",
+        "rights": "CC BY-SA 2.0; cropped derivatives retain this license",
+        "credit": "Kristina D.C. Hoeppner",
+        "source_sha256": "ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3",
+        "native_pixels_per_artboard_pixel": 2.3169794873723077,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.3169794873723077
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 18,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "native_pixels_per_artboard_pixel": 8.555883961281495,
+        "target_x": 800,
+        "native_pixels_per_portrait_artboard_pixel": 8.555883961281495
+      },
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.2814544306140367,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 2.5242567860306573,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.5242567860306573
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "optics",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "woven-dawn",
+    "title": "Fibre, sunrise & ink",
+    "slots": [
+      "basket",
+      "iss072e340644",
+      "aratus"
+    ],
+    "radius": 2100,
+    "angle": -8,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.4,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "circle": [
+          6876.106563485158,
+          -1055.1479242889286,
+          6650.145416481321
+        ],
+        "source_angle": 2.4344726590487094,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+        "name": "basket",
+        "page": "https://www.clevelandart.org/art/1917.482",
+        "original": "https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif",
+        "rights": "CC0",
+        "credit": "Presentation Bowl, 1880\u201390, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482",
+        "source_sha256": "f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2",
+        "native_pixels_per_artboard_pixel": 3.166735912610153,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 3.166735912610153
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 18,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "native_pixels_per_artboard_pixel": 7.741037869730877,
+        "target_x": 800,
+        "native_pixels_per_portrait_artboard_pixel": 7.741037869730877
+      },
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "native_pixels_per_artboard_pixel": 2.53077418255324,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.53077418255324,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "fibre",
+      "space",
+      "engraving"
+    ]
+  },
+  {
+    "id": "archive-dawn",
+    "title": "Crackle, sunrise & glass",
+    "slots": [
+      "crackle",
+      "iss072e340644",
+      "glass"
+    ],
+    "radius": 2000,
+    "angle": -5,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.2,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "circle": [
+          8040.943762850675,
+          2167.5501187990812,
+          6292.451203306024
+        ],
+        "source_angle": 2.785809006723504,
+        "black_point": 0,
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif",
+        "native_pixels_per_artboard_pixel": 3.1462256016530117,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 3.1462256016530117,
+        "page": "https://www.clevelandart.org/art/2025.179",
+        "original": "https://openaccess-cdn.clevelandart.org/2025.179/2025.179_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Celadon Bowl, 1200s, 2025.179",
+        "source_sha256": "c4d401b6ab504ffd6febfc853eec7013bcf129882bde79ea1618f004cb5cd56b"
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 18,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "native_pixels_per_artboard_pixel": 8.128089763217421,
+        "target_x": 800,
+        "native_pixels_per_portrait_artboard_pixel": 8.128089763217421
+      },
+      {
+        "circle": [
+          2414.488818471057,
+          -2940.9613202140267,
+          4402.261026007384
+        ],
+        "source_angle": 1.6694222220818733,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/instruments/umpqua-clear-original.jpg",
+        "name": "glass",
+        "page": "https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_the_Umpqua_Lighthouse_%284%29_%2830449653068%29.jpg",
+        "rights": "CC BY-SA 2.0; cropped derivatives retain this license",
+        "credit": "Kristina D.C. Hoeppner",
+        "source_sha256": "ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3",
+        "native_pixels_per_artboard_pixel": 2.201130513003692,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.201130513003692
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "ceramic",
+      "space",
+      "optics"
+    ]
+  },
+  {
+    "id": "lion-eclipse",
+    "title": "Star chart, eclipse & vermilion",
+    "slots": [
+      "lahire",
+      "eclipse",
+      "red"
+    ],
+    "radius": 2300,
+    "angle": 0,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2.08,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.605780355946651,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.605780355946651
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 3.9536631481304347,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.9536631481304347
+      },
+      {
+        "circle": [
+          4790.8336319795035,
+          2367.0860225273373,
+          4796.087893458249
+        ],
+        "source_angle": 0.2814544306140367,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
+        "name": "red",
+        "page": "https://www.clevelandart.org/art/2022.215",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
+        "rights": "CC0",
+        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
+        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
+        "native_pixels_per_artboard_pixel": 2.0852556058514127,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.0852556058514127
+      }
+    ],
+    "lead": "eclipse",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "lion-earth",
+    "title": "Star chart, lunar horizon & glaze",
+    "slots": [
+      "lahire",
+      "artemis",
+      "celadon"
+    ],
+    "radius": 2300,
+    "angle": -2,
+    "finalInset": 10,
+    "end": 10,
+    "render_density": 2.4,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.605780355946651,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.605780355946651
+      },
+      {
+        "name": "artemis",
+        "file": "artemis2/art002e009289.jpg",
+        "circle": [
+          5710.339957244175,
+          7625.713522801497,
+          7575.867149002834
+        ],
+        "source_angle": -1.9830502815122455,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e009289",
+        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+        "native_pixels_per_artboard_pixel": 3.2938552821751452,
+        "source_file": "curve-sources/artemis2/art002e009289.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.2938552821751452
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.4149738457301604,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.4149738457301604
+      }
+    ],
+    "lead": "artemis",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "prism-earth",
+    "title": "Glass, lunar horizon & ink",
+    "slots": [
+      "glass",
+      "artemis",
+      "aratus"
+    ],
+    "radius": 1900,
+    "angle": 3,
+    "finalInset": 10,
+    "end": 10,
+    "render_density": 2.3,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "circle": [
+          2414.488818471057,
+          -2940.9613202140267,
+          4402.261026007384
+        ],
+        "source_angle": 1.6694222220818733,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/instruments/umpqua-clear-original.jpg",
+        "name": "glass",
+        "page": "https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_the_Umpqua_Lighthouse_%284%29_%2830449653068%29.jpg",
+        "rights": "CC BY-SA 2.0; cropped derivatives retain this license",
+        "credit": "Kristina D.C. Hoeppner",
+        "source_sha256": "ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3",
+        "native_pixels_per_artboard_pixel": 2.3169794873723077,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.3169794873723077
+      },
+      {
+        "name": "artemis",
+        "file": "artemis2/art002e009289.jpg",
+        "circle": [
+          5710.339957244175,
+          7625.713522801497,
+          7575.867149002834
+        ],
+        "source_angle": -1.9830502815122455,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e009289",
+        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+        "native_pixels_per_artboard_pixel": 3.9872984994751755,
+        "source_file": "curve-sources/artemis2/art002e009289.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.9872984994751755
+      },
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "native_pixels_per_artboard_pixel": 2.7971714649272656,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.7971714649272656,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
+      }
+    ],
+    "lead": "artemis",
+    "motifs": [
+      "optics",
+      "space",
+      "engraving"
+    ]
+  },
+  {
+    "id": "woven-eclipse",
+    "title": "Fibre, eclipse & ink",
+    "slots": [
+      "basket",
+      "eclipse",
+      "aratus"
+    ],
+    "radius": 2100,
+    "angle": -8,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2.4,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "circle": [
+          6876.106563485158,
+          -1055.1479242889286,
+          6650.145416481321
+        ],
+        "source_angle": 2.4344726590487094,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+        "name": "basket",
+        "page": "https://www.clevelandart.org/art/1917.482",
+        "original": "https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif",
+        "rights": "CC0",
+        "credit": "Presentation Bowl, 1880\u201390, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482",
+        "source_sha256": "f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2",
+        "native_pixels_per_artboard_pixel": 3.166735912610153,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 3.166735912610153
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.330202495571429,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 4.330202495571429
+      },
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "native_pixels_per_artboard_pixel": 2.53077418255324,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.53077418255324,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
+      }
+    ],
+    "lead": "eclipse",
+    "motifs": [
+      "fibre",
+      "space",
+      "engraving"
+    ]
+  },
+  {
+    "id": "archive-earth",
+    "title": "Ink, lunar horizon & crackle",
+    "slots": [
+      "aratus",
+      "artemis",
+      "crackle"
+    ],
+    "radius": 2100,
+    "angle": -3,
+    "finalInset": 10,
+    "end": 10,
+    "render_density": 2.4,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "native_pixels_per_artboard_pixel": 2.53077418255324,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.53077418255324,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
+      },
+      {
+        "name": "artemis",
+        "file": "artemis2/art002e009289.jpg",
+        "circle": [
+          5710.339957244175,
+          7625.713522801497,
+          7575.867149002834
+        ],
+        "source_angle": -1.9830502815122455,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e009289",
+        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
+        "native_pixels_per_artboard_pixel": 3.6075557852394446,
+        "source_file": "curve-sources/artemis2/art002e009289.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.6075557852394446
+      },
+      {
+        "circle": [
+          8040.943762850675,
+          2167.5501187990812,
+          6292.451203306024
+        ],
+        "source_angle": 2.785809006723504,
+        "black_point": 0,
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif",
+        "native_pixels_per_artboard_pixel": 2.9964053349076303,
+        "target_x": 1392,
+        "native_pixels_per_portrait_artboard_pixel": 2.9964053349076303,
+        "page": "https://www.clevelandart.org/art/2025.179",
+        "original": "https://openaccess-cdn.clevelandart.org/2025.179/2025.179_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Celadon Bowl, 1200s, 2025.179",
+        "source_sha256": "c4d401b6ab504ffd6febfc853eec7013bcf129882bde79ea1618f004cb5cd56b"
+      }
+    ],
+    "lead": "artemis",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "atlantic-spectrum",
+    "title": "Polarized fossil, Atlantic dawn & porcelain",
+    "slots": [
+      "belemnite",
+      "atlantic-dawn",
+      "clematis"
+    ],
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 4.342129246130716,
+        "native_pixels_per_portrait_artboard_pixel": 3.2565969345878596,
+        "target_x": 208
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/horizons/iss061e123823.jpg",
+        "circle": [
+          2922.551321925339,
+          25923.975195460895,
+          23461.895829317116
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 2,
+        "allow_black_extension": true,
+        "page": "https://images.nasa.gov/details/iss061e123823",
+        "original": "https://images-assets.nasa.gov/image/iss061e123823/iss061e123823~orig.jpg",
+        "credit": "NASA / ISS crew, orbital sunrise above the Atlantic Ocean, ISS061-E-123823",
+        "rights": "NASA imagery subject to NASA media usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "source_sha256": "d74a38f1c530c101ab6310263ef3fd62430082aa01f081dd31c8551d0fc0871a",
+        "native_pixels_per_artboard_pixel": 2.9327369786646393,
+        "native_pixels_per_portrait_artboard_pixel": 2.199552733991606,
+        "target_x": 800
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+        "circle": [
+          5097.417769867889,
+          22526.559916560633,
+          20543.472272171355
+        ],
+        "source_angle": -1.6359421204144906,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/2022.156",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif",
+        "credit": "Seifu Yohei III, Dining Bowl with Clematis, 1893\u201397. The Cleveland Museum of Art, 2022.156",
+        "rights": "CC0",
+        "source_sha256": "7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74",
+        "native_pixels_per_artboard_pixel": 2.567934034021419,
+        "native_pixels_per_portrait_artboard_pixel": 1.9259505255100458,
+        "target_x": 1392
+      }
+    ],
+    "radius": 8000,
+    "portraitRadius": 10666.6666667,
+    "horizon": 0.53,
+    "angle": -1,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2.4,
+    "portrait_density": 1.8,
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "lead": "atlantic-dawn",
+    "motifs": [
+      "mineral",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "facets-eclipse",
+    "title": "Compound eye, eclipse & celadon",
+    "slots": [
+      "compoundeye",
+      "eclipse",
+      "celadon"
+    ],
+    "source_geometry": [
+      {
+        "name": "compoundeye",
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/marine-micro/compoundeye.jpg",
+        "circle": [
+          4822.205629381102,
+          3401.566923062487,
+          4632.38574290881
+        ],
+        "source_angle": -2.5778513051956247,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:Compound_eye_(34195277211).jpg",
+        "rights": "CC BY 2.0",
+        "credit": "fredrik Andreasson from Sweden, compoundeye",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/97/Compound_eye_%2834195277211%29.jpg",
+        "source_sha256": "7ec85bb4dbfa53a938efde530b862558a7287b62c700d40444ddccec68c4e6b8",
+        "native_pixels_per_artboard_pixel": 2.1056298831403684,
+        "native_pixels_per_portrait_artboard_pixel": 1.579222412355276,
+        "target_x": 208
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.133375109409091,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "allow_black_extension": true,
+        "native_pixels_per_portrait_artboard_pixel": 3.100031332056818
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.5247453841724403,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 1.8935590381293301
+      }
+    ],
+    "radius": 2200,
+    "portraitRadius": 2933.3333333333335,
+    "horizon": 0.3,
+    "angle": 0,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2,
+    "portrait_density": 1.5,
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "lead": "eclipse",
+    "motifs": [
+      "microscopy",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "atlantic-cobalt",
+    "title": "Polarized fossil, Atlantic dawn & cobalt",
+    "slots": [
+      "belemnite",
+      "atlantic-dawn",
+      "cobalt-kirin"
+    ],
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 4.342129246130716,
+        "native_pixels_per_portrait_artboard_pixel": 3.2565969345878596,
+        "target_x": 208
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/horizons/iss061e123823.jpg",
+        "circle": [
+          2922.551321925339,
+          25923.975195460895,
+          23461.895829317116
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 2,
+        "allow_black_extension": true,
+        "page": "https://images.nasa.gov/details/iss061e123823",
+        "original": "https://images-assets.nasa.gov/image/iss061e123823/iss061e123823~orig.jpg",
+        "credit": "NASA / ISS crew, orbital sunrise above the Atlantic Ocean, ISS061-E-123823",
+        "rights": "NASA imagery subject to NASA media usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "source_sha256": "d74a38f1c530c101ab6310263ef3fd62430082aa01f081dd31c8551d0fc0871a",
+        "native_pixels_per_artboard_pixel": 2.9327369786646393,
+        "native_pixels_per_portrait_artboard_pixel": 2.199552733991606,
+        "target_x": 800
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/objects/2022.241-full.tif",
+        "circle": [
+          4648.246903581645,
+          23702.11975452132,
+          21980.773283712057
+        ],
+        "source_angle": -1.634008048626305,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/2022.241",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.241/2022.241_full.tif",
+        "credit": "Seifu Yohei III, Bowl with Numinous Fungi and Kirin, 1893\u20131900. The Cleveland Museum of Art, 2022.241",
+        "rights": "CC0",
+        "source_sha256": "921e5b17ebe11a24a891138c9868013c864fd552190414250ee9d266c9ac9594",
+        "native_pixels_per_artboard_pixel": 2.747596660464007,
+        "native_pixels_per_portrait_artboard_pixel": 2.0606974953415653,
+        "target_x": 1392
+      }
+    ],
+    "radius": 8000,
+    "portraitRadius": 10666.6666667,
+    "horizon": 0.53,
+    "angle": 1,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2.4,
+    "portrait_density": 1.8,
+    "cycle_expansion": true,
+    "fresh_family": true,
+    "lead": "atlantic-dawn",
+    "motifs": [
+      "mineral",
+      "space",
+      "ceramic"
+    ]
+  },
+  {
+    "id": "celestial-eclipse",
+    "title": "De Wit, eclipse & celadon",
+    "slots": [
+      "dewit",
+      "eclipse",
+      "celadon"
+    ],
+    "radius": 2100,
+    "angle": 0,
+    "finalInset": 18,
+    "end": 18,
+    "render_density": 2,
+    "cycle_expansion": true,
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+        "circle": [
+          4795.507682608558,
+          6034.785734101051,
+          4212.200491443607
+        ],
+        "source_angle": 4.101523742186674,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "credit": "Frederik de Wit, Planisphaerium Coeleste, 1680",
+        "rights": "Public-domain faithful reproduction, Wikimedia Commons / RareMaps",
+        "source_sha256": "8d045d764155a8b14fa2c92a2bd17e20110043e394769fa11e622550a48cbf74",
+        "native_pixels_per_artboard_pixel": 2.005809757830289,
+        "native_pixels_per_portrait_artboard_pixel": 1.5043573183727166,
+        "target_x": 208
+      },
+      {
+        "name": "eclipse",
+        "file": "artemis2-tonal/art002e010782.jpg",
+        "circle": [
+          -1731.5687548,
+          -6398.7995555,
+          9093.4252407
+        ],
+        "source_angle": 1.077119731,
+        "target_x": 800,
+        "black_point": 18,
+        "page": "https://images.nasa.gov/details/art002e010782",
+        "original": "https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d",
+        "native_pixels_per_artboard_pixel": 4.330202495571429,
+        "source_file": "curve-sources/artemis2-tonal/art002e010782.jpg",
+        "native_pixels_per_portrait_artboard_pixel": 3.2476518716785714,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.6449713548473186,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 1.9837285161354887
+      }
+    ],
+    "lead": "eclipse",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "portraitRadius": 2800,
+    "portrait_density": 1.5,
+    "horizon": 0.53,
+    "gap": "glow",
+    "fresh_family": true
+  },
+  {
+    "id": "celestial-dawn",
+    "title": "De Wit, Earth horizon & celadon",
+    "radius": 2100,
+    "angle": 0,
+    "finalInset": 18,
+    "end": 20,
+    "render_density": 2,
+    "slots": [
+      "dewit",
+      "iss072e340644",
+      "celadon"
+    ],
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/dewit-1680.jpg",
+        "circle": [
+          4795.507682608558,
+          6034.785734101051,
+          4212.200491443607
+        ],
+        "source_angle": 4.101523742186674,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg",
+        "credit": "Frederik de Wit, Planisphaerium Coeleste, 1680",
+        "rights": "Public-domain faithful reproduction, Wikimedia Commons / RareMaps",
+        "source_sha256": "8d045d764155a8b14fa2c92a2bd17e20110043e394769fa11e622550a48cbf74",
+        "native_pixels_per_artboard_pixel": 2.005809757830289,
+        "native_pixels_per_portrait_artboard_pixel": 1.5043573183727166,
+        "target_x": 208
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 20,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 7.741037869730877,
+        "native_pixels_per_portrait_artboard_pixel": 5.805778402298158,
+        "allow_black_extension": true
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.6449713548473186,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 1.9837285161354887
+      }
+    ],
+    "lead": "iss072e340644",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "portraitRadius": 2800,
+    "portrait_density": 1.5,
+    "horizon": 0.53,
+    "gap": "glow",
+    "cycle_expansion": true,
+    "fresh_family": true
   }
 ]

@@ -1,0 +1,119 @@
+{
+  "active_scene_count": 21,
+  "responsive_controls": [
+    {
+      "viewport": [
+        1512,
+        982
+      ],
+      "button_and_logo_do_not_overlap": true,
+      "keyboard": "passed",
+      "partial_and_completed_scroll_preserved": true,
+      "review_link_released": true,
+      "refresh_advanced": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "button_and_logo_do_not_overlap": true,
+      "keyboard": "passed",
+      "partial_and_completed_scroll_preserved": true,
+      "review_link_released": true,
+      "refresh_advanced": true
+    },
+    {
+      "viewport": [
+        320,
+        740
+      ],
+      "button_and_logo_do_not_overlap": true,
+      "keyboard": "passed",
+      "partial_and_completed_scroll_preserved": true,
+      "review_link_released": true,
+      "refresh_advanced": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "button_and_logo_do_not_overlap": true,
+      "keyboard": "passed",
+      "partial_and_completed_scroll_preserved": true,
+      "review_link_released": true,
+      "refresh_advanced": true
+    }
+  ],
+  "two_button_decks": [
+    "lion-dawn",
+    "facets-eclipse",
+    "prism-dawn",
+    "observatory",
+    "archive-dawn",
+    "archive-earth",
+    "woven-eclipse",
+    "night-gradient",
+    "lion-earth",
+    "night-archive",
+    "celestial-dawn",
+    "celestial-eclipse",
+    "porcelain-earth",
+    "atlantic-cobalt",
+    "glaze-dawn",
+    "prism-eclipse",
+    "prism-earth",
+    "atlantic-spectrum",
+    "woven-dawn",
+    "lion-eclipse",
+    "woven-earth",
+    "prism-eclipse",
+    "celestial-dawn",
+    "woven-eclipse",
+    "prism-dawn",
+    "celestial-eclipse",
+    "archive-dawn",
+    "porcelain-earth",
+    "lion-eclipse",
+    "night-gradient",
+    "lion-earth",
+    "night-archive",
+    "lion-dawn",
+    "archive-earth",
+    "atlantic-cobalt",
+    "observatory",
+    "prism-earth",
+    "glaze-dawn",
+    "atlantic-spectrum",
+    "facets-eclipse",
+    "woven-dawn",
+    "woven-earth"
+  ],
+  "storage_blocked_deck": [
+    "celestial-dawn",
+    "night-archive",
+    "lion-dawn",
+    "celestial-eclipse",
+    "archive-earth",
+    "observatory",
+    "archive-dawn",
+    "porcelain-earth",
+    "woven-eclipse",
+    "glaze-dawn",
+    "lion-eclipse",
+    "lion-earth",
+    "woven-dawn",
+    "atlantic-spectrum",
+    "prism-eclipse",
+    "woven-earth",
+    "prism-dawn",
+    "atlantic-cobalt",
+    "prism-earth",
+    "night-gradient",
+    "facets-eclipse"
+  ],
+  "load_failure_preserves_current_scene": true,
+  "initial_load_recovers_to_another_scene": true,
+  "browser_errors": []
+}

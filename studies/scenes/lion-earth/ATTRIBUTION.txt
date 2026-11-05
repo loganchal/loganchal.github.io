@@ -1,0 +1,27 @@
+Star chart, lunar horizon & glaze
+
+Found photographs, one shared curve. Uniform scaling, rotation and crops.
+
+lahire
+Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries
+https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962
+CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license
+Original: https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg
+Original SHA-256: 27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3
+Global black point: 0
+
+artemis
+NASA
+https://images.nasa.gov/details/art002e009289
+NASA informational/personal website image use guidelines
+Original: https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg
+Original SHA-256: 2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75
+Global black point: 18
+
+celadon
+The Cleveland Museum of Art, Director’s Contingent Fund, 1918.442
+https://www.clevelandart.org/art/1918.442
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif
+Original SHA-256: cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18
+Global black point: 0

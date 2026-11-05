@@ -1,0 +1,27 @@
+Fibre, eclipse & ink
+
+Found photographs, one shared curve. Uniform scaling, rotation and crops.
+
+basket
+Presentation Bowl, 1880–90, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482
+https://www.clevelandart.org/art/1917.482
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif
+Original SHA-256: f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2
+Global black point: 0
+
+eclipse
+NASA
+https://images.nasa.gov/details/art002e010782
+NASA informational/personal website image use guidelines
+Original: https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg
+Original SHA-256: a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d
+Global black point: 18
+
+aratus
+Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
+https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
+Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Original SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
+Global black point: 0

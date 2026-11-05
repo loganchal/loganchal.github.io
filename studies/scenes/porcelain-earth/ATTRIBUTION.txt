@@ -1,0 +1,27 @@
+Vermilion, lunar horizon & ink
+
+Found photographs, one shared curve. Uniform scaling, rotation and crops.
+
+red
+Seifū Yohei IV, Sweets Bowl, 1914–46. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215
+https://www.clevelandart.org/art/2022.215
+CC0
+Original: https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif
+Original SHA-256: 3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95
+Global black point: 0
+
+artemis
+NASA
+https://images.nasa.gov/details/art002e009289
+NASA informational/personal website image use guidelines
+Original: https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg
+Original SHA-256: 2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75
+Global black point: 18
+
+aratus
+Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
+https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
+Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Original SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
+Global black point: 0

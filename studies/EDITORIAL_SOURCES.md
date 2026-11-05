@@ -1,42 +1,21 @@
-# Editorial opening scenes
+# Opening scenes
 
-The opening is a found-image composition. Each group has one circle and inclination across its three real contours. Only rotation, uniform scaling, cropping and the recorded NASA black-point adjustment are used. A circle in the configuration is not evidence that the photographed edge follows it: inspect the actual visible joins at initial and settled panel positions, on wide and portrait layouts.
+The approved deck contains 21 compositions from 16 found image sources. Every centre panel is a photographic horizon: the lunar foreground from Artemis II, the lunar eclipse silhouette, or the lower visible Earth limb in the Brazil and Atlantic orbital photographs. Engravings, ceramics, woven fibre, optical glass and microscopy sit beside that horizon. A scene never repeats a motif category.
 
-Four additions extend the two existing ink/glaze/eclipse groups:
+Each screen profile defines one target circle and inclination for all three images. Sources are rotated, uniformly scaled and cropped. Their outlines are never stretched, warped or replaced with circular stencils. Source circles come from the actual visible contour: the red bowl uses its physical outer edge, not an interior colour band, and the new compound-eye group uses the corrected celadon rim. Native relief, photographic softness and small engraved irregularities remain visible.
 
-| Scene | Images | Artboard radius | Inclination | Render density |
-| --- | --- | ---: | ---: | ---: |
-| prism-eclipse | Umpqua Fresnel glass / Artemis II eclipse / red porcelain | 1900 | −3° | 2.3× |
-| porcelain-earth | red porcelain / Artemis II Earthset / Cellarius engraving | 1990 | +3° | 2.4× |
-| woven-earth | Timbisha Shoshone woven bowl / Artemis II Earthset / red porcelain | 2100 | −8° | 2.28× |
-| night-gradient | Cellarius engraving / ISS sunrise above Brazil / red porcelain | 2000 | 0° | 2.3× |
+The wide artboard is 1600×960; the phone artboard is 768×1280. Different profile radii and source rotation phases are allowed, while all three images in a profile retain a common circle. The viewport covers the artboard uniformly. Higher-density renders are built from originals without enlarging native pixels. The complete stage and curved heading adapt to viewport dimensions; settled side strips remain visible on tall phones.
 
-The wider sources remain in `scenes.json`: original URLs, attribution, rights and hashes accompany each new asset. Full TIFFs and NASA originals stay in the source cache rather than Git. `plates/credits.html` carries public credits, including CC BY-SA 2.0 for Kristina D.C. Hoeppner's glass photograph and its cropped derivatives. Other new object photographs are Cleveland Museum of Art CC0; NASA usage follows its media guidelines.
+Initial panels are held through a captive scroll, then expand and settle. The consumed progress never rewinds on scrolling back to the top. Reduced motion opens the settled frame immediately. The Change scene button preserves current progress. Refreshed visits and the button use the same shuffled deck; central photographs alternate where available and every scene is consumed before a repeat. A direct ?study= link selects its first frame, then releases that selection for subsequent refreshes. Blocked storage and failed image loads recover without losing the current complete frame.
 
-The photographic inputs are independently registered for 1600×960 and 768×1280 artboards. The whole artboard covers the viewport uniformly. Settled panels retain a visible side strip even when the artboard is cropped by a tall viewport. Higher-density renders never enlarge the native source. Different output densities respect each original's detail while retaining the same CSS sizing.
+## Source archive and rights
 
-## Physical-edge correction
+scenes.json records original URLs, licences, hashes and transforms. Each published scene also has ATTRIBUTION.txt; plates/credits.html provides public credits. CC BY-SA and CC BY-NC-SA derivatives retain their source licences. Only cropped approved assets are published. Full originals and research contact sheets remain in the private organised opening-image library, where the catalogue currently contains 177 public sources. Personal photographs remain private and are not uploaded.
 
-The first red-porcelain measurement used R−G > 25, which selected an interior colour band. That produced a visible step despite the configured circles matching. It was removed from rotation and replaced by a fit to the visible outer transition (R−G > 4), then checked against actual rendered Moon/red joins. The fitted source radius changed from roughly 5410 to 4796 pixels. The woven group therefore uses radius 2100 and 2.28× output. Its actual rendered step is about 1.75 artboard pixels on both profiles; natural photographic and lunar relief boundaries are not mathematically perfect lines.
+Recorded global black-point adjustments provide the NASA photographic grade and a continuous empty black sky; no luminous limb is cut off. The polarized belemnite uses a recorded adjustment of 22. Its outside source boundary is admitted only where the actual photographed field is black. The unresolved moonlit-ocean and airglow trials, rejected column, duplicate ceramic pairs and mixed Saturn/Earth compositions are excluded from the public catalogue.
 
-Earthset was reframed through the same circle-preserving transform so the Earth stays clear of the initial mobile panel edge. Naturally black sky in the ISS photo continues onto the black stage; its gradient, city lights and limb remain original photography.
+## Rebuild and verify
 
-## Rebuild and validate
+Run `python3 studies/build_catalogue.py` after editing scene metadata. Build a selected scene with `python3 studies/build_scenes.py --cache SOURCE_CACHE --scene SCENE_ID`. The source resolver accepts either the scratch layout or the preserved private library root.
 
-With originals at their `source_file` paths relative to the cache root:
-
-```sh
-python3 studies/build_scenes.py --cache /path/to/cache --scene prism-eclipse --scene porcelain-earth --scene woven-earth --scene night-gradient
-python3 studies/check_opening_geometry.py --cache /path/to/cache
-python3 studies/check_openings.py --url http://127.0.0.1:8732
-```
-
-The checks record source coverage, native pixel density, contour residuals, browser asset loading, responsive overflow, one-way scroll, reduced motion and shuffled visits in `studies/qa/`. Source contours and sampled points are in `studies/qa/editorial-contours/`.
-
-The automatic deck excludes the older space-with-space compositions; their direct `?study=` links remain usable. The deck refreshes when its active catalogue changes, exhausts each shuffled set before repeating, and prevents adjacent repeats at a deck boundary.
-
-## Historical chart addition
-
-`lion-dawn` pairs the La Hire lion-and-stars engraving with the orbital sunrise and celadon glaze: radius 2300, inclination +2 degrees, settled inset 20%, native render density 2.4. Its original engraved band is measured at 25 native-pixel points, with all points retained; the sampled line-center fit has about 0.48 artboard-pixel RMS and 1.43 maximum deviation. The finite printed line is preserved. The images receive only rotation, uniform scale and cropping; no circle is drawn over them. Chart derivatives use CC BY-NC-SA 3.0 according to the source collection.
-
-Opening selection excludes exposed breasts and full classical nudity. The Bouguereau and Galatea research trials are excluded; originals remain private research references. Manuscript diagrams, Galatea silhouette, broad downward-Earth curves and Piranesi trials that fail native-resolution/contour inspection are not promoted into the rotation.
+Run `python3 studies/check_opening_geometry.py --cache SOURCE_CACHE`, `python3 studies/check_openings.py`, and `python3 studies/check_scene_switching.py`. Geometry checks use source pixels and visible panel corners; browser checks cover large desktops, phones, landscape, one-way scrolling, reduced motion, deck exhaustion, keyboard controls and image-load recovery. Receipts are in studies/qa.

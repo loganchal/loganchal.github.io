@@ -1,0 +1,27 @@
+Glass, sunrise & vermilion
+
+Found photographs, one shared curve. Uniform scaling, rotation and crops.
+
+glass
+Kristina D.C. Hoeppner
+https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg
+CC BY-SA 2.0; cropped derivatives retain this license
+Original: https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_the_Umpqua_Lighthouse_%284%29_%2830449653068%29.jpg
+Original SHA-256: ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3
+Global black point: 0
+
+iss072e340644
+NASA / ISS crew
+https://images.nasa.gov/details/iss072e340644
+NASA informational/personal website image use guidelines
+Original: https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg
+Original SHA-256: b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116
+Global black point: 18
+
+red
+Seifū Yohei IV, Sweets Bowl, 1914–46. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215
+https://www.clevelandart.org/art/2022.215
+CC0
+Original: https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif
+Original SHA-256: 3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95
+Global black point: 0
