@@ -437,5 +437,74 @@
         "native_pixels_per_artboard_pixel": 2.3980439467291244
       }
     ]
+  },
+  {
+    "id": "lion-dawn",
+    "title": "Star chart, sunrise & glaze",
+    "radius": 2300,
+    "angle": 2,
+    "finalInset": 20,
+    "end": 20,
+    "render_density": 2.4,
+    "slots": [
+      "lahire",
+      "iss072e340644",
+      "celadon"
+    ],
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.605780355946651
+      },
+      {
+        "name": "iss072e340644",
+        "circle": [
+          4091.539654960318,
+          16681.00392788278,
+          16256.179526434842
+        ],
+        "source_angle": -1.5687400159663984,
+        "black_point": 18,
+        "source_file": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+        "page": "https://images.nasa.gov/details/iss072e340644",
+        "original": "https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg",
+        "rights": "NASA informational/personal website image use guidelines",
+        "credit": "NASA / ISS crew",
+        "source_sha256": "b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116"
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 208,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.7772199225896843,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif"
+      }
+    ]
   }
 ]

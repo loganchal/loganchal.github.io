@@ -181,5 +181,25 @@ const openingScenes = [
         "studies/scenes/night-gradient/2-portrait-1766.webp"
       ]
     }
+  },
+  {
+    "id": "lion-dawn",
+    "title": "Star chart, sunrise & glaze",
+    "radius": 2300,
+    "angle": 2,
+    "finalInset": 20,
+    "gap": "glow",
+    "assets": {
+      "wide": [
+        "studies/scenes/lion-dawn/0-wide-3840.webp",
+        "studies/scenes/lion-dawn/1-wide-3840.webp",
+        "studies/scenes/lion-dawn/2-wide-3840.webp"
+      ],
+      "portrait": [
+        "studies/scenes/lion-dawn/0-portrait-1843.webp",
+        "studies/scenes/lion-dawn/1-portrait-1843.webp",
+        "studies/scenes/lion-dawn/2-portrait-1843.webp"
+      ]
+    }
   }
 ];

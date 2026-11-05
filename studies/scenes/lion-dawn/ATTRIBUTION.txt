@@ -1,0 +1,10 @@
+0-wide-* and 0-portrait-* chart images:
+Planisphere Celeste Septentrional, Philippe de La Hire; Nicolas de Fer, publisher, ca. 1709.
+David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries.
+https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962
+Cropped, rotated and uniformly scaled. Licensed CC BY-NC-SA 3.0, including these derivatives:
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+1-* sunrise images: NASA / ISS crew, ISS072-E-340644. NASA media usage guidelines apply.
+2-* celadon images: The Cleveland Museum of Art, 1918.442. CC0.
+Full source records and credits: ../../scenes.json and ../../../plates/credits.html.

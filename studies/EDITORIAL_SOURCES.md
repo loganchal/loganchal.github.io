@@ -34,3 +34,9 @@ python3 studies/check_openings.py --url http://127.0.0.1:8732
 The checks record source coverage, native pixel density, contour residuals, browser asset loading, responsive overflow, one-way scroll, reduced motion and shuffled visits in `studies/qa/`. Source contours and sampled points are in `studies/qa/editorial-contours/`.
 
 The automatic deck excludes the older space-with-space compositions; their direct `?study=` links remain usable. The deck refreshes when its active catalogue changes, exhausts each shuffled set before repeating, and prevents adjacent repeats at a deck boundary.
+
+## Historical chart addition
+
+`lion-dawn` pairs the La Hire lion-and-stars engraving with the orbital sunrise and celadon glaze: radius 2300, inclination +2 degrees, settled inset 20%, native render density 2.4. Its original engraved band is measured at 25 native-pixel points, with all points retained; the sampled line-center fit has about 0.48 artboard-pixel RMS and 1.43 maximum deviation. The finite printed line is preserved. The images receive only rotation, uniform scale and cropping; no circle is drawn over them. Chart derivatives use CC BY-NC-SA 3.0 according to the source collection.
+
+Opening selection excludes exposed breasts and full classical nudity. The Bouguereau and Galatea research trials are excluded; originals remain private research references. Manuscript diagrams, Galatea silhouette, broad downward-Earth curves and Piranesi trials that fail native-resolution/contour inspection are not promoted into the rotation.

@@ -6,7 +6,7 @@ parser=argparse.ArgumentParser();parser.add_argument('--cache',type=Path,require
 repo=Path(__file__).resolve().parent.parent;scenes=json.loads((repo/'studies/scenes.json').read_text());rows=[]
 Image.MAX_IMAGE_PIXELS=None
 for s in scenes:
- if s['id'] not in ['prism-eclipse','porcelain-earth','woven-earth','night-gradient']:continue
+ if s['id'] not in ['prism-eclipse','porcelain-earth','woven-earth','night-gradient','lion-dawn']:continue
  for pr,W,H in [('wide',1600,960),('portrait',768,1280)]:
   R=s['radius'];t=math.radians(s['angle']);C=np.array([W/2+R*math.sin(t),H*.53+R*math.cos(t)]);d=s.get('render_density',2.4)
   for slot,g in enumerate(s['source_geometry']):
@@ -22,7 +22,7 @@ for s in scenes:
     asset=repo/f'studies/scenes/{s["id"]}/{slot}-{pr}-{round(W*density)}.webp'
     with Image.open(asset) as rendered:assert rendered.size==(round(W*density),round(H*density))
    row=dict(scene=s['id'],profile=pr,slot=slot,source=g['source_file'],source_pixels=list(im.size),native_pixels_per_output_pixel=r/R/d,visible_source_clearance_px=clearance)
-   feature={"glass":"glass","red":"porcelain","basket":"basket"}.get(s['slots'][slot])
+   feature={"glass":"glass","red":"porcelain","basket":"basket","lahire":"lahire"}.get(s['slots'][slot])
    if feature:
     measure=json.loads((repo/f'studies/qa/editorial-contours/{feature}.json').read_text());p=np.array(measure['points']);res=(np.linalg.norm(p-[cx,cy],axis=1)-r)*R/r
     row.update(contour_rms_artboard_px=float(np.sqrt(np.mean(res**2))),contour_max_artboard_px=float(abs(res).max()))

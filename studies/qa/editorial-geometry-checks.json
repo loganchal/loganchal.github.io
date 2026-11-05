@@ -310,5 +310,81 @@
     "visible_source_clearance_px": 458.2442539310523,
     "contour_rms_artboard_px": 0.6392569302145058,
     "contour_max_artboard_px": 2.176273460072037
+  },
+  {
+    "scene": "lion-dawn",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 3123.4981857313674,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "lion-dawn",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -3294.2060523132586
+  },
+  {
+    "scene": "lion-dawn",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.006239102387567,
+    "visible_source_clearance_px": 1308.4397905287387
+  },
+  {
+    "scene": "lion-dawn",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 2952.9166375074965,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "lion-dawn",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -4426.910607720347
+  },
+  {
+    "scene": "lion-dawn",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.006239102387567,
+    "visible_source_clearance_px": 1093.4370569062526
   }
 ]

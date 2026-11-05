@@ -1,0 +1,78 @@
+{
+  "layouts": [
+    {
+      "scene": "lion-dawn",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "lion-dawn",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "lion-dawn",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "lion-dawn",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    }
+  ],
+  "opening_sequence": [
+    "night-archive",
+    "observatory",
+    "prism-eclipse",
+    "porcelain-earth",
+    "lion-dawn",
+    "night-gradient",
+    "woven-earth",
+    "prism-eclipse",
+    "woven-earth",
+    "night-gradient",
+    "porcelain-earth",
+    "observatory",
+    "night-archive",
+    "lion-dawn",
+    "night-archive",
+    "porcelain-earth",
+    "observatory",
+    "lion-dawn",
+    "woven-earth",
+    "prism-eclipse",
+    "night-gradient"
+  ],
+  "reduced_motion": "passed",
+  "comparison_scene_count": 7,
+  "browser_errors": []
+}

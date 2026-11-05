@@ -54,3 +54,12 @@
 .stage .arc-study.night-gradient>i:last-child{background-image:image-set(url(scenes/night-gradient/1-portrait-768.webp) 1x,url(scenes/night-gradient/1-portrait-1766.webp) 2x)}
 .stage .arc-study.night-gradient>i:nth-child(2){background-image:image-set(url(scenes/night-gradient/2-portrait-768.webp) 1x,url(scenes/night-gradient/2-portrait-1766.webp) 2x)}
 }
+
+.arc-study.lion-dawn>i:first-child{background-image:image-set(url(scenes/lion-dawn/0-wide-1600.webp) 1x,url(scenes/lion-dawn/0-wide-3840.webp) 2x)}
+.arc-study.lion-dawn>i:last-child{background-image:image-set(url(scenes/lion-dawn/1-wide-1600.webp) 1x,url(scenes/lion-dawn/1-wide-3840.webp) 2x)}
+.arc-study.lion-dawn>i:nth-child(2){background-image:image-set(url(scenes/lion-dawn/2-wide-1600.webp) 1x,url(scenes/lion-dawn/2-wide-3840.webp) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.lion-dawn>i:first-child{background-image:image-set(url(scenes/lion-dawn/0-portrait-768.webp) 1x,url(scenes/lion-dawn/0-portrait-1843.webp) 2x)}
+.stage .arc-study.lion-dawn>i:last-child{background-image:image-set(url(scenes/lion-dawn/1-portrait-768.webp) 1x,url(scenes/lion-dawn/1-portrait-1843.webp) 2x)}
+.stage .arc-study.lion-dawn>i:nth-child(2){background-image:image-set(url(scenes/lion-dawn/2-portrait-768.webp) 1x,url(scenes/lion-dawn/2-portrait-1843.webp) 2x)}
+}
