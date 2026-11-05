@@ -35,6 +35,8 @@ with sync_playwright() as p:
  assert all(len(set(sequence[i:i+count]))==count for i in range(0,count*3,count))
  leads={scene['id']:scene.get('lead') for scene in catalogue}
  assert all(leads[a]!=leads[b] for a,b in zip(sequence,sequence[1:])), 'Consecutive visits reused the central photograph'
+ families=len(set(leads.values()))
+ assert len({leads[id] for id in sequence[:families]})==families, 'Fresh central photographs were delayed behind repeated families'
  assert not set(sequence)&inactive
  page.close()
  for id in ids:

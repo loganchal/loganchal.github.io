@@ -1,8 +1,7 @@
 Polarized fossil, Atlantic dawn & porcelain
 
-Found photographs, one shared curve. Uniform scaling, rotation and crops.
+Found images, one shared curve. Uniform scaling, rotation and crops.
 
-belemnite
 Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo
 https://imaggeo.egu.eu/view/12428/
 CC BY 3.0
@@ -10,7 +9,8 @@ Original: https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df6
 Original SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
 Global black point: 22
 
-atlantic-dawn
+
+
 NASA / ISS crew, orbital sunrise above the Atlantic Ocean, ISS061-E-123823
 https://images.nasa.gov/details/iss061e123823
 NASA imagery subject to NASA media usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/
@@ -18,7 +18,8 @@ Original: https://images-assets.nasa.gov/image/iss061e123823/iss061e123823~orig.
 Original SHA-256: d74a38f1c530c101ab6310263ef3fd62430082aa01f081dd31c8551d0fc0871a
 Global black point: 2
 
-clematis
+
+
 Seifu Yohei III, Dining Bowl with Clematis, 1893–97. The Cleveland Museum of Art, 2022.156
 https://www.clevelandart.org/art/2022.156
 CC0

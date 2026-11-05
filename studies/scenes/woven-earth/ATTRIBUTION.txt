@@ -1,8 +1,7 @@
 Fibre, lunar horizon & vermilion
 
-Found photographs, one shared curve. Uniform scaling, rotation and crops.
+Found images, one shared curve. Uniform scaling, rotation and crops.
 
-basket
 Presentation Bowl, 1880–90, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482
 https://www.clevelandart.org/art/1917.482
 CC0
@@ -10,7 +9,8 @@ Original: https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif
 Original SHA-256: f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2
 Global black point: 0
 
-artemis
+
+
 NASA
 https://images.nasa.gov/details/art002e009289
 NASA informational/personal website image use guidelines
@@ -18,7 +18,8 @@ Original: https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.
 Original SHA-256: 2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75
 Global black point: 18
 
-red
+
+
 Seifū Yohei IV, Sweets Bowl, 1914–46. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215
 https://www.clevelandart.org/art/2022.215
 CC0

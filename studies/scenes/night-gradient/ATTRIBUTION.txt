@@ -1,8 +1,7 @@
 Ink, sunrise & vermilion
 
-Found photographs, one shared curve. Uniform scaling, rotation and crops.
+Found images, one shared curve. Uniform scaling, rotation and crops.
 
-aratus
 Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
 https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
 Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
@@ -10,7 +9,8 @@ Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_cha
 Original SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
 Global black point: 0
 
-iss072e340644
+
+
 NASA / ISS crew
 https://images.nasa.gov/details/iss072e340644
 NASA informational/personal website image use guidelines
@@ -18,7 +18,8 @@ Original: https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.
 Original SHA-256: b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116
 Global black point: 18
 
-red
+
+
 Seifū Yohei IV, Sweets Bowl, 1914–46. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215
 https://www.clevelandart.org/art/2022.215
 CC0

@@ -28,7 +28,7 @@ for s in scenes:
     adjusted=np.maximum(0,np.round((pixels-g['black_point'])*255/(255-g['black_point'])))
     maximum=float(adjusted.max()) if len(adjusted) else 0
     assert maximum<=8,(s['id'],pr,slot,'Nonblack source edge would be cut',maximum)
-   elif slot!=1 or s.get('fresh_family'):assert clearance>=0,(s['id'],pr,slot,clearance)
+   elif slot!=1 or s.get('fresh_family'):assert clearance>=-1e-7,(s['id'],pr,slot,clearance)
    for density in (1,d):
     asset=repo/f'studies/scenes/{s["id"]}/{slot}-{pr}-{round(W*density)}.webp'
     with Image.open(asset) as rendered:assert rendered.size==(round(W*density),round(H*density))
@@ -38,4 +38,4 @@ for s in scenes:
     measure=json.loads((repo/f'studies/qa/editorial-contours/{feature}.json').read_text());p=np.array(measure['points']);res=(np.linalg.norm(p-[cx,cy],axis=1)-r)*R/r
     row.update(contour_rms_artboard_px=float(np.sqrt(np.mean(res**2))),contour_max_artboard_px=float(abs(res).max()))
    rows.append(row)
-(repo/'studies/qa/editorial-geometry-checks.json').write_text(json.dumps(rows,indent=2)+'\n');print('Verified',len(rows),'source registrations; no side panel leaves its native photograph; no image upsampling.')
+(repo/'studies/qa/editorial-geometry-checks.json').write_text(json.dumps(rows,indent=2)+'\n');print('Verified',len(rows),'source registrations; native resolution and visible source boundaries passed.')

@@ -1,8 +1,7 @@
 Glass, eclipse & vermilion
 
-Found photographs, one shared curve. Uniform scaling, rotation and crops.
+Found images, one shared curve. Uniform scaling, rotation and crops.
 
-glass
 Kristina D.C. Hoeppner
 https://commons.wikimedia.org/wiki/File:Fresnel_Lens_at_the_Umpqua_Lighthouse_(4)_(30449653068).jpg
 CC BY-SA 2.0; cropped derivatives retain this license
@@ -10,7 +9,8 @@ Original: https://upload.wikimedia.org/wikipedia/commons/3/32/Fresnel_Lens_at_th
 Original SHA-256: ccef6c5af51ff4df69e148b93a71eb9aa8975b1c5095c8e23b2d89fa31bdaaa3
 Global black point: 0
 
-eclipse
+
+
 NASA
 https://images.nasa.gov/details/art002e010782
 NASA informational/personal website image use guidelines
@@ -18,7 +18,8 @@ Original: https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.
 Original SHA-256: a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d
 Global black point: 18
 
-red
+
+
 Seifū Yohei IV, Sweets Bowl, 1914–46. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215
 https://www.clevelandart.org/art/2022.215
 CC0

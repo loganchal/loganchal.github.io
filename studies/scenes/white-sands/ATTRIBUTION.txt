@@ -1,0 +1,28 @@
+Polarized fossil, White Sands & porcelain
+
+Found images, one shared curve. Uniform scaling, rotation and crops.
+
+Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo
+https://imaggeo.egu.eu/view/12428/
+CC BY 3.0
+Original: https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg
+Original SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
+Global black point: 22
+
+
+
+Tomošius, Relentless Dune
+https://commons.wikimedia.org/wiki/File:Relentless_Dune_-_Flickr_-_Tomo%C5%A1ius.jpg
+CC BY 2.0
+Original: https://upload.wikimedia.org/wikipedia/commons/a/a3/Relentless_Dune_-_Flickr_-_Tomo%C5%A1ius.jpg
+Original SHA-256: 124cec152778d07bb5f9cee348fc4756c088e1b235ae2b59bcdfd7c13930487a
+Global black point: 0
+
+
+
+Seifu Yohei III, Dining Bowl with Clematis, 1893–97. The Cleveland Museum of Art, 2022.156
+https://www.clevelandart.org/art/2022.156
+CC0
+Original: https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif
+Original SHA-256: 7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74
+Global black point: 0

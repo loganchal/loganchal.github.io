@@ -535,5 +535,174 @@ const openingScenes = [
         "studies/scenes/celestial-dawn/2-portrait-1152.webp"
       ]
     }
+  },
+  {
+    "id": "solar-horizon",
+    "title": "Engraving, solar horizon & celadon",
+    "radius": 1900,
+    "portraitRadius": 2533.3333333,
+    "horizon": 0.53,
+    "angle": 0,
+    "finalInset": 18,
+    "gap": "glow",
+    "lead": "solar-phi",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/solar-horizon/0-wide-3360.webp",
+        "studies/scenes/solar-horizon/1-wide-3360.webp",
+        "studies/scenes/solar-horizon/2-wide-3360.webp"
+      ],
+      "portrait": [
+        "studies/scenes/solar-horizon/0-portrait-1152.webp",
+        "studies/scenes/solar-horizon/1-portrait-1152.webp",
+        "studies/scenes/solar-horizon/2-portrait-1152.webp"
+      ]
+    }
+  },
+  {
+    "id": "white-sands",
+    "title": "Polarized fossil, White Sands & porcelain",
+    "radius": 15000,
+    "portraitRadius": 25000,
+    "horizon": 0.3,
+    "angle": 0,
+    "finalInset": 18,
+    "gap": "glow",
+    "tone": "ink",
+    "lead": "white-sands",
+    "motifs": [
+      "mineral",
+      "landscape",
+      "ceramic"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/white-sands/0-wide-3680.webp",
+        "studies/scenes/white-sands/1-wide-3680.webp",
+        "studies/scenes/white-sands/2-wide-3680.webp"
+      ],
+      "portrait": [
+        "studies/scenes/white-sands/0-portrait-1037.webp",
+        "studies/scenes/white-sands/1-portrait-1037.webp",
+        "studies/scenes/white-sands/2-portrait-1037.webp"
+      ]
+    }
+  },
+  {
+    "id": "apollo-earth",
+    "title": "Star chart, Apollo Earth & celadon",
+    "radius": 2000,
+    "portraitRadius": 2666.6666667,
+    "horizon": 0.53,
+    "angle": 0,
+    "finalInset": 18,
+    "gap": "glow",
+    "lead": "apollo-earth",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/apollo-earth/0-wide-3840.webp",
+        "studies/scenes/apollo-earth/1-wide-3840.webp",
+        "studies/scenes/apollo-earth/2-wide-3840.webp"
+      ],
+      "portrait": [
+        "studies/scenes/apollo-earth/0-portrait-1382.webp",
+        "studies/scenes/apollo-earth/1-portrait-1382.webp",
+        "studies/scenes/apollo-earth/2-portrait-1382.webp"
+      ]
+    }
+  },
+  {
+    "id": "ocean-earth",
+    "title": "Cellarius, blue Earth & celadon",
+    "radius": 2400,
+    "portraitRadius": 2400,
+    "horizon": 0.62,
+    "angle": 0,
+    "finalInset": 18,
+    "gap": "glow",
+    "lead": "ocean-earth",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/ocean-earth/0-wide-3360.webp",
+        "studies/scenes/ocean-earth/1-wide-3360.webp",
+        "studies/scenes/ocean-earth/2-wide-3360.webp"
+      ],
+      "portrait": [
+        "studies/scenes/ocean-earth/0-portrait-1613.webp",
+        "studies/scenes/ocean-earth/1-portrait-1613.webp",
+        "studies/scenes/ocean-earth/2-portrait-1613.webp"
+      ]
+    }
+  },
+  {
+    "id": "sunlit-earth",
+    "title": "Cellarius, sunlit Earth & celadon",
+    "radius": 2400,
+    "portraitRadius": 2400,
+    "horizon": 0.62,
+    "angle": 0,
+    "finalInset": 18,
+    "gap": "glow",
+    "lead": "sunlit-earth",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/sunlit-earth/0-wide-3360.webp",
+        "studies/scenes/sunlit-earth/1-wide-3360.webp",
+        "studies/scenes/sunlit-earth/2-wide-3360.webp"
+      ],
+      "portrait": [
+        "studies/scenes/sunlit-earth/0-portrait-1613.webp",
+        "studies/scenes/sunlit-earth/1-portrait-1613.webp",
+        "studies/scenes/sunlit-earth/2-portrait-1613.webp"
+      ]
+    }
+  },
+  {
+    "id": "station-aurora",
+    "title": "Polarized fossil, station aurora & porcelain",
+    "radius": 8278.785072843611,
+    "portraitRadius": 11038.380097124815,
+    "horizon": 0.7236708064692271,
+    "angle": 0,
+    "finalInset": 18,
+    "gap": "glow",
+    "lead": "station-aurora",
+    "motifs": [
+      "mineral",
+      "space",
+      "ceramic"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/station-aurora/0-wide-3840.webp",
+        "studies/scenes/station-aurora/1-wide-3840.webp",
+        "studies/scenes/station-aurora/2-wide-3840.webp"
+      ],
+      "portrait": [
+        "studies/scenes/station-aurora/0-portrait-1382.webp",
+        "studies/scenes/station-aurora/1-portrait-1382.webp",
+        "studies/scenes/station-aurora/2-portrait-1382.webp"
+      ]
+    }
   }
 ];

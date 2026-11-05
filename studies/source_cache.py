@@ -7,6 +7,9 @@ def resolve_source(cache, relative):
     prefix='opening-scenes-2026-11-05/'
     if relative.startswith(prefix):
         candidates.append(cache/'collections/research'/relative[len(prefix):])
+    horizon_prefix='opening-horizons-2026-11-05/'
+    if relative.startswith(horizon_prefix):
+        candidates.append(cache/'collections/horizons'/relative[len(horizon_prefix):])
     for path in candidates:
         if path.is_file():
             return path

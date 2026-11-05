@@ -1700,5 +1700,1352 @@
     "gap": "glow",
     "cycle_expansion": true,
     "fresh_family": true
+  },
+  {
+    "id": "solar-horizon",
+    "title": "Engraving, solar horizon & celadon",
+    "radius": 1900,
+    "portraitRadius": 2533.3333333,
+    "angle": 0,
+    "horizon": 0.53,
+    "render_density": 2.1,
+    "portrait_density": 1.5,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.05212271421310095,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.7971714649272656,
+        "native_pixels_per_portrait_artboard_pixel": 2.097878598723053,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2"
+      },
+      {
+        "circle": [
+          4797.78213852,
+          4846.87536139,
+          4003.71126441
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 0,
+        "source_file": "opening-horizons-2026-11-05/solar/phi2023.jpg",
+        "page": "https://www.esa.int/ESA_Multimedia/Images/2024/11/PHI_s_view_of_the_Sun_in_visible_light",
+        "original": "https://media.esa.int/legacy/web/images/esa_multimedia/images/2024/11/phi_s_view_of_the_sun_in_visible_light/26451845-1-eng-GB/PHI_s_view_of_the_Sun_in_visible_light.jpg?dl",
+        "credit": "ESA & NASA/Solar Orbiter/PHI Team; image processing by PHI Team members at MPS",
+        "rights": "CC BY-SA 3.0 IGO",
+        "source_sha256": "697f9bd228092d88956b13f3b2647d8935038701ef2739bf3a7e85308eaaad08",
+        "allow_black_extension": true,
+        "processing_note": "Visible-light 617 nm observational mosaic, preserving the orange rendering supplied by the PHI team.",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 2.1072164549526313,
+        "native_pixels_per_portrait_artboard_pixel": 1.5804123412352684
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.9233893921996676,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.1925420441786
+      }
+    ],
+    "slots": [
+      "aratus",
+      "solar-phi",
+      "celadon"
+    ],
+    "lead": "solar-phi",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "white-sands",
+    "slots": [
+      "belemnite",
+      "white-sands",
+      "clematis"
+    ],
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 2.3158022646030485,
+        "native_pixels_per_portrait_artboard_pixel": 1.389481358761829,
+        "target_x": 208,
+        "name": "fossil",
+        "file": "/tmp/opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg"
+      },
+      {
+        "name": "dune",
+        "file": "/tmp/opening-horizons-2026-11-05/terrestrial/relentless-dune.jpg",
+        "circle": [
+          2862.744465958555,
+          40800.69978845026,
+          39915.52834406179
+        ],
+        "source_angle": -1.5974243111957265,
+        "black_point": 0,
+        "source_file": "opening-horizons-2026-11-05/terrestrial/relentless-dune.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Relentless_Dune_-_Flickr_-_Tomo%C5%A1ius.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Relentless_Dune_-_Flickr_-_Tomo%C5%A1ius.jpg",
+        "credit": "Tomo\u0161ius, Relentless Dune",
+        "rights": "CC BY 2.0",
+        "source_sha256": "124cec152778d07bb5f9cee348fc4756c088e1b235ae2b59bcdfd7c13930487a",
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 2.661035222937453,
+        "native_pixels_per_portrait_artboard_pixel": 1.5966211337624718
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+        "circle": [
+          5802.238397868551,
+          40378.95945180544,
+          38409.57848460488
+        ],
+        "source_angle": -1.5763496924769598,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/2022.156",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif",
+        "credit": "Seifu Yohei III, Dining Bowl with Clematis, 1893\u201397. The Cleveland Museum of Art, 2022.156",
+        "rights": "CC0",
+        "source_sha256": "7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74",
+        "native_pixels_per_artboard_pixel": 2.560638565640325,
+        "native_pixels_per_portrait_artboard_pixel": 1.5363831393841951,
+        "target_x": 1392,
+        "name": "clematis",
+        "file": "/tmp/opening-scenes-2026-11-05/objects/2022.156-full.tif"
+      }
+    ],
+    "radius": 15000,
+    "portraitRadius": 25000,
+    "horizon": 0.3,
+    "angle": 0,
+    "render_density": 2.3,
+    "portrait_density": 1.35,
+    "finalInset": 18,
+    "title": "Polarized fossil, White Sands & porcelain",
+    "lead": "white-sands",
+    "motifs": [
+      "mineral",
+      "landscape",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "tone": "ink",
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "apollo-earth",
+    "title": "Star chart, Apollo Earth & celadon",
+    "radius": 2000,
+    "portraitRadius": 2666.6666667,
+    "angle": 0,
+    "horizon": 0.53,
+    "render_density": 2.4,
+    "portrait_density": 1.8,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.9966474093386486,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 2.247485556975893
+      },
+      {
+        "name": "apollo17-22718",
+        "circle": [
+          4770.374983329007,
+          17183.30977169525,
+          9346.270859955166
+        ],
+        "source_angle": -1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/earth-film/AS17-148-22718.png",
+        "page": "https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718",
+        "original": "https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png",
+        "credit": "NASA / Johnson Space Center",
+        "rights": "NASA media use guidelines",
+        "source_sha256": "719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c",
+        "contour_kind": "photographed daylit Earth edge; native-pixel fit; partial disk",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 4.673135429977583,
+        "native_pixels_per_portrait_artboard_pixel": 3.5048515724393767
+      },
+      {
+        "name": "celadon",
+        "file": "cleveland-celadon-1918.442.tif",
+        "circle": [
+          4808.513807080769,
+          8274.734954818676,
+          5554.439845179369
+        ],
+        "source_angle": -1.694177068911731,
+        "target_x": 1392,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/1918.442",
+        "original": "https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Director\u2019s Contingent Fund, 1918.442",
+        "source_sha256": "cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18",
+        "native_pixels_per_artboard_pixel": 2.7772199225896843,
+        "source_file": "curve-sources/cleveland-celadon-1918.442.tif",
+        "native_pixels_per_portrait_artboard_pixel": 2.082914941916227
+      }
+    ],
+    "slots": [
+      "lahire",
+      "apollo-earth",
+      "celadon"
+    ],
+    "lead": "apollo-earth",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "ocean-earth",
+    "radius": 2400,
+    "portraitRadius": 2400,
+    "angle": 0,
+    "horizon": 0.62,
+    "finalInset": 18,
+    "render_density": 2.1,
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.644622714213101,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.2144274097340855,
+        "native_pixels_per_portrait_artboard_pixel": 2.2144274097340855,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2",
+        "portrait_source_angle": 0.5953772857868991
+      },
+      {
+        "circle": [
+          2601.552368364344,
+          11069.755411630724,
+          9629.999789947191
+        ],
+        "source_angle": -1.5707963267948966,
+        "credit": "NASA",
+        "page": "https://images.nasa.gov/details/art002e023575",
+        "source_sha256": "1bf492ea7f00b512774400c8051d2d653e834cd3bbcf300d1529c4a2c934d2ad",
+        "fit_points": [
+          [
+            200,
+            1743
+          ],
+          [
+            250,
+            1731
+          ],
+          [
+            300,
+            1718
+          ],
+          [
+            350,
+            1707
+          ],
+          [
+            400,
+            1694
+          ],
+          [
+            450,
+            1683
+          ],
+          [
+            500,
+            1671
+          ],
+          [
+            550,
+            1661
+          ],
+          [
+            600,
+            1651
+          ],
+          [
+            650,
+            1641
+          ],
+          [
+            700,
+            1629
+          ],
+          [
+            750,
+            1618
+          ],
+          [
+            800,
+            1610
+          ],
+          [
+            850,
+            1601
+          ],
+          [
+            900,
+            1593
+          ],
+          [
+            950,
+            1582
+          ],
+          [
+            1000,
+            1574
+          ],
+          [
+            1050,
+            1566
+          ],
+          [
+            1100,
+            1557
+          ],
+          [
+            1150,
+            1551
+          ],
+          [
+            1200,
+            1543
+          ],
+          [
+            1250,
+            1535
+          ],
+          [
+            1300,
+            1527
+          ],
+          [
+            1350,
+            1522
+          ],
+          [
+            1400,
+            1516
+          ],
+          [
+            1450,
+            1510
+          ],
+          [
+            1500,
+            1503
+          ],
+          [
+            1550,
+            1497
+          ],
+          [
+            1600,
+            1492
+          ],
+          [
+            1650,
+            1488
+          ],
+          [
+            1700,
+            1483
+          ],
+          [
+            1750,
+            1477
+          ],
+          [
+            1800,
+            1474
+          ],
+          [
+            1850,
+            1471
+          ],
+          [
+            1900,
+            1465
+          ],
+          [
+            1950,
+            1460
+          ],
+          [
+            2000,
+            1459
+          ],
+          [
+            2050,
+            1456
+          ],
+          [
+            2100,
+            1452
+          ],
+          [
+            2150,
+            1450
+          ],
+          [
+            2200,
+            1449
+          ],
+          [
+            2250,
+            1447
+          ],
+          [
+            2300,
+            1444
+          ],
+          [
+            2350,
+            1443
+          ],
+          [
+            2400,
+            1442
+          ],
+          [
+            2450,
+            1441
+          ],
+          [
+            2500,
+            1440
+          ],
+          [
+            2550,
+            1439
+          ],
+          [
+            2600,
+            1440
+          ],
+          [
+            2650,
+            1439
+          ],
+          [
+            2700,
+            1438
+          ],
+          [
+            2750,
+            1441
+          ],
+          [
+            2800,
+            1442
+          ],
+          [
+            2850,
+            1443
+          ],
+          [
+            2900,
+            1443
+          ],
+          [
+            2950,
+            1444
+          ],
+          [
+            3000,
+            1447
+          ],
+          [
+            3050,
+            1450
+          ],
+          [
+            3100,
+            1452
+          ],
+          [
+            3150,
+            1456
+          ],
+          [
+            3200,
+            1457
+          ],
+          [
+            3250,
+            1460
+          ],
+          [
+            3300,
+            1465
+          ],
+          [
+            3350,
+            1469
+          ],
+          [
+            3400,
+            1474
+          ],
+          [
+            3450,
+            1476
+          ],
+          [
+            3500,
+            1479
+          ],
+          [
+            3550,
+            1485
+          ],
+          [
+            3600,
+            1490
+          ],
+          [
+            3650,
+            1497
+          ],
+          [
+            3700,
+            1502
+          ],
+          [
+            3750,
+            1510
+          ],
+          [
+            3800,
+            1514
+          ],
+          [
+            3850,
+            1521
+          ],
+          [
+            3900,
+            1528
+          ],
+          [
+            3950,
+            1535
+          ],
+          [
+            4000,
+            1543
+          ],
+          [
+            4050,
+            1548
+          ],
+          [
+            4100,
+            1558
+          ],
+          [
+            4150,
+            1568
+          ],
+          [
+            4200,
+            1575
+          ],
+          [
+            4250,
+            1583
+          ],
+          [
+            4300,
+            1592
+          ],
+          [
+            4350,
+            1601
+          ],
+          [
+            4400,
+            1612
+          ],
+          [
+            4450,
+            1619
+          ],
+          [
+            4500,
+            1631
+          ],
+          [
+            4550,
+            1641
+          ],
+          [
+            4600,
+            1652
+          ],
+          [
+            4650,
+            1663
+          ],
+          [
+            4700,
+            1671
+          ],
+          [
+            4750,
+            1681
+          ],
+          [
+            4800,
+            1694
+          ],
+          [
+            4850,
+            1705
+          ],
+          [
+            4900,
+            1719
+          ],
+          [
+            4950,
+            1731
+          ],
+          [
+            5000,
+            1743
+          ],
+          [
+            5050,
+            1756
+          ],
+          [
+            5100,
+            1766
+          ],
+          [
+            5150,
+            1782
+          ],
+          [
+            5200,
+            1795
+          ],
+          [
+            5250,
+            1811
+          ],
+          [
+            5300,
+            1823
+          ]
+        ],
+        "fit_rms_pixels": 1.1857712839691763,
+        "portrait_source_angle": -1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/earth-artemis/art002e023575.jpg",
+        "black_point": 0,
+        "original": "https://images-assets.nasa.gov/image/art002e023575/art002e023575~orig.jpg",
+        "rights": "NASA image use guidelines",
+        "allow_black_extension": true,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 4.012499912477996,
+        "native_pixels_per_portrait_artboard_pixel": 4.012499912477996
+      },
+      {
+        "circle": [
+          8040.943762850675,
+          2167.5501187990812,
+          6292.451203306024
+        ],
+        "source_angle": 2.575809006723504,
+        "black_point": 0,
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif",
+        "target_x": 1392,
+        "native_pixels_per_artboard_pixel": 2.6218546680441763,
+        "native_pixels_per_portrait_artboard_pixel": 2.6218546680441763,
+        "page": "https://www.clevelandart.org/art/2025.179",
+        "original": "https://openaccess-cdn.clevelandart.org/2025.179/2025.179_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Celadon Bowl, 1200s, 2025.179",
+        "source_sha256": "c4d401b6ab504ffd6febfc853eec7013bcf129882bde79ea1618f004cb5cd56b",
+        "portrait_source_angle": 2.548309006723504
+      }
+    ],
+    "title": "Cellarius, blue Earth & celadon",
+    "slots": [
+      "aratus",
+      "ocean-earth",
+      "crackle"
+    ],
+    "lead": "ocean-earth",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "sunlit-earth",
+    "radius": 2400,
+    "portraitRadius": 2400,
+    "angle": 0,
+    "horizon": 0.62,
+    "finalInset": 18,
+    "render_density": 2.1,
+    "source_geometry": [
+      {
+        "circle": [
+          7061.1360438999045,
+          6381.801664947883,
+          5314.625783361805
+        ],
+        "source_angle": -0.644622714213101,
+        "black_point": 0,
+        "source_file": "curve-sources/aratus-1660.jpg",
+        "target_x": 208,
+        "native_pixels_per_artboard_pixel": 2.2144274097340855,
+        "native_pixels_per_portrait_artboard_pixel": 2.2144274097340855,
+        "page": "https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg",
+        "rights": "Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons",
+        "credit": "Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660",
+        "source_sha256": "aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2",
+        "portrait_source_angle": 0.5953772857868991
+      },
+      {
+        "circle": [
+          2198.9781317739858,
+          -2505.8274832469024,
+          5285.195479724474
+        ],
+        "source_angle": 1.5707963267948966,
+        "credit": "NASA",
+        "page": "https://images.nasa.gov/details/art002e023175",
+        "source_sha256": "8985e7248db56107dc9b449bc62382b893bdd80073c59513464192ef1357c796",
+        "fit_points": [
+          [
+            200,
+            2391
+          ],
+          [
+            250,
+            2405
+          ],
+          [
+            300,
+            2433
+          ],
+          [
+            350,
+            2447
+          ],
+          [
+            400,
+            2463
+          ],
+          [
+            450,
+            2479
+          ],
+          [
+            500,
+            2500
+          ],
+          [
+            550,
+            2516
+          ],
+          [
+            600,
+            2535
+          ],
+          [
+            650,
+            2553
+          ],
+          [
+            700,
+            2564
+          ],
+          [
+            750,
+            2583
+          ],
+          [
+            800,
+            2591
+          ],
+          [
+            850,
+            2604
+          ],
+          [
+            900,
+            2615
+          ],
+          [
+            950,
+            2627
+          ],
+          [
+            1000,
+            2638
+          ],
+          [
+            1050,
+            2651
+          ],
+          [
+            1100,
+            2661
+          ],
+          [
+            1150,
+            2672
+          ],
+          [
+            1200,
+            2685
+          ],
+          [
+            1250,
+            2695
+          ],
+          [
+            1300,
+            2703
+          ],
+          [
+            1350,
+            2708
+          ],
+          [
+            1400,
+            2718
+          ],
+          [
+            1450,
+            2726
+          ],
+          [
+            1500,
+            2733
+          ],
+          [
+            1550,
+            2739
+          ],
+          [
+            1600,
+            2746
+          ],
+          [
+            1650,
+            2749
+          ],
+          [
+            1700,
+            2755
+          ],
+          [
+            1750,
+            2762
+          ],
+          [
+            1800,
+            2764
+          ],
+          [
+            1850,
+            2765
+          ],
+          [
+            1900,
+            2770
+          ],
+          [
+            1950,
+            2771
+          ],
+          [
+            2000,
+            2776
+          ],
+          [
+            2050,
+            2775
+          ],
+          [
+            2100,
+            2778
+          ],
+          [
+            2150,
+            2778
+          ],
+          [
+            2200,
+            2778
+          ],
+          [
+            2250,
+            2778
+          ],
+          [
+            2300,
+            2775
+          ],
+          [
+            2350,
+            2773
+          ],
+          [
+            2400,
+            2772
+          ],
+          [
+            2450,
+            2771
+          ],
+          [
+            2500,
+            2770
+          ],
+          [
+            2600,
+            2762
+          ],
+          [
+            2650,
+            2758
+          ],
+          [
+            2700,
+            2751
+          ],
+          [
+            2750,
+            2749
+          ],
+          [
+            2800,
+            2743
+          ],
+          [
+            2850,
+            2738
+          ],
+          [
+            2900,
+            2733
+          ],
+          [
+            2950,
+            2723
+          ],
+          [
+            3000,
+            2719
+          ],
+          [
+            3050,
+            2711
+          ],
+          [
+            3100,
+            2704
+          ],
+          [
+            3150,
+            2692
+          ],
+          [
+            3200,
+            2683
+          ],
+          [
+            3250,
+            2675
+          ],
+          [
+            3300,
+            2661
+          ],
+          [
+            3350,
+            2654
+          ],
+          [
+            3400,
+            2644
+          ],
+          [
+            3450,
+            2629
+          ],
+          [
+            3500,
+            2620
+          ],
+          [
+            3550,
+            2605
+          ],
+          [
+            3600,
+            2592
+          ],
+          [
+            3650,
+            2578
+          ],
+          [
+            3700,
+            2567
+          ],
+          [
+            3750,
+            2548
+          ],
+          [
+            3800,
+            2535
+          ],
+          [
+            3850,
+            2516
+          ],
+          [
+            3900,
+            2500
+          ],
+          [
+            3950,
+            2487
+          ],
+          [
+            4000,
+            2466
+          ],
+          [
+            4050,
+            2452
+          ],
+          [
+            4100,
+            2432
+          ],
+          [
+            4150,
+            2410
+          ],
+          [
+            4200,
+            2393
+          ],
+          [
+            4250,
+            2365
+          ],
+          [
+            4300,
+            2345
+          ],
+          [
+            4350,
+            2327
+          ],
+          [
+            4400,
+            2295
+          ],
+          [
+            4450,
+            2274
+          ],
+          [
+            4500,
+            2251
+          ],
+          [
+            4550,
+            2226
+          ],
+          [
+            4600,
+            2202
+          ],
+          [
+            4650,
+            2173
+          ],
+          [
+            4700,
+            2151
+          ],
+          [
+            4750,
+            2123
+          ],
+          [
+            4800,
+            2095
+          ],
+          [
+            4850,
+            2068
+          ],
+          [
+            4900,
+            2037
+          ],
+          [
+            4950,
+            2007
+          ],
+          [
+            5000,
+            1975
+          ],
+          [
+            5050,
+            1943
+          ],
+          [
+            5100,
+            1911
+          ],
+          [
+            5150,
+            1875
+          ],
+          [
+            5200,
+            1839
+          ],
+          [
+            5250,
+            1807
+          ],
+          [
+            5300,
+            1768
+          ]
+        ],
+        "fit_rms_pixels": 2.6347833690358673,
+        "portrait_source_angle": 1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/earth-artemis/art002e023175.jpg",
+        "black_point": 0,
+        "original": "https://images-assets.nasa.gov/image/art002e023175/art002e023175~orig.jpg",
+        "rights": "NASA image use guidelines",
+        "allow_black_extension": true,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 2.202164783218531,
+        "native_pixels_per_portrait_artboard_pixel": 2.202164783218531
+      },
+      {
+        "circle": [
+          8040.943762850675,
+          2167.5501187990812,
+          6292.451203306024
+        ],
+        "source_angle": 2.575809006723504,
+        "black_point": 0,
+        "source_file": "anthropic-image-library/museum/2025.179_full.tif",
+        "target_x": 1392,
+        "native_pixels_per_artboard_pixel": 2.6218546680441763,
+        "native_pixels_per_portrait_artboard_pixel": 2.6218546680441763,
+        "page": "https://www.clevelandart.org/art/2025.179",
+        "original": "https://openaccess-cdn.clevelandart.org/2025.179/2025.179_full.tif",
+        "rights": "CC0",
+        "credit": "The Cleveland Museum of Art, Celadon Bowl, 1200s, 2025.179",
+        "source_sha256": "c4d401b6ab504ffd6febfc853eec7013bcf129882bde79ea1618f004cb5cd56b",
+        "portrait_source_angle": 2.548309006723504
+      }
+    ],
+    "title": "Cellarius, sunlit Earth & celadon",
+    "slots": [
+      "aratus",
+      "sunlit-earth",
+      "crackle"
+    ],
+    "lead": "sunlit-earth",
+    "motifs": [
+      "engraving",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "cycle_expansion": true,
+    "fresh_family": true
+  },
+  {
+    "id": "station-aurora",
+    "radius": 8278.785072843611,
+    "portraitRadius": 11038.380097124815,
+    "horizon": 0.7236708064692271,
+    "angle": 0,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "source_geometry": [
+      {
+        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+        "circle": [
+          -26789.82931013046,
+          -9985.641155195986,
+          34737.033969045726
+        ],
+        "source_angle": 0.37624412431402293,
+        "black_point": 22,
+        "allow_black_extension": true,
+        "page": "https://imaggeo.egu.eu/view/12428/",
+        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
+        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
+        "rights": "CC BY 3.0",
+        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
+        "native_pixels_per_artboard_pixel": 4.195909624830276,
+        "native_pixels_per_portrait_artboard_pixel": 3.146932218622707,
+        "target_x": 208,
+        "name": "fossil",
+        "file": "/tmp/opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg"
+      },
+      {
+        "name": "iss073e0420541",
+        "circle": [
+          3394.078402196284,
+          51448.11853644333,
+          47465.03441763671
+        ],
+        "source_angle": -1.5707963267948966,
+        "source_file": "opening-horizons-2026-11-05/aurora-sunset/iss073e0420541.jpg",
+        "page": "https://images.nasa.gov/details/iss073e0420541",
+        "original": "https://images-assets.nasa.gov/image/iss073e0420541/iss073e0420541~orig.jpg",
+        "credit": "NASA; astronaut photograph ISS073-E-0420541",
+        "rights": "NASA media use guidelines https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "source_sha256": "461180f6590a032c84d4de16894b5992c8e83362ec812c7222f484ee3c647583",
+        "contour_kind": "visually estimated upper boundary of luminous white/green atmospheric band, diffuse atmospheric layer not ground",
+        "black_point": 0,
+        "target_x": 800,
+        "native_pixels_per_artboard_pixel": 5.733333333333333,
+        "native_pixels_per_portrait_artboard_pixel": 4.300000000000001
+      },
+      {
+        "source_file": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+        "circle": [
+          5097.417769867889,
+          22526.559916560633,
+          20543.472272171355
+        ],
+        "source_angle": -1.6359421204144906,
+        "black_point": 0,
+        "page": "https://www.clevelandart.org/art/2022.156",
+        "original": "https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif",
+        "credit": "Seifu Yohei III, Dining Bowl with Clematis, 1893\u201397. The Cleveland Museum of Art, 2022.156",
+        "rights": "CC0",
+        "source_sha256": "7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74",
+        "native_pixels_per_artboard_pixel": 2.481459790465976,
+        "native_pixels_per_portrait_artboard_pixel": 1.8610948428494818,
+        "target_x": 1392
+      }
+    ],
+    "title": "Polarized fossil, station aurora & porcelain",
+    "slots": [
+      "belemnite",
+      "station-aurora",
+      "clematis"
+    ],
+    "lead": "station-aurora",
+    "motifs": [
+      "mineral",
+      "space",
+      "ceramic"
+    ],
+    "gap": "glow",
+    "render_density": 2.4,
+    "portrait_density": 1.8,
+    "cycle_expansion": true,
+    "fresh_family": true
   }
 ]

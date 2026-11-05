@@ -1,8 +1,7 @@
 Ink, lunar horizon & crackle
 
-Found photographs, one shared curve. Uniform scaling, rotation and crops.
+Found images, one shared curve. Uniform scaling, rotation and crops.
 
-aratus
 Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
 https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
 Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
@@ -10,7 +9,8 @@ Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_cha
 Original SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
 Global black point: 0
 
-artemis
+
+
 NASA
 https://images.nasa.gov/details/art002e009289
 NASA informational/personal website image use guidelines
@@ -18,7 +18,8 @@ Original: https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.
 Original SHA-256: 2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75
 Global black point: 18
 
-crackle
+
+
 The Cleveland Museum of Art, Celadon Bowl, 1200s, 2025.179
 https://www.clevelandart.org/art/2025.179
 CC0

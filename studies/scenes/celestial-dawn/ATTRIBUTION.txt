@@ -1,8 +1,7 @@
 De Wit, Earth horizon & celadon
 
-Found photographs, one shared curve. Uniform scaling, rotation and crops.
+Found images, one shared curve. Uniform scaling, rotation and crops.
 
-dewit
 Frederik de Wit, Planisphaerium Coeleste, 1680
 https://commons.wikimedia.org/wiki/File:1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg
 Public-domain faithful reproduction, Wikimedia Commons / RareMaps
@@ -10,7 +9,8 @@ Original: https://upload.wikimedia.org/wikipedia/commons/d/d8/1680_Planisphaeriu
 Original SHA-256: 8d045d764155a8b14fa2c92a2bd17e20110043e394769fa11e622550a48cbf74
 Global black point: 0
 
-iss072e340644
+
+
 NASA / ISS crew
 https://images.nasa.gov/details/iss072e340644
 NASA informational/personal website image use guidelines
@@ -18,7 +18,8 @@ Original: https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.
 Original SHA-256: b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116
 Global black point: 20
 
-celadon
+
+
 The Cleveland Museum of Art, Director’s Contingent Fund, 1918.442
 https://www.clevelandart.org/art/1918.442
 CC0
