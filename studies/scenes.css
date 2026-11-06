@@ -334,13 +334,13 @@
 .stage .arc-study.golden-stairs-earth>i:last-child{background-image:image-set(url(scenes/golden-stairs-earth/1-portrait-768.webp?v=b7e162db4201) 1x,url(scenes/golden-stairs-earth/1-portrait-1037.webp?v=b7e162db4201) 2x)}
 .stage .arc-study.golden-stairs-earth>i:nth-child(2){background-image:image-set(url(scenes/golden-stairs-earth/2-portrait-768.webp?v=b7e162db4201) 1x,url(scenes/golden-stairs-earth/2-portrait-1037.webp?v=b7e162db4201) 2x)}
 }
-.arc-study.unconscious-rivals-bowed-arch>i:first-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/0-wide-1600.webp?v=34a03586df0d) 1x,url(scenes/unconscious-rivals-bowed-arch/0-wide-3200.webp?v=34a03586df0d) 2x)}
-.arc-study.unconscious-rivals-bowed-arch>i:last-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/1-wide-1600.webp?v=34a03586df0d) 1x,url(scenes/unconscious-rivals-bowed-arch/1-wide-3200.webp?v=34a03586df0d) 2x)}
-.arc-study.unconscious-rivals-bowed-arch>i:nth-child(2){background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/2-wide-1600.webp?v=34a03586df0d) 1x,url(scenes/unconscious-rivals-bowed-arch/2-wide-3200.webp?v=34a03586df0d) 2x)}
+.arc-study.unconscious-rivals-bowed-arch>i:first-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/0-wide-1600.webp?v=f77e60faed63) 1x,url(scenes/unconscious-rivals-bowed-arch/0-wide-3200.webp?v=f77e60faed63) 2x)}
+.arc-study.unconscious-rivals-bowed-arch>i:last-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/1-wide-1600.webp?v=f77e60faed63) 1x,url(scenes/unconscious-rivals-bowed-arch/1-wide-3200.webp?v=f77e60faed63) 2x)}
+.arc-study.unconscious-rivals-bowed-arch>i:nth-child(2){background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/2-wide-1600.webp?v=f77e60faed63) 1x,url(scenes/unconscious-rivals-bowed-arch/2-wide-3200.webp?v=f77e60faed63) 2x)}
 @media(max-aspect-ratio:1/1){
-.stage .arc-study.unconscious-rivals-bowed-arch>i:first-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/0-portrait-768.webp?v=34a03586df0d) 1x,url(scenes/unconscious-rivals-bowed-arch/0-portrait-1037.webp?v=34a03586df0d) 2x)}
-.stage .arc-study.unconscious-rivals-bowed-arch>i:last-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/1-portrait-768.webp?v=34a03586df0d) 1x,url(scenes/unconscious-rivals-bowed-arch/1-portrait-1037.webp?v=34a03586df0d) 2x)}
-.stage .arc-study.unconscious-rivals-bowed-arch>i:nth-child(2){background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/2-portrait-768.webp?v=34a03586df0d) 1x,url(scenes/unconscious-rivals-bowed-arch/2-portrait-1037.webp?v=34a03586df0d) 2x)}
+.stage .arc-study.unconscious-rivals-bowed-arch>i:first-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/0-portrait-768.webp?v=f77e60faed63) 1x,url(scenes/unconscious-rivals-bowed-arch/0-portrait-1037.webp?v=f77e60faed63) 2x)}
+.stage .arc-study.unconscious-rivals-bowed-arch>i:last-child{background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/1-portrait-768.webp?v=f77e60faed63) 1x,url(scenes/unconscious-rivals-bowed-arch/1-portrait-1037.webp?v=f77e60faed63) 2x)}
+.stage .arc-study.unconscious-rivals-bowed-arch>i:nth-child(2){background-image:image-set(url(scenes/unconscious-rivals-bowed-arch/2-portrait-768.webp?v=f77e60faed63) 1x,url(scenes/unconscious-rivals-bowed-arch/2-portrait-1037.webp?v=f77e60faed63) 2x)}
 }
 .arc-study.cloud-ocean-575>i:first-child{background-image:image-set(url(scenes/cloud-ocean-575/0-wide-1600.webp?v=f3bbd950811f) 1x,url(scenes/cloud-ocean-575/0-wide-3200.webp?v=f3bbd950811f) 2x)}
 .arc-study.cloud-ocean-575>i:last-child{background-image:image-set(url(scenes/cloud-ocean-575/1-wide-1600.webp?v=f3bbd950811f) 1x,url(scenes/cloud-ocean-575/1-wide-3200.webp?v=f3bbd950811f) 2x)}
