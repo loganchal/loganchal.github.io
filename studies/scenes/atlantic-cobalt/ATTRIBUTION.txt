@@ -1,28 +1,26 @@
 Polarized fossil, Atlantic dawn & cobalt
 
-Found images, one shared curve. Uniform scaling, rotation and crops.
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
 
 Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo
 https://imaggeo.egu.eu/view/12428/
 CC BY 3.0
 Original: https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg
-Original SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
+SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
 Global black point: 22
-
 
 
 NASA / ISS crew, orbital sunrise above the Atlantic Ocean, ISS061-E-123823
 https://images.nasa.gov/details/iss061e123823
 NASA imagery subject to NASA media usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/
 Original: https://images-assets.nasa.gov/image/iss061e123823/iss061e123823~orig.jpg
-Original SHA-256: d74a38f1c530c101ab6310263ef3fd62430082aa01f081dd31c8551d0fc0871a
+SHA-256: d74a38f1c530c101ab6310263ef3fd62430082aa01f081dd31c8551d0fc0871a
 Global black point: 2
-
 
 
 Seifu Yohei III, Bowl with Numinous Fungi and Kirin, 1893–1900. The Cleveland Museum of Art, 2022.241
 https://www.clevelandart.org/art/2022.241
 CC0
 Original: https://openaccess-cdn.clevelandart.org/2022.241/2022.241_full.tif
-Original SHA-256: 921e5b17ebe11a24a891138c9868013c864fd552190414250ee9d266c9ac9594
+SHA-256: 921e5b17ebe11a24a891138c9868013c864fd552190414250ee9d266c9ac9594
 Global black point: 0

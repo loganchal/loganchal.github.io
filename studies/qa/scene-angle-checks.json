@@ -1,0 +1,52 @@
+{
+  "scene_count": 43,
+  "controls": [
+    {
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "distinct_angle_on_each_click": true,
+      "keyboard": true,
+      "one_way_scroll_preserved": true,
+      "tap_targets": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "distinct_angle_on_each_click": true,
+      "keyboard": true,
+      "one_way_scroll_preserved": true,
+      "tap_targets": true
+    },
+    {
+      "viewport": [
+        320,
+        740
+      ],
+      "dpr": 2,
+      "distinct_angle_on_each_click": true,
+      "keyboard": true,
+      "one_way_scroll_preserved": true,
+      "tap_targets": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "distinct_angle_on_each_click": true,
+      "keyboard": true,
+      "one_way_scroll_preserved": true,
+      "tap_targets": true
+    }
+  ],
+  "full_angle_cycle": true,
+  "late_load_cannot_override_latest_click": true,
+  "browser_errors": []
+}

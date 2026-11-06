@@ -1,28 +1,26 @@
 Compound eye, eclipse & celadon
 
-Found images, one shared curve. Uniform scaling, rotation and crops.
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
 
 fredrik Andreasson from Sweden, compoundeye
 https://commons.wikimedia.org/wiki/File:Compound_eye_(34195277211).jpg
 CC BY 2.0
 Original: https://upload.wikimedia.org/wikipedia/commons/9/97/Compound_eye_%2834195277211%29.jpg
-Original SHA-256: 7ec85bb4dbfa53a938efde530b862558a7287b62c700d40444ddccec68c4e6b8
+SHA-256: 7ec85bb4dbfa53a938efde530b862558a7287b62c700d40444ddccec68c4e6b8
 Global black point: 0
-
 
 
 NASA
 https://images.nasa.gov/details/art002e010782
 NASA informational/personal website image use guidelines
 Original: https://images-assets.nasa.gov/image/art002e010782/art002e010782~orig.jpg
-Original SHA-256: a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d
+SHA-256: a4dc7bcdefe47912e1fa0fc14fd31f79dde3d18cf65e19c867cfc9ff6c30cf4d
 Global black point: 18
-
 
 
 The Cleveland Museum of Art, Director’s Contingent Fund, 1918.442
 https://www.clevelandart.org/art/1918.442
 CC0
 Original: https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif
-Original SHA-256: cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18
+SHA-256: cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18
 Global black point: 0

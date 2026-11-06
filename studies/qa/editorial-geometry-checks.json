@@ -1648,78 +1648,6 @@
     "visible_source_clearance_px": 1232.301854131816
   },
   {
-    "scene": "white-sands",
-    "profile": "wide",
-    "slot": 0,
-    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
-    "source_pixels": [
-      6147,
-      7412
-    ],
-    "native_pixels_per_output_pixel": 1.0068705498274124,
-    "visible_source_clearance_px": -199.822984208884
-  },
-  {
-    "scene": "white-sands",
-    "profile": "wide",
-    "slot": 1,
-    "source": "opening-horizons-2026-11-05/terrestrial/relentless-dune.jpg",
-    "source_pixels": [
-      6000,
-      4000
-    ],
-    "native_pixels_per_output_pixel": 1.1569718360597623,
-    "visible_source_clearance_px": 96.94018070502395
-  },
-  {
-    "scene": "white-sands",
-    "profile": "wide",
-    "slot": 2,
-    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
-    "source_pixels": [
-      11178,
-      6248
-    ],
-    "native_pixels_per_output_pixel": 1.1133211154957936,
-    "visible_source_clearance_px": 1179.3862469119276
-  },
-  {
-    "scene": "white-sands",
-    "profile": "portrait",
-    "slot": 0,
-    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
-    "source_pixels": [
-      6147,
-      7412
-    ],
-    "native_pixels_per_output_pixel": 1.0292454509346882,
-    "visible_source_clearance_px": 83.08979972628003
-  },
-  {
-    "scene": "white-sands",
-    "profile": "portrait",
-    "slot": 1,
-    "source": "opening-horizons-2026-11-05/terrestrial/relentless-dune.jpg",
-    "source_pixels": [
-      6000,
-      4000
-    ],
-    "native_pixels_per_output_pixel": 1.1826823213055346,
-    "visible_source_clearance_px": 275.9892806554396
-  },
-  {
-    "scene": "white-sands",
-    "profile": "portrait",
-    "slot": 2,
-    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
-    "source_pixels": [
-      11178,
-      6248
-    ],
-    "native_pixels_per_output_pixel": 1.1380615847290334,
-    "visible_source_clearance_px": 1375.0216003080823
-  },
-  {
     "scene": "apollo-earth",
     "profile": "wide",
     "slot": 0,
@@ -1742,8 +1670,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624906595,
-    "visible_source_clearance_px": 2377.7296431804843
+    "native_pixels_per_output_pixel": 1.9398881299093411,
+    "visible_source_clearance_px": 2385.6405790006183
   },
   {
     "scene": "apollo-earth",
@@ -1780,8 +1708,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624663203,
-    "visible_source_clearance_px": 3909.0226608863054
+    "native_pixels_per_output_pixel": 1.9398881298850923,
+    "visible_source_clearance_px": 3911.230507883916
   },
   {
     "scene": "apollo-earth",
@@ -1796,78 +1724,6 @@
     "visible_source_clearance_px": 1309.6769697873278
   },
   {
-    "scene": "ocean-earth",
-    "profile": "wide",
-    "slot": 0,
-    "source": "curve-sources/aratus-1660.jpg",
-    "source_pixels": [
-      15046,
-      12788
-    ],
-    "native_pixels_per_output_pixel": 1.0544892427305168,
-    "visible_source_clearance_px": 2191.446412899997
-  },
-  {
-    "scene": "ocean-earth",
-    "profile": "wide",
-    "slot": 1,
-    "source": "opening-horizons-2026-11-05/earth-artemis/art002e023575.jpg",
-    "source_pixels": [
-      5568,
-      3712
-    ],
-    "native_pixels_per_output_pixel": 1.910714244037141,
-    "visible_source_clearance_px": -948.4843262233699
-  },
-  {
-    "scene": "ocean-earth",
-    "profile": "wide",
-    "slot": 2,
-    "source": "anthropic-image-library/museum/2025.179_full.tif",
-    "source_pixels": [
-      11414,
-      8315
-    ],
-    "native_pixels_per_output_pixel": 1.2485022228781792,
-    "visible_source_clearance_px": 1123.0235713069515
-  },
-  {
-    "scene": "ocean-earth",
-    "profile": "portrait",
-    "slot": 0,
-    "source": "curve-sources/aratus-1660.jpg",
-    "source_pixels": [
-      15046,
-      12788
-    ],
-    "native_pixels_per_output_pixel": 1.0544892427305168,
-    "visible_source_clearance_px": 2086.9703362274595
-  },
-  {
-    "scene": "ocean-earth",
-    "profile": "portrait",
-    "slot": 1,
-    "source": "opening-horizons-2026-11-05/earth-artemis/art002e023575.jpg",
-    "source_pixels": [
-      5568,
-      3712
-    ],
-    "native_pixels_per_output_pixel": 1.910714244037141,
-    "visible_source_clearance_px": -1744.564308859004
-  },
-  {
-    "scene": "ocean-earth",
-    "profile": "portrait",
-    "slot": 2,
-    "source": "anthropic-image-library/museum/2025.179_full.tif",
-    "source_pixels": [
-      11414,
-      8315
-    ],
-    "native_pixels_per_output_pixel": 1.2485022228781792,
-    "visible_source_clearance_px": 1047.4694362818
-  },
-  {
     "scene": "sunlit-earth",
     "profile": "wide",
     "slot": 0,
@@ -1877,7 +1733,7 @@
       12788
     ],
     "native_pixels_per_output_pixel": 1.0544892427305168,
-    "visible_source_clearance_px": 2191.446412899997
+    "visible_source_clearance_px": 1133.7067405451617
   },
   {
     "scene": "sunlit-earth",
@@ -1888,8 +1744,8 @@
       5568,
       3712
     ],
-    "native_pixels_per_output_pixel": 1.0486498967707292,
-    "visible_source_clearance_px": -378.096475449242
+    "native_pixels_per_output_pixel": 1.0379557361606773,
+    "visible_source_clearance_px": -331.54001523499164
   },
   {
     "scene": "sunlit-earth",
@@ -1901,7 +1757,7 @@
       8315
     ],
     "native_pixels_per_output_pixel": 1.2485022228781792,
-    "visible_source_clearance_px": 1123.0235713069515
+    "visible_source_clearance_px": 388.94520216933734
   },
   {
     "scene": "sunlit-earth",
@@ -1913,7 +1769,7 @@
       12788
     ],
     "native_pixels_per_output_pixel": 1.0544892427305168,
-    "visible_source_clearance_px": 2086.9703362274595
+    "visible_source_clearance_px": 871.3727644333885
   },
   {
     "scene": "sunlit-earth",
@@ -1924,8 +1780,8 @@
       5568,
       3712
     ],
-    "native_pixels_per_output_pixel": 1.0486498967707292,
-    "visible_source_clearance_px": -815.0059684397984
+    "native_pixels_per_output_pixel": 1.0379557361606773,
+    "visible_source_clearance_px": -763.7215157210476
   },
   {
     "scene": "sunlit-earth",
@@ -1937,79 +1793,7 @@
       8315
     ],
     "native_pixels_per_output_pixel": 1.2485022228781792,
-    "visible_source_clearance_px": 1047.4694362818
-  },
-  {
-    "scene": "station-aurora",
-    "profile": "wide",
-    "slot": 0,
-    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
-    "source_pixels": [
-      6147,
-      7412
-    ],
-    "native_pixels_per_output_pixel": 1.748295677012615,
-    "visible_source_clearance_px": -2456.014086436451
-  },
-  {
-    "scene": "station-aurora",
-    "profile": "wide",
-    "slot": 1,
-    "source": "opening-horizons-2026-11-05/aurora-sunset/iss073e0420541.jpg",
-    "source_pixels": [
-      8256,
-      5504
-    ],
-    "native_pixels_per_output_pixel": 2.388888888888889,
-    "visible_source_clearance_px": 0.0
-  },
-  {
-    "scene": "station-aurora",
-    "profile": "wide",
-    "slot": 2,
-    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
-    "source_pixels": [
-      11178,
-      6248
-    ],
-    "native_pixels_per_output_pixel": 1.0339415793608233,
-    "visible_source_clearance_px": 196.3764149744634
-  },
-  {
-    "scene": "station-aurora",
-    "profile": "portrait",
-    "slot": 0,
-    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
-    "source_pixels": [
-      6147,
-      7412
-    ],
-    "native_pixels_per_output_pixel": 1.748295677012615,
-    "visible_source_clearance_px": -2181.798612952138
-  },
-  {
-    "scene": "station-aurora",
-    "profile": "portrait",
-    "slot": 1,
-    "source": "opening-horizons-2026-11-05/aurora-sunset/iss073e0420541.jpg",
-    "source_pixels": [
-      8256,
-      5504
-    ],
-    "native_pixels_per_output_pixel": 2.3888888888888893,
-    "visible_source_clearance_px": -9.094947017729282e-13
-  },
-  {
-    "scene": "station-aurora",
-    "profile": "portrait",
-    "slot": 2,
-    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
-    "source_pixels": [
-      11178,
-      6248
-    ],
-    "native_pixels_per_output_pixel": 1.033941579360823,
-    "visible_source_clearance_px": 286.66310433151153
+    "visible_source_clearance_px": 137.46745149381513
   },
   {
     "scene": "patina-airglow",
@@ -2032,8 +1816,8 @@
       8256,
       5504
     ],
-    "native_pixels_per_output_pixel": 1.374185285197417,
-    "visible_source_clearance_px": 661.0595875489325
+    "native_pixels_per_output_pixel": 1.06164753573656,
+    "visible_source_clearance_px": 779.3794912734138
   },
   {
     "scene": "patina-airglow",
@@ -2056,8 +1840,8 @@
       6014,
       4517
     ],
-    "native_pixels_per_output_pixel": 1.090942181683398,
-    "visible_source_clearance_px": 337.91758034503437
+    "native_pixels_per_output_pixel": 1.1852211383497218,
+    "visible_source_clearance_px": 239.66449078666483
   },
   {
     "scene": "patina-airglow",
@@ -2068,8 +1852,8 @@
       8256,
       5504
     ],
-    "native_pixels_per_output_pixel": 1.2367667538668419,
-    "visible_source_clearance_px": 664.3656039141388
+    "native_pixels_per_output_pixel": 1.0380553682757474,
+    "visible_source_clearance_px": 652.5479990040822
   },
   {
     "scene": "patina-airglow",
@@ -2080,8 +1864,8 @@
       6147,
       7412
     ],
-    "native_pixels_per_output_pixel": 1.1842170644351564,
-    "visible_source_clearance_px": -592.3889336355196
+    "native_pixels_per_output_pixel": 1.2865568136683603,
+    "visible_source_clearance_px": -698.9735713323753
   },
   {
     "scene": "silver-earth",
@@ -2104,8 +1888,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.8544188214196757,
-    "visible_source_clearance_px": 2776.503866538571
+    "native_pixels_per_output_pixel": 1.8475125046755627,
+    "visible_source_clearance_px": 2783.096313055349
   },
   {
     "scene": "silver-earth",
@@ -2140,8 +1924,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624906597,
-    "visible_source_clearance_px": 4052.58138128445
+    "native_pixels_per_output_pixel": 1.939888129909341,
+    "visible_source_clearance_px": 4054.4212537824815
   },
   {
     "scene": "silver-earth",
@@ -2164,8 +1948,8 @@
       6147,
       7412
     ],
-    "native_pixels_per_output_pixel": 2.171064623065358,
-    "visible_source_clearance_px": -2251.090353932348
+    "native_pixels_per_output_pixel": 2.4812167120746946,
+    "visible_source_clearance_px": -2330.3433908588486
   },
   {
     "scene": "cloud-airglow",
@@ -2176,8 +1960,8 @@
       8256,
       5504
     ],
-    "native_pixels_per_output_pixel": 1.132402335117879,
-    "visible_source_clearance_px": 1131.4596034674096
+    "native_pixels_per_output_pixel": 1.093699215550928,
+    "visible_source_clearance_px": 749.0344087580306
   },
   {
     "scene": "cloud-airglow",
@@ -2188,8 +1972,8 @@
       11178,
       6248
     ],
-    "native_pixels_per_output_pixel": 1.2839670170107096,
-    "visible_source_clearance_px": 334.2919545908044
+    "native_pixels_per_output_pixel": 1.4673908765836683,
+    "visible_source_clearance_px": 302.7132658268938
   },
   {
     "scene": "cloud-airglow",
@@ -2200,8 +1984,8 @@
       6147,
       7412
     ],
-    "native_pixels_per_output_pixel": 1.9298352205025404,
-    "visible_source_clearance_px": -2435.8130126928154
+    "native_pixels_per_output_pixel": 2.3158022646030485,
+    "visible_source_clearance_px": -2611.5609107757045
   },
   {
     "scene": "cloud-airglow",
@@ -2212,8 +1996,8 @@
       8256,
       5504
     ],
-    "native_pixels_per_output_pixel": 1.0065798534381145,
-    "visible_source_clearance_px": 986.5121045723208
+    "native_pixels_per_output_pixel": 1.0207859345141994,
+    "visible_source_clearance_px": 523.1782294186605
   },
   {
     "scene": "cloud-airglow",
@@ -2224,8 +2008,8 @@
       11178,
       6248
     ],
-    "native_pixels_per_output_pixel": 1.1413040151206308,
-    "visible_source_clearance_px": 133.84357899457873
+    "native_pixels_per_output_pixel": 1.369564818144757,
+    "visible_source_clearance_px": 31.522590274056512
   },
   {
     "scene": "milky-airglow",
@@ -2248,8 +2032,8 @@
       8256,
       5504
     ],
-    "native_pixels_per_output_pixel": 2.147327297143973,
-    "visible_source_clearance_px": 479.5790272128361
+    "native_pixels_per_output_pixel": 1.6486761731438342,
+    "visible_source_clearance_px": 917.5085786524432
   },
   {
     "scene": "milky-airglow",
@@ -2284,8 +2068,8 @@
       8256,
       5504
     ],
-    "native_pixels_per_output_pixel": 1.9012793776795596,
-    "visible_source_clearance_px": 47.823085333751806
+    "native_pixels_per_output_pixel": 1.45976536163777,
+    "visible_source_clearance_px": 677.4613278427023
   },
   {
     "scene": "milky-airglow",
@@ -2320,8 +2104,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 3.0394376780342007,
-    "visible_source_clearance_px": 1782.913382197794
+    "native_pixels_per_output_pixel": 3.0281180564438497,
+    "visible_source_clearance_px": 1793.513745169788
   },
   {
     "scene": "eimmart-earth",
@@ -2356,8 +2140,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 3.115423619985055,
-    "visible_source_clearance_px": 3823.6692827471534
+    "native_pixels_per_output_pixel": 3.1038210078549455,
+    "visible_source_clearance_px": 3826.631960220258
   },
   {
     "scene": "eimmart-earth",
@@ -2392,8 +2176,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 3.0394376780342007,
-    "visible_source_clearance_px": 1446.7506295757314
+    "native_pixels_per_output_pixel": 3.0281180564438497,
+    "visible_source_clearance_px": 1461.780700776791
   },
   {
     "scene": "eimmart-earth-m10",
@@ -2428,8 +2212,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 3.115423619985055,
-    "visible_source_clearance_px": 3467.419717335775
+    "native_pixels_per_output_pixel": 3.1038210078549455,
+    "visible_source_clearance_px": 3475.0963075273958
   },
   {
     "scene": "eimmart-earth-m10",
@@ -2464,8 +2248,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 3.0394376780342007,
-    "visible_source_clearance_px": 1768.1787739797865
+    "native_pixels_per_output_pixel": 3.0281180564438497,
+    "visible_source_clearance_px": 1778.552154718586
   },
   {
     "scene": "brunacci-earth",
@@ -2502,8 +2286,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 3.115423619985055,
-    "visible_source_clearance_px": 3808.9346745291464
+    "native_pixels_per_output_pixel": 3.1038210078549455,
+    "visible_source_clearance_px": 3811.670369769056
   },
   {
     "scene": "brunacci-earth",
@@ -2542,8 +2326,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624906595,
-    "visible_source_clearance_px": 1935.6648646220333
+    "native_pixels_per_output_pixel": 1.9398881299093411,
+    "visible_source_clearance_px": 1947.0895611100366
   },
   {
     "scene": "apollo-earth-m12",
@@ -2580,8 +2364,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624663203,
-    "visible_source_clearance_px": 3433.495455917591
+    "native_pixels_per_output_pixel": 1.9398881298850923,
+    "visible_source_clearance_px": 3439.4927049886683
   },
   {
     "scene": "apollo-earth-m12",
@@ -2914,8 +2698,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624906595,
-    "visible_source_clearance_px": 1991.628995169253
+    "native_pixels_per_output_pixel": 1.9398881299093411,
+    "visible_source_clearance_px": 2001.2357261618492
   },
   {
     "scene": "apollo-earth-p12",
@@ -2952,8 +2736,8 @@
       14160,
       16020
     ],
-    "native_pixels_per_output_pixel": 1.9471397624663203,
-    "visible_source_clearance_px": 3489.45958646411
+    "native_pixels_per_output_pixel": 1.9398881298850923,
+    "visible_source_clearance_px": 3493.3368395765174
   },
   {
     "scene": "apollo-earth-p12",
@@ -2966,5 +2750,441 @@
     ],
     "native_pixels_per_output_pixel": 1.157174967731237,
     "visible_source_clearance_px": 1438.7533795773043
+  },
+  {
+    "scene": "woven-planisphere-dawn",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/research/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0857418149777713,
+    "visible_source_clearance_px": 3116.1654718250575,
+    "contour_rms_artboard_px": 0.48103567144137077,
+    "contour_max_artboard_px": 1.432014388982527
+  },
+  {
+    "scene": "woven-planisphere-dawn",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.944960059136747,
+    "visible_source_clearance_px": -3145.4038505748704
+  },
+  {
+    "scene": "woven-planisphere-dawn",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/research/materials/1917.492_full.tif",
+    "source_pixels": [
+      7208,
+      4637
+    ],
+    "native_pixels_per_output_pixel": 1.0767926048536078,
+    "visible_source_clearance_px": 58.52648933799901
+  },
+  {
+    "scene": "woven-planisphere-dawn",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/research/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0192678263056627,
+    "visible_source_clearance_px": 3251.0354001753367,
+    "contour_rms_artboard_px": 0.5856086434938427,
+    "contour_max_artboard_px": 1.7433218648482938
+  },
+  {
+    "scene": "woven-planisphere-dawn",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.7646563820467414,
+    "visible_source_clearance_px": -3357.883482398024
+  },
+  {
+    "scene": "woven-planisphere-dawn",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/research/materials/1917.492_full.tif",
+    "source_pixels": [
+      7208,
+      4637
+    ],
+    "native_pixels_per_output_pixel": 1.0108665270054278,
+    "visible_source_clearance_px": 442.894941843424
+  },
+  {
+    "scene": "silver-planisphere-dawn",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/research/math-large-format-next/dewit-1680.jpg",
+    "source_pixels": [
+      17663,
+      12168
+    ],
+    "native_pixels_per_output_pixel": 1.0029048789151445,
+    "visible_source_clearance_px": 1297.3837374272805
+  },
+  {
+    "scene": "silver-planisphere-dawn",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 3.8705189348654385,
+    "visible_source_clearance_px": -3565.8504984363776
+  },
+  {
+    "scene": "silver-planisphere-dawn",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/expansion-2026-11-06/material/1940.274.tif",
+    "source_pixels": [
+      7139,
+      4576
+    ],
+    "native_pixels_per_output_pixel": 1.5134479274135746,
+    "visible_source_clearance_px": 150.4526023401188
+  },
+  {
+    "scene": "silver-planisphere-dawn",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/research/math-large-format-next/dewit-1680.jpg",
+    "source_pixels": [
+      17663,
+      12168
+    ],
+    "native_pixels_per_output_pixel": 1.012548195058559,
+    "visible_source_clearance_px": 1523.2724731046947
+  },
+  {
+    "scene": "silver-planisphere-dawn",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-scenes-2026-11-05/horizons/iss072e340644.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 3.9077354630852983,
+    "visible_source_clearance_px": -3676.670876148371
+  },
+  {
+    "scene": "silver-planisphere-dawn",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/expansion-2026-11-06/material/1940.274.tif",
+    "source_pixels": [
+      7139,
+      4576
+    ],
+    "native_pixels_per_output_pixel": 1.5280003113310128,
+    "visible_source_clearance_px": 268.9813068112059
+  },
+  {
+    "scene": "cobalt-cloud-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/research/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.9736951118775978,
+    "visible_source_clearance_px": -1532.361292269139
+  },
+  {
+    "scene": "cobalt-cloud-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/expansion-2026-11-06/earth-colour/iss073e0111251.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.0090294395071866,
+    "visible_source_clearance_px": 1152.944061180293
+  },
+  {
+    "scene": "cobalt-cloud-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/research/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.1672427427370087,
+    "visible_source_clearance_px": 684.951828834248
+  },
+  {
+    "scene": "cobalt-cloud-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/research/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.043354939355631,
+    "visible_source_clearance_px": -1420.1505246296
+  },
+  {
+    "scene": "cobalt-cloud-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/expansion-2026-11-06/earth-colour/iss073e0111251.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.0446422432544993,
+    "visible_source_clearance_px": 1132.0300962420015
+  },
+  {
+    "scene": "cobalt-cloud-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/research/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.2084395454218446,
+    "visible_source_clearance_px": 746.7080518236984
+  },
+  {
+    "scene": "blue-ocean-twilight",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/research/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.7543956550023094,
+    "visible_source_clearance_px": -1424.0472519796458
+  },
+  {
+    "scene": "blue-ocean-twilight",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/expansion-2026-11-06/unusual-earth/iss073e1198911.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.3460346127197997,
+    "visible_source_clearance_px": 181.71220112725405
+  },
+  {
+    "scene": "blue-ocean-twilight",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/research/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.0375491046551188,
+    "visible_source_clearance_px": 958.6805839975164
+  },
+  {
+    "scene": "blue-ocean-twilight",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/research/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.715409084891147,
+    "visible_source_clearance_px": -1217.456819275052
+  },
+  {
+    "scene": "blue-ocean-twilight",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/expansion-2026-11-06/unusual-earth/iss073e1198911.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 2.293900510214915,
+    "visible_source_clearance_px": 58.104945629174836
+  },
+  {
+    "scene": "blue-ocean-twilight",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/research/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.0144924578850052,
+    "visible_source_clearance_px": 931.6273824289752
+  },
+  {
+    "scene": "pacific-ocean",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/material/1983.1036.tif",
+    "source_pixels": [
+      6014,
+      4517
+    ],
+    "native_pixels_per_output_pixel": 2.302228110463488,
+    "visible_source_clearance_px": 6.642183166334689
+  },
+  {
+    "scene": "pacific-ocean",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/aurora-sunset/iss066e008725.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.0000028796244294,
+    "visible_source_clearance_px": 521.1899675534714
+  },
+  {
+    "scene": "pacific-ocean",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.499067192017678,
+    "visible_source_clearance_px": -1557.4878605977228
+  },
+  {
+    "scene": "pacific-ocean",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-expansion-2026-11-06/material/1983.1036.tif",
+    "source_pixels": [
+      6014,
+      4517
+    ],
+    "native_pixels_per_output_pixel": 2.370442276699443,
+    "visible_source_clearance_px": 121.63714726468234
+  },
+  {
+    "scene": "pacific-ocean",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/aurora-sunset/iss066e008725.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.029632594576264,
+    "visible_source_clearance_px": 680.1697073243117
+  },
+  {
+    "scene": "pacific-ocean",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.5731136273367206,
+    "visible_source_clearance_px": -1015.7694634895615
+  },
+  {
+    "scene": "polar-ground",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.4812167120746946,
+    "visible_source_clearance_px": -2117.0035765745124
+  },
+  {
+    "scene": "polar-ground",
+    "profile": "wide",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/aurora-sunset/iss066e023323.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.420374313194342,
+    "visible_source_clearance_px": 81.52597011134183
+  },
+  {
+    "scene": "polar-ground",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.4673908765836683,
+    "visible_source_clearance_px": 442.0047984896819
+  },
+  {
+    "scene": "polar-ground",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 2.5731136273367206,
+    "visible_source_clearance_px": -1846.3457191229973
+  },
+  {
+    "scene": "polar-ground",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "opening-horizons-2026-11-05/aurora-sunset/iss066e023323.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.4729807692385772,
+    "visible_source_clearance_px": 48.25284041627062
+  },
+  {
+    "scene": "polar-ground",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
+    "source_pixels": [
+      11178,
+      6248
+    ],
+    "native_pixels_per_output_pixel": 1.5217386868275078,
+    "visible_source_clearance_px": 511.87849616720166
   }
 ]

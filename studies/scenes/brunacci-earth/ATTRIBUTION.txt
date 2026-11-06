@@ -1,28 +1,26 @@
 Brunacci, Apollo Earth & vermilion
 
-Found images, one shared curve. Uniform scaling, rotation and crops.
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
 
 Francesco Brunacci / Giovanni Giacomo de Rossi; RareMaps
 https://commons.wikimedia.org/wiki/File:1687_celestial_map_-_Planisfero_Del_Globo_Celeste.jpg
 Public Domain Mark
 Original: https://commons.wikimedia.org/wiki/Special:FilePath/1687_celestial_map_-_Planisfero_Del_Globo_Celeste.jpg
-Original SHA-256: 1c9ba622853642c96c3602ed48e2dc653f934e087ba79c42647365a2eab4944d
+SHA-256: 1c9ba622853642c96c3602ed48e2dc653f934e087ba79c42647365a2eab4944d
 Global black point: 0
-
 actual printed chart outer yellow band; local native fit
 
 NASA / Johnson Space Center
 https://tothemoon.im-ldi.com/gallery/Apollo/17/6#AS17-148-22718
 NASA media use guidelines
 Original: https://tothemoon.im-ldi.com/data_a70/AS17/processed/AS17-148-22718.png
-Original SHA-256: 719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c
+SHA-256: 719e2fdecfffd7da424a9366be40291ea3466df677fb3a810b8b656da7c5970c
 Global black point: 0
-
-photographed daylit Earth edge; native-pixel fit; partial disk
+Visually traced bright pale cloud/opaque Earth-body shoulder underneath the visible blue atmospheric halo; outer blue-to-space edge rejected.
 
 Seifū Yohei IV, Sweets Bowl, 1914–46. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215
 https://www.clevelandart.org/art/2022.215
 CC0
 Original: https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif
-Original SHA-256: 3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95
+SHA-256: 3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95
 Global black point: 0

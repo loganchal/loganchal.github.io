@@ -1,0 +1,26 @@
+De Wit, atmospheric dawn & silver
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Frederik de Wit, Planisphaerium Coeleste, 1680
+https://commons.wikimedia.org/wiki/File:1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg
+Public-domain faithful reproduction, Wikimedia Commons / RareMaps
+Original: https://upload.wikimedia.org/wikipedia/commons/d/d8/1680_Planisphaerium_Coeleste_by_Frederik_de_Wit.jpg
+SHA-256: 8d045d764155a8b14fa2c92a2bd17e20110043e394769fa11e622550a48cbf74
+Global black point: 0
+
+
+NASA / ISS crew
+https://images.nasa.gov/details/iss072e340644
+NASA informational/personal website image use guidelines
+Original: https://images-assets.nasa.gov/image/iss072e340644/iss072e340644~orig.jpg
+SHA-256: b1a54f0765f78d1859e612a5fd7c4922c2ae09521e2243591d6cafb1ec4a0116
+Global black point: 20
+
+
+Porringer, c. 1725–30. Andrew Tyler (American, 1692–1741). Silver; overall: 5.3 cm (2 1/16 in.); with handle: 20.8 cm (8 3/16 in.); without handle: 14.3 cm (5 5/8 in.). The Cleveland Museum of Art, Gift of Hollis French, 1940.274
+https://clevelandart.org/art/1940.274
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1940.274/1940.274_full.tif
+SHA-256: 1a94c361044e5a7e292ab60ee12cea7d5e14e27c686e6b49e68567ab7bbf5376
+Global black point: 0

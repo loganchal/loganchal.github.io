@@ -1,28 +1,26 @@
 Bronze, green airglow & polarized fossil
 
-Found images, one shared curve. Uniform scaling, rotation and crops.
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
 
 Bowl (유기완 [鍮器碗]), 1700s. Korea, Joseon dynasty (1392–1910). Bronze; overall: 7.3 cm (2 7/8 in.). The Cleveland Museum of Art, Gift of Helen L. Marshall, 1983.1036
 https://clevelandart.org/art/1983.1036
 CC0
 Original: https://openaccess-cdn.clevelandart.org/1983.1036/1983.1036_full.tif
-Original SHA-256: 18073f3f94a6745cf787a654ebe2c5195dc5ab5568e93d7c943fa08bbf666381
+SHA-256: 18073f3f94a6745cf787a654ebe2c5195dc5ab5568e93d7c943fa08bbf666381
 Global black point: 0
-
 
 
 NASA / ISS crew
 https://images.nasa.gov/details/iss073e0830977
 NASA personal and informational site use generally permitted; credit source and do not imply endorsement
 Original: https://images-assets.nasa.gov/image/iss073e0830977/iss073e0830977~orig.jpg
-Original SHA-256: afc2df2960707c9e26a71300886682de6280a2f96fc41446dbdeb8e94d1d6af8
+SHA-256: afc2df2960707c9e26a71300886682de6280a2f96fc41446dbdeb8e94d1d6af8
 Global black point: 0
-
-
+Manually traced opaque photographed Earth/cloud-deck limb below luminous atmospheric ribbon; see source overlay.
 
 Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo
 https://imaggeo.egu.eu/view/12428/
 CC BY 3.0
 Original: https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg
-Original SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
+SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
 Global black point: 22

@@ -1057,7 +1057,55 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "white-sands",
+      "scene": "lion-dawn-m6",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "lion-dawn-m6",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "lion-dawn-m6",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "lion-dawn-m6",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 20,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "celestial-eclipse-m3",
       "viewport": [
         1512,
         982
@@ -1069,7 +1117,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "white-sands",
+      "scene": "celestial-eclipse-m3",
       "viewport": [
         1728,
         1117
@@ -1081,7 +1129,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "white-sands",
+      "scene": "celestial-eclipse-m3",
       "viewport": [
         390,
         844
@@ -1093,7 +1141,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "white-sands",
+      "scene": "celestial-eclipse-m3",
       "viewport": [
         844,
         390
@@ -1105,7 +1153,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "apollo-earth",
+      "scene": "celestial-eclipse-p3",
       "viewport": [
         1512,
         982
@@ -1117,7 +1165,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "apollo-earth",
+      "scene": "celestial-eclipse-p3",
       "viewport": [
         1728,
         1117
@@ -1129,7 +1177,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "apollo-earth",
+      "scene": "celestial-eclipse-p3",
       "viewport": [
         390,
         844
@@ -1141,7 +1189,7 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "apollo-earth",
+      "scene": "celestial-eclipse-p3",
       "viewport": [
         844,
         390
@@ -1153,242 +1201,50 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "ocean-earth",
+      "scene": "lion-dawn-p6",
       "viewport": [
         1512,
         982
       ],
       "dpr": 2,
       "initial_inset": 26,
-      "settled_inset": 18,
+      "settled_inset": 20,
       "no_horizontal_overflow": true,
       "one_way_scroll": "passed"
     },
     {
-      "scene": "ocean-earth",
+      "scene": "lion-dawn-p6",
       "viewport": [
         1728,
         1117
       ],
       "dpr": 2,
       "initial_inset": 26,
-      "settled_inset": 18,
+      "settled_inset": 20,
       "no_horizontal_overflow": true,
       "one_way_scroll": "passed"
     },
     {
-      "scene": "ocean-earth",
+      "scene": "lion-dawn-p6",
       "viewport": [
         390,
         844
       ],
       "dpr": 2,
       "initial_inset": 25,
-      "settled_inset": 18,
+      "settled_inset": 20,
       "no_horizontal_overflow": true,
       "one_way_scroll": "passed"
     },
     {
-      "scene": "ocean-earth",
+      "scene": "lion-dawn-p6",
       "viewport": [
         844,
         390
       ],
       "dpr": 2,
       "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "sunlit-earth",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "sunlit-earth",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "sunlit-earth",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "sunlit-earth",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "station-aurora",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "station-aurora",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "station-aurora",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "station-aurora",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "patina-airglow",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "patina-airglow",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "patina-airglow",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "patina-airglow",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "silver-earth",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "silver-earth",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "silver-earth",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "silver-earth",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
+      "settled_inset": 20,
       "no_horizontal_overflow": true,
       "one_way_scroll": "passed"
     },
@@ -1478,6 +1334,438 @@
     },
     {
       "scene": "milky-airglow",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "patina-airglow",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "patina-airglow",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "patina-airglow",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "patina-airglow",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "cobalt-cloud-earth",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "cobalt-cloud-earth",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "cobalt-cloud-earth",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "cobalt-cloud-earth",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "blue-ocean-twilight",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "blue-ocean-twilight",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "blue-ocean-twilight",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "blue-ocean-twilight",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "pacific-ocean",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "pacific-ocean",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "pacific-ocean",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "pacific-ocean",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "polar-ground",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "polar-ground",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "polar-ground",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "polar-ground",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "woven-planisphere-dawn",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "woven-planisphere-dawn",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "woven-planisphere-dawn",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "woven-planisphere-dawn",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-planisphere-dawn",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-planisphere-dawn",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-planisphere-dawn",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-planisphere-dawn",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "apollo-earth",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "apollo-earth",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "apollo-earth",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "apollo-earth",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-earth",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-earth",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-earth",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "silver-earth",
       "viewport": [
         844,
         390
@@ -1681,198 +1969,6 @@
       "one_way_scroll": "passed"
     },
     {
-      "scene": "lion-dawn-m6",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-m6",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-m6",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-m6",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-m3",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-m3",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-m3",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-m3",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-p3",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-p3",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-p3",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "celestial-eclipse-p3",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 18,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-p6",
-      "viewport": [
-        1512,
-        982
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-p6",
-      "viewport": [
-        1728,
-        1117
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-p6",
-      "viewport": [
-        390,
-        844
-      ],
-      "dpr": 2,
-      "initial_inset": 25,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
-      "scene": "lion-dawn-p6",
-      "viewport": [
-        844,
-        390
-      ],
-      "dpr": 2,
-      "initial_inset": 26,
-      "settled_inset": 20,
-      "no_horizontal_overflow": true,
-      "one_way_scroll": "passed"
-    },
-    {
       "scene": "apollo-earth-p12",
       "viewport": [
         1512,
@@ -1910,6 +2006,54 @@
     },
     {
       "scene": "apollo-earth-p12",
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "sunlit-earth",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "sunlit-earth",
+      "viewport": [
+        1728,
+        1117
+      ],
+      "dpr": 2,
+      "initial_inset": 26,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "sunlit-earth",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "initial_inset": 25,
+      "settled_inset": 18,
+      "no_horizontal_overflow": true,
+      "one_way_scroll": "passed"
+    },
+    {
+      "scene": "sunlit-earth",
       "viewport": [
         844,
         390
@@ -1921,129 +2065,278 @@
       "one_way_scroll": "passed"
     }
   ],
-  "opening_sequence": [
-    "lion-eclipse",
-    "night-gradient",
-    "cloud-airglow",
-    "patina-airglow",
-    "apollo-earth-m12",
-    "atlantic-spectrum",
-    "station-aurora",
-    "solar-horizon",
-    "porcelain-earth",
-    "white-sands",
-    "ocean-earth",
-    "sunlit-earth",
-    "lion-dawn-m6",
-    "celestial-eclipse-m3",
-    "apollo-earth",
-    "woven-earth",
-    "milky-airglow",
-    "atlantic-cobalt",
-    "celestial-eclipse",
-    "lion-dawn-p6",
-    "eimmart-earth-m10",
-    "archive-earth",
-    "prism-eclipse",
-    "archive-dawn",
-    "apollo-earth-p12",
-    "prism-earth",
-    "celestial-eclipse-p3",
-    "glaze-dawn",
-    "eimmart-earth",
-    "lion-earth",
-    "woven-eclipse",
-    "prism-dawn",
-    "brunacci-earth",
-    "facets-eclipse",
-    "lion-dawn",
-    "silver-earth",
-    "night-archive",
-    "celestial-dawn",
-    "observatory",
-    "woven-dawn",
-    "eimmart-earth-m10",
-    "station-aurora",
-    "ocean-earth",
-    "lion-dawn",
-    "prism-eclipse",
-    "porcelain-earth",
-    "sunlit-earth",
-    "atlantic-cobalt",
-    "white-sands",
-    "cloud-airglow",
-    "solar-horizon",
-    "milky-airglow",
-    "brunacci-earth",
-    "celestial-eclipse-m3",
-    "night-gradient",
-    "archive-earth",
-    "atlantic-spectrum",
-    "patina-airglow",
-    "apollo-earth-p12",
-    "woven-eclipse",
-    "lion-dawn-m6",
-    "lion-earth",
-    "lion-eclipse",
-    "glaze-dawn",
-    "eimmart-earth",
-    "woven-earth",
-    "celestial-eclipse-p3",
-    "lion-dawn-p6",
-    "silver-earth",
-    "prism-earth",
-    "observatory",
-    "archive-dawn",
-    "apollo-earth-m12",
-    "prism-dawn",
-    "celestial-eclipse",
-    "apollo-earth",
-    "woven-dawn",
-    "night-archive",
-    "celestial-dawn",
-    "facets-eclipse",
-    "lion-earth",
-    "night-archive",
-    "sunlit-earth",
-    "glaze-dawn",
-    "white-sands",
-    "station-aurora",
-    "apollo-earth",
-    "atlantic-cobalt",
-    "solar-horizon",
-    "cloud-airglow",
-    "milky-airglow",
-    "ocean-earth",
-    "woven-earth",
-    "night-gradient",
-    "celestial-eclipse-p3",
-    "eimmart-earth",
-    "atlantic-spectrum",
-    "patina-airglow",
-    "porcelain-earth",
-    "lion-dawn",
-    "celestial-eclipse-m3",
-    "silver-earth",
-    "archive-earth",
-    "lion-dawn-m6",
-    "eimmart-earth-m10",
-    "celestial-eclipse",
-    "prism-earth",
-    "facets-eclipse",
-    "archive-dawn",
-    "brunacci-earth",
-    "prism-dawn",
-    "lion-eclipse",
-    "apollo-earth-p12",
-    "woven-dawn",
-    "woven-eclipse",
-    "apollo-earth-m12",
-    "celestial-dawn",
-    "prism-eclipse",
-    "lion-dawn-p6",
-    "observatory"
-  ],
   "reduced_motion": "passed",
-  "comparison_scene_count": 40,
-  "browser_errors": []
+  "comparison_scene_count": 43,
+  "browser_errors": [],
+  "held_after_visual_review": [
+    "colosseum-earth"
+  ],
+  "prior_catalogue_reload_sequence": [
+    "lion-eclipse",
+    "silver-earth",
+    "sunlit-earth",
+    "atlantic-spectrum",
+    "lion-dawn-m6",
+    "porcelain-earth",
+    "cobalt-cloud-earth",
+    "patina-airglow",
+    "cloud-airglow",
+    "polar-ground",
+    "blue-ocean-twilight",
+    "solar-horizon",
+    "pacific-ocean",
+    "woven-eclipse",
+    "eimmart-earth-m10",
+    "celestial-dawn",
+    "lion-earth",
+    "atlantic-cobalt",
+    "milky-airglow",
+    "prism-eclipse",
+    "apollo-earth",
+    "prism-earth",
+    "glaze-dawn",
+    "apollo-earth-m12",
+    "facets-eclipse",
+    "woven-dawn",
+    "woven-earth",
+    "night-archive",
+    "archive-dawn",
+    "apollo-earth-p12",
+    "archive-earth",
+    "night-gradient",
+    "celestial-eclipse-m3",
+    "eimmart-earth",
+    "celestial-eclipse-p3",
+    "silver-planisphere-dawn",
+    "brunacci-earth",
+    "lion-dawn",
+    "observatory",
+    "woven-planisphere-dawn",
+    "colosseum-earth",
+    "prism-dawn",
+    "celestial-eclipse",
+    "lion-dawn-p6",
+    "silver-earth",
+    "lion-dawn",
+    "cobalt-cloud-earth",
+    "pacific-ocean",
+    "atlantic-cobalt",
+    "lion-earth",
+    "lion-eclipse",
+    "solar-horizon",
+    "milky-airglow",
+    "polar-ground",
+    "cloud-airglow",
+    "blue-ocean-twilight",
+    "sunlit-earth",
+    "celestial-dawn",
+    "apollo-earth",
+    "woven-earth",
+    "atlantic-spectrum",
+    "celestial-eclipse-p3",
+    "patina-airglow",
+    "brunacci-earth",
+    "woven-planisphere-dawn",
+    "archive-earth",
+    "woven-eclipse",
+    "apollo-earth-p12",
+    "prism-dawn",
+    "porcelain-earth",
+    "celestial-eclipse",
+    "apollo-earth-m12",
+    "archive-dawn",
+    "prism-earth",
+    "night-archive",
+    "eimmart-earth-m10",
+    "glaze-dawn",
+    "facets-eclipse",
+    "woven-dawn",
+    "colosseum-earth",
+    "observatory",
+    "silver-planisphere-dawn",
+    "eimmart-earth",
+    "lion-dawn-p6",
+    "prism-eclipse",
+    "lion-dawn-m6",
+    "celestial-eclipse-m3",
+    "night-gradient",
+    "eimmart-earth",
+    "prism-earth",
+    "lion-dawn-p6",
+    "celestial-eclipse",
+    "pacific-ocean",
+    "blue-ocean-twilight",
+    "atlantic-spectrum",
+    "solar-horizon",
+    "cobalt-cloud-earth",
+    "cloud-airglow",
+    "patina-airglow",
+    "sunlit-earth",
+    "polar-ground",
+    "apollo-earth-p12",
+    "woven-earth",
+    "lion-dawn-m6",
+    "woven-eclipse",
+    "milky-airglow",
+    "atlantic-cobalt",
+    "colosseum-earth",
+    "archive-earth",
+    "prism-eclipse",
+    "woven-dawn",
+    "silver-earth",
+    "lion-eclipse",
+    "celestial-dawn",
+    "lion-earth",
+    "eimmart-earth-m10",
+    "celestial-eclipse-p3",
+    "archive-dawn",
+    "porcelain-earth",
+    "apollo-earth",
+    "facets-eclipse",
+    "lion-dawn",
+    "celestial-eclipse-m3",
+    "silver-planisphere-dawn",
+    "brunacci-earth",
+    "glaze-dawn",
+    "observatory",
+    "woven-planisphere-dawn",
+    "apollo-earth-m12",
+    "night-gradient",
+    "night-archive",
+    "prism-dawn"
+  ],
+  "prior_catalogue_scene_count": 44,
+  "current_catalogue_manual_sequence": [
+    "lion-dawn",
+    "cloud-airglow",
+    "porcelain-earth",
+    "polar-ground",
+    "cobalt-cloud-earth",
+    "night-archive",
+    "patina-airglow",
+    "brunacci-earth",
+    "atlantic-spectrum",
+    "pacific-ocean",
+    "sunlit-earth",
+    "blue-ocean-twilight",
+    "solar-horizon",
+    "silver-planisphere-dawn",
+    "prism-earth",
+    "prism-eclipse",
+    "silver-earth",
+    "atlantic-cobalt",
+    "milky-airglow",
+    "lion-dawn-m6",
+    "woven-eclipse",
+    "eimmart-earth",
+    "lion-earth",
+    "archive-dawn",
+    "lion-eclipse",
+    "apollo-earth",
+    "archive-earth",
+    "prism-dawn",
+    "celestial-eclipse-p3",
+    "apollo-earth-p12",
+    "woven-earth",
+    "lion-dawn-p6",
+    "celestial-eclipse-m3",
+    "apollo-earth-m12",
+    "celestial-dawn",
+    "celestial-eclipse",
+    "woven-planisphere-dawn",
+    "facets-eclipse",
+    "woven-dawn",
+    "observatory",
+    "glaze-dawn",
+    "eimmart-earth-m10",
+    "night-gradient",
+    "solar-horizon",
+    "night-gradient",
+    "patina-airglow",
+    "pacific-ocean",
+    "brunacci-earth",
+    "cobalt-cloud-earth",
+    "prism-earth",
+    "blue-ocean-twilight",
+    "atlantic-cobalt",
+    "prism-eclipse",
+    "sunlit-earth",
+    "cloud-airglow",
+    "polar-ground",
+    "lion-dawn-p6",
+    "porcelain-earth",
+    "apollo-earth",
+    "lion-eclipse",
+    "atlantic-spectrum",
+    "milky-airglow",
+    "lion-dawn",
+    "lion-earth",
+    "eimmart-earth-m10",
+    "night-archive",
+    "prism-dawn",
+    "archive-earth",
+    "apollo-earth-p12",
+    "celestial-eclipse",
+    "silver-planisphere-dawn",
+    "silver-earth",
+    "celestial-eclipse-p3",
+    "woven-earth",
+    "woven-planisphere-dawn",
+    "woven-eclipse",
+    "eimmart-earth",
+    "glaze-dawn",
+    "observatory",
+    "woven-dawn",
+    "celestial-eclipse-m3",
+    "lion-dawn-m6",
+    "apollo-earth-m12",
+    "archive-dawn",
+    "facets-eclipse",
+    "celestial-dawn"
+  ],
+  "current_catalogue_storage_blocked_sequence": [
+    "silver-earth",
+    "atlantic-cobalt",
+    "night-archive",
+    "pacific-ocean",
+    "celestial-dawn",
+    "archive-earth",
+    "milky-airglow",
+    "polar-ground",
+    "cloud-airglow",
+    "blue-ocean-twilight",
+    "sunlit-earth",
+    "solar-horizon",
+    "cobalt-cloud-earth",
+    "apollo-earth-p12",
+    "lion-dawn-p6",
+    "woven-earth",
+    "patina-airglow",
+    "celestial-eclipse-m3",
+    "atlantic-spectrum",
+    "archive-dawn",
+    "apollo-earth-m12",
+    "lion-earth",
+    "lion-eclipse",
+    "prism-dawn",
+    "eimmart-earth-m10",
+    "prism-earth",
+    "woven-eclipse",
+    "silver-planisphere-dawn",
+    "facets-eclipse",
+    "apollo-earth",
+    "porcelain-earth",
+    "glaze-dawn",
+    "prism-eclipse",
+    "brunacci-earth",
+    "woven-planisphere-dawn",
+    "observatory",
+    "night-gradient",
+    "celestial-eclipse-p3",
+    "lion-dawn",
+    "eimmart-earth",
+    "woven-dawn",
+    "celestial-eclipse",
+    "lion-dawn-m6"
+  ]
 }

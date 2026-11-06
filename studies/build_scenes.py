@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 import argparse,json,math,numpy as np
 Image.MAX_IMAGE_PIXELS=None
-parser=argparse.ArgumentParser();parser.add_argument('--cache',type=Path,required=True);parser.add_argument('--output',type=Path,default=Path(__file__).parent/'scenes');parser.add_argument('--scene',action='append',help='Build only these scene IDs (repeatable)');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--cache',type=Path,required=True);parser.add_argument('--output',type=Path,default=Path(__file__).parent/'scenes');parser.add_argument('--scene',action='append',help='Build only these scene IDs (repeatable)');parser.add_argument('--slot',type=int,action='append',choices=range(3),help='Build only these slots (repeatable)');args=parser.parse_args()
 scenes=json.loads((Path(__file__).parent/'scenes.json').read_text())
 if args.scene:
  unknown=set(args.scene)-{scene['id'] for scene in scenes}
@@ -20,6 +20,7 @@ for scene in scenes:
  for profile,W,H in [('wide',1600,960),('portrait',768,1280)]:
   R=scene.get('portraitRadius',scene['radius']) if profile=='portrait' else scene['radius'];tilt=math.radians(scene['angle']);center=np.array([W/2+R*math.sin(tilt),H*scene.get('horizon',.53)+R*math.cos(tilt)])
   for slot,(name,source,image) in enumerate(zip(scene['slots'],scene['source_geometry'],images)):
+   if args.slot and slot not in args.slot:continue
    cx,cy,r=source['circle'];angle=source.get('portrait_source_angle',source['source_angle']) if profile=='portrait' else source['source_angle'];contact=([208,800,1392] if profile=='wide' else [96,384,672])[slot]
    if name=='saturn' and (profile=='portrait' or slot==0):angle=math.atan2(-math.sqrt(r*r-(3800-cx)**2),3800-cx)
    theta=math.atan2(-math.sqrt(R*R-(contact-center[0])**2),contact-center[0])-angle
