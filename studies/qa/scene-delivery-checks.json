@@ -1,0 +1,54 @@
+{
+  "cold_opening_profiles": [
+    {
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "profile": "wide",
+      "density": 2,
+      "delivery_requests": 3
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "profile": "portrait",
+      "density": 1.5,
+      "delivery_requests": 3
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 3,
+      "profile": "portrait",
+      "density": 2,
+      "delivery_requests": 3
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "profile": "wide",
+      "density": 1,
+      "delivery_requests": 3
+    }
+  ],
+  "failed_resize_keeps_complete_old_frame": true,
+  "pending_resize_keeps_complete_old_frame": true,
+  "resize_profile_applied_atomically": true,
+  "gallery_lazy": {
+    "scene_count": 44,
+    "initial_loaded_cards": 4,
+    "loaded_after_jump": 8,
+    "requests_per_card": 3
+  },
+  "browser_errors": []
+}

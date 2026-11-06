@@ -315,86 +315,6 @@
     ]
   },
   {
-    "id": "woven-earth",
-    "title": "Fibre, lunar horizon & vermilion",
-    "slots": [
-      "basket",
-      "artemis",
-      "red"
-    ],
-    "source_geometry": [
-      {
-        "circle": [
-          6876.106563485158,
-          -1055.1479242889286,
-          6650.145416481321
-        ],
-        "source_angle": 2.4344726590487094,
-        "black_point": 0,
-        "source_file": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
-        "name": "basket",
-        "page": "https://www.clevelandart.org/art/1917.482",
-        "original": "https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif",
-        "rights": "CC0",
-        "credit": "Presentation Bowl, 1880\u201390, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482",
-        "source_sha256": "f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2",
-        "native_pixels_per_artboard_pixel": 3.166735912610153,
-        "target_x": 208,
-        "native_pixels_per_portrait_artboard_pixel": 3.166735912610153
-      },
-      {
-        "name": "artemis",
-        "file": "artemis2/art002e009289.jpg",
-        "circle": [
-          5710.339957244175,
-          7625.713522801497,
-          7575.867149002834
-        ],
-        "source_angle": -1.9830502815122455,
-        "target_x": 800,
-        "black_point": 18,
-        "page": "https://images.nasa.gov/details/art002e009289",
-        "original": "https://images-assets.nasa.gov/image/art002e009289/art002e009289~orig.jpg",
-        "rights": "NASA informational/personal website image use guidelines",
-        "credit": "NASA",
-        "source_sha256": "2aa8c4a481ba3cdf44ad305c584b052e71d6174ba7febc292719abe16aafbf75",
-        "native_pixels_per_artboard_pixel": 3.6075557852394446,
-        "source_file": "curve-sources/artemis2/art002e009289.jpg",
-        "native_pixels_per_portrait_artboard_pixel": 3.6075557852394446
-      },
-      {
-        "circle": [
-          4790.8336319795035,
-          2367.0860225273373,
-          4796.087893458249
-        ],
-        "source_angle": 0.27475139603685866,
-        "black_point": 0,
-        "source_file": "opening-scenes-2026-11-05/objects/2022.215-full.tif",
-        "name": "red",
-        "page": "https://www.clevelandart.org/art/2022.215",
-        "original": "https://openaccess-cdn.clevelandart.org/2022.215/2022.215_full.tif",
-        "rights": "CC0",
-        "credit": "Seif\u016b Yohei IV, Sweets Bowl, 1914\u201346. The Cleveland Museum of Art, Gift of James and Christine Heusinger, 2022.215",
-        "source_sha256": "3198da2d6b796ef7cbbdd8e8650b519137f55837a53a1cbad1b53a97611c4c95",
-        "native_pixels_per_artboard_pixel": 2.2838513778372613,
-        "target_x": 1392,
-        "native_pixels_per_portrait_artboard_pixel": 2.2838513778372613
-      }
-    ],
-    "radius": 2100,
-    "angle": -8,
-    "finalInset": 8,
-    "end": 8,
-    "render_density": 2.28,
-    "lead": "art002e009289",
-    "motifs": [
-      "fibre",
-      "space",
-      "ceramic"
-    ]
-  },
-  {
     "id": "night-gradient",
     "title": "Ink, sunrise & vermilion",
     "slots": [
@@ -2348,140 +2268,6 @@
     "title": "Celestial engraving, Earth & silver"
   },
   {
-    "id": "cloud-airglow",
-    "radius": 7000,
-    "portraitRadius": 7500,
-    "angle": 0,
-    "horizon": 0.56,
-    "render_density": 2.0,
-    "portrait_density": 2.0,
-    "finalInset": 18,
-    "source_geometry": [
-      {
-        "source_file": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
-        "circle": [
-          -26789.82931013046,
-          -9985.641155195986,
-          34737.033969045726
-        ],
-        "source_angle": 0.37624412431402293,
-        "black_point": 22,
-        "allow_black_extension": true,
-        "page": "https://imaggeo.egu.eu/view/12428/",
-        "original": "https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg",
-        "credit": "Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo",
-        "rights": "CC BY 3.0",
-        "source_sha256": "bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b",
-        "native_pixels_per_artboard_pixel": 4.962433424149389,
-        "native_pixels_per_portrait_artboard_pixel": 4.631604529206097,
-        "target_x": 208,
-        "portrait_source_angle": 0.37624412431402293
-      },
-      {
-        "source_file": "opening-expansion-2026-11-06/unusual-earth/iss074e0043595.jpg",
-        "circle": [
-          3933.849881727499,
-          19142.797511657536,
-          15311.78901771299
-        ],
-        "source_angle": -1.5707963267948966,
-        "black_point": 0,
-        "credit": "NASA / ISS crew",
-        "page": "https://images.nasa.gov/details/iss074e0043595",
-        "original": "https://images-assets.nasa.gov/image/iss074e0043595/iss074e0043595~orig.jpg",
-        "rights": "NASA personal and informational site use generally permitted; credit source and do not imply endorsement",
-        "source_sha256": "324b2ecbd398568ed5717b8053f0d37eef6b84828c4868581fba9bccf2ef036b",
-        "contour_kind": "Manually traced opaque photographed Earth/cloud-deck limb below luminous atmospheric ribbon; see source overlay.",
-        "fit_points": [
-          [
-            1500,
-            4020
-          ],
-          [
-            2000,
-            3955
-          ],
-          [
-            2500,
-            3905
-          ],
-          [
-            3000,
-            3865
-          ],
-          [
-            3500,
-            3840
-          ],
-          [
-            4000,
-            3825
-          ],
-          [
-            4500,
-            3830
-          ],
-          [
-            5000,
-            3860
-          ],
-          [
-            5500,
-            3925
-          ],
-          [
-            6000,
-            3980
-          ],
-          [
-            6500,
-            4040
-          ]
-        ],
-        "fit_rms_source_pixels": 7.81364785638916,
-        "portrait_source_angle": -1.5707963267948966,
-        "target_x": 800,
-        "native_pixels_per_artboard_pixel": 2.187398431101856,
-        "native_pixels_per_portrait_artboard_pixel": 2.041571869028399,
-        "fit_method": "Manually identified opaque cloud/dark Earth onset below luminous ribbon; not glow-top threshold"
-      },
-      {
-        "source_file": "opening-scenes-2026-11-05/objects/2022.156-full.tif",
-        "circle": [
-          5097.417769867889,
-          22526.559916560633,
-          20543.472272171355
-        ],
-        "source_angle": -1.6359421204144906,
-        "black_point": 0,
-        "page": "https://www.clevelandart.org/art/2022.156",
-        "original": "https://openaccess-cdn.clevelandart.org/2022.156/2022.156_full.tif",
-        "credit": "Seifu Yohei III, Dining Bowl with Clematis, 1893\u201397. The Cleveland Museum of Art, 2022.156",
-        "rights": "CC0",
-        "source_sha256": "7428672f583fbdf2a137e25a06e7b762632db0f4d6fe27a8f3ff4a5b2bd13a74",
-        "native_pixels_per_artboard_pixel": 2.9347817531673366,
-        "native_pixels_per_portrait_artboard_pixel": 2.739129636289514,
-        "target_x": 1392,
-        "portrait_source_angle": -1.6359421204144906
-      }
-    ],
-    "title": "Polarized fossil, cloud airglow & porcelain",
-    "slots": [
-      "belemnite",
-      "cloud-airglow",
-      "clematis"
-    ],
-    "motifs": [
-      "mineral",
-      "space",
-      "ceramic"
-    ],
-    "cycle_expansion": true,
-    "fresh_family": true,
-    "gap": "glow",
-    "lead": "iss074e0043595"
-  },
-  {
     "id": "milky-airglow",
     "radius": 8500,
     "portraitRadius": 9600,
@@ -4378,6 +4164,1442 @@
     "gap": "glow",
     "lead": "iss066e023323",
     "end": 18,
+    "fresh_family": true
+  },
+  {
+    "id": "golden-stairs-earth",
+    "title": "Eimmart, Apollo Earth & The Golden Stairs",
+    "slots": [
+      "eimmart",
+      "apollo-full-globe",
+      "golden-stairs"
+    ],
+    "motifs": [
+      "mathematical-engraving",
+      "earth",
+      "figural-painting"
+    ],
+    "radius": 700,
+    "portraitRadius": 950,
+    "angle": 0,
+    "horizon": 0.54,
+    "render_density": 2,
+    "portrait_density": 1.35,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "finalInset": 18,
+    "end": 18,
+    "source_geometry": [
+      {
+        "name": "eimmart",
+        "circle": [
+          4325.48108518,
+          6387.38151502,
+          3136.9003184
+        ],
+        "source_angle": -1.5707963267948966,
+        "source_file": "opening-expansion-2026-11-06/historical-math/eimmart.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "rights": "Public Domain Mark",
+        "credit": "Georg Christoph Eimmart / RareMaps",
+        "contour_kind": "actual printed chart outer yellow band; local native fit",
+        "source_sha256": "0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb",
+        "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "fit_rms_native_px": 1.5879800235571546,
+        "fit_max_native_px": 5.865152456262422,
+        "fit_excluded": 0,
+        "fit_n": 270,
+        "black_point": 0,
+        "target_x": 300,
+        "native_pixels_per_artboard_pixel": 4.481286169142857,
+        "native_pixels_per_portrait_artboard_pixel": 3.3020003351578944,
+        "portrait_target_x": 96,
+        "source_pixels": [
+          15275,
+          13115
+        ]
+      },
+      {
+        "name": "apollo-full-globe",
+        "source_file": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+        "circle": [
+          2297.942178080728,
+          2315.7310792966127,
+          1525.1889715850532
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 0,
+        "allow_black_extension": true,
+        "page": "https://images.nasa.gov/details/as17-148-22727",
+        "original": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
+        "credit": "NASA / Apollo 17 crew, AS17-148-22727.",
+        "rights": "NASA informational/personal image-use guidelines",
+        "fit_rms_native_px": 0.8996036519717188,
+        "fit_max_native_px": 2.3893761439026093,
+        "contour_kind": "photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required",
+        "source_pixels": [
+          4579,
+          4579
+        ],
+        "source_sha256": "cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f",
+        "target_x": 800,
+        "portrait_target_x": 384,
+        "native_pixels_per_artboard_pixel": 2.1788413879786472,
+        "native_pixels_per_portrait_artboard_pixel": 1.6054620753526876,
+        "subject_type": "celestial-horizon"
+      },
+      {
+        "name": "golden-stairs",
+        "source_file": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+        "circle": [
+          283.74264345853356,
+          3541.4678705736783,
+          1434.0192612462752
+        ],
+        "source_angle": -1.04,
+        "portrait_source_angle": -1.04,
+        "target_x": 1300,
+        "portrait_target_x": 672,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:Edward_coley_burne-jones,_the_golden_stairs,_1880.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Edward_coley_burne-jones%2C_the_golden_stairs%2C_1880.jpg",
+        "rights": "Painting public domain. Photograph by Sailko, CC BY 3.0, https://creativecommons.org/licenses/by/3.0/",
+        "credit": "Edward Burne-Jones, The Golden Stairs, 1880. Tate Britain. Photograph by Sailko / Wikimedia Commons, CC BY 3.0.",
+        "contour_kind": "Direct native pixel gradient along the bright marble / dark stair underside boundary; no annotated-preview coordinates",
+        "fit_points": [
+          [
+            430.0,
+            2116.0
+          ],
+          [
+            435.0,
+            2116.0
+          ],
+          [
+            440.0,
+            2116.0
+          ],
+          [
+            445.0,
+            2117.0
+          ],
+          [
+            450.0,
+            2117.0
+          ],
+          [
+            455.0,
+            2117.0
+          ],
+          [
+            460.0,
+            2118.0
+          ],
+          [
+            465.0,
+            2118.0
+          ],
+          [
+            470.0,
+            2119.0
+          ],
+          [
+            475.0,
+            2120.0
+          ],
+          [
+            480.0,
+            2120.0
+          ],
+          [
+            485.0,
+            2121.0
+          ],
+          [
+            490.0,
+            2122.0
+          ],
+          [
+            495.0,
+            2122.0
+          ],
+          [
+            500.0,
+            2123.0
+          ],
+          [
+            505.0,
+            2124.0
+          ],
+          [
+            510.0,
+            2124.0
+          ],
+          [
+            515.0,
+            2125.0
+          ],
+          [
+            520.0,
+            2126.0
+          ],
+          [
+            525.0,
+            2127.0
+          ],
+          [
+            530.0,
+            2128.0
+          ],
+          [
+            535.0,
+            2129.0
+          ],
+          [
+            540.0,
+            2130.0
+          ],
+          [
+            545.0,
+            2131.0
+          ],
+          [
+            550.0,
+            2132.0
+          ],
+          [
+            555.0,
+            2133.0
+          ],
+          [
+            560.0,
+            2134.0
+          ],
+          [
+            565.0,
+            2135.0
+          ],
+          [
+            570.0,
+            2136.0
+          ],
+          [
+            575.0,
+            2137.0
+          ],
+          [
+            580.0,
+            2139.0
+          ],
+          [
+            585.0,
+            2140.0
+          ],
+          [
+            590.0,
+            2141.0
+          ],
+          [
+            595.0,
+            2142.0
+          ],
+          [
+            600.0,
+            2143.0
+          ],
+          [
+            605.0,
+            2144.0
+          ],
+          [
+            610.0,
+            2146.0
+          ],
+          [
+            615.0,
+            2147.0
+          ],
+          [
+            620.0,
+            2148.0
+          ],
+          [
+            625.0,
+            2149.0
+          ],
+          [
+            630.0,
+            2151.0
+          ],
+          [
+            635.0,
+            2151.0
+          ],
+          [
+            640.0,
+            2152.0
+          ],
+          [
+            645.0,
+            2153.0
+          ],
+          [
+            650.0,
+            2155.0
+          ],
+          [
+            655.0,
+            2156.0
+          ],
+          [
+            660.0,
+            2158.0
+          ],
+          [
+            665.0,
+            2159.0
+          ],
+          [
+            670.0,
+            2160.0
+          ],
+          [
+            675.0,
+            2162.0
+          ],
+          [
+            680.0,
+            2163.0
+          ],
+          [
+            685.0,
+            2164.0
+          ],
+          [
+            690.0,
+            2165.0
+          ],
+          [
+            695.0,
+            2168.0
+          ],
+          [
+            700.0,
+            2169.0
+          ],
+          [
+            705.0,
+            2170.0
+          ],
+          [
+            710.0,
+            2172.0
+          ],
+          [
+            715.0,
+            2173.0
+          ],
+          [
+            720.0,
+            2176.0
+          ],
+          [
+            725.0,
+            2177.0
+          ],
+          [
+            730.0,
+            2179.0
+          ],
+          [
+            735.0,
+            2181.0
+          ],
+          [
+            740.0,
+            2183.0
+          ],
+          [
+            745.0,
+            2184.0
+          ],
+          [
+            750.0,
+            2185.0
+          ],
+          [
+            755.0,
+            2188.0
+          ],
+          [
+            760.0,
+            2190.0
+          ],
+          [
+            765.0,
+            2192.0
+          ],
+          [
+            770.0,
+            2194.0
+          ],
+          [
+            775.0,
+            2195.0
+          ],
+          [
+            780.0,
+            2197.0
+          ],
+          [
+            785.0,
+            2199.0
+          ],
+          [
+            790.0,
+            2201.0
+          ],
+          [
+            795.0,
+            2203.0
+          ],
+          [
+            800.0,
+            2205.0
+          ],
+          [
+            805.0,
+            2207.0
+          ],
+          [
+            810.0,
+            2208.0
+          ],
+          [
+            815.0,
+            2211.0
+          ],
+          [
+            820.0,
+            2213.0
+          ],
+          [
+            825.0,
+            2215.0
+          ],
+          [
+            830.0,
+            2217.0
+          ],
+          [
+            835.0,
+            2219.0
+          ],
+          [
+            840.0,
+            2222.0
+          ],
+          [
+            845.0,
+            2223.0
+          ],
+          [
+            850.0,
+            2225.0
+          ],
+          [
+            855.0,
+            2227.0
+          ],
+          [
+            860.0,
+            2229.0
+          ],
+          [
+            865.0,
+            2231.0
+          ],
+          [
+            870.0,
+            2233.0
+          ],
+          [
+            875.0,
+            2236.0
+          ],
+          [
+            880.0,
+            2238.0
+          ],
+          [
+            885.0,
+            2240.0
+          ],
+          [
+            890.0,
+            2242.0
+          ],
+          [
+            895.0,
+            2244.0
+          ],
+          [
+            900.0,
+            2247.0
+          ],
+          [
+            905.0,
+            2249.0
+          ],
+          [
+            910.0,
+            2252.0
+          ],
+          [
+            915.0,
+            2254.0
+          ],
+          [
+            920.0,
+            2256.0
+          ],
+          [
+            925.0,
+            2259.0
+          ],
+          [
+            930.0,
+            2261.0
+          ],
+          [
+            935.0,
+            2264.0
+          ],
+          [
+            940.0,
+            2266.0
+          ],
+          [
+            945.0,
+            2269.0
+          ],
+          [
+            950.0,
+            2271.0
+          ],
+          [
+            955.0,
+            2273.0
+          ],
+          [
+            960.0,
+            2275.0
+          ],
+          [
+            965.0,
+            2281.0
+          ],
+          [
+            970.0,
+            2283.0
+          ],
+          [
+            975.0,
+            2286.0
+          ],
+          [
+            980.0,
+            2288.0
+          ],
+          [
+            985.0,
+            2291.0
+          ],
+          [
+            990.0,
+            2294.0
+          ],
+          [
+            995.0,
+            2297.0
+          ],
+          [
+            1000.0,
+            2300.0
+          ],
+          [
+            1005.0,
+            2303.0
+          ],
+          [
+            1010.0,
+            2306.0
+          ],
+          [
+            1015.0,
+            2309.0
+          ],
+          [
+            1020.0,
+            2312.0
+          ],
+          [
+            1025.0,
+            2315.0
+          ],
+          [
+            1030.0,
+            2318.0
+          ],
+          [
+            1035.0,
+            2321.0
+          ],
+          [
+            1040.0,
+            2324.0
+          ],
+          [
+            1045.0,
+            2327.0
+          ],
+          [
+            1050.0,
+            2329.0
+          ],
+          [
+            1055.0,
+            2332.0
+          ],
+          [
+            1060.0,
+            2336.0
+          ],
+          [
+            1065.0,
+            2339.0
+          ],
+          [
+            1070.0,
+            2342.0
+          ],
+          [
+            1075.0,
+            2345.0
+          ],
+          [
+            1080.0,
+            2348.0
+          ],
+          [
+            1085.0,
+            2352.0
+          ],
+          [
+            1090.0,
+            2355.0
+          ],
+          [
+            1095.0,
+            2358.0
+          ],
+          [
+            1100.0,
+            2362.0
+          ],
+          [
+            1105.0,
+            2365.0
+          ],
+          [
+            1110.0,
+            2368.0
+          ],
+          [
+            1115.0,
+            2371.0
+          ],
+          [
+            1120.0,
+            2375.0
+          ],
+          [
+            1125.0,
+            2378.0
+          ],
+          [
+            1130.0,
+            2382.0
+          ],
+          [
+            1135.0,
+            2385.0
+          ],
+          [
+            1140.0,
+            2389.0
+          ],
+          [
+            1145.0,
+            2393.0
+          ],
+          [
+            1150.0,
+            2396.0
+          ],
+          [
+            1155.0,
+            2400.0
+          ],
+          [
+            1160.0,
+            2404.0
+          ],
+          [
+            1165.0,
+            2406.0
+          ],
+          [
+            1170.0,
+            2412.0
+          ],
+          [
+            1175.0,
+            2416.0
+          ],
+          [
+            1180.0,
+            2419.0
+          ],
+          [
+            1185.0,
+            2424.0
+          ],
+          [
+            1190.0,
+            2428.0
+          ],
+          [
+            1195.0,
+            2433.0
+          ],
+          [
+            1200.0,
+            2437.0
+          ],
+          [
+            1205.0,
+            2441.0
+          ],
+          [
+            1210.0,
+            2446.0
+          ],
+          [
+            1215.0,
+            2450.0
+          ],
+          [
+            1220.0,
+            2454.0
+          ],
+          [
+            1225.0,
+            2459.0
+          ],
+          [
+            1230.0,
+            2463.0
+          ],
+          [
+            1235.0,
+            2467.0
+          ],
+          [
+            1240.0,
+            2472.0
+          ],
+          [
+            1245.0,
+            2476.0
+          ],
+          [
+            1250.0,
+            2481.0
+          ],
+          [
+            1255.0,
+            2486.0
+          ],
+          [
+            1260.0,
+            2489.0
+          ],
+          [
+            1265.0,
+            2496.0
+          ],
+          [
+            1270.0,
+            2499.0
+          ],
+          [
+            1290.0,
+            2519.0
+          ],
+          [
+            1295.0,
+            2525.0
+          ],
+          [
+            1300.0,
+            2528.0
+          ],
+          [
+            1305.0,
+            2535.0
+          ],
+          [
+            1310.0,
+            2539.0
+          ],
+          [
+            1315.0,
+            2545.0
+          ],
+          [
+            1320.0,
+            2550.0
+          ],
+          [
+            1325.0,
+            2555.0
+          ],
+          [
+            1330.0,
+            2561.0
+          ],
+          [
+            1335.0,
+            2568.0
+          ],
+          [
+            1340.0,
+            2574.0
+          ],
+          [
+            1345.0,
+            2580.0
+          ],
+          [
+            1350.0,
+            2586.0
+          ],
+          [
+            1355.0,
+            2590.0
+          ],
+          [
+            1360.0,
+            2598.0
+          ],
+          [
+            1365.0,
+            2605.0
+          ],
+          [
+            1370.0,
+            2611.0
+          ],
+          [
+            1375.0,
+            2616.0
+          ],
+          [
+            1380.0,
+            2623.0
+          ],
+          [
+            1385.0,
+            2630.0
+          ]
+        ],
+        "fit_rms_native_px": 1.1363955198776707,
+        "fit_max_native_px": 4.494359600691951,
+        "source_pixels": [
+          2658,
+          4986
+        ],
+        "source_sha256": "1aae2c1476ecf08f0dbf53b3d97d176dca34f1005ec1b32189b61907e346a108",
+        "native_pixels_per_artboard_pixel": 2.048598944637536,
+        "native_pixels_per_portrait_artboard_pixel": 1.5094939592066055,
+        "subject_type": "painting"
+      }
+    ],
+    "custom_contacts": true,
+    "lead": "AS17-148-22727",
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "fresh_family": true
+  },
+  {
+    "id": "unconscious-rivals-bowed-arch",
+    "title": "Celestial engraving, physical Earth & Unconscious Rivals arch",
+    "radius": 750,
+    "portraitRadius": 750,
+    "horizon": 0.255,
+    "portrait_horizon": 0.34,
+    "angle": 0,
+    "portrait_angle": -25.087383076282084,
+    "initialInsetWide": 18,
+    "initialInsetPortrait": 18,
+    "finalInset": 16,
+    "end": 16,
+    "render_density": 2,
+    "portrait_density": 1.35,
+    "slots": [
+      "lahire",
+      "apollo-full-globe",
+      "unconscious-rivals-arch"
+    ],
+    "motifs": [
+      "historical-math",
+      "space",
+      "painting-arch-flowers"
+    ],
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.3,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 7.991059758236396,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 7.991059758236396,
+        "portrait_source_angle": 2.6613160105214524,
+        "portrait_target_x": 96,
+        "source_dimensions": [
+          18678,
+          12842
+        ],
+        "allow_black_extension": false
+      },
+      {
+        "name": "apollo-full-globe",
+        "source_file": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+        "circle": [
+          2297.942178080728,
+          2315.7310792966127,
+          1525.1889715850532
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 0,
+        "allow_black_extension": false,
+        "page": "https://images.nasa.gov/details/as17-148-22727",
+        "original": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
+        "credit": "NASA / Apollo 17 crew, AS17-148-22727.",
+        "rights": "NASA informational/personal image-use guidelines",
+        "fit_rms_native_px": 0.8996036519717188,
+        "fit_max_native_px": 2.3893761439026093,
+        "contour_kind": "photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required",
+        "source_pixels": [
+          4579,
+          4579
+        ],
+        "source_sha256": "cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f",
+        "target_x": 800,
+        "portrait_source_angle": -0.9,
+        "portrait_target_x": 384,
+        "source_dimensions": [
+          4579,
+          4579
+        ],
+        "native_pixels_per_artboard_pixel": 2.0335852954467377,
+        "native_pixels_per_portrait_artboard_pixel": 2.0335852954467377,
+        "subject_type": "celestial-horizon"
+      },
+      {
+        "name": "unconscious-rivals",
+        "source_file": "collections/neoclassical-better-2026-11-06/originals/unconscious-rivals.jpg",
+        "circle": [
+          355.61157843328056,
+          1987.9229588136836,
+          1546.4144848431536
+        ],
+        "source_angle": -0.35,
+        "portrait_source_angle": -0.18,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:Alma-Tadema_Unconscious_Rivals_1893.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Alma-Tadema_Unconscious_Rivals_1893.jpg",
+        "credit": "Lawrence Alma-Tadema, Unconscious Rivals, 1893. Bristol Museum & Art Gallery, K1248. Wikimedia Commons faithful public-domain painting reproduction.",
+        "rights": "Public domain; Commons PD-Art / PD-old-100-expired / Public Domain Mark",
+        "source_sha256": "0feb8386a9e6da8cfd8ef8fbcdd7c4d4f514f3d1ec552e4fdd128bc31ee52e7e",
+        "source_dimensions": [
+          3786,
+          2688
+        ],
+        "fit_points": [
+          [
+            1624.0,
+            1100.0
+          ],
+          [
+            1625.0,
+            1104.0
+          ],
+          [
+            1627.0,
+            1108.0
+          ],
+          [
+            1628.0,
+            1112.0
+          ],
+          [
+            1627.0,
+            1116.0
+          ],
+          [
+            1685.0,
+            1192.0
+          ],
+          [
+            1687.0,
+            1196.0
+          ],
+          [
+            1689.0,
+            1200.0
+          ],
+          [
+            1690.0,
+            1204.0
+          ],
+          [
+            1691.0,
+            1208.0
+          ],
+          [
+            1761.0,
+            1348.0
+          ],
+          [
+            1765.0,
+            1356.0
+          ],
+          [
+            1767.0,
+            1360.0
+          ],
+          [
+            1769.0,
+            1364.0
+          ],
+          [
+            1770.0,
+            1368.0
+          ],
+          [
+            1773.0,
+            1372.0
+          ],
+          [
+            1781.0,
+            1388.0
+          ],
+          [
+            1782.0,
+            1392.0
+          ],
+          [
+            1787.0,
+            1404.0
+          ],
+          [
+            1788.0,
+            1408.0
+          ],
+          [
+            1793.0,
+            1412.0
+          ],
+          [
+            1793.0,
+            1416.0
+          ],
+          [
+            1794.0,
+            1420.0
+          ],
+          [
+            1796.0,
+            1424.0
+          ],
+          [
+            1797.0,
+            1428.0
+          ],
+          [
+            1802.0,
+            1436.0
+          ],
+          [
+            1802.0,
+            1440.0
+          ],
+          [
+            1802.0,
+            1444.0
+          ],
+          [
+            1803.0,
+            1448.0
+          ],
+          [
+            1807.0,
+            1452.0
+          ],
+          [
+            1808.0,
+            1456.0
+          ],
+          [
+            1810.0,
+            1460.0
+          ],
+          [
+            1814.0,
+            1464.0
+          ],
+          [
+            1814.0,
+            1468.0
+          ],
+          [
+            1814.0,
+            1472.0
+          ],
+          [
+            1814.0,
+            1476.0
+          ],
+          [
+            1816.0,
+            1480.0
+          ],
+          [
+            1817.0,
+            1484.0
+          ],
+          [
+            1817.0,
+            1488.0
+          ],
+          [
+            1819.0,
+            1492.0
+          ],
+          [
+            1823.0,
+            1496.0
+          ],
+          [
+            1824.0,
+            1500.0
+          ],
+          [
+            1825.0,
+            1504.0
+          ],
+          [
+            1826.0,
+            1508.0
+          ],
+          [
+            1827.0,
+            1512.0
+          ],
+          [
+            1827.0,
+            1516.0
+          ],
+          [
+            1828.0,
+            1520.0
+          ],
+          [
+            1830.0,
+            1524.0
+          ],
+          [
+            1832.0,
+            1528.0
+          ],
+          [
+            1834.0,
+            1532.0
+          ],
+          [
+            1835.0,
+            1536.0
+          ],
+          [
+            1836.0,
+            1540.0
+          ],
+          [
+            1837.0,
+            1544.0
+          ],
+          [
+            1838.0,
+            1548.0
+          ],
+          [
+            1839.0,
+            1552.0
+          ],
+          [
+            1841.0,
+            1556.0
+          ],
+          [
+            1843.0,
+            1560.0
+          ],
+          [
+            1845.0,
+            1564.0
+          ],
+          [
+            1845.0,
+            1568.0
+          ],
+          [
+            1846.0,
+            1572.0
+          ],
+          [
+            1846.0,
+            1576.0
+          ],
+          [
+            1847.0,
+            1580.0
+          ],
+          [
+            1848.0,
+            1584.0
+          ],
+          [
+            1849.0,
+            1588.0
+          ],
+          [
+            1850.0,
+            1592.0
+          ],
+          [
+            1851.0,
+            1596.0
+          ],
+          [
+            1851.0,
+            1600.0
+          ],
+          [
+            1853.0,
+            1604.0
+          ],
+          [
+            1854.0,
+            1608.0
+          ],
+          [
+            1857.0,
+            1616.0
+          ],
+          [
+            1858.0,
+            1620.0
+          ],
+          [
+            1859.0,
+            1624.0
+          ],
+          [
+            1859.0,
+            1628.0
+          ]
+        ],
+        "contour_kind": "Direct native pigment gradient between orange vault and darker green marble band; flowers may naturally overlap boundary",
+        "target_x": 1480,
+        "portrait_target_x": 746,
+        "native_pixels_per_artboard_pixel": 2.0618859797908713,
+        "native_pixels_per_portrait_artboard_pixel": 2.0618859797908713,
+        "allow_black_extension": false,
+        "fit_rms_native_px": 1.3205497386421052,
+        "fit_max_native_px": 4.766611753996131,
+        "subject_type": "painting"
+      }
+    ],
+    "lead": "AS17-148-22727",
+    "fresh_family": true,
+    "source_detail_requested": "Inner orange vault/green marble arch and pink flowers; no requirement to retain figures. User screenshot 2026-11-06 6.10.04 pm.",
+    "openingInset": 18,
+    "portrait_openingInset": 18
+  },
+  {
+    "id": "cloud-ocean-575",
+    "title": "La Hire engraving, cloud-laced ocean & silver",
+    "radius": 2900,
+    "portraitRadius": 4000,
+    "angle": 0,
+    "horizon": 0.41,
+    "finalInset": 18,
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "end": 18,
+    "render_density": 2,
+    "portrait_density": 1.35,
+    "motifs": [
+      "engraving",
+      "space",
+      "metal"
+    ],
+    "slots": [
+      "lahire",
+      "art002e023575",
+      "silver"
+    ],
+    "source_geometry": [
+      {
+        "name": "lahire",
+        "circle": [
+          10095.000828682269,
+          6064.609306728276,
+          5993.294818677297
+        ],
+        "source_angle": 2.6613160105214524,
+        "black_point": 0,
+        "source_file": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+        "page": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg",
+        "rights": "CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license",
+        "credit": "Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries",
+        "source_sha256": "27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3",
+        "contour_kind": "center of original thick engraved circular band; no new line drawn",
+        "native_pixels_per_artboard_pixel": 2.0666533857507923,
+        "target_x": 208,
+        "native_pixels_per_portrait_artboard_pixel": 1.4983237046693243,
+        "allow_black_extension": false,
+        "source_dimensions": [
+          18678,
+          12842
+        ]
+      },
+      {
+        "name": "art002e023575",
+        "source_file": "collections/horizons/earth-artemis/art002e023575.jpg",
+        "circle": [
+          2457.519953231008,
+          11403.005329581767,
+          9911.932823261315
+        ],
+        "source_angle": -1.5378522869794484,
+        "black_point": 0,
+        "page": "https://images.nasa.gov/details/art002e023575",
+        "original": "https://images-assets.nasa.gov/image/art002e023575/art002e023575~orig.jpg",
+        "rights": "NASA image use guidelines",
+        "credit": "NASA",
+        "source_sha256": "1bf492ea7f00b512774400c8051d2d653e834cd3bbcf300d1529c4a2c934d2ad",
+        "source_dimensions": [
+          5568,
+          3712
+        ],
+        "fit_points": [
+          [
+            348.0,
+            1719.12
+          ],
+          [
+            1044.0,
+            1586.8799999999999
+          ],
+          [
+            1740.0,
+            1520.76
+          ],
+          [
+            2436.0,
+            1496.4
+          ],
+          [
+            3132.0,
+            1513.8
+          ],
+          [
+            3828.0,
+            1579.92
+          ],
+          [
+            4524.0,
+            1708.68
+          ],
+          [
+            5220.0,
+            1886.16
+          ]
+        ],
+        "fit_rms_source_pixels": 3.8236637239698177,
+        "fit_max_source_pixels": 6.293880683118914,
+        "contour_kind": "Manually picked opaque sunlit Earth/cloud limb beneath the blue atmospheric fringe. Full photo retained under similarity transform only.",
+        "valid_source_x_range": [
+          348.0,
+          5220.0
+        ],
+        "target_x": 800,
+        "allow_black_extension": false,
+        "native_pixels_per_artboard_pixel": 3.417907870090109,
+        "native_pixels_per_portrait_artboard_pixel": 2.477983205815329
+      },
+      {
+        "circle": [
+          3900.875028627851,
+          8190.029241622161,
+          6356.481295137013
+        ],
+        "source_angle": -1.5866666265053242,
+        "source_file": "opening-expansion-2026-11-06/material/1940.274.tif",
+        "name": "silver",
+        "black_point": 0,
+        "page": "https://clevelandart.org/art/1940.274",
+        "rights": "CC0",
+        "target_x": 1392,
+        "native_pixels_per_artboard_pixel": 2.1918901017713837,
+        "native_pixels_per_portrait_artboard_pixel": 1.5891203237842533,
+        "source_sha256": "1a94c361044e5a7e292ab60ee12cea7d5e14e27c686e6b49e68567ab7bbf5376",
+        "original": "https://openaccess-cdn.clevelandart.org/1940.274/1940.274_full.tif",
+        "credit": "Porringer, c. 1725\u201330. Andrew Tyler (American, 1692\u20131741). Silver; overall: 5.3 cm (2 1/16 in.); with handle: 20.8 cm (8 3/16 in.); without handle: 14.3 cm (5 5/8 in.). The Cleveland Museum of Art, Gift of Hollis French, 1940.274",
+        "allow_black_extension": false,
+        "source_dimensions": [
+          7139,
+          4576
+        ]
+      }
+    ],
+    "lead": "art002e023575",
     "fresh_family": true
   }
 ]

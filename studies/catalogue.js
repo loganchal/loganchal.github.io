@@ -11,6 +11,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/observatory/0-wide-3840.webp?v=2f03a7a152b2",
@@ -22,6 +27,174 @@ const openingScenes = [
         "studies/scenes/observatory/1-portrait-1843.webp?v=2f03a7a152b2",
         "studies/scenes/observatory/2-portrait-1843.webp?v=2f03a7a152b2"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "7731bcdde596",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/observatory/0-wide-1600.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/1-wide-1600.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/2-wide-1600.webp?v=7731bcdde596"
+            ],
+            "widths": [
+              0.26125,
+              0.68,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/observatory/0-wide-2400.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/1-wide-2400.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/2-wide-2400.webp?v=7731bcdde596"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.68,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/observatory/0-wide-3200.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/1-wide-3200.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/2-wide-3200.webp?v=7731bcdde596"
+            ],
+            "widths": [
+              0.260625,
+              0.68,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/observatory/0-wide-3840.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/1-wide-3840.webp?v=7731bcdde596",
+              "studies/scene-assets/observatory/2-wide-3840.webp?v=7731bcdde596"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6802083333333333,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "6b6efb566cfa",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/observatory/0-portrait-768.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/1-portrait-768.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/2-portrait-768.webp?v=6b6efb566cfa"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6822916666666666,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/observatory/0-portrait-tall-768.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/1-portrait-768.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/2-portrait-tall-768.webp?v=6b6efb566cfa"
+              ],
+              "widths": [
+                0.5,
+                0.6822916666666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/observatory/0-portrait-1152.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/1-portrait-1152.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/2-portrait-1152.webp?v=6b6efb566cfa"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6805555555555556,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/observatory/0-portrait-tall-1152.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/1-portrait-1152.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/2-portrait-tall-1152.webp?v=6b6efb566cfa"
+              ],
+              "widths": [
+                0.5,
+                0.6805555555555556,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/observatory/0-portrait-1536.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/1-portrait-1536.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/2-portrait-1536.webp?v=6b6efb566cfa"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6809895833333334,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/observatory/0-portrait-tall-1536.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/1-portrait-1536.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/2-portrait-tall-1536.webp?v=6b6efb566cfa"
+              ],
+              "widths": [
+                0.5,
+                0.6809895833333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/observatory/0-portrait-1843.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/1-portrait-1843.webp?v=6b6efb566cfa",
+              "studies/scene-assets/observatory/2-portrait-1843.webp?v=6b6efb566cfa"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6809549647314161,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/observatory/0-portrait-tall-1843.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/1-portrait-1843.webp?v=6b6efb566cfa",
+                "studies/scene-assets/observatory/2-portrait-tall-1843.webp?v=6b6efb566cfa"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6809549647314161,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -36,6 +209,11 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/night-archive/0-wide-3840.webp?v=772ecf9599e5",
@@ -47,6 +225,174 @@ const openingScenes = [
         "studies/scenes/night-archive/1-portrait-1843.webp?v=772ecf9599e5",
         "studies/scenes/night-archive/2-portrait-1843.webp?v=772ecf9599e5"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "6ddd43e6070b",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/night-archive/0-wide-1600.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/1-wide-1600.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/2-wide-1600.webp?v=6ddd43e6070b"
+            ],
+            "widths": [
+              0.26125,
+              0.68,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/night-archive/0-wide-2400.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/1-wide-2400.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/2-wide-2400.webp?v=6ddd43e6070b"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.68,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/night-archive/0-wide-3200.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/1-wide-3200.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/2-wide-3200.webp?v=6ddd43e6070b"
+            ],
+            "widths": [
+              0.260625,
+              0.68,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/night-archive/0-wide-3840.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/1-wide-3840.webp?v=6ddd43e6070b",
+              "studies/scene-assets/night-archive/2-wide-3840.webp?v=6ddd43e6070b"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6802083333333333,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "d86b5ff8d20b",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/night-archive/0-portrait-768.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/1-portrait-768.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/2-portrait-768.webp?v=d86b5ff8d20b"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6822916666666666,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-archive/0-portrait-tall-768.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/1-portrait-768.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/2-portrait-tall-768.webp?v=d86b5ff8d20b"
+              ],
+              "widths": [
+                0.5,
+                0.6822916666666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/night-archive/0-portrait-1152.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/1-portrait-1152.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/2-portrait-1152.webp?v=d86b5ff8d20b"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6805555555555556,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-archive/0-portrait-tall-1152.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/1-portrait-1152.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/2-portrait-tall-1152.webp?v=d86b5ff8d20b"
+              ],
+              "widths": [
+                0.5,
+                0.6805555555555556,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/night-archive/0-portrait-1536.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/1-portrait-1536.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/2-portrait-1536.webp?v=d86b5ff8d20b"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6809895833333334,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-archive/0-portrait-tall-1536.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/1-portrait-1536.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/2-portrait-tall-1536.webp?v=d86b5ff8d20b"
+              ],
+              "widths": [
+                0.5,
+                0.6809895833333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/night-archive/0-portrait-1843.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/1-portrait-1843.webp?v=d86b5ff8d20b",
+              "studies/scene-assets/night-archive/2-portrait-1843.webp?v=d86b5ff8d20b"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6809549647314161,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-archive/0-portrait-tall-1843.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/1-portrait-1843.webp?v=d86b5ff8d20b",
+                "studies/scene-assets/night-archive/2-portrait-tall-1843.webp?v=d86b5ff8d20b"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6809549647314161,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -61,6 +407,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "optical-glass",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/prism-eclipse/0-wide-3680.webp?v=834274307761",
@@ -72,6 +423,174 @@ const openingScenes = [
         "studies/scenes/prism-eclipse/1-portrait-1766.webp?v=834274307761",
         "studies/scenes/prism-eclipse/2-portrait-1766.webp?v=834274307761"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "8844e9f9b182",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-wide-1600.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/1-wide-1600.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/2-wide-1600.webp?v=8844e9f9b182"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-wide-2400.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/1-wide-2400.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/2-wide-2400.webp?v=8844e9f9b182"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-wide-3200.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/1-wide-3200.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/2-wide-3200.webp?v=8844e9f9b182"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-wide-3680.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/1-wide-3680.webp?v=8844e9f9b182",
+              "studies/scene-assets/prism-eclipse/2-wide-3680.webp?v=8844e9f9b182"
+            ],
+            "widths": [
+              0.26059782608695653,
+              0.6402173913043478,
+              0.26059782608695653
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "7b13c780c06e",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-portrait-768.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/1-portrait-768.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/2-portrait-768.webp?v=7b13c780c06e"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-eclipse/0-portrait-tall-768.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/1-portrait-768.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/2-portrait-tall-768.webp?v=7b13c780c06e"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-portrait-1152.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/1-portrait-1152.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/2-portrait-1152.webp?v=7b13c780c06e"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-eclipse/0-portrait-tall-1152.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/1-portrait-1152.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/2-portrait-tall-1152.webp?v=7b13c780c06e"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-portrait-1536.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/1-portrait-1536.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/2-portrait-1536.webp?v=7b13c780c06e"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.640625,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-eclipse/0-portrait-tall-1536.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/1-portrait-1536.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/2-portrait-tall-1536.webp?v=7b13c780c06e"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/prism-eclipse/0-portrait-1766.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/1-portrait-1766.webp?v=7b13c780c06e",
+              "studies/scene-assets/prism-eclipse/2-portrait-1766.webp?v=7b13c780c06e"
+            ],
+            "widths": [
+              0.25141562853907135,
+              0.6409966024915063,
+              0.25141562853907135
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-eclipse/0-portrait-tall-1766.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/1-portrait-1766.webp?v=7b13c780c06e",
+                "studies/scene-assets/prism-eclipse/2-portrait-tall-1766.webp?v=7b13c780c06e"
+              ],
+              "widths": [
+                0.5,
+                0.6409966024915063,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -86,6 +605,11 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/porcelain-earth/0-wide-3840.webp?v=465e34a2cdb1",
@@ -97,31 +621,174 @@ const openingScenes = [
         "studies/scenes/porcelain-earth/1-portrait-1843.webp?v=465e34a2cdb1",
         "studies/scenes/porcelain-earth/2-portrait-1843.webp?v=465e34a2cdb1"
       ]
-    }
-  },
-  {
-    "id": "woven-earth",
-    "title": "Fibre, lunar horizon & vermilion",
-    "radius": 2100,
-    "angle": -8,
-    "finalInset": 8,
-    "lead": "art002e009289",
-    "motifs": [
-      "fibre",
-      "space",
-      "ceramic"
-    ],
-    "assets": {
-      "wide": [
-        "studies/scenes/woven-earth/0-wide-3648.webp?v=e2dbf2f4b895",
-        "studies/scenes/woven-earth/1-wide-3648.webp?v=e2dbf2f4b895",
-        "studies/scenes/woven-earth/2-wide-3648.webp?v=e2dbf2f4b895"
-      ],
-      "portrait": [
-        "studies/scenes/woven-earth/0-portrait-1751.webp?v=e2dbf2f4b895",
-        "studies/scenes/woven-earth/1-portrait-1751.webp?v=e2dbf2f4b895",
-        "studies/scenes/woven-earth/2-portrait-1751.webp?v=e2dbf2f4b895"
-      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "c60b29d0120c",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-wide-1600.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/1-wide-1600.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/2-wide-1600.webp?v=c60b29d0120c"
+            ],
+            "widths": [
+              0.26125,
+              0.84,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-wide-2400.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/1-wide-2400.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/2-wide-2400.webp?v=c60b29d0120c"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.84,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-wide-3200.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/1-wide-3200.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/2-wide-3200.webp?v=c60b29d0120c"
+            ],
+            "widths": [
+              0.260625,
+              0.84,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-wide-3840.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/1-wide-3840.webp?v=c60b29d0120c",
+              "studies/scene-assets/porcelain-earth/2-wide-3840.webp?v=c60b29d0120c"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.8401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "08aaa284857d",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-portrait-768.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/1-portrait-768.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/2-portrait-768.webp?v=08aaa284857d"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.8411458333333334,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/porcelain-earth/0-portrait-tall-768.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/1-portrait-768.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/2-portrait-tall-768.webp?v=08aaa284857d"
+              ],
+              "widths": [
+                0.5,
+                0.8411458333333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-portrait-1152.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/1-portrait-1152.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/2-portrait-1152.webp?v=08aaa284857d"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.8402777777777778,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/porcelain-earth/0-portrait-tall-1152.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/1-portrait-1152.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/2-portrait-tall-1152.webp?v=08aaa284857d"
+              ],
+              "widths": [
+                0.5,
+                0.8402777777777778,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-portrait-1536.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/1-portrait-1536.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/2-portrait-1536.webp?v=08aaa284857d"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.8411458333333334,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/porcelain-earth/0-portrait-tall-1536.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/1-portrait-1536.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/2-portrait-tall-1536.webp?v=08aaa284857d"
+              ],
+              "widths": [
+                0.5,
+                0.8411458333333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/porcelain-earth/0-portrait-1843.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/1-portrait-1843.webp?v=08aaa284857d",
+              "studies/scene-assets/porcelain-earth/2-portrait-1843.webp?v=08aaa284857d"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.8404774823657081,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/porcelain-earth/0-portrait-tall-1843.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/1-portrait-1843.webp?v=08aaa284857d",
+                "studies/scene-assets/porcelain-earth/2-portrait-tall-1843.webp?v=08aaa284857d"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.8404774823657081,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -136,6 +803,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/night-gradient/0-wide-3680.webp?v=a9f6e8325b25",
@@ -147,6 +819,174 @@ const openingScenes = [
         "studies/scenes/night-gradient/1-portrait-1766.webp?v=a9f6e8325b25",
         "studies/scenes/night-gradient/2-portrait-1766.webp?v=a9f6e8325b25"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "2699e0b0a344",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-wide-1600.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/1-wide-1600.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/2-wide-1600.webp?v=2699e0b0a344"
+            ],
+            "widths": [
+              0.26125,
+              0.58,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-wide-2400.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/1-wide-2400.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/2-wide-2400.webp?v=2699e0b0a344"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.58,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-wide-3200.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/1-wide-3200.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/2-wide-3200.webp?v=2699e0b0a344"
+            ],
+            "widths": [
+              0.260625,
+              0.58,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-wide-3680.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/1-wide-3680.webp?v=2699e0b0a344",
+              "studies/scene-assets/night-gradient/2-wide-3680.webp?v=2699e0b0a344"
+            ],
+            "widths": [
+              0.26059782608695653,
+              0.5804347826086956,
+              0.26059782608695653
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "2821412dd7d3",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-portrait-768.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/1-portrait-768.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/2-portrait-768.webp?v=2821412dd7d3"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.5807291666666666,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-gradient/0-portrait-tall-768.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/1-portrait-768.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/2-portrait-tall-768.webp?v=2821412dd7d3"
+              ],
+              "widths": [
+                0.5,
+                0.5807291666666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-portrait-1152.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/1-portrait-1152.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/2-portrait-1152.webp?v=2821412dd7d3"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.5815972222222222,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-gradient/0-portrait-tall-1152.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/1-portrait-1152.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/2-portrait-tall-1152.webp?v=2821412dd7d3"
+              ],
+              "widths": [
+                0.5,
+                0.5815972222222222,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-portrait-1536.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/1-portrait-1536.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/2-portrait-1536.webp?v=2821412dd7d3"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.5807291666666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-gradient/0-portrait-tall-1536.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/1-portrait-1536.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/2-portrait-tall-1536.webp?v=2821412dd7d3"
+              ],
+              "widths": [
+                0.5,
+                0.5807291666666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/night-gradient/0-portrait-1766.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/1-portrait-1766.webp?v=2821412dd7d3",
+              "studies/scene-assets/night-gradient/2-portrait-1766.webp?v=2821412dd7d3"
+            ],
+            "widths": [
+              0.25141562853907135,
+              0.580973952434881,
+              0.25141562853907135
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/night-gradient/0-portrait-tall-1766.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/1-portrait-1766.webp?v=2821412dd7d3",
+                "studies/scene-assets/night-gradient/2-portrait-tall-1766.webp?v=2821412dd7d3"
+              ],
+              "widths": [
+                0.5,
+                0.580973952434881,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -161,6 +1001,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/lion-dawn/0-wide-3840.webp?v=eee2a44f8e92",
@@ -172,6 +1017,174 @@ const openingScenes = [
         "studies/scenes/lion-dawn/1-portrait-1843.webp?v=eee2a44f8e92",
         "studies/scenes/lion-dawn/2-portrait-1843.webp?v=eee2a44f8e92"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "41b2c9da0497",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-wide-1600.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/1-wide-1600.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/2-wide-1600.webp?v=41b2c9da0497"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-wide-2400.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/1-wide-2400.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/2-wide-2400.webp?v=41b2c9da0497"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-wide-3200.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/1-wide-3200.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/2-wide-3200.webp?v=41b2c9da0497"
+            ],
+            "widths": [
+              0.260625,
+              0.6,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-wide-3840.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/1-wide-3840.webp?v=41b2c9da0497",
+              "studies/scene-assets/lion-dawn/2-wide-3840.webp?v=41b2c9da0497"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "dabe13cf50be",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-portrait-768.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/1-portrait-768.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/2-portrait-768.webp?v=dabe13cf50be"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn/0-portrait-tall-768.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/1-portrait-768.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/2-portrait-tall-768.webp?v=dabe13cf50be"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-portrait-1152.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/1-portrait-1152.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/2-portrait-1152.webp?v=dabe13cf50be"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn/0-portrait-tall-1152.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/1-portrait-1152.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/2-portrait-tall-1152.webp?v=dabe13cf50be"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-portrait-1536.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/1-portrait-1536.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/2-portrait-1536.webp?v=dabe13cf50be"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6002604166666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn/0-portrait-tall-1536.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/1-portrait-1536.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/2-portrait-tall-1536.webp?v=dabe13cf50be"
+              ],
+              "widths": [
+                0.5,
+                0.6002604166666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-dawn/0-portrait-1843.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/1-portrait-1843.webp?v=dabe13cf50be",
+              "studies/scene-assets/lion-dawn/2-portrait-1843.webp?v=dabe13cf50be"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6006511123168746,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn/0-portrait-tall-1843.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/1-portrait-1843.webp?v=dabe13cf50be",
+                "studies/scene-assets/lion-dawn/2-portrait-tall-1843.webp?v=dabe13cf50be"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6006511123168746,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -186,6 +1199,11 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/glaze-dawn/0-wide-3840.webp?v=ff9f228bb34e",
@@ -197,6 +1215,174 @@ const openingScenes = [
         "studies/scenes/glaze-dawn/1-portrait-1843.webp?v=ff9f228bb34e",
         "studies/scenes/glaze-dawn/2-portrait-1843.webp?v=ff9f228bb34e"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "82aaab9ea313",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-wide-1600.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/1-wide-1600.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/2-wide-1600.webp?v=82aaab9ea313"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-wide-2400.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/1-wide-2400.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/2-wide-2400.webp?v=82aaab9ea313"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-wide-3200.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/1-wide-3200.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/2-wide-3200.webp?v=82aaab9ea313"
+            ],
+            "widths": [
+              0.260625,
+              0.6,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-wide-3840.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/1-wide-3840.webp?v=82aaab9ea313",
+              "studies/scene-assets/glaze-dawn/2-wide-3840.webp?v=82aaab9ea313"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "6669a00d6a04",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-portrait-768.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/1-portrait-768.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/2-portrait-768.webp?v=6669a00d6a04"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/glaze-dawn/0-portrait-tall-768.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/1-portrait-768.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/2-portrait-tall-768.webp?v=6669a00d6a04"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-portrait-1152.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/1-portrait-1152.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/2-portrait-1152.webp?v=6669a00d6a04"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/glaze-dawn/0-portrait-tall-1152.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/1-portrait-1152.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/2-portrait-tall-1152.webp?v=6669a00d6a04"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-portrait-1536.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/1-portrait-1536.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/2-portrait-1536.webp?v=6669a00d6a04"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6002604166666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/glaze-dawn/0-portrait-tall-1536.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/1-portrait-1536.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/2-portrait-tall-1536.webp?v=6669a00d6a04"
+              ],
+              "widths": [
+                0.5,
+                0.6002604166666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/glaze-dawn/0-portrait-1843.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/1-portrait-1843.webp?v=6669a00d6a04",
+              "studies/scene-assets/glaze-dawn/2-portrait-1843.webp?v=6669a00d6a04"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6006511123168746,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/glaze-dawn/0-portrait-tall-1843.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/1-portrait-1843.webp?v=6669a00d6a04",
+                "studies/scene-assets/glaze-dawn/2-portrait-tall-1843.webp?v=6669a00d6a04"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6006511123168746,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -211,6 +1397,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "optical-glass",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/prism-dawn/0-wide-3680.webp?v=47c46699df6b",
@@ -222,6 +1413,174 @@ const openingScenes = [
         "studies/scenes/prism-dawn/1-portrait-1766.webp?v=47c46699df6b",
         "studies/scenes/prism-dawn/2-portrait-1766.webp?v=47c46699df6b"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "fb2d640cbaba",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-wide-1600.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/1-wide-1600.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/2-wide-1600.webp?v=fb2d640cbaba"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-wide-2400.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/1-wide-2400.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/2-wide-2400.webp?v=fb2d640cbaba"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-wide-3200.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/1-wide-3200.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/2-wide-3200.webp?v=fb2d640cbaba"
+            ],
+            "widths": [
+              0.260625,
+              0.6,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-wide-3680.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/1-wide-3680.webp?v=fb2d640cbaba",
+              "studies/scene-assets/prism-dawn/2-wide-3680.webp?v=fb2d640cbaba"
+            ],
+            "widths": [
+              0.26059782608695653,
+              0.6,
+              0.26059782608695653
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "0f5b4f90a707",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-portrait-768.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/1-portrait-768.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/2-portrait-768.webp?v=0f5b4f90a707"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-dawn/0-portrait-tall-768.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/1-portrait-768.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/2-portrait-tall-768.webp?v=0f5b4f90a707"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-portrait-1152.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/1-portrait-1152.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/2-portrait-1152.webp?v=0f5b4f90a707"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-dawn/0-portrait-tall-1152.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/1-portrait-1152.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/2-portrait-tall-1152.webp?v=0f5b4f90a707"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-portrait-1536.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/1-portrait-1536.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/2-portrait-1536.webp?v=0f5b4f90a707"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6002604166666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-dawn/0-portrait-tall-1536.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/1-portrait-1536.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/2-portrait-tall-1536.webp?v=0f5b4f90a707"
+              ],
+              "widths": [
+                0.5,
+                0.6002604166666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/prism-dawn/0-portrait-1766.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/1-portrait-1766.webp?v=0f5b4f90a707",
+              "studies/scene-assets/prism-dawn/2-portrait-1766.webp?v=0f5b4f90a707"
+            ],
+            "widths": [
+              0.25141562853907135,
+              0.6002265005662514,
+              0.25141562853907135
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-dawn/0-portrait-tall-1766.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/1-portrait-1766.webp?v=0f5b4f90a707",
+                "studies/scene-assets/prism-dawn/2-portrait-tall-1766.webp?v=0f5b4f90a707"
+              ],
+              "widths": [
+                0.5,
+                0.6002265005662514,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -236,6 +1595,11 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/woven-dawn/0-wide-3840.webp?v=e3be457a5812",
@@ -247,6 +1611,174 @@ const openingScenes = [
         "studies/scenes/woven-dawn/1-portrait-1843.webp?v=e3be457a5812",
         "studies/scenes/woven-dawn/2-portrait-1843.webp?v=e3be457a5812"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "26b35db2008f",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-wide-1600.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/1-wide-1600.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/2-wide-1600.webp?v=26b35db2008f"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-wide-2400.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/1-wide-2400.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/2-wide-2400.webp?v=26b35db2008f"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-wide-3200.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/1-wide-3200.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/2-wide-3200.webp?v=26b35db2008f"
+            ],
+            "widths": [
+              0.260625,
+              0.6,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-wide-3840.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/1-wide-3840.webp?v=26b35db2008f",
+              "studies/scene-assets/woven-dawn/2-wide-3840.webp?v=26b35db2008f"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "b0eed49d5fd8",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-portrait-768.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/1-portrait-768.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/2-portrait-768.webp?v=b0eed49d5fd8"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-dawn/0-portrait-tall-768.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/1-portrait-768.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/2-portrait-tall-768.webp?v=b0eed49d5fd8"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-portrait-1152.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/1-portrait-1152.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/2-portrait-1152.webp?v=b0eed49d5fd8"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-dawn/0-portrait-tall-1152.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/1-portrait-1152.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/2-portrait-tall-1152.webp?v=b0eed49d5fd8"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-portrait-1536.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/1-portrait-1536.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/2-portrait-1536.webp?v=b0eed49d5fd8"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6002604166666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-dawn/0-portrait-tall-1536.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/1-portrait-1536.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/2-portrait-tall-1536.webp?v=b0eed49d5fd8"
+              ],
+              "widths": [
+                0.5,
+                0.6002604166666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/woven-dawn/0-portrait-1843.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/1-portrait-1843.webp?v=b0eed49d5fd8",
+              "studies/scene-assets/woven-dawn/2-portrait-1843.webp?v=b0eed49d5fd8"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6006511123168746,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-dawn/0-portrait-tall-1843.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/1-portrait-1843.webp?v=b0eed49d5fd8",
+                "studies/scene-assets/woven-dawn/2-portrait-tall-1843.webp?v=b0eed49d5fd8"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6006511123168746,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -261,6 +1793,11 @@ const openingScenes = [
       "space",
       "optics"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "optical-glass"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/archive-dawn/0-wide-3520.webp?v=ebd52adfb492",
@@ -272,6 +1809,136 @@ const openingScenes = [
         "studies/scenes/archive-dawn/1-portrait-1690.webp?v=ebd52adfb492",
         "studies/scenes/archive-dawn/2-portrait-1690.webp?v=ebd52adfb492"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "b9d1bad374dd",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/archive-dawn/0-wide-1600.webp?v=b9d1bad374dd",
+              "studies/scene-assets/archive-dawn/1-wide-1600.webp?v=b9d1bad374dd",
+              "studies/scene-assets/archive-dawn/2-wide-1600.webp?v=b9d1bad374dd"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/archive-dawn/0-wide-2400.webp?v=b9d1bad374dd",
+              "studies/scene-assets/archive-dawn/1-wide-2400.webp?v=b9d1bad374dd",
+              "studies/scene-assets/archive-dawn/2-wide-2400.webp?v=b9d1bad374dd"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.2,
+            "urls": [
+              "studies/scene-assets/archive-dawn/0-wide-3520.webp?v=b9d1bad374dd",
+              "studies/scene-assets/archive-dawn/1-wide-3520.webp?v=b9d1bad374dd",
+              "studies/scene-assets/archive-dawn/2-wide-3520.webp?v=b9d1bad374dd"
+            ],
+            "widths": [
+              0.26079545454545455,
+              0.6,
+              0.26079545454545455
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "8b19003d80a7",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/archive-dawn/0-portrait-768.webp?v=8b19003d80a7",
+              "studies/scene-assets/archive-dawn/1-portrait-768.webp?v=8b19003d80a7",
+              "studies/scene-assets/archive-dawn/2-portrait-768.webp?v=8b19003d80a7"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-dawn/0-portrait-tall-768.webp?v=8b19003d80a7",
+                "studies/scene-assets/archive-dawn/1-portrait-768.webp?v=8b19003d80a7",
+                "studies/scene-assets/archive-dawn/2-portrait-tall-768.webp?v=8b19003d80a7"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/archive-dawn/0-portrait-1152.webp?v=8b19003d80a7",
+              "studies/scene-assets/archive-dawn/1-portrait-1152.webp?v=8b19003d80a7",
+              "studies/scene-assets/archive-dawn/2-portrait-1152.webp?v=8b19003d80a7"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-dawn/0-portrait-tall-1152.webp?v=8b19003d80a7",
+                "studies/scene-assets/archive-dawn/1-portrait-1152.webp?v=8b19003d80a7",
+                "studies/scene-assets/archive-dawn/2-portrait-tall-1152.webp?v=8b19003d80a7"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.2,
+            "urls": [
+              "studies/scene-assets/archive-dawn/0-portrait-1690.webp?v=8b19003d80a7",
+              "studies/scene-assets/archive-dawn/1-portrait-1690.webp?v=8b19003d80a7",
+              "studies/scene-assets/archive-dawn/2-portrait-1690.webp?v=8b19003d80a7"
+            ],
+            "widths": [
+              0.2514792899408284,
+              0.6,
+              0.2514792899408284
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-dawn/0-portrait-tall-1690.webp?v=8b19003d80a7",
+                "studies/scene-assets/archive-dawn/1-portrait-1690.webp?v=8b19003d80a7",
+                "studies/scene-assets/archive-dawn/2-portrait-tall-1690.webp?v=8b19003d80a7"
+              ],
+              "widths": [
+                0.5,
+                0.6,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -286,6 +1953,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/lion-eclipse/0-wide-3328.webp?v=bd32bb545085",
@@ -297,6 +1969,136 @@ const openingScenes = [
         "studies/scenes/lion-eclipse/1-portrait-1597.webp?v=bd32bb545085",
         "studies/scenes/lion-eclipse/2-portrait-1597.webp?v=bd32bb545085"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "6a5f3c4e737f",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-eclipse/0-wide-1600.webp?v=6a5f3c4e737f",
+              "studies/scene-assets/lion-eclipse/1-wide-1600.webp?v=6a5f3c4e737f",
+              "studies/scene-assets/lion-eclipse/2-wide-1600.webp?v=6a5f3c4e737f"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-eclipse/0-wide-2400.webp?v=6a5f3c4e737f",
+              "studies/scene-assets/lion-eclipse/1-wide-2400.webp?v=6a5f3c4e737f",
+              "studies/scene-assets/lion-eclipse/2-wide-2400.webp?v=6a5f3c4e737f"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.08,
+            "urls": [
+              "studies/scene-assets/lion-eclipse/0-wide-3328.webp?v=6a5f3c4e737f",
+              "studies/scene-assets/lion-eclipse/1-wide-3328.webp?v=6a5f3c4e737f",
+              "studies/scene-assets/lion-eclipse/2-wide-3328.webp?v=6a5f3c4e737f"
+            ],
+            "widths": [
+              0.2608173076923077,
+              0.6400240384615384,
+              0.2608173076923077
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "e95fb1bceef4",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-eclipse/0-portrait-768.webp?v=e95fb1bceef4",
+              "studies/scene-assets/lion-eclipse/1-portrait-768.webp?v=e95fb1bceef4",
+              "studies/scene-assets/lion-eclipse/2-portrait-768.webp?v=e95fb1bceef4"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-eclipse/0-portrait-tall-768.webp?v=e95fb1bceef4",
+                "studies/scene-assets/lion-eclipse/1-portrait-768.webp?v=e95fb1bceef4",
+                "studies/scene-assets/lion-eclipse/2-portrait-tall-768.webp?v=e95fb1bceef4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-eclipse/0-portrait-1152.webp?v=e95fb1bceef4",
+              "studies/scene-assets/lion-eclipse/1-portrait-1152.webp?v=e95fb1bceef4",
+              "studies/scene-assets/lion-eclipse/2-portrait-1152.webp?v=e95fb1bceef4"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-eclipse/0-portrait-tall-1152.webp?v=e95fb1bceef4",
+                "studies/scene-assets/lion-eclipse/1-portrait-1152.webp?v=e95fb1bceef4",
+                "studies/scene-assets/lion-eclipse/2-portrait-tall-1152.webp?v=e95fb1bceef4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.08,
+            "urls": [
+              "studies/scene-assets/lion-eclipse/0-portrait-1597.webp?v=e95fb1bceef4",
+              "studies/scene-assets/lion-eclipse/1-portrait-1597.webp?v=e95fb1bceef4",
+              "studies/scene-assets/lion-eclipse/2-portrait-1597.webp?v=e95fb1bceef4"
+            ],
+            "widths": [
+              0.2517219787100814,
+              0.6405760801502818,
+              0.2517219787100814
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-eclipse/0-portrait-tall-1597.webp?v=e95fb1bceef4",
+                "studies/scene-assets/lion-eclipse/1-portrait-1597.webp?v=e95fb1bceef4",
+                "studies/scene-assets/lion-eclipse/2-portrait-tall-1597.webp?v=e95fb1bceef4"
+              ],
+              "widths": [
+                0.5003130870381967,
+                0.6405760801502818,
+                0.5003130870381967
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -311,6 +2113,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/lion-earth/0-wide-3840.webp?v=9c195f689a98",
@@ -322,6 +2129,174 @@ const openingScenes = [
         "studies/scenes/lion-earth/1-portrait-1843.webp?v=9c195f689a98",
         "studies/scenes/lion-earth/2-portrait-1843.webp?v=9c195f689a98"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "a76fdcd28b23",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-wide-1600.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/1-wide-1600.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/2-wide-1600.webp?v=a76fdcd28b23"
+            ],
+            "widths": [
+              0.26125,
+              0.8,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-wide-2400.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/1-wide-2400.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/2-wide-2400.webp?v=a76fdcd28b23"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.8,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-wide-3200.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/1-wide-3200.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/2-wide-3200.webp?v=a76fdcd28b23"
+            ],
+            "widths": [
+              0.260625,
+              0.8,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-wide-3840.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/1-wide-3840.webp?v=a76fdcd28b23",
+              "studies/scene-assets/lion-earth/2-wide-3840.webp?v=a76fdcd28b23"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.8,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "c47a3e6a7c4b",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-portrait-768.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/1-portrait-768.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/2-portrait-768.webp?v=c47a3e6a7c4b"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.8020833333333334,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-earth/0-portrait-tall-768.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/1-portrait-768.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/2-portrait-tall-768.webp?v=c47a3e6a7c4b"
+              ],
+              "widths": [
+                0.5,
+                0.8020833333333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-portrait-1152.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/1-portrait-1152.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/2-portrait-1152.webp?v=c47a3e6a7c4b"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.8003472222222222,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-earth/0-portrait-tall-1152.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/1-portrait-1152.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/2-portrait-tall-1152.webp?v=c47a3e6a7c4b"
+              ],
+              "widths": [
+                0.5,
+                0.8003472222222222,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-portrait-1536.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/1-portrait-1536.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/2-portrait-1536.webp?v=c47a3e6a7c4b"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.80078125,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-earth/0-portrait-tall-1536.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/1-portrait-1536.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/2-portrait-tall-1536.webp?v=c47a3e6a7c4b"
+              ],
+              "widths": [
+                0.5,
+                0.80078125,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-earth/0-portrait-1843.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/1-portrait-1843.webp?v=c47a3e6a7c4b",
+              "studies/scene-assets/lion-earth/2-portrait-1843.webp?v=c47a3e6a7c4b"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.8003255561584374,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-earth/0-portrait-tall-1843.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/1-portrait-1843.webp?v=c47a3e6a7c4b",
+                "studies/scene-assets/lion-earth/2-portrait-tall-1843.webp?v=c47a3e6a7c4b"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.8003255561584374,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -336,6 +2311,11 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "subjects": [
+      "optical-glass",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/prism-earth/0-wide-3680.webp?v=4505e536d6df",
@@ -347,6 +2327,174 @@ const openingScenes = [
         "studies/scenes/prism-earth/1-portrait-1766.webp?v=4505e536d6df",
         "studies/scenes/prism-earth/2-portrait-1766.webp?v=4505e536d6df"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "c318d045c9cd",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-wide-1600.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/1-wide-1600.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/2-wide-1600.webp?v=c318d045c9cd"
+            ],
+            "widths": [
+              0.26125,
+              0.8,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-wide-2400.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/1-wide-2400.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/2-wide-2400.webp?v=c318d045c9cd"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.8,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-wide-3200.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/1-wide-3200.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/2-wide-3200.webp?v=c318d045c9cd"
+            ],
+            "widths": [
+              0.260625,
+              0.8,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-wide-3680.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/1-wide-3680.webp?v=c318d045c9cd",
+              "studies/scene-assets/prism-earth/2-wide-3680.webp?v=c318d045c9cd"
+            ],
+            "widths": [
+              0.26059782608695653,
+              0.8,
+              0.26059782608695653
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "3548902e7cc0",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-portrait-768.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/1-portrait-768.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/2-portrait-768.webp?v=3548902e7cc0"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.8020833333333334,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-earth/0-portrait-tall-768.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/1-portrait-768.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/2-portrait-tall-768.webp?v=3548902e7cc0"
+              ],
+              "widths": [
+                0.5,
+                0.8020833333333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-portrait-1152.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/1-portrait-1152.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/2-portrait-1152.webp?v=3548902e7cc0"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.8003472222222222,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-earth/0-portrait-tall-1152.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/1-portrait-1152.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/2-portrait-tall-1152.webp?v=3548902e7cc0"
+              ],
+              "widths": [
+                0.5,
+                0.8003472222222222,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-portrait-1536.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/1-portrait-1536.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/2-portrait-1536.webp?v=3548902e7cc0"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.80078125,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-earth/0-portrait-tall-1536.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/1-portrait-1536.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/2-portrait-tall-1536.webp?v=3548902e7cc0"
+              ],
+              "widths": [
+                0.5,
+                0.80078125,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.3,
+            "urls": [
+              "studies/scene-assets/prism-earth/0-portrait-1766.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/1-portrait-1766.webp?v=3548902e7cc0",
+              "studies/scene-assets/prism-earth/2-portrait-1766.webp?v=3548902e7cc0"
+            ],
+            "widths": [
+              0.25141562853907135,
+              0.8006795016987542,
+              0.25141562853907135
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/prism-earth/0-portrait-tall-1766.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/1-portrait-1766.webp?v=3548902e7cc0",
+                "studies/scene-assets/prism-earth/2-portrait-tall-1766.webp?v=3548902e7cc0"
+              ],
+              "widths": [
+                0.5,
+                0.8006795016987542,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -361,6 +2509,11 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/woven-eclipse/0-wide-3840.webp?v=6e6f1423aaa1",
@@ -372,6 +2525,174 @@ const openingScenes = [
         "studies/scenes/woven-eclipse/1-portrait-1843.webp?v=6e6f1423aaa1",
         "studies/scenes/woven-eclipse/2-portrait-1843.webp?v=6e6f1423aaa1"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "165be4db469a",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-wide-1600.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/1-wide-1600.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/2-wide-1600.webp?v=165be4db469a"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-wide-2400.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/1-wide-2400.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/2-wide-2400.webp?v=165be4db469a"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-wide-3200.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/1-wide-3200.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/2-wide-3200.webp?v=165be4db469a"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-wide-3840.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/1-wide-3840.webp?v=165be4db469a",
+              "studies/scene-assets/woven-eclipse/2-wide-3840.webp?v=165be4db469a"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "61aa2c69aece",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-portrait-768.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/1-portrait-768.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/2-portrait-768.webp?v=61aa2c69aece"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-eclipse/0-portrait-tall-768.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/1-portrait-768.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/2-portrait-tall-768.webp?v=61aa2c69aece"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-portrait-1152.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/1-portrait-1152.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/2-portrait-1152.webp?v=61aa2c69aece"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-eclipse/0-portrait-tall-1152.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/1-portrait-1152.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/2-portrait-tall-1152.webp?v=61aa2c69aece"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-portrait-1536.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/1-portrait-1536.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/2-portrait-1536.webp?v=61aa2c69aece"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.640625,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-eclipse/0-portrait-tall-1536.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/1-portrait-1536.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/2-portrait-tall-1536.webp?v=61aa2c69aece"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/woven-eclipse/0-portrait-1843.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/1-portrait-1843.webp?v=61aa2c69aece",
+              "studies/scene-assets/woven-eclipse/2-portrait-1843.webp?v=61aa2c69aece"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6408030385241454,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-eclipse/0-portrait-tall-1843.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/1-portrait-1843.webp?v=61aa2c69aece",
+                "studies/scene-assets/woven-eclipse/2-portrait-tall-1843.webp?v=61aa2c69aece"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6408030385241454,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -386,6 +2707,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/archive-earth/0-wide-3840.webp?v=9f6d325398d5",
@@ -397,6 +2723,174 @@ const openingScenes = [
         "studies/scenes/archive-earth/1-portrait-1843.webp?v=9f6d325398d5",
         "studies/scenes/archive-earth/2-portrait-1843.webp?v=9f6d325398d5"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "217ad0736229",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-wide-1600.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/1-wide-1600.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/2-wide-1600.webp?v=217ad0736229"
+            ],
+            "widths": [
+              0.26125,
+              0.8,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-wide-2400.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/1-wide-2400.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/2-wide-2400.webp?v=217ad0736229"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.8,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-wide-3200.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/1-wide-3200.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/2-wide-3200.webp?v=217ad0736229"
+            ],
+            "widths": [
+              0.260625,
+              0.8,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-wide-3840.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/1-wide-3840.webp?v=217ad0736229",
+              "studies/scene-assets/archive-earth/2-wide-3840.webp?v=217ad0736229"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.8,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "119cf87d3b7d",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-portrait-768.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/1-portrait-768.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/2-portrait-768.webp?v=119cf87d3b7d"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.8020833333333334,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-earth/0-portrait-tall-768.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/1-portrait-768.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/2-portrait-tall-768.webp?v=119cf87d3b7d"
+              ],
+              "widths": [
+                0.5,
+                0.8020833333333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-portrait-1152.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/1-portrait-1152.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/2-portrait-1152.webp?v=119cf87d3b7d"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.8003472222222222,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-earth/0-portrait-tall-1152.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/1-portrait-1152.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/2-portrait-tall-1152.webp?v=119cf87d3b7d"
+              ],
+              "widths": [
+                0.5,
+                0.8003472222222222,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-portrait-1536.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/1-portrait-1536.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/2-portrait-1536.webp?v=119cf87d3b7d"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.80078125,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-earth/0-portrait-tall-1536.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/1-portrait-1536.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/2-portrait-tall-1536.webp?v=119cf87d3b7d"
+              ],
+              "widths": [
+                0.5,
+                0.80078125,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/archive-earth/0-portrait-1843.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/1-portrait-1843.webp?v=119cf87d3b7d",
+              "studies/scene-assets/archive-earth/2-portrait-1843.webp?v=119cf87d3b7d"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.8003255561584374,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/archive-earth/0-portrait-tall-1843.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/1-portrait-1843.webp?v=119cf87d3b7d",
+                "studies/scene-assets/archive-earth/2-portrait-tall-1843.webp?v=119cf87d3b7d"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.8003255561584374,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -413,6 +2907,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "shell-specimen",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/atlantic-spectrum/0-wide-3840.webp?v=b02a060509c7",
@@ -424,6 +2923,149 @@ const openingScenes = [
         "studies/scenes/atlantic-spectrum/1-portrait-1382.webp?v=b02a060509c7",
         "studies/scenes/atlantic-spectrum/2-portrait-1382.webp?v=b02a060509c7"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "e569a35df2a2",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-wide-1600.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/1-wide-1600.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/2-wide-1600.webp?v=e569a35df2a2"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-wide-2400.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/1-wide-2400.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/2-wide-2400.webp?v=e569a35df2a2"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-wide-3200.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/1-wide-3200.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/2-wide-3200.webp?v=e569a35df2a2"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-wide-3840.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/1-wide-3840.webp?v=e569a35df2a2",
+              "studies/scene-assets/atlantic-spectrum/2-wide-3840.webp?v=e569a35df2a2"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "cb12cb859efe",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-portrait-768.webp?v=cb12cb859efe",
+              "studies/scene-assets/atlantic-spectrum/1-portrait-768.webp?v=cb12cb859efe",
+              "studies/scene-assets/atlantic-spectrum/2-portrait-768.webp?v=cb12cb859efe"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/atlantic-spectrum/0-portrait-tall-768.webp?v=cb12cb859efe",
+                "studies/scene-assets/atlantic-spectrum/1-portrait-768.webp?v=cb12cb859efe",
+                "studies/scene-assets/atlantic-spectrum/2-portrait-tall-768.webp?v=cb12cb859efe"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-portrait-1152.webp?v=cb12cb859efe",
+              "studies/scene-assets/atlantic-spectrum/1-portrait-1152.webp?v=cb12cb859efe",
+              "studies/scene-assets/atlantic-spectrum/2-portrait-1152.webp?v=cb12cb859efe"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/atlantic-spectrum/0-portrait-tall-1152.webp?v=cb12cb859efe",
+                "studies/scene-assets/atlantic-spectrum/1-portrait-1152.webp?v=cb12cb859efe",
+                "studies/scene-assets/atlantic-spectrum/2-portrait-tall-1152.webp?v=cb12cb859efe"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/atlantic-spectrum/0-portrait-1382.webp?v=cb12cb859efe",
+              "studies/scene-assets/atlantic-spectrum/1-portrait-1382.webp?v=cb12cb859efe",
+              "studies/scene-assets/atlantic-spectrum/2-portrait-1382.webp?v=cb12cb859efe"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/atlantic-spectrum/0-portrait-tall-1382.webp?v=cb12cb859efe",
+                "studies/scene-assets/atlantic-spectrum/1-portrait-1382.webp?v=cb12cb859efe",
+                "studies/scene-assets/atlantic-spectrum/2-portrait-tall-1382.webp?v=cb12cb859efe"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -440,6 +3082,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "compound-eye",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/facets-eclipse/0-wide-3200.webp?v=3071d52bbf9d",
@@ -451,6 +3098,111 @@ const openingScenes = [
         "studies/scenes/facets-eclipse/1-portrait-1152.webp?v=3071d52bbf9d",
         "studies/scenes/facets-eclipse/2-portrait-1152.webp?v=3071d52bbf9d"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "e46e50eb844c",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/facets-eclipse/0-wide-1600.webp?v=e46e50eb844c",
+              "studies/scene-assets/facets-eclipse/1-wide-1600.webp?v=e46e50eb844c",
+              "studies/scene-assets/facets-eclipse/2-wide-1600.webp?v=e46e50eb844c"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/facets-eclipse/0-wide-2400.webp?v=e46e50eb844c",
+              "studies/scene-assets/facets-eclipse/1-wide-2400.webp?v=e46e50eb844c",
+              "studies/scene-assets/facets-eclipse/2-wide-2400.webp?v=e46e50eb844c"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/facets-eclipse/0-wide-3200.webp?v=e46e50eb844c",
+              "studies/scene-assets/facets-eclipse/1-wide-3200.webp?v=e46e50eb844c",
+              "studies/scene-assets/facets-eclipse/2-wide-3200.webp?v=e46e50eb844c"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "a12021569bf8",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/facets-eclipse/0-portrait-768.webp?v=a12021569bf8",
+              "studies/scene-assets/facets-eclipse/1-portrait-768.webp?v=a12021569bf8",
+              "studies/scene-assets/facets-eclipse/2-portrait-768.webp?v=a12021569bf8"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/facets-eclipse/0-portrait-tall-768.webp?v=a12021569bf8",
+                "studies/scene-assets/facets-eclipse/1-portrait-768.webp?v=a12021569bf8",
+                "studies/scene-assets/facets-eclipse/2-portrait-tall-768.webp?v=a12021569bf8"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/facets-eclipse/0-portrait-1152.webp?v=a12021569bf8",
+              "studies/scene-assets/facets-eclipse/1-portrait-1152.webp?v=a12021569bf8",
+              "studies/scene-assets/facets-eclipse/2-portrait-1152.webp?v=a12021569bf8"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/facets-eclipse/0-portrait-tall-1152.webp?v=a12021569bf8",
+                "studies/scene-assets/facets-eclipse/1-portrait-1152.webp?v=a12021569bf8",
+                "studies/scene-assets/facets-eclipse/2-portrait-tall-1152.webp?v=a12021569bf8"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -467,6 +3219,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "shell-specimen",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/atlantic-cobalt/0-wide-3840.webp?v=f2d0aea3f37e",
@@ -478,6 +3235,149 @@ const openingScenes = [
         "studies/scenes/atlantic-cobalt/1-portrait-1382.webp?v=f2d0aea3f37e",
         "studies/scenes/atlantic-cobalt/2-portrait-1382.webp?v=f2d0aea3f37e"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "f48e29298e00",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-wide-1600.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/1-wide-1600.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/2-wide-1600.webp?v=f48e29298e00"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-wide-2400.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/1-wide-2400.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/2-wide-2400.webp?v=f48e29298e00"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-wide-3200.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/1-wide-3200.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/2-wide-3200.webp?v=f48e29298e00"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-wide-3840.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/1-wide-3840.webp?v=f48e29298e00",
+              "studies/scene-assets/atlantic-cobalt/2-wide-3840.webp?v=f48e29298e00"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "5ba4e3198b82",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-portrait-768.webp?v=5ba4e3198b82",
+              "studies/scene-assets/atlantic-cobalt/1-portrait-768.webp?v=5ba4e3198b82",
+              "studies/scene-assets/atlantic-cobalt/2-portrait-768.webp?v=5ba4e3198b82"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/atlantic-cobalt/0-portrait-tall-768.webp?v=5ba4e3198b82",
+                "studies/scene-assets/atlantic-cobalt/1-portrait-768.webp?v=5ba4e3198b82",
+                "studies/scene-assets/atlantic-cobalt/2-portrait-tall-768.webp?v=5ba4e3198b82"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-portrait-1152.webp?v=5ba4e3198b82",
+              "studies/scene-assets/atlantic-cobalt/1-portrait-1152.webp?v=5ba4e3198b82",
+              "studies/scene-assets/atlantic-cobalt/2-portrait-1152.webp?v=5ba4e3198b82"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/atlantic-cobalt/0-portrait-tall-1152.webp?v=5ba4e3198b82",
+                "studies/scene-assets/atlantic-cobalt/1-portrait-1152.webp?v=5ba4e3198b82",
+                "studies/scene-assets/atlantic-cobalt/2-portrait-tall-1152.webp?v=5ba4e3198b82"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/atlantic-cobalt/0-portrait-1382.webp?v=5ba4e3198b82",
+              "studies/scene-assets/atlantic-cobalt/1-portrait-1382.webp?v=5ba4e3198b82",
+              "studies/scene-assets/atlantic-cobalt/2-portrait-1382.webp?v=5ba4e3198b82"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/atlantic-cobalt/0-portrait-tall-1382.webp?v=5ba4e3198b82",
+                "studies/scene-assets/atlantic-cobalt/1-portrait-1382.webp?v=5ba4e3198b82",
+                "studies/scene-assets/atlantic-cobalt/2-portrait-tall-1382.webp?v=5ba4e3198b82"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -495,6 +3395,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/celestial-eclipse/0-wide-3200.webp?v=b9f4d3e0f680",
@@ -506,6 +3411,111 @@ const openingScenes = [
         "studies/scenes/celestial-eclipse/1-portrait-1152.webp?v=b9f4d3e0f680",
         "studies/scenes/celestial-eclipse/2-portrait-1152.webp?v=b9f4d3e0f680"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "f63b4055154f",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse/0-wide-1600.webp?v=f63b4055154f",
+              "studies/scene-assets/celestial-eclipse/1-wide-1600.webp?v=f63b4055154f",
+              "studies/scene-assets/celestial-eclipse/2-wide-1600.webp?v=f63b4055154f"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse/0-wide-2400.webp?v=f63b4055154f",
+              "studies/scene-assets/celestial-eclipse/1-wide-2400.webp?v=f63b4055154f",
+              "studies/scene-assets/celestial-eclipse/2-wide-2400.webp?v=f63b4055154f"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse/0-wide-3200.webp?v=f63b4055154f",
+              "studies/scene-assets/celestial-eclipse/1-wide-3200.webp?v=f63b4055154f",
+              "studies/scene-assets/celestial-eclipse/2-wide-3200.webp?v=f63b4055154f"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "47d9a4b475f6",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse/0-portrait-768.webp?v=47d9a4b475f6",
+              "studies/scene-assets/celestial-eclipse/1-portrait-768.webp?v=47d9a4b475f6",
+              "studies/scene-assets/celestial-eclipse/2-portrait-768.webp?v=47d9a4b475f6"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-eclipse/0-portrait-tall-768.webp?v=47d9a4b475f6",
+                "studies/scene-assets/celestial-eclipse/1-portrait-768.webp?v=47d9a4b475f6",
+                "studies/scene-assets/celestial-eclipse/2-portrait-tall-768.webp?v=47d9a4b475f6"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse/0-portrait-1152.webp?v=47d9a4b475f6",
+              "studies/scene-assets/celestial-eclipse/1-portrait-1152.webp?v=47d9a4b475f6",
+              "studies/scene-assets/celestial-eclipse/2-portrait-1152.webp?v=47d9a4b475f6"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-eclipse/0-portrait-tall-1152.webp?v=47d9a4b475f6",
+                "studies/scene-assets/celestial-eclipse/1-portrait-1152.webp?v=47d9a4b475f6",
+                "studies/scene-assets/celestial-eclipse/2-portrait-tall-1152.webp?v=47d9a4b475f6"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -523,6 +3533,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/celestial-dawn/0-wide-3200.webp?v=9fabf03332ec",
@@ -534,6 +3549,111 @@ const openingScenes = [
         "studies/scenes/celestial-dawn/1-portrait-1152.webp?v=9fabf03332ec",
         "studies/scenes/celestial-dawn/2-portrait-1152.webp?v=9fabf03332ec"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "30a3493c6adf",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-dawn/0-wide-1600.webp?v=30a3493c6adf",
+              "studies/scene-assets/celestial-dawn/1-wide-1600.webp?v=30a3493c6adf",
+              "studies/scene-assets/celestial-dawn/2-wide-1600.webp?v=30a3493c6adf"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-dawn/0-wide-2400.webp?v=30a3493c6adf",
+              "studies/scene-assets/celestial-dawn/1-wide-2400.webp?v=30a3493c6adf",
+              "studies/scene-assets/celestial-dawn/2-wide-2400.webp?v=30a3493c6adf"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/celestial-dawn/0-wide-3200.webp?v=30a3493c6adf",
+              "studies/scene-assets/celestial-dawn/1-wide-3200.webp?v=30a3493c6adf",
+              "studies/scene-assets/celestial-dawn/2-wide-3200.webp?v=30a3493c6adf"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "c76d8a9c5453",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-dawn/0-portrait-768.webp?v=c76d8a9c5453",
+              "studies/scene-assets/celestial-dawn/1-portrait-768.webp?v=c76d8a9c5453",
+              "studies/scene-assets/celestial-dawn/2-portrait-768.webp?v=c76d8a9c5453"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-dawn/0-portrait-tall-768.webp?v=c76d8a9c5453",
+                "studies/scene-assets/celestial-dawn/1-portrait-768.webp?v=c76d8a9c5453",
+                "studies/scene-assets/celestial-dawn/2-portrait-tall-768.webp?v=c76d8a9c5453"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-dawn/0-portrait-1152.webp?v=c76d8a9c5453",
+              "studies/scene-assets/celestial-dawn/1-portrait-1152.webp?v=c76d8a9c5453",
+              "studies/scene-assets/celestial-dawn/2-portrait-1152.webp?v=c76d8a9c5453"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-dawn/0-portrait-tall-1152.webp?v=c76d8a9c5453",
+                "studies/scene-assets/celestial-dawn/1-portrait-1152.webp?v=c76d8a9c5453",
+                "studies/scene-assets/celestial-dawn/2-portrait-tall-1152.webp?v=c76d8a9c5453"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -551,6 +3671,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/solar-horizon/0-wide-3360.webp?v=767a44a22773",
@@ -562,6 +3687,111 @@ const openingScenes = [
         "studies/scenes/solar-horizon/1-portrait-1152.webp?v=767a44a22773",
         "studies/scenes/solar-horizon/2-portrait-1152.webp?v=767a44a22773"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "354dfaaeafda",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/solar-horizon/0-wide-1600.webp?v=354dfaaeafda",
+              "studies/scene-assets/solar-horizon/1-wide-1600.webp?v=354dfaaeafda",
+              "studies/scene-assets/solar-horizon/2-wide-1600.webp?v=354dfaaeafda"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/solar-horizon/0-wide-2400.webp?v=354dfaaeafda",
+              "studies/scene-assets/solar-horizon/1-wide-2400.webp?v=354dfaaeafda",
+              "studies/scene-assets/solar-horizon/2-wide-2400.webp?v=354dfaaeafda"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.1,
+            "urls": [
+              "studies/scene-assets/solar-horizon/0-wide-3360.webp?v=354dfaaeafda",
+              "studies/scene-assets/solar-horizon/1-wide-3360.webp?v=354dfaaeafda",
+              "studies/scene-assets/solar-horizon/2-wide-3360.webp?v=354dfaaeafda"
+            ],
+            "widths": [
+              0.26071428571428573,
+              0.6404761904761904,
+              0.26071428571428573
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "8a25b29def27",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/solar-horizon/0-portrait-768.webp?v=8a25b29def27",
+              "studies/scene-assets/solar-horizon/1-portrait-768.webp?v=8a25b29def27",
+              "studies/scene-assets/solar-horizon/2-portrait-768.webp?v=8a25b29def27"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/solar-horizon/0-portrait-tall-768.webp?v=8a25b29def27",
+                "studies/scene-assets/solar-horizon/1-portrait-768.webp?v=8a25b29def27",
+                "studies/scene-assets/solar-horizon/2-portrait-tall-768.webp?v=8a25b29def27"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/solar-horizon/0-portrait-1152.webp?v=8a25b29def27",
+              "studies/scene-assets/solar-horizon/1-portrait-1152.webp?v=8a25b29def27",
+              "studies/scene-assets/solar-horizon/2-portrait-1152.webp?v=8a25b29def27"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/solar-horizon/0-portrait-tall-1152.webp?v=8a25b29def27",
+                "studies/scene-assets/solar-horizon/1-portrait-1152.webp?v=8a25b29def27",
+                "studies/scene-assets/solar-horizon/2-portrait-tall-1152.webp?v=8a25b29def27"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -579,6 +3809,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/apollo-earth/0-wide-3840.webp?v=664499863907",
@@ -590,6 +3825,149 @@ const openingScenes = [
         "studies/scenes/apollo-earth/1-portrait-1382.webp?v=664499863907",
         "studies/scenes/apollo-earth/2-portrait-1382.webp?v=664499863907"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "b714568fbc2a",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-wide-1600.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/1-wide-1600.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/2-wide-1600.webp?v=b714568fbc2a"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-wide-2400.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/1-wide-2400.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/2-wide-2400.webp?v=b714568fbc2a"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-wide-3200.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/1-wide-3200.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/2-wide-3200.webp?v=b714568fbc2a"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-wide-3840.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/1-wide-3840.webp?v=b714568fbc2a",
+              "studies/scene-assets/apollo-earth/2-wide-3840.webp?v=b714568fbc2a"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "c1528a130c49",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-portrait-768.webp?v=c1528a130c49",
+              "studies/scene-assets/apollo-earth/1-portrait-768.webp?v=c1528a130c49",
+              "studies/scene-assets/apollo-earth/2-portrait-768.webp?v=c1528a130c49"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth/0-portrait-tall-768.webp?v=c1528a130c49",
+                "studies/scene-assets/apollo-earth/1-portrait-768.webp?v=c1528a130c49",
+                "studies/scene-assets/apollo-earth/2-portrait-tall-768.webp?v=c1528a130c49"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-portrait-1152.webp?v=c1528a130c49",
+              "studies/scene-assets/apollo-earth/1-portrait-1152.webp?v=c1528a130c49",
+              "studies/scene-assets/apollo-earth/2-portrait-1152.webp?v=c1528a130c49"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth/0-portrait-tall-1152.webp?v=c1528a130c49",
+                "studies/scene-assets/apollo-earth/1-portrait-1152.webp?v=c1528a130c49",
+                "studies/scene-assets/apollo-earth/2-portrait-tall-1152.webp?v=c1528a130c49"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/apollo-earth/0-portrait-1382.webp?v=c1528a130c49",
+              "studies/scene-assets/apollo-earth/1-portrait-1382.webp?v=c1528a130c49",
+              "studies/scene-assets/apollo-earth/2-portrait-1382.webp?v=c1528a130c49"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth/0-portrait-tall-1382.webp?v=c1528a130c49",
+                "studies/scene-assets/apollo-earth/1-portrait-1382.webp?v=c1528a130c49",
+                "studies/scene-assets/apollo-earth/2-portrait-tall-1382.webp?v=c1528a130c49"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -607,6 +3985,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/sunlit-earth/0-wide-3360.webp?v=0c1a67d4f262",
@@ -618,6 +4001,136 @@ const openingScenes = [
         "studies/scenes/sunlit-earth/1-portrait-1613.webp?v=0c1a67d4f262",
         "studies/scenes/sunlit-earth/2-portrait-1613.webp?v=0c1a67d4f262"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "0a53de32d6bb",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/sunlit-earth/0-wide-1600.webp?v=0a53de32d6bb",
+              "studies/scene-assets/sunlit-earth/1-wide-1600.webp?v=0a53de32d6bb",
+              "studies/scene-assets/sunlit-earth/2-wide-1600.webp?v=0a53de32d6bb"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/sunlit-earth/0-wide-2400.webp?v=0a53de32d6bb",
+              "studies/scene-assets/sunlit-earth/1-wide-2400.webp?v=0a53de32d6bb",
+              "studies/scene-assets/sunlit-earth/2-wide-2400.webp?v=0a53de32d6bb"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.1,
+            "urls": [
+              "studies/scene-assets/sunlit-earth/0-wide-3360.webp?v=0a53de32d6bb",
+              "studies/scene-assets/sunlit-earth/1-wide-3360.webp?v=0a53de32d6bb",
+              "studies/scene-assets/sunlit-earth/2-wide-3360.webp?v=0a53de32d6bb"
+            ],
+            "widths": [
+              0.26071428571428573,
+              0.6404761904761904,
+              0.26071428571428573
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "34e0fa40c67f",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/sunlit-earth/0-portrait-768.webp?v=34e0fa40c67f",
+              "studies/scene-assets/sunlit-earth/1-portrait-768.webp?v=34e0fa40c67f",
+              "studies/scene-assets/sunlit-earth/2-portrait-768.webp?v=34e0fa40c67f"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/sunlit-earth/0-portrait-tall-768.webp?v=34e0fa40c67f",
+                "studies/scene-assets/sunlit-earth/1-portrait-768.webp?v=34e0fa40c67f",
+                "studies/scene-assets/sunlit-earth/2-portrait-tall-768.webp?v=34e0fa40c67f"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/sunlit-earth/0-portrait-1152.webp?v=34e0fa40c67f",
+              "studies/scene-assets/sunlit-earth/1-portrait-1152.webp?v=34e0fa40c67f",
+              "studies/scene-assets/sunlit-earth/2-portrait-1152.webp?v=34e0fa40c67f"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/sunlit-earth/0-portrait-tall-1152.webp?v=34e0fa40c67f",
+                "studies/scene-assets/sunlit-earth/1-portrait-1152.webp?v=34e0fa40c67f",
+                "studies/scene-assets/sunlit-earth/2-portrait-tall-1152.webp?v=34e0fa40c67f"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.1,
+            "urls": [
+              "studies/scene-assets/sunlit-earth/0-portrait-1613.webp?v=34e0fa40c67f",
+              "studies/scene-assets/sunlit-earth/1-portrait-1613.webp?v=34e0fa40c67f",
+              "studies/scene-assets/sunlit-earth/2-portrait-1613.webp?v=34e0fa40c67f"
+            ],
+            "widths": [
+              0.25170489770613763,
+              0.6404215747055176,
+              0.25170489770613763
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/sunlit-earth/0-portrait-tall-1613.webp?v=34e0fa40c67f",
+                "studies/scene-assets/sunlit-earth/1-portrait-1613.webp?v=34e0fa40c67f",
+                "studies/scene-assets/sunlit-earth/2-portrait-tall-1613.webp?v=34e0fa40c67f"
+              ],
+              "widths": [
+                0.5003099814011159,
+                0.6404215747055176,
+                0.5003099814011159
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -635,6 +4148,11 @@ const openingScenes = [
       "space",
       "mineral"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "shell-specimen"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/patina-airglow/0-wide-3840.webp?v=2d725f0ae2e7",
@@ -646,6 +4164,149 @@ const openingScenes = [
         "studies/scenes/patina-airglow/1-portrait-1536.webp?v=2d725f0ae2e7",
         "studies/scenes/patina-airglow/2-portrait-1536.webp?v=2d725f0ae2e7"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "bcd71e3e5adb",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-wide-1600.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/1-wide-1600.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/2-wide-1600.webp?v=bcd71e3e5adb"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-wide-2400.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/1-wide-2400.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/2-wide-2400.webp?v=bcd71e3e5adb"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-wide-3200.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/1-wide-3200.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/2-wide-3200.webp?v=bcd71e3e5adb"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-wide-3840.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/1-wide-3840.webp?v=bcd71e3e5adb",
+              "studies/scene-assets/patina-airglow/2-wide-3840.webp?v=bcd71e3e5adb"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "25a2f2e44dce",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-portrait-768.webp?v=25a2f2e44dce",
+              "studies/scene-assets/patina-airglow/1-portrait-768.webp?v=25a2f2e44dce",
+              "studies/scene-assets/patina-airglow/2-portrait-768.webp?v=25a2f2e44dce"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/patina-airglow/0-portrait-tall-768.webp?v=25a2f2e44dce",
+                "studies/scene-assets/patina-airglow/1-portrait-768.webp?v=25a2f2e44dce",
+                "studies/scene-assets/patina-airglow/2-portrait-tall-768.webp?v=25a2f2e44dce"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-portrait-1152.webp?v=25a2f2e44dce",
+              "studies/scene-assets/patina-airglow/1-portrait-1152.webp?v=25a2f2e44dce",
+              "studies/scene-assets/patina-airglow/2-portrait-1152.webp?v=25a2f2e44dce"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/patina-airglow/0-portrait-tall-1152.webp?v=25a2f2e44dce",
+                "studies/scene-assets/patina-airglow/1-portrait-1152.webp?v=25a2f2e44dce",
+                "studies/scene-assets/patina-airglow/2-portrait-tall-1152.webp?v=25a2f2e44dce"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.0,
+            "urls": [
+              "studies/scene-assets/patina-airglow/0-portrait-1536.webp?v=25a2f2e44dce",
+              "studies/scene-assets/patina-airglow/1-portrait-1536.webp?v=25a2f2e44dce",
+              "studies/scene-assets/patina-airglow/2-portrait-1536.webp?v=25a2f2e44dce"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.640625,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/patina-airglow/0-portrait-tall-1536.webp?v=25a2f2e44dce",
+                "studies/scene-assets/patina-airglow/1-portrait-1536.webp?v=25a2f2e44dce",
+                "studies/scene-assets/patina-airglow/2-portrait-tall-1536.webp?v=25a2f2e44dce"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -663,6 +4324,11 @@ const openingScenes = [
       "space",
       "metal"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/silver-earth/0-wide-3360.webp?v=30d07d54d7c7",
@@ -674,34 +4340,111 @@ const openingScenes = [
         "studies/scenes/silver-earth/1-portrait-1152.webp?v=30d07d54d7c7",
         "studies/scenes/silver-earth/2-portrait-1152.webp?v=30d07d54d7c7"
       ]
-    }
-  },
-  {
-    "id": "cloud-airglow",
-    "title": "Polarized fossil, cloud airglow & porcelain",
-    "radius": 7000,
-    "portraitRadius": 7500,
-    "horizon": 0.56,
-    "angle": 0,
-    "finalInset": 18,
-    "gap": "glow",
-    "lead": "iss074e0043595",
-    "motifs": [
-      "mineral",
-      "space",
-      "ceramic"
-    ],
-    "assets": {
-      "wide": [
-        "studies/scenes/cloud-airglow/0-wide-3200.webp?v=1d7c3be5de22",
-        "studies/scenes/cloud-airglow/1-wide-3200.webp?v=1d7c3be5de22",
-        "studies/scenes/cloud-airglow/2-wide-3200.webp?v=1d7c3be5de22"
-      ],
-      "portrait": [
-        "studies/scenes/cloud-airglow/0-portrait-1536.webp?v=1d7c3be5de22",
-        "studies/scenes/cloud-airglow/1-portrait-1536.webp?v=1d7c3be5de22",
-        "studies/scenes/cloud-airglow/2-portrait-1536.webp?v=1d7c3be5de22"
-      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "26021f9f27ac",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/silver-earth/0-wide-1600.webp?v=26021f9f27ac",
+              "studies/scene-assets/silver-earth/1-wide-1600.webp?v=26021f9f27ac",
+              "studies/scene-assets/silver-earth/2-wide-1600.webp?v=26021f9f27ac"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/silver-earth/0-wide-2400.webp?v=26021f9f27ac",
+              "studies/scene-assets/silver-earth/1-wide-2400.webp?v=26021f9f27ac",
+              "studies/scene-assets/silver-earth/2-wide-2400.webp?v=26021f9f27ac"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.1,
+            "urls": [
+              "studies/scene-assets/silver-earth/0-wide-3360.webp?v=26021f9f27ac",
+              "studies/scene-assets/silver-earth/1-wide-3360.webp?v=26021f9f27ac",
+              "studies/scene-assets/silver-earth/2-wide-3360.webp?v=26021f9f27ac"
+            ],
+            "widths": [
+              0.26071428571428573,
+              0.6404761904761904,
+              0.26071428571428573
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "8bb2b14296fa",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/silver-earth/0-portrait-768.webp?v=8bb2b14296fa",
+              "studies/scene-assets/silver-earth/1-portrait-768.webp?v=8bb2b14296fa",
+              "studies/scene-assets/silver-earth/2-portrait-768.webp?v=8bb2b14296fa"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/silver-earth/0-portrait-tall-768.webp?v=8bb2b14296fa",
+                "studies/scene-assets/silver-earth/1-portrait-768.webp?v=8bb2b14296fa",
+                "studies/scene-assets/silver-earth/2-portrait-tall-768.webp?v=8bb2b14296fa"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/silver-earth/0-portrait-1152.webp?v=8bb2b14296fa",
+              "studies/scene-assets/silver-earth/1-portrait-1152.webp?v=8bb2b14296fa",
+              "studies/scene-assets/silver-earth/2-portrait-1152.webp?v=8bb2b14296fa"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/silver-earth/0-portrait-tall-1152.webp?v=8bb2b14296fa",
+                "studies/scene-assets/silver-earth/1-portrait-1152.webp?v=8bb2b14296fa",
+                "studies/scene-assets/silver-earth/2-portrait-tall-1152.webp?v=8bb2b14296fa"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -719,6 +4462,11 @@ const openingScenes = [
       "space",
       "mineral"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "shell-specimen"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/milky-airglow/0-wide-3200.webp?v=94627b7cd87e",
@@ -730,6 +4478,136 @@ const openingScenes = [
         "studies/scenes/milky-airglow/1-portrait-1536.webp?v=94627b7cd87e",
         "studies/scenes/milky-airglow/2-portrait-1536.webp?v=94627b7cd87e"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "9257f1da3eaf",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/milky-airglow/0-wide-1600.webp?v=9257f1da3eaf",
+              "studies/scene-assets/milky-airglow/1-wide-1600.webp?v=9257f1da3eaf",
+              "studies/scene-assets/milky-airglow/2-wide-1600.webp?v=9257f1da3eaf"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/milky-airglow/0-wide-2400.webp?v=9257f1da3eaf",
+              "studies/scene-assets/milky-airglow/1-wide-2400.webp?v=9257f1da3eaf",
+              "studies/scene-assets/milky-airglow/2-wide-2400.webp?v=9257f1da3eaf"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.0,
+            "urls": [
+              "studies/scene-assets/milky-airglow/0-wide-3200.webp?v=9257f1da3eaf",
+              "studies/scene-assets/milky-airglow/1-wide-3200.webp?v=9257f1da3eaf",
+              "studies/scene-assets/milky-airglow/2-wide-3200.webp?v=9257f1da3eaf"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "363d658ad8e4",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/milky-airglow/0-portrait-768.webp?v=363d658ad8e4",
+              "studies/scene-assets/milky-airglow/1-portrait-768.webp?v=363d658ad8e4",
+              "studies/scene-assets/milky-airglow/2-portrait-768.webp?v=363d658ad8e4"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/milky-airglow/0-portrait-tall-768.webp?v=363d658ad8e4",
+                "studies/scene-assets/milky-airglow/1-portrait-768.webp?v=363d658ad8e4",
+                "studies/scene-assets/milky-airglow/2-portrait-tall-768.webp?v=363d658ad8e4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/milky-airglow/0-portrait-1152.webp?v=363d658ad8e4",
+              "studies/scene-assets/milky-airglow/1-portrait-1152.webp?v=363d658ad8e4",
+              "studies/scene-assets/milky-airglow/2-portrait-1152.webp?v=363d658ad8e4"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/milky-airglow/0-portrait-tall-1152.webp?v=363d658ad8e4",
+                "studies/scene-assets/milky-airglow/1-portrait-1152.webp?v=363d658ad8e4",
+                "studies/scene-assets/milky-airglow/2-portrait-tall-1152.webp?v=363d658ad8e4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.0,
+            "urls": [
+              "studies/scene-assets/milky-airglow/0-portrait-1536.webp?v=363d658ad8e4",
+              "studies/scene-assets/milky-airglow/1-portrait-1536.webp?v=363d658ad8e4",
+              "studies/scene-assets/milky-airglow/2-portrait-1536.webp?v=363d658ad8e4"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.640625,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/milky-airglow/0-portrait-tall-1536.webp?v=363d658ad8e4",
+                "studies/scene-assets/milky-airglow/1-portrait-1536.webp?v=363d658ad8e4",
+                "studies/scene-assets/milky-airglow/2-portrait-tall-1536.webp?v=363d658ad8e4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -747,6 +4625,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/eimmart-earth/0-wide-3280.webp?v=c2a5a4c39232",
@@ -758,6 +4641,111 @@ const openingScenes = [
         "studies/scenes/eimmart-earth/1-portrait-1152.webp?v=c2a5a4c39232",
         "studies/scenes/eimmart-earth/2-portrait-1152.webp?v=c2a5a4c39232"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "ea035ce3b40d",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/eimmart-earth/0-wide-1600.webp?v=ea035ce3b40d",
+              "studies/scene-assets/eimmart-earth/1-wide-1600.webp?v=ea035ce3b40d",
+              "studies/scene-assets/eimmart-earth/2-wide-1600.webp?v=ea035ce3b40d"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/eimmart-earth/0-wide-2400.webp?v=ea035ce3b40d",
+              "studies/scene-assets/eimmart-earth/1-wide-2400.webp?v=ea035ce3b40d",
+              "studies/scene-assets/eimmart-earth/2-wide-2400.webp?v=ea035ce3b40d"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.05,
+            "urls": [
+              "studies/scene-assets/eimmart-earth/0-wide-3280.webp?v=ea035ce3b40d",
+              "studies/scene-assets/eimmart-earth/1-wide-3280.webp?v=ea035ce3b40d",
+              "studies/scene-assets/eimmart-earth/2-wide-3280.webp?v=ea035ce3b40d"
+            ],
+            "widths": [
+              0.2606707317073171,
+              0.6402439024390244,
+              0.2606707317073171
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "f591a3e05ad3",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/eimmart-earth/0-portrait-768.webp?v=f591a3e05ad3",
+              "studies/scene-assets/eimmart-earth/1-portrait-768.webp?v=f591a3e05ad3",
+              "studies/scene-assets/eimmart-earth/2-portrait-768.webp?v=f591a3e05ad3"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/eimmart-earth/0-portrait-tall-768.webp?v=f591a3e05ad3",
+                "studies/scene-assets/eimmart-earth/1-portrait-768.webp?v=f591a3e05ad3",
+                "studies/scene-assets/eimmart-earth/2-portrait-tall-768.webp?v=f591a3e05ad3"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/eimmart-earth/0-portrait-1152.webp?v=f591a3e05ad3",
+              "studies/scene-assets/eimmart-earth/1-portrait-1152.webp?v=f591a3e05ad3",
+              "studies/scene-assets/eimmart-earth/2-portrait-1152.webp?v=f591a3e05ad3"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/eimmart-earth/0-portrait-tall-1152.webp?v=f591a3e05ad3",
+                "studies/scene-assets/eimmart-earth/1-portrait-1152.webp?v=f591a3e05ad3",
+                "studies/scene-assets/eimmart-earth/2-portrait-tall-1152.webp?v=f591a3e05ad3"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -775,6 +4763,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/eimmart-earth-m10/0-wide-3280.webp?v=0c46265cfc53",
@@ -786,6 +4779,111 @@ const openingScenes = [
         "studies/scenes/eimmart-earth-m10/1-portrait-1152.webp?v=0c46265cfc53",
         "studies/scenes/eimmart-earth-m10/2-portrait-1152.webp?v=0c46265cfc53"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "9111f1be5f3a",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/eimmart-earth-m10/0-wide-1600.webp?v=9111f1be5f3a",
+              "studies/scene-assets/eimmart-earth-m10/1-wide-1600.webp?v=9111f1be5f3a",
+              "studies/scene-assets/eimmart-earth-m10/2-wide-1600.webp?v=9111f1be5f3a"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/eimmart-earth-m10/0-wide-2400.webp?v=9111f1be5f3a",
+              "studies/scene-assets/eimmart-earth-m10/1-wide-2400.webp?v=9111f1be5f3a",
+              "studies/scene-assets/eimmart-earth-m10/2-wide-2400.webp?v=9111f1be5f3a"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.05,
+            "urls": [
+              "studies/scene-assets/eimmart-earth-m10/0-wide-3280.webp?v=9111f1be5f3a",
+              "studies/scene-assets/eimmart-earth-m10/1-wide-3280.webp?v=9111f1be5f3a",
+              "studies/scene-assets/eimmart-earth-m10/2-wide-3280.webp?v=9111f1be5f3a"
+            ],
+            "widths": [
+              0.2606707317073171,
+              0.6402439024390244,
+              0.2606707317073171
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "f2059896af3d",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/eimmart-earth-m10/0-portrait-768.webp?v=f2059896af3d",
+              "studies/scene-assets/eimmart-earth-m10/1-portrait-768.webp?v=f2059896af3d",
+              "studies/scene-assets/eimmart-earth-m10/2-portrait-768.webp?v=f2059896af3d"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/eimmart-earth-m10/0-portrait-tall-768.webp?v=f2059896af3d",
+                "studies/scene-assets/eimmart-earth-m10/1-portrait-768.webp?v=f2059896af3d",
+                "studies/scene-assets/eimmart-earth-m10/2-portrait-tall-768.webp?v=f2059896af3d"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/eimmart-earth-m10/0-portrait-1152.webp?v=f2059896af3d",
+              "studies/scene-assets/eimmart-earth-m10/1-portrait-1152.webp?v=f2059896af3d",
+              "studies/scene-assets/eimmart-earth-m10/2-portrait-1152.webp?v=f2059896af3d"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/eimmart-earth-m10/0-portrait-tall-1152.webp?v=f2059896af3d",
+                "studies/scene-assets/eimmart-earth-m10/1-portrait-1152.webp?v=f2059896af3d",
+                "studies/scene-assets/eimmart-earth-m10/2-portrait-tall-1152.webp?v=f2059896af3d"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -803,6 +4901,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/brunacci-earth/0-wide-3280.webp?v=16a0f278870a",
@@ -814,6 +4917,111 @@ const openingScenes = [
         "studies/scenes/brunacci-earth/1-portrait-1152.webp?v=16a0f278870a",
         "studies/scenes/brunacci-earth/2-portrait-1152.webp?v=16a0f278870a"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "950c3eaaadda",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/brunacci-earth/0-wide-1600.webp?v=950c3eaaadda",
+              "studies/scene-assets/brunacci-earth/1-wide-1600.webp?v=950c3eaaadda",
+              "studies/scene-assets/brunacci-earth/2-wide-1600.webp?v=950c3eaaadda"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/brunacci-earth/0-wide-2400.webp?v=950c3eaaadda",
+              "studies/scene-assets/brunacci-earth/1-wide-2400.webp?v=950c3eaaadda",
+              "studies/scene-assets/brunacci-earth/2-wide-2400.webp?v=950c3eaaadda"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.05,
+            "urls": [
+              "studies/scene-assets/brunacci-earth/0-wide-3280.webp?v=950c3eaaadda",
+              "studies/scene-assets/brunacci-earth/1-wide-3280.webp?v=950c3eaaadda",
+              "studies/scene-assets/brunacci-earth/2-wide-3280.webp?v=950c3eaaadda"
+            ],
+            "widths": [
+              0.2606707317073171,
+              0.6402439024390244,
+              0.2606707317073171
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "d32c620df80c",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/brunacci-earth/0-portrait-768.webp?v=d32c620df80c",
+              "studies/scene-assets/brunacci-earth/1-portrait-768.webp?v=d32c620df80c",
+              "studies/scene-assets/brunacci-earth/2-portrait-768.webp?v=d32c620df80c"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/brunacci-earth/0-portrait-tall-768.webp?v=d32c620df80c",
+                "studies/scene-assets/brunacci-earth/1-portrait-768.webp?v=d32c620df80c",
+                "studies/scene-assets/brunacci-earth/2-portrait-tall-768.webp?v=d32c620df80c"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/brunacci-earth/0-portrait-1152.webp?v=d32c620df80c",
+              "studies/scene-assets/brunacci-earth/1-portrait-1152.webp?v=d32c620df80c",
+              "studies/scene-assets/brunacci-earth/2-portrait-1152.webp?v=d32c620df80c"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/brunacci-earth/0-portrait-tall-1152.webp?v=d32c620df80c",
+                "studies/scene-assets/brunacci-earth/1-portrait-1152.webp?v=d32c620df80c",
+                "studies/scene-assets/brunacci-earth/2-portrait-tall-1152.webp?v=d32c620df80c"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -831,6 +5039,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/apollo-earth-m12/0-wide-3840.webp?v=842988174da6",
@@ -842,6 +5055,149 @@ const openingScenes = [
         "studies/scenes/apollo-earth-m12/1-portrait-1382.webp?v=842988174da6",
         "studies/scenes/apollo-earth-m12/2-portrait-1382.webp?v=842988174da6"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "554dab768db6",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-wide-1600.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/1-wide-1600.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/2-wide-1600.webp?v=554dab768db6"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-wide-2400.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/1-wide-2400.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/2-wide-2400.webp?v=554dab768db6"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-wide-3200.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/1-wide-3200.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/2-wide-3200.webp?v=554dab768db6"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-wide-3840.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/1-wide-3840.webp?v=554dab768db6",
+              "studies/scene-assets/apollo-earth-m12/2-wide-3840.webp?v=554dab768db6"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "58a9f68f4493",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-portrait-768.webp?v=58a9f68f4493",
+              "studies/scene-assets/apollo-earth-m12/1-portrait-768.webp?v=58a9f68f4493",
+              "studies/scene-assets/apollo-earth-m12/2-portrait-768.webp?v=58a9f68f4493"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth-m12/0-portrait-tall-768.webp?v=58a9f68f4493",
+                "studies/scene-assets/apollo-earth-m12/1-portrait-768.webp?v=58a9f68f4493",
+                "studies/scene-assets/apollo-earth-m12/2-portrait-tall-768.webp?v=58a9f68f4493"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-portrait-1152.webp?v=58a9f68f4493",
+              "studies/scene-assets/apollo-earth-m12/1-portrait-1152.webp?v=58a9f68f4493",
+              "studies/scene-assets/apollo-earth-m12/2-portrait-1152.webp?v=58a9f68f4493"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth-m12/0-portrait-tall-1152.webp?v=58a9f68f4493",
+                "studies/scene-assets/apollo-earth-m12/1-portrait-1152.webp?v=58a9f68f4493",
+                "studies/scene-assets/apollo-earth-m12/2-portrait-tall-1152.webp?v=58a9f68f4493"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/apollo-earth-m12/0-portrait-1382.webp?v=58a9f68f4493",
+              "studies/scene-assets/apollo-earth-m12/1-portrait-1382.webp?v=58a9f68f4493",
+              "studies/scene-assets/apollo-earth-m12/2-portrait-1382.webp?v=58a9f68f4493"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth-m12/0-portrait-tall-1382.webp?v=58a9f68f4493",
+                "studies/scene-assets/apollo-earth-m12/1-portrait-1382.webp?v=58a9f68f4493",
+                "studies/scene-assets/apollo-earth-m12/2-portrait-tall-1382.webp?v=58a9f68f4493"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -856,6 +5212,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/lion-dawn-m6/0-wide-3840.webp?v=3d40d936072c",
@@ -867,6 +5228,174 @@ const openingScenes = [
         "studies/scenes/lion-dawn-m6/1-portrait-1843.webp?v=3d40d936072c",
         "studies/scenes/lion-dawn-m6/2-portrait-1843.webp?v=3d40d936072c"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "a1980c961381",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-wide-1600.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/1-wide-1600.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/2-wide-1600.webp?v=a1980c961381"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-wide-2400.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/1-wide-2400.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/2-wide-2400.webp?v=a1980c961381"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-wide-3200.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/1-wide-3200.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/2-wide-3200.webp?v=a1980c961381"
+            ],
+            "widths": [
+              0.260625,
+              0.6,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-wide-3840.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/1-wide-3840.webp?v=a1980c961381",
+              "studies/scene-assets/lion-dawn-m6/2-wide-3840.webp?v=a1980c961381"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "10b992fd4bdf",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-portrait-768.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/1-portrait-768.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/2-portrait-768.webp?v=10b992fd4bdf"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-m6/0-portrait-tall-768.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/1-portrait-768.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/2-portrait-tall-768.webp?v=10b992fd4bdf"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-portrait-1152.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/1-portrait-1152.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/2-portrait-1152.webp?v=10b992fd4bdf"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-m6/0-portrait-tall-1152.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/1-portrait-1152.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/2-portrait-tall-1152.webp?v=10b992fd4bdf"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-portrait-1536.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/1-portrait-1536.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/2-portrait-1536.webp?v=10b992fd4bdf"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6002604166666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-m6/0-portrait-tall-1536.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/1-portrait-1536.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/2-portrait-tall-1536.webp?v=10b992fd4bdf"
+              ],
+              "widths": [
+                0.5,
+                0.6002604166666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-dawn-m6/0-portrait-1843.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/1-portrait-1843.webp?v=10b992fd4bdf",
+              "studies/scene-assets/lion-dawn-m6/2-portrait-1843.webp?v=10b992fd4bdf"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6006511123168746,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-m6/0-portrait-tall-1843.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/1-portrait-1843.webp?v=10b992fd4bdf",
+                "studies/scene-assets/lion-dawn-m6/2-portrait-tall-1843.webp?v=10b992fd4bdf"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6006511123168746,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -884,6 +5413,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/celestial-eclipse-m3/0-wide-3200.webp?v=771054fc35b7",
@@ -895,6 +5429,111 @@ const openingScenes = [
         "studies/scenes/celestial-eclipse-m3/1-portrait-1152.webp?v=771054fc35b7",
         "studies/scenes/celestial-eclipse-m3/2-portrait-1152.webp?v=771054fc35b7"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "67ff67dc0377",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-m3/0-wide-1600.webp?v=67ff67dc0377",
+              "studies/scene-assets/celestial-eclipse-m3/1-wide-1600.webp?v=67ff67dc0377",
+              "studies/scene-assets/celestial-eclipse-m3/2-wide-1600.webp?v=67ff67dc0377"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-m3/0-wide-2400.webp?v=67ff67dc0377",
+              "studies/scene-assets/celestial-eclipse-m3/1-wide-2400.webp?v=67ff67dc0377",
+              "studies/scene-assets/celestial-eclipse-m3/2-wide-2400.webp?v=67ff67dc0377"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-m3/0-wide-3200.webp?v=67ff67dc0377",
+              "studies/scene-assets/celestial-eclipse-m3/1-wide-3200.webp?v=67ff67dc0377",
+              "studies/scene-assets/celestial-eclipse-m3/2-wide-3200.webp?v=67ff67dc0377"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "40751cd95611",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-m3/0-portrait-768.webp?v=40751cd95611",
+              "studies/scene-assets/celestial-eclipse-m3/1-portrait-768.webp?v=40751cd95611",
+              "studies/scene-assets/celestial-eclipse-m3/2-portrait-768.webp?v=40751cd95611"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-eclipse-m3/0-portrait-tall-768.webp?v=40751cd95611",
+                "studies/scene-assets/celestial-eclipse-m3/1-portrait-768.webp?v=40751cd95611",
+                "studies/scene-assets/celestial-eclipse-m3/2-portrait-tall-768.webp?v=40751cd95611"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-m3/0-portrait-1152.webp?v=40751cd95611",
+              "studies/scene-assets/celestial-eclipse-m3/1-portrait-1152.webp?v=40751cd95611",
+              "studies/scene-assets/celestial-eclipse-m3/2-portrait-1152.webp?v=40751cd95611"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-eclipse-m3/0-portrait-tall-1152.webp?v=40751cd95611",
+                "studies/scene-assets/celestial-eclipse-m3/1-portrait-1152.webp?v=40751cd95611",
+                "studies/scene-assets/celestial-eclipse-m3/2-portrait-tall-1152.webp?v=40751cd95611"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -912,6 +5551,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/celestial-eclipse-p3/0-wide-3200.webp?v=697d80001966",
@@ -923,6 +5567,111 @@ const openingScenes = [
         "studies/scenes/celestial-eclipse-p3/1-portrait-1152.webp?v=697d80001966",
         "studies/scenes/celestial-eclipse-p3/2-portrait-1152.webp?v=697d80001966"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "c7140e967703",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-p3/0-wide-1600.webp?v=c7140e967703",
+              "studies/scene-assets/celestial-eclipse-p3/1-wide-1600.webp?v=c7140e967703",
+              "studies/scene-assets/celestial-eclipse-p3/2-wide-1600.webp?v=c7140e967703"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-p3/0-wide-2400.webp?v=c7140e967703",
+              "studies/scene-assets/celestial-eclipse-p3/1-wide-2400.webp?v=c7140e967703",
+              "studies/scene-assets/celestial-eclipse-p3/2-wide-2400.webp?v=c7140e967703"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-p3/0-wide-3200.webp?v=c7140e967703",
+              "studies/scene-assets/celestial-eclipse-p3/1-wide-3200.webp?v=c7140e967703",
+              "studies/scene-assets/celestial-eclipse-p3/2-wide-3200.webp?v=c7140e967703"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "9c75f26bbbe4",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-p3/0-portrait-768.webp?v=9c75f26bbbe4",
+              "studies/scene-assets/celestial-eclipse-p3/1-portrait-768.webp?v=9c75f26bbbe4",
+              "studies/scene-assets/celestial-eclipse-p3/2-portrait-768.webp?v=9c75f26bbbe4"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-eclipse-p3/0-portrait-tall-768.webp?v=9c75f26bbbe4",
+                "studies/scene-assets/celestial-eclipse-p3/1-portrait-768.webp?v=9c75f26bbbe4",
+                "studies/scene-assets/celestial-eclipse-p3/2-portrait-tall-768.webp?v=9c75f26bbbe4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/celestial-eclipse-p3/0-portrait-1152.webp?v=9c75f26bbbe4",
+              "studies/scene-assets/celestial-eclipse-p3/1-portrait-1152.webp?v=9c75f26bbbe4",
+              "studies/scene-assets/celestial-eclipse-p3/2-portrait-1152.webp?v=9c75f26bbbe4"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/celestial-eclipse-p3/0-portrait-tall-1152.webp?v=9c75f26bbbe4",
+                "studies/scene-assets/celestial-eclipse-p3/1-portrait-1152.webp?v=9c75f26bbbe4",
+                "studies/scene-assets/celestial-eclipse-p3/2-portrait-tall-1152.webp?v=9c75f26bbbe4"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -937,6 +5686,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/lion-dawn-p6/0-wide-3840.webp?v=4d9350ab07f5",
@@ -948,6 +5702,174 @@ const openingScenes = [
         "studies/scenes/lion-dawn-p6/1-portrait-1843.webp?v=4d9350ab07f5",
         "studies/scenes/lion-dawn-p6/2-portrait-1843.webp?v=4d9350ab07f5"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "4bbff7676d41",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-wide-1600.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/1-wide-1600.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/2-wide-1600.webp?v=4bbff7676d41"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-wide-2400.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/1-wide-2400.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/2-wide-2400.webp?v=4bbff7676d41"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-wide-3200.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/1-wide-3200.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/2-wide-3200.webp?v=4bbff7676d41"
+            ],
+            "widths": [
+              0.260625,
+              0.6,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-wide-3840.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/1-wide-3840.webp?v=4bbff7676d41",
+              "studies/scene-assets/lion-dawn-p6/2-wide-3840.webp?v=4bbff7676d41"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "458acb39bb08",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-portrait-768.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/1-portrait-768.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/2-portrait-768.webp?v=458acb39bb08"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-p6/0-portrait-tall-768.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/1-portrait-768.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/2-portrait-tall-768.webp?v=458acb39bb08"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-portrait-1152.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/1-portrait-1152.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/2-portrait-1152.webp?v=458acb39bb08"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.6006944444444444,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-p6/0-portrait-tall-1152.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/1-portrait-1152.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/2-portrait-tall-1152.webp?v=458acb39bb08"
+              ],
+              "widths": [
+                0.5,
+                0.6006944444444444,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-portrait-1536.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/1-portrait-1536.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/2-portrait-1536.webp?v=458acb39bb08"
+            ],
+            "widths": [
+              0.2513020833333333,
+              0.6002604166666666,
+              0.2513020833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-p6/0-portrait-tall-1536.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/1-portrait-1536.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/2-portrait-tall-1536.webp?v=458acb39bb08"
+              ],
+              "widths": [
+                0.5,
+                0.6002604166666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/lion-dawn-p6/0-portrait-1843.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/1-portrait-1843.webp?v=458acb39bb08",
+              "studies/scene-assets/lion-dawn-p6/2-portrait-1843.webp?v=458acb39bb08"
+            ],
+            "widths": [
+              0.25122083559414,
+              0.6006511123168746,
+              0.25122083559414
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/lion-dawn-p6/0-portrait-tall-1843.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/1-portrait-1843.webp?v=458acb39bb08",
+                "studies/scene-assets/lion-dawn-p6/2-portrait-tall-1843.webp?v=458acb39bb08"
+              ],
+              "widths": [
+                0.5002712967986978,
+                0.6006511123168746,
+                0.5002712967986978
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -965,6 +5887,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/apollo-earth-p12/0-wide-3840.webp?v=a1591a91a220",
@@ -976,6 +5903,149 @@ const openingScenes = [
         "studies/scenes/apollo-earth-p12/1-portrait-1382.webp?v=a1591a91a220",
         "studies/scenes/apollo-earth-p12/2-portrait-1382.webp?v=a1591a91a220"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "4d41d79e6f3a",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-wide-1600.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/1-wide-1600.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/2-wide-1600.webp?v=4d41d79e6f3a"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-wide-2400.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/1-wide-2400.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/2-wide-2400.webp?v=4d41d79e6f3a"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-wide-3200.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/1-wide-3200.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/2-wide-3200.webp?v=4d41d79e6f3a"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-wide-3840.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/1-wide-3840.webp?v=4d41d79e6f3a",
+              "studies/scene-assets/apollo-earth-p12/2-wide-3840.webp?v=4d41d79e6f3a"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "9ed798b8dd3c",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-portrait-768.webp?v=9ed798b8dd3c",
+              "studies/scene-assets/apollo-earth-p12/1-portrait-768.webp?v=9ed798b8dd3c",
+              "studies/scene-assets/apollo-earth-p12/2-portrait-768.webp?v=9ed798b8dd3c"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth-p12/0-portrait-tall-768.webp?v=9ed798b8dd3c",
+                "studies/scene-assets/apollo-earth-p12/1-portrait-768.webp?v=9ed798b8dd3c",
+                "studies/scene-assets/apollo-earth-p12/2-portrait-tall-768.webp?v=9ed798b8dd3c"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-portrait-1152.webp?v=9ed798b8dd3c",
+              "studies/scene-assets/apollo-earth-p12/1-portrait-1152.webp?v=9ed798b8dd3c",
+              "studies/scene-assets/apollo-earth-p12/2-portrait-1152.webp?v=9ed798b8dd3c"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth-p12/0-portrait-tall-1152.webp?v=9ed798b8dd3c",
+                "studies/scene-assets/apollo-earth-p12/1-portrait-1152.webp?v=9ed798b8dd3c",
+                "studies/scene-assets/apollo-earth-p12/2-portrait-tall-1152.webp?v=9ed798b8dd3c"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/apollo-earth-p12/0-portrait-1382.webp?v=9ed798b8dd3c",
+              "studies/scene-assets/apollo-earth-p12/1-portrait-1382.webp?v=9ed798b8dd3c",
+              "studies/scene-assets/apollo-earth-p12/2-portrait-1382.webp?v=9ed798b8dd3c"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/apollo-earth-p12/0-portrait-tall-1382.webp?v=9ed798b8dd3c",
+                "studies/scene-assets/apollo-earth-p12/1-portrait-1382.webp?v=9ed798b8dd3c",
+                "studies/scene-assets/apollo-earth-p12/2-portrait-tall-1382.webp?v=9ed798b8dd3c"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -992,6 +6062,11 @@ const openingScenes = [
       "earth-atmosphere",
       "fibre"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/woven-planisphere-dawn/0-wide-3840.webp?v=1f0dac62bf00",
@@ -1003,6 +6078,149 @@ const openingScenes = [
         "studies/scenes/woven-planisphere-dawn/1-portrait-1613.webp?v=1f0dac62bf00",
         "studies/scenes/woven-planisphere-dawn/2-portrait-1613.webp?v=1f0dac62bf00"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "f3c5305e346c",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-wide-1600.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/1-wide-1600.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/2-wide-1600.webp?v=f3c5305e346c"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-wide-2400.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/1-wide-2400.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/2-wide-2400.webp?v=f3c5305e346c"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-wide-3200.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/1-wide-3200.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/2-wide-3200.webp?v=f3c5305e346c"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          },
+          {
+            "density": 2.4,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-wide-3840.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/1-wide-3840.webp?v=f3c5305e346c",
+              "studies/scene-assets/woven-planisphere-dawn/2-wide-3840.webp?v=f3c5305e346c"
+            ],
+            "widths": [
+              0.26067708333333334,
+              0.6401041666666667,
+              0.26067708333333334
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "17e710e82ea5",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-portrait-768.webp?v=17e710e82ea5",
+              "studies/scene-assets/woven-planisphere-dawn/1-portrait-768.webp?v=17e710e82ea5",
+              "studies/scene-assets/woven-planisphere-dawn/2-portrait-768.webp?v=17e710e82ea5"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-planisphere-dawn/0-portrait-tall-768.webp?v=17e710e82ea5",
+                "studies/scene-assets/woven-planisphere-dawn/1-portrait-768.webp?v=17e710e82ea5",
+                "studies/scene-assets/woven-planisphere-dawn/2-portrait-tall-768.webp?v=17e710e82ea5"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-portrait-1152.webp?v=17e710e82ea5",
+              "studies/scene-assets/woven-planisphere-dawn/1-portrait-1152.webp?v=17e710e82ea5",
+              "studies/scene-assets/woven-planisphere-dawn/2-portrait-1152.webp?v=17e710e82ea5"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-planisphere-dawn/0-portrait-tall-1152.webp?v=17e710e82ea5",
+                "studies/scene-assets/woven-planisphere-dawn/1-portrait-1152.webp?v=17e710e82ea5",
+                "studies/scene-assets/woven-planisphere-dawn/2-portrait-tall-1152.webp?v=17e710e82ea5"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 2.1,
+            "urls": [
+              "studies/scene-assets/woven-planisphere-dawn/0-portrait-1613.webp?v=17e710e82ea5",
+              "studies/scene-assets/woven-planisphere-dawn/1-portrait-1613.webp?v=17e710e82ea5",
+              "studies/scene-assets/woven-planisphere-dawn/2-portrait-1613.webp?v=17e710e82ea5"
+            ],
+            "widths": [
+              0.25170489770613763,
+              0.6404215747055176,
+              0.25170489770613763
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/woven-planisphere-dawn/0-portrait-tall-1613.webp?v=17e710e82ea5",
+                "studies/scene-assets/woven-planisphere-dawn/1-portrait-1613.webp?v=17e710e82ea5",
+                "studies/scene-assets/woven-planisphere-dawn/2-portrait-tall-1613.webp?v=17e710e82ea5"
+              ],
+              "widths": [
+                0.5003099814011159,
+                0.6404215747055176,
+                0.5003099814011159
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -1019,6 +6237,11 @@ const openingScenes = [
       "earth-atmosphere",
       "metal"
     ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/silver-planisphere-dawn/0-wide-3200.webp?v=b13c15aafb32",
@@ -1030,6 +6253,136 @@ const openingScenes = [
         "studies/scenes/silver-planisphere-dawn/1-portrait-1229.webp?v=b13c15aafb32",
         "studies/scenes/silver-planisphere-dawn/2-portrait-1229.webp?v=b13c15aafb32"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "7eaa4f1e2d93",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/silver-planisphere-dawn/0-wide-1600.webp?v=7eaa4f1e2d93",
+              "studies/scene-assets/silver-planisphere-dawn/1-wide-1600.webp?v=7eaa4f1e2d93",
+              "studies/scene-assets/silver-planisphere-dawn/2-wide-1600.webp?v=7eaa4f1e2d93"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/silver-planisphere-dawn/0-wide-2400.webp?v=7eaa4f1e2d93",
+              "studies/scene-assets/silver-planisphere-dawn/1-wide-2400.webp?v=7eaa4f1e2d93",
+              "studies/scene-assets/silver-planisphere-dawn/2-wide-2400.webp?v=7eaa4f1e2d93"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/silver-planisphere-dawn/0-wide-3200.webp?v=7eaa4f1e2d93",
+              "studies/scene-assets/silver-planisphere-dawn/1-wide-3200.webp?v=7eaa4f1e2d93",
+              "studies/scene-assets/silver-planisphere-dawn/2-wide-3200.webp?v=7eaa4f1e2d93"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "32b989ce4987",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/silver-planisphere-dawn/0-portrait-768.webp?v=32b989ce4987",
+              "studies/scene-assets/silver-planisphere-dawn/1-portrait-768.webp?v=32b989ce4987",
+              "studies/scene-assets/silver-planisphere-dawn/2-portrait-768.webp?v=32b989ce4987"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/silver-planisphere-dawn/0-portrait-tall-768.webp?v=32b989ce4987",
+                "studies/scene-assets/silver-planisphere-dawn/1-portrait-768.webp?v=32b989ce4987",
+                "studies/scene-assets/silver-planisphere-dawn/2-portrait-tall-768.webp?v=32b989ce4987"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/silver-planisphere-dawn/0-portrait-1152.webp?v=32b989ce4987",
+              "studies/scene-assets/silver-planisphere-dawn/1-portrait-1152.webp?v=32b989ce4987",
+              "studies/scene-assets/silver-planisphere-dawn/2-portrait-1152.webp?v=32b989ce4987"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/silver-planisphere-dawn/0-portrait-tall-1152.webp?v=32b989ce4987",
+                "studies/scene-assets/silver-planisphere-dawn/1-portrait-1152.webp?v=32b989ce4987",
+                "studies/scene-assets/silver-planisphere-dawn/2-portrait-tall-1152.webp?v=32b989ce4987"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.6,
+            "urls": [
+              "studies/scene-assets/silver-planisphere-dawn/0-portrait-1229.webp?v=32b989ce4987",
+              "studies/scene-assets/silver-planisphere-dawn/1-portrait-1229.webp?v=32b989ce4987",
+              "studies/scene-assets/silver-planisphere-dawn/2-portrait-1229.webp?v=32b989ce4987"
+            ],
+            "widths": [
+              0.25223759153783565,
+              0.6403580146460537,
+              0.25223759153783565
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/silver-planisphere-dawn/0-portrait-tall-1229.webp?v=32b989ce4987",
+                "studies/scene-assets/silver-planisphere-dawn/1-portrait-1229.webp?v=32b989ce4987",
+                "studies/scene-assets/silver-planisphere-dawn/2-portrait-tall-1229.webp?v=32b989ce4987"
+              ],
+              "widths": [
+                0.500406834825061,
+                0.6403580146460537,
+                0.500406834825061
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -1046,6 +6399,11 @@ const openingScenes = [
       "earth-atmosphere",
       "ceramic"
     ],
+    "subjects": [
+      "shell-specimen",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/cobalt-cloud-earth/0-wide-3520.webp?v=63a87962f51b",
@@ -1057,6 +6415,136 @@ const openingScenes = [
         "studies/scenes/cobalt-cloud-earth/1-portrait-1306.webp?v=63a87962f51b",
         "studies/scenes/cobalt-cloud-earth/2-portrait-1306.webp?v=63a87962f51b"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "cefe25bf3ca4",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/cobalt-cloud-earth/0-wide-1600.webp?v=cefe25bf3ca4",
+              "studies/scene-assets/cobalt-cloud-earth/1-wide-1600.webp?v=cefe25bf3ca4",
+              "studies/scene-assets/cobalt-cloud-earth/2-wide-1600.webp?v=cefe25bf3ca4"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/cobalt-cloud-earth/0-wide-2400.webp?v=cefe25bf3ca4",
+              "studies/scene-assets/cobalt-cloud-earth/1-wide-2400.webp?v=cefe25bf3ca4",
+              "studies/scene-assets/cobalt-cloud-earth/2-wide-2400.webp?v=cefe25bf3ca4"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.2,
+            "urls": [
+              "studies/scene-assets/cobalt-cloud-earth/0-wide-3520.webp?v=cefe25bf3ca4",
+              "studies/scene-assets/cobalt-cloud-earth/1-wide-3520.webp?v=cefe25bf3ca4",
+              "studies/scene-assets/cobalt-cloud-earth/2-wide-3520.webp?v=cefe25bf3ca4"
+            ],
+            "widths": [
+              0.26079545454545455,
+              0.6403409090909091,
+              0.26079545454545455
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "4422bf259767",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/cobalt-cloud-earth/0-portrait-768.webp?v=4422bf259767",
+              "studies/scene-assets/cobalt-cloud-earth/1-portrait-768.webp?v=4422bf259767",
+              "studies/scene-assets/cobalt-cloud-earth/2-portrait-768.webp?v=4422bf259767"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/cobalt-cloud-earth/0-portrait-tall-768.webp?v=4422bf259767",
+                "studies/scene-assets/cobalt-cloud-earth/1-portrait-768.webp?v=4422bf259767",
+                "studies/scene-assets/cobalt-cloud-earth/2-portrait-tall-768.webp?v=4422bf259767"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/cobalt-cloud-earth/0-portrait-1152.webp?v=4422bf259767",
+              "studies/scene-assets/cobalt-cloud-earth/1-portrait-1152.webp?v=4422bf259767",
+              "studies/scene-assets/cobalt-cloud-earth/2-portrait-1152.webp?v=4422bf259767"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/cobalt-cloud-earth/0-portrait-tall-1152.webp?v=4422bf259767",
+                "studies/scene-assets/cobalt-cloud-earth/1-portrait-1152.webp?v=4422bf259767",
+                "studies/scene-assets/cobalt-cloud-earth/2-portrait-tall-1152.webp?v=4422bf259767"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.7,
+            "urls": [
+              "studies/scene-assets/cobalt-cloud-earth/0-portrait-1306.webp?v=4422bf259767",
+              "studies/scene-assets/cobalt-cloud-earth/1-portrait-1306.webp?v=4422bf259767",
+              "studies/scene-assets/cobalt-cloud-earth/2-portrait-1306.webp?v=4422bf259767"
+            ],
+            "widths": [
+              0.25191424196018375,
+              0.6401225114854517,
+              0.25191424196018375
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/cobalt-cloud-earth/0-portrait-tall-1306.webp?v=4422bf259767",
+                "studies/scene-assets/cobalt-cloud-earth/1-portrait-1306.webp?v=4422bf259767",
+                "studies/scene-assets/cobalt-cloud-earth/2-portrait-tall-1306.webp?v=4422bf259767"
+              ],
+              "widths": [
+                0.5,
+                0.6401225114854517,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -1073,6 +6561,11 @@ const openingScenes = [
       "earth-atmosphere",
       "ceramic"
     ],
+    "subjects": [
+      "shell-specimen",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/blue-ocean-twilight/0-wide-3520.webp?v=ea28645adbda",
@@ -1084,6 +6577,136 @@ const openingScenes = [
         "studies/scenes/blue-ocean-twilight/1-portrait-1382.webp?v=ea28645adbda",
         "studies/scenes/blue-ocean-twilight/2-portrait-1382.webp?v=ea28645adbda"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "4f88dcdccad9",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/blue-ocean-twilight/0-wide-1600.webp?v=4f88dcdccad9",
+              "studies/scene-assets/blue-ocean-twilight/1-wide-1600.webp?v=4f88dcdccad9",
+              "studies/scene-assets/blue-ocean-twilight/2-wide-1600.webp?v=4f88dcdccad9"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/blue-ocean-twilight/0-wide-2400.webp?v=4f88dcdccad9",
+              "studies/scene-assets/blue-ocean-twilight/1-wide-2400.webp?v=4f88dcdccad9",
+              "studies/scene-assets/blue-ocean-twilight/2-wide-2400.webp?v=4f88dcdccad9"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2.2,
+            "urls": [
+              "studies/scene-assets/blue-ocean-twilight/0-wide-3520.webp?v=4f88dcdccad9",
+              "studies/scene-assets/blue-ocean-twilight/1-wide-3520.webp?v=4f88dcdccad9",
+              "studies/scene-assets/blue-ocean-twilight/2-wide-3520.webp?v=4f88dcdccad9"
+            ],
+            "widths": [
+              0.26079545454545455,
+              0.6403409090909091,
+              0.26079545454545455
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "834804a57039",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/blue-ocean-twilight/0-portrait-768.webp?v=834804a57039",
+              "studies/scene-assets/blue-ocean-twilight/1-portrait-768.webp?v=834804a57039",
+              "studies/scene-assets/blue-ocean-twilight/2-portrait-768.webp?v=834804a57039"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/blue-ocean-twilight/0-portrait-tall-768.webp?v=834804a57039",
+                "studies/scene-assets/blue-ocean-twilight/1-portrait-768.webp?v=834804a57039",
+                "studies/scene-assets/blue-ocean-twilight/2-portrait-tall-768.webp?v=834804a57039"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/blue-ocean-twilight/0-portrait-1152.webp?v=834804a57039",
+              "studies/scene-assets/blue-ocean-twilight/1-portrait-1152.webp?v=834804a57039",
+              "studies/scene-assets/blue-ocean-twilight/2-portrait-1152.webp?v=834804a57039"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/blue-ocean-twilight/0-portrait-tall-1152.webp?v=834804a57039",
+                "studies/scene-assets/blue-ocean-twilight/1-portrait-1152.webp?v=834804a57039",
+                "studies/scene-assets/blue-ocean-twilight/2-portrait-tall-1152.webp?v=834804a57039"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/blue-ocean-twilight/0-portrait-1382.webp?v=834804a57039",
+              "studies/scene-assets/blue-ocean-twilight/1-portrait-1382.webp?v=834804a57039",
+              "studies/scene-assets/blue-ocean-twilight/2-portrait-1382.webp?v=834804a57039"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/blue-ocean-twilight/0-portrait-tall-1382.webp?v=834804a57039",
+                "studies/scene-assets/blue-ocean-twilight/1-portrait-1382.webp?v=834804a57039",
+                "studies/scene-assets/blue-ocean-twilight/2-portrait-tall-1382.webp?v=834804a57039"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -1101,6 +6724,11 @@ const openingScenes = [
       "space",
       "mineral"
     ],
+    "subjects": [
+      "vessel",
+      "celestial-horizon",
+      "shell-specimen"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/pacific-ocean/0-wide-3200.webp?v=03bc6d83bbf9",
@@ -1112,6 +6740,111 @@ const openingScenes = [
         "studies/scenes/pacific-ocean/1-portrait-1037.webp?v=03bc6d83bbf9",
         "studies/scenes/pacific-ocean/2-portrait-1037.webp?v=03bc6d83bbf9"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "bb08a430405e",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/pacific-ocean/0-wide-1600.webp?v=bb08a430405e",
+              "studies/scene-assets/pacific-ocean/1-wide-1600.webp?v=bb08a430405e",
+              "studies/scene-assets/pacific-ocean/2-wide-1600.webp?v=bb08a430405e"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/pacific-ocean/0-wide-2400.webp?v=bb08a430405e",
+              "studies/scene-assets/pacific-ocean/1-wide-2400.webp?v=bb08a430405e",
+              "studies/scene-assets/pacific-ocean/2-wide-2400.webp?v=bb08a430405e"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/pacific-ocean/0-wide-3200.webp?v=bb08a430405e",
+              "studies/scene-assets/pacific-ocean/1-wide-3200.webp?v=bb08a430405e",
+              "studies/scene-assets/pacific-ocean/2-wide-3200.webp?v=bb08a430405e"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "dff106548081",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/pacific-ocean/0-portrait-768.webp?v=dff106548081",
+              "studies/scene-assets/pacific-ocean/1-portrait-768.webp?v=dff106548081",
+              "studies/scene-assets/pacific-ocean/2-portrait-768.webp?v=dff106548081"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/pacific-ocean/0-portrait-tall-768.webp?v=dff106548081",
+                "studies/scene-assets/pacific-ocean/1-portrait-768.webp?v=dff106548081",
+                "studies/scene-assets/pacific-ocean/2-portrait-tall-768.webp?v=dff106548081"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.35,
+            "urls": [
+              "studies/scene-assets/pacific-ocean/0-portrait-1037.webp?v=dff106548081",
+              "studies/scene-assets/pacific-ocean/1-portrait-1037.webp?v=dff106548081",
+              "studies/scene-assets/pacific-ocean/2-portrait-1037.webp?v=dff106548081"
+            ],
+            "widths": [
+              0.25265188042430087,
+              0.6412729026036644,
+              0.25265188042430087
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/pacific-ocean/0-portrait-tall-1037.webp?v=dff106548081",
+                "studies/scene-assets/pacific-ocean/1-portrait-1037.webp?v=dff106548081",
+                "studies/scene-assets/pacific-ocean/2-portrait-tall-1037.webp?v=dff106548081"
+              ],
+              "widths": [
+                0.5004821600771456,
+                0.6412729026036644,
+                0.5004821600771456
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   {
@@ -1129,6 +6862,11 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "subjects": [
+      "shell-specimen",
+      "celestial-horizon",
+      "vessel"
+    ],
     "assets": {
       "wide": [
         "studies/scenes/polar-ground/0-wide-3200.webp?v=15afb371676f",
@@ -1140,6 +6878,528 @@ const openingScenes = [
         "studies/scenes/polar-ground/1-portrait-1152.webp?v=15afb371676f",
         "studies/scenes/polar-ground/2-portrait-1152.webp?v=15afb371676f"
       ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "5eab0bcad4e3",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/polar-ground/0-wide-1600.webp?v=5eab0bcad4e3",
+              "studies/scene-assets/polar-ground/1-wide-1600.webp?v=5eab0bcad4e3",
+              "studies/scene-assets/polar-ground/2-wide-1600.webp?v=5eab0bcad4e3"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/polar-ground/0-wide-2400.webp?v=5eab0bcad4e3",
+              "studies/scene-assets/polar-ground/1-wide-2400.webp?v=5eab0bcad4e3",
+              "studies/scene-assets/polar-ground/2-wide-2400.webp?v=5eab0bcad4e3"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/polar-ground/0-wide-3200.webp?v=5eab0bcad4e3",
+              "studies/scene-assets/polar-ground/1-wide-3200.webp?v=5eab0bcad4e3",
+              "studies/scene-assets/polar-ground/2-wide-3200.webp?v=5eab0bcad4e3"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "48d36aa7d72a",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/polar-ground/0-portrait-768.webp?v=48d36aa7d72a",
+              "studies/scene-assets/polar-ground/1-portrait-768.webp?v=48d36aa7d72a",
+              "studies/scene-assets/polar-ground/2-portrait-768.webp?v=48d36aa7d72a"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/polar-ground/0-portrait-tall-768.webp?v=48d36aa7d72a",
+                "studies/scene-assets/polar-ground/1-portrait-768.webp?v=48d36aa7d72a",
+                "studies/scene-assets/polar-ground/2-portrait-tall-768.webp?v=48d36aa7d72a"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/polar-ground/0-portrait-1152.webp?v=48d36aa7d72a",
+              "studies/scene-assets/polar-ground/1-portrait-1152.webp?v=48d36aa7d72a",
+              "studies/scene-assets/polar-ground/2-portrait-1152.webp?v=48d36aa7d72a"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/polar-ground/0-portrait-tall-1152.webp?v=48d36aa7d72a",
+                "studies/scene-assets/polar-ground/1-portrait-1152.webp?v=48d36aa7d72a",
+                "studies/scene-assets/polar-ground/2-portrait-tall-1152.webp?v=48d36aa7d72a"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "golden-stairs-earth",
+    "title": "Eimmart, Apollo Earth & The Golden Stairs",
+    "radius": 700,
+    "portraitRadius": 950,
+    "horizon": 0.54,
+    "angle": 0,
+    "finalInset": 18,
+    "lead": "AS17-148-22727",
+    "motifs": [
+      "mathematical-engraving",
+      "earth",
+      "figural-painting"
+    ],
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "painting"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/golden-stairs-earth/0-wide-3200.webp?v=b7e162db4201",
+        "studies/scenes/golden-stairs-earth/1-wide-3200.webp?v=b7e162db4201",
+        "studies/scenes/golden-stairs-earth/2-wide-3200.webp?v=b7e162db4201"
+      ],
+      "portrait": [
+        "studies/scenes/golden-stairs-earth/0-portrait-1037.webp?v=b7e162db4201",
+        "studies/scenes/golden-stairs-earth/1-portrait-1037.webp?v=b7e162db4201",
+        "studies/scenes/golden-stairs-earth/2-portrait-1037.webp?v=b7e162db4201"
+      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "df1907d04114",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/golden-stairs-earth/0-wide-1600.webp?v=df1907d04114",
+              "studies/scene-assets/golden-stairs-earth/1-wide-1600.webp?v=df1907d04114",
+              "studies/scene-assets/golden-stairs-earth/2-wide-1600.webp?v=df1907d04114"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/golden-stairs-earth/0-wide-2400.webp?v=df1907d04114",
+              "studies/scene-assets/golden-stairs-earth/1-wide-2400.webp?v=df1907d04114",
+              "studies/scene-assets/golden-stairs-earth/2-wide-2400.webp?v=df1907d04114"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/golden-stairs-earth/0-wide-3200.webp?v=df1907d04114",
+              "studies/scene-assets/golden-stairs-earth/1-wide-3200.webp?v=df1907d04114",
+              "studies/scene-assets/golden-stairs-earth/2-wide-3200.webp?v=df1907d04114"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "3284bc91bd4b",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/golden-stairs-earth/0-portrait-768.webp?v=3284bc91bd4b",
+              "studies/scene-assets/golden-stairs-earth/1-portrait-768.webp?v=3284bc91bd4b",
+              "studies/scene-assets/golden-stairs-earth/2-portrait-768.webp?v=3284bc91bd4b"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/golden-stairs-earth/0-portrait-tall-768.webp?v=3284bc91bd4b",
+                "studies/scene-assets/golden-stairs-earth/1-portrait-768.webp?v=3284bc91bd4b",
+                "studies/scene-assets/golden-stairs-earth/2-portrait-tall-768.webp?v=3284bc91bd4b"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.35,
+            "urls": [
+              "studies/scene-assets/golden-stairs-earth/0-portrait-1037.webp?v=3284bc91bd4b",
+              "studies/scene-assets/golden-stairs-earth/1-portrait-1037.webp?v=3284bc91bd4b",
+              "studies/scene-assets/golden-stairs-earth/2-portrait-1037.webp?v=3284bc91bd4b"
+            ],
+            "widths": [
+              0.25265188042430087,
+              0.6412729026036644,
+              0.25265188042430087
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/golden-stairs-earth/0-portrait-tall-1037.webp?v=3284bc91bd4b",
+                "studies/scene-assets/golden-stairs-earth/1-portrait-1037.webp?v=3284bc91bd4b",
+                "studies/scene-assets/golden-stairs-earth/2-portrait-tall-1037.webp?v=3284bc91bd4b"
+              ],
+              "widths": [
+                0.5004821600771456,
+                0.6412729026036644,
+                0.5004821600771456
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "unconscious-rivals-bowed-arch",
+    "title": "Celestial engraving, physical Earth & Unconscious Rivals arch",
+    "radius": 750,
+    "portraitRadius": 750,
+    "horizon": 0.255,
+    "angle": 0,
+    "finalInset": 16,
+    "lead": "AS17-148-22727",
+    "motifs": [
+      "historical-math",
+      "space",
+      "painting-arch-flowers"
+    ],
+    "portrait_angle": -25.087383076282084,
+    "portrait_horizon": 0.34,
+    "openingInset": 18,
+    "portrait_openingInset": 18,
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "painting"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/unconscious-rivals-bowed-arch/0-wide-3200.webp?v=f77e60faed63",
+        "studies/scenes/unconscious-rivals-bowed-arch/1-wide-3200.webp?v=f77e60faed63",
+        "studies/scenes/unconscious-rivals-bowed-arch/2-wide-3200.webp?v=f77e60faed63"
+      ],
+      "portrait": [
+        "studies/scenes/unconscious-rivals-bowed-arch/0-portrait-1037.webp?v=f77e60faed63",
+        "studies/scenes/unconscious-rivals-bowed-arch/1-portrait-1037.webp?v=f77e60faed63",
+        "studies/scenes/unconscious-rivals-bowed-arch/2-portrait-1037.webp?v=f77e60faed63"
+      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "53c9edebe1d6",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/unconscious-rivals-bowed-arch/0-wide-1600.webp?v=53c9edebe1d6",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/1-wide-1600.webp?v=53c9edebe1d6",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/2-wide-1600.webp?v=53c9edebe1d6"
+            ],
+            "widths": [
+              0.26125,
+              0.68,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/unconscious-rivals-bowed-arch/0-wide-2400.webp?v=53c9edebe1d6",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/1-wide-2400.webp?v=53c9edebe1d6",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/2-wide-2400.webp?v=53c9edebe1d6"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.68,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/unconscious-rivals-bowed-arch/0-wide-3200.webp?v=53c9edebe1d6",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/1-wide-3200.webp?v=53c9edebe1d6",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/2-wide-3200.webp?v=53c9edebe1d6"
+            ],
+            "widths": [
+              0.260625,
+              0.68,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "cf2e580c73d0",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/unconscious-rivals-bowed-arch/0-portrait-768.webp?v=cf2e580c73d0",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/1-portrait-768.webp?v=cf2e580c73d0",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/2-portrait-768.webp?v=cf2e580c73d0"
+            ],
+            "widths": [
+              0.18359375,
+              0.6822916666666666,
+              0.18359375
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/unconscious-rivals-bowed-arch/0-portrait-tall-768.webp?v=cf2e580c73d0",
+                "studies/scene-assets/unconscious-rivals-bowed-arch/1-portrait-768.webp?v=cf2e580c73d0",
+                "studies/scene-assets/unconscious-rivals-bowed-arch/2-portrait-tall-768.webp?v=cf2e580c73d0"
+              ],
+              "widths": [
+                0.5,
+                0.6822916666666666,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.35,
+            "urls": [
+              "studies/scene-assets/unconscious-rivals-bowed-arch/0-portrait-1037.webp?v=cf2e580c73d0",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/1-portrait-1037.webp?v=cf2e580c73d0",
+              "studies/scene-assets/unconscious-rivals-bowed-arch/2-portrait-1037.webp?v=cf2e580c73d0"
+            ],
+            "widths": [
+              0.18225650916104147,
+              0.6817743490838959,
+              0.18225650916104147
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/unconscious-rivals-bowed-arch/0-portrait-tall-1037.webp?v=cf2e580c73d0",
+                "studies/scene-assets/unconscious-rivals-bowed-arch/1-portrait-1037.webp?v=cf2e580c73d0",
+                "studies/scene-assets/unconscious-rivals-bowed-arch/2-portrait-tall-1037.webp?v=cf2e580c73d0"
+              ],
+              "widths": [
+                0.5004821600771456,
+                0.6817743490838959,
+                0.5004821600771456
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cloud-ocean-575",
+    "title": "La Hire engraving, cloud-laced ocean & silver",
+    "radius": 2900,
+    "portraitRadius": 4000,
+    "horizon": 0.41,
+    "angle": 0,
+    "finalInset": 18,
+    "lead": "art002e023575",
+    "motifs": [
+      "engraving",
+      "space",
+      "metal"
+    ],
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "vessel"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/cloud-ocean-575/0-wide-3200.webp?v=f3bbd950811f",
+        "studies/scenes/cloud-ocean-575/1-wide-3200.webp?v=f3bbd950811f",
+        "studies/scenes/cloud-ocean-575/2-wide-3200.webp?v=f3bbd950811f"
+      ],
+      "portrait": [
+        "studies/scenes/cloud-ocean-575/0-portrait-1037.webp?v=f3bbd950811f",
+        "studies/scenes/cloud-ocean-575/1-portrait-1037.webp?v=f3bbd950811f",
+        "studies/scenes/cloud-ocean-575/2-portrait-1037.webp?v=f3bbd950811f"
+      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "3c0daf4e3c59",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/cloud-ocean-575/0-wide-1600.webp?v=3c0daf4e3c59",
+              "studies/scene-assets/cloud-ocean-575/1-wide-1600.webp?v=3c0daf4e3c59",
+              "studies/scene-assets/cloud-ocean-575/2-wide-1600.webp?v=3c0daf4e3c59"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/cloud-ocean-575/0-wide-2400.webp?v=3c0daf4e3c59",
+              "studies/scene-assets/cloud-ocean-575/1-wide-2400.webp?v=3c0daf4e3c59",
+              "studies/scene-assets/cloud-ocean-575/2-wide-2400.webp?v=3c0daf4e3c59"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/cloud-ocean-575/0-wide-3200.webp?v=3c0daf4e3c59",
+              "studies/scene-assets/cloud-ocean-575/1-wide-3200.webp?v=3c0daf4e3c59",
+              "studies/scene-assets/cloud-ocean-575/2-wide-3200.webp?v=3c0daf4e3c59"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "871c86e7d835",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/cloud-ocean-575/0-portrait-768.webp?v=871c86e7d835",
+              "studies/scene-assets/cloud-ocean-575/1-portrait-768.webp?v=871c86e7d835",
+              "studies/scene-assets/cloud-ocean-575/2-portrait-768.webp?v=871c86e7d835"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/cloud-ocean-575/0-portrait-tall-768.webp?v=871c86e7d835",
+                "studies/scene-assets/cloud-ocean-575/1-portrait-768.webp?v=871c86e7d835",
+                "studies/scene-assets/cloud-ocean-575/2-portrait-tall-768.webp?v=871c86e7d835"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.35,
+            "urls": [
+              "studies/scene-assets/cloud-ocean-575/0-portrait-1037.webp?v=871c86e7d835",
+              "studies/scene-assets/cloud-ocean-575/1-portrait-1037.webp?v=871c86e7d835",
+              "studies/scene-assets/cloud-ocean-575/2-portrait-1037.webp?v=871c86e7d835"
+            ],
+            "widths": [
+              0.25265188042430087,
+              0.6412729026036644,
+              0.25265188042430087
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/cloud-ocean-575/0-portrait-tall-1037.webp?v=871c86e7d835",
+                "studies/scene-assets/cloud-ocean-575/1-portrait-1037.webp?v=871c86e7d835",
+                "studies/scene-assets/cloud-ocean-575/2-portrait-tall-1037.webp?v=871c86e7d835"
+              ],
+              "widths": [
+                0.5004821600771456,
+                0.6412729026036644,
+                0.5004821600771456
+              ]
+            }
+          }
+        ]
+      }
     }
   }
 ];

@@ -1,0 +1,127 @@
+{
+  "cold_opening": [
+    {
+      "device": "mac",
+      "viewport": [
+        1512,
+        982
+      ],
+      "dpr": 2,
+      "network": "4 Mbps / 80 ms cold cache",
+      "scene": "apollo-earth",
+      "ready_ms": 3183,
+      "image_bytes": 943836,
+      "total_bytes": 1414342,
+      "image_requests": 3,
+      "image_urls": [
+        "http://127.0.0.1:8732/studies/scene-assets/apollo-earth/1-wide-3200.webp?v=b714568fbc2a",
+        "http://127.0.0.1:8732/studies/scene-assets/apollo-earth/0-wide-3200.webp?v=b714568fbc2a",
+        "http://127.0.0.1:8732/studies/scene-assets/apollo-earth/2-wide-3200.webp?v=b714568fbc2a"
+      ]
+    },
+    {
+      "device": "phone",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "network": "4 Mbps / 80 ms cold cache",
+      "scene": "apollo-earth",
+      "ready_ms": 1978,
+      "image_bytes": 371670,
+      "total_bytes": 840638,
+      "image_requests": 3,
+      "image_urls": [
+        "http://127.0.0.1:8732/studies/scene-assets/apollo-earth/0-portrait-1152.webp?v=c1528a130c49",
+        "http://127.0.0.1:8732/studies/scene-assets/apollo-earth/1-portrait-1152.webp?v=c1528a130c49",
+        "http://127.0.0.1:8732/studies/scene-assets/apollo-earth/2-portrait-1152.webp?v=c1528a130c49"
+      ]
+    }
+  ],
+  "pixel_registration": [
+    {
+      "viewport": [
+        1512,
+        982
+      ],
+      "phase": "initial",
+      "profile": "wide",
+      "inset_percent": 26,
+      "mean_absolute_channel_difference": 1.3805,
+      "fraction_pixels_with_channel_difference_over_40": 0.001571,
+      "reference": "same-density complete registered q90 WebP layers",
+      "tall_fallback": false
+    },
+    {
+      "viewport": [
+        1512,
+        982
+      ],
+      "phase": "resolved",
+      "profile": "wide",
+      "inset_percent": 18,
+      "mean_absolute_channel_difference": 1.1209,
+      "fraction_pixels_with_channel_difference_over_40": 0.000769,
+      "reference": "same-density complete registered q90 WebP layers",
+      "tall_fallback": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "phase": "initial",
+      "profile": "portrait",
+      "inset_percent": 25,
+      "mean_absolute_channel_difference": 1.8137,
+      "fraction_pixels_with_channel_difference_over_40": 0.004822,
+      "reference": "same-density complete registered q90 WebP layers",
+      "tall_fallback": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "phase": "resolved",
+      "profile": "portrait",
+      "inset_percent": 18,
+      "mean_absolute_channel_difference": 1.3614,
+      "fraction_pixels_with_channel_difference_over_40": 0.002162,
+      "reference": "same-density complete registered q90 WebP layers",
+      "tall_fallback": false
+    },
+    {
+      "viewport": [
+        320,
+        1400
+      ],
+      "phase": "initial",
+      "profile": "portrait",
+      "inset_percent": 33.23809523809524,
+      "mean_absolute_channel_difference": 1.5948,
+      "fraction_pixels_with_channel_difference_over_40": 8e-06,
+      "reference": "same-density complete registered q90 WebP layers",
+      "tall_fallback": true
+    },
+    {
+      "viewport": [
+        320,
+        1400
+      ],
+      "phase": "resolved",
+      "profile": "portrait",
+      "inset_percent": 33.23809523809524,
+      "mean_absolute_channel_difference": 1.5948,
+      "fraction_pixels_with_channel_difference_over_40": 8e-06,
+      "reference": "same-density complete registered q90 WebP layers",
+      "tall_fallback": true
+    }
+  ],
+  "cache": {
+    "cancelled_then_reselected_frame_shares_three_pending_requests": true,
+    "decoded_frame_revisit_adds_zero_requests": true,
+    "decoded_image_reference_limit": 6
+  }
+}

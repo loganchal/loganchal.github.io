@@ -1,5 +1,5 @@
 {
-  "scene_count": 43,
+  "scene_count": 44,
   "controls": [
     {
       "viewport": [
@@ -48,5 +48,6 @@
   ],
   "full_angle_cycle": true,
   "late_load_cannot_override_latest_click": true,
+  "rapid_click_keeps_complete_old_frame": true,
   "browser_errors": []
 }

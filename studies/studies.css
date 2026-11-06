@@ -2,17 +2,17 @@
 .stage,.frame {container-type:size}
 .arc-study {position:absolute;left:50%;top:50%;width:max(100cqw,166.666667cqh);height:max(60cqw,100cqh);transform:translate(-50%,-50%);background:#000;isolation:isolate}
 .arc-study > i {position:absolute;inset:0;background-position:center;background-repeat:no-repeat;background-size:100% 100%}
-.arc-study > i:first-child {clip-path:inset(0 50% 0 0);background-image:image-set(url(registered/celadon-1600.webp) 1x,url(registered/celadon-3840.webp) 2x)}
-.arc-study > i:nth-child(2) {clip-path:inset(0 0 0 50%);background-image:image-set(url(registered/saturn-1600.webp) 1x,url(registered/saturn-3840.webp) 2x)}
-.arc-study > i:last-child {clip-path:inset(0 var(--inset,26%));background-image:image-set(url(registered/artemis-1600.webp) 1x,url(registered/artemis-3840.webp) 2x)}
+.arc-study > i:first-child {clip-path:inset(0 50% 0 0);background-image:none}
+.arc-study > i:nth-child(2) {clip-path:inset(0 0 0 50%);background-image:none}
+.arc-study > i:last-child {clip-path:inset(0 var(--inset,26%));background-image:none}
 
 @media(max-aspect-ratio:1/1){
  .stage{--art-height:max(166.666667cqw,100cqh);--opening-inset:25}
  .stage .arc-study{width:max(100cqw,60cqh);height:max(166.666667cqw,100cqh)}
- .stage .arc-study>i:first-child{background-image:image-set(url(registered/celadon-portrait-768.webp) 1x,url(registered/celadon-portrait-1843.webp) 2x)}
- .stage .arc-study>i:nth-child(2){background-image:image-set(url(registered/saturn-portrait-768.webp) 1x,url(registered/saturn-portrait-1843.webp) 2x)}
- .stage .arc-study>i:last-child{background-image:image-set(url(registered/artemis-portrait-768.webp) 1x,url(registered/artemis-portrait-1843.webp) 2x)}
+ .stage .arc-study>i:first-child{background-image:none}
+ .stage .arc-study>i:nth-child(2){background-image:none}
+ .stage .arc-study>i:last-child{background-image:none}
 }
 
-.arc-study.eclipse-arc>i:last-child{background-image:image-set(url(registered/eclipse-1600.webp) 1x,url(registered/eclipse-3840.webp) 2x)}
-@media(max-aspect-ratio:1/1){.stage .arc-study.eclipse-arc>i:last-child{background-image:image-set(url(registered/eclipse-portrait-768.webp) 1x,url(registered/eclipse-portrait-1843.webp) 2x)}}
+.arc-study.eclipse-arc>i:last-child{background-image:none}
+@media(max-aspect-ratio:1/1){.stage .arc-study.eclipse-arc>i:last-child{background-image:none}}

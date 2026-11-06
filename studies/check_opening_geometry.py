@@ -8,9 +8,9 @@ repo=Path(__file__).resolve().parent.parent;scenes=json.loads((repo/'studies/sce
 Image.MAX_IMAGE_PIXELS=None
 for s in scenes:
  for pr,W,H in [('wide',1600,960),('portrait',768,1280)]:
-  R=s.get('portraitRadius',s['radius']) if pr=='portrait' else s['radius'];t=math.radians(s['angle']);C=np.array([W/2+R*math.sin(t),H*s.get('horizon',.53)+R*math.cos(t)]);d=s.get('portrait_density',s.get('render_density',2.4)) if pr=='portrait' else s.get('render_density',2.4)
+  R=s.get('portraitRadius',s['radius']) if pr=='portrait' else s['radius'];t=math.radians(s.get('portrait_angle',s['angle']) if pr=='portrait' else s['angle']);horizon=s.get('portrait_horizon',s.get('horizon',.53)) if pr=='portrait' else s.get('horizon',.53);C=np.array([W/2+R*math.sin(t),H*horizon+R*math.cos(t)]);d=s.get('portrait_density',s.get('render_density',2.4)) if pr=='portrait' else s.get('render_density',2.4)
   for slot,g in enumerate(s['source_geometry']):
-   im=Image.open(resolve_source(args.cache,g['source_file']));cx,cy,r=g['circle'];contact=([208,800,1392] if pr=='wide' else [96,384,672])[slot]
+   im=Image.open(resolve_source(args.cache,g['source_file']));cx,cy,r=g['circle'];contact=g.get('target_x',[208,800,1392][slot]) if pr=='wide' else g.get('portrait_target_x',[96,384,672][slot])
    a=math.atan2(-math.sqrt(R*R-(contact-C[0])**2),contact-C[0])-(g.get('portrait_source_angle',g['source_angle']) if pr=='portrait' else g['source_angle']);inv=np.array([[math.cos(a),math.sin(a)],[-math.sin(a),math.cos(a)]])*r/R;o=np.array([cx,cy])-inv@C
    assert R*d/r<=1+1e-8
    # Check every corner of each visible side panel. Affine extrema lie at corners.
@@ -33,7 +33,7 @@ for s in scenes:
     asset=repo/f'studies/scenes/{s["id"]}/{slot}-{pr}-{round(W*density)}.webp'
     with Image.open(asset) as rendered:assert rendered.size==(round(W*density),round(H*density))
    row=dict(scene=s['id'],profile=pr,slot=slot,source=g['source_file'],source_pixels=list(im.size),native_pixels_per_output_pixel=r/R/d,visible_source_clearance_px=clearance)
-   feature={"glass":"glass","red":"porcelain","basket":"basket","lahire":"lahire"}.get(s['slots'][slot])
+   feature={"glass":"glass","red":"porcelain","basket":"basket","lahire":"lahire","golden-stairs":"golden-stairs","unconscious-rivals-arch":"rivals-vault"}.get(s['slots'][slot])
    if feature:
     measure=json.loads((repo/f'studies/qa/editorial-contours/{feature}.json').read_text());p=np.array(measure['points']);res=(np.linalg.norm(p-[cx,cy],axis=1)-r)*R/r
     row.update(contour_rms_artboard_px=float(np.sqrt(np.mean(res**2))),contour_max_artboard_px=float(abs(res).max()))

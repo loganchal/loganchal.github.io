@@ -11,9 +11,9 @@
 <meta property="og:description" content="Research in upper-ocean stratification and the geometry of equilateral sets.">
 <meta property="og:url" content="https://loganchalmers.net/">
 
-<link rel="stylesheet" href="home.css?v=20261106-click-angles">
+<link rel="stylesheet" href="home.css?v=20261106-delivery">
 <link rel="stylesheet" href="studies/studies.css">
-<link rel="stylesheet" href="studies/scenes.css?v=20261106-click-angles">
+
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal", "https://scholar.google.com/citations?user=fGeMPeEAAAAJ&hl=en"]}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers \u00b7 Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
 </head>
 <body>
@@ -42,12 +42,13 @@
 </section>
 <section id="research" aria-label="Research index">
 <p class="index-label">Research index</p>
-<article id="oceanography"><img src="soundings.svg" alt="Illustrated sounding chart crossed by a transect"><div><small>01　/　Oceanography</small><h2>Ocean model explorer</h2><a href="/roms-explorer/">Explore the model ↗</a></div></article>
-<article id="mathematics"><img src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Mathematics</h2><a href="https://scholar.google.com/citations?user=fGeMPeEAAAAJ&amp;hl=en">Google Scholar ↗</a>　<a href="https://arxiv.org/search/math?query=Chalmers%2C+L+R&amp;searchtype=author">arXiv ↗</a>　<a href="https://sciprofiles.com/profile/5708743">Preprints.org ↗</a></div></article>
+<article id="oceanography"><img loading="lazy" decoding="async" src="soundings.svg" alt="Illustrated sounding chart crossed by a transect"><div><small>01　/　Oceanography</small><h2>Ocean model explorer</h2><a href="/roms-explorer/">Explore the model ↗</a></div></article>
+<article id="mathematics"><img loading="lazy" decoding="async" src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Mathematics</h2><a href="https://scholar.google.com/citations?user=fGeMPeEAAAAJ&amp;hl=en">Google Scholar ↗</a>　<a href="https://arxiv.org/search/math?query=Chalmers%2C+L+R&amp;searchtype=author">arXiv ↗</a>　<a href="https://sciprofiles.com/profile/5708743">Preprints.org ↗</a></div></article>
 </section></main>
 <footer><span>Logan Chalmers</span><a href="plates/credits.html">Image credits</a><a href="#top">Back to top ↑</a></footer>
-<script src="studies/catalogue.js?v=20261106-click-angles"></script>
-<script src="studies/shuffle.js?v=20261106-click-angles"></script>
+<script src="studies/catalogue.js?v=20261106-delivery"></script>
+<script src="studies/shuffle.js?v=20261106-delivery"></script>
+<script src="studies/assets.js?v=20261106-delivery"></script>
 <script>
 const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
 let study = chooseOpening();
@@ -62,19 +63,13 @@ const sceneOrder=openingScenes.filter(item=>item.active!==false).slice().sort((a
 const sceneAngles=[...new Set(sceneOrder.map(item=>item.angle))];
 const lastAngleScene=new Map();
 let requestedAngle=scene.angle;
-const angleLabel=angle=>angle===0?'0°':`${angle<0?'−':'+'}${Math.abs(angle)}°`;
+const angleLabel=angle=>angle===0?'0°':`${angle<0?'−':'+'}${Math.round(Math.abs(angle)*10)/10}°`;
 let selectionRevision=0;
 sceneButton.hidden=openings.length<2;
-const loadImage=url=>new Promise(resolve=>{const image=new Image();image.onload=async()=>{try{await image.decode();}catch{}resolve(true);};image.onerror=()=>resolve(false);image.src=url;});
-const currentProfile=()=>matchMedia('(max-aspect-ratio:1/1)').matches?'portrait':'wide';
-const displayAssets=(next,profile)=>devicePixelRatio>1?next.assets[profile]:next.assets[profile].map(url=>url.replace(/-\d+\.webp(?=\?|$)/,`-${profile==='wide'?1600:768}.webp`));
-async function prepareScene(next){
- const profile=currentProfile();
- if(!(await Promise.all(displayAssets(next,profile).map(loadImage))).every(Boolean))return false;
- if(currentProfile()!==profile&&!(await Promise.all(displayAssets(next,currentProfile()).map(loadImage))).every(Boolean))return false;
- for(const url of displayAssets(next,currentProfile()==='wide'?'portrait':'wide'))loadImage(url);
- return true;
-}
+let assetController=new AbortController();
+const currentProfile=()=>OpeningAssets.profile();
+const prepareScene=next=>OpeningAssets.prepare(next,assetController.signal);
+function applySceneAssets(choice){OpeningAssets.apply(stage.querySelector('.arc-study'),choice);}
 function updateSceneControl(){
  const position=sceneOrder.findIndex(item=>item.id===study)+1;
  sceneCount.textContent=`${position} / ${sceneOrder.length}`;
@@ -85,7 +80,7 @@ function updateSceneControl(){
   const nextAngle=sceneAngles[(sceneAngles.indexOf(scene.angle)+direction+sceneAngles.length)%sceneAngles.length];
   button.setAttribute('aria-label',`${index===0?'Previous':'Next'} curve angle, ${angleLabel(nextAngle)}`);
  }
- sceneAngle.value=angleLabel(scene.angle);
+ sceneAngle.value=angleLabel(currentProfile()==='portrait'?(scene.portrait_angle??scene.angle):scene.angle);
  sceneButton.setAttribute('aria-label',`Change opening scene. Current scene: ${scene.title}${position?`, ${position} of ${openings.length}`:''}.`);
 }
 function releaseReviewLink(){
@@ -94,7 +89,9 @@ function releaseReviewLink(){
 updateSceneControl();
 (async()=>{
  for(let attempt=0;attempt<openings.length;attempt++){
-  if(await prepareScene(scene)){
+  const ready=await prepareScene(scene);
+  if(ready){
+   applySceneAssets(ready);
    study=scene.id;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
    stage.querySelector('.arc-study').className='arc-study '+study;
    layoutOpening();setOpening();updateSceneControl();
@@ -106,16 +103,18 @@ updateSceneControl();
  stage.classList.remove('scene-loading');stage.dataset.tone='light';sceneButton.disabled=false;angleButtons.forEach(button=>button.disabled=false);
  sceneStatus.textContent='The opening images could not load. You can retry with Change scene or scroll to research.';
 })();
-async function selectScene(nextStudy,{explicit=false}={}){
+async function selectScene(nextStudy,{explicit=false,refresh=false}={}){
+ assetController.abort();assetController=new AbortController();
  const revision=++selectionRevision,next=openingScenes.find(item=>item.id===nextStudy);
  if(!next)return;
- if(nextStudy===study){sceneButton.disabled=false;sceneControls.removeAttribute('aria-busy');updateSceneControl();return;}
+ if(nextStudy===study&&!refresh){sceneButton.disabled=false;sceneControls.removeAttribute('aria-busy');updateSceneControl();return;}
  sceneButton.disabled=true;sceneControls.setAttribute('aria-busy','true');
  try{
   const ready=await prepareScene(next);
   if(revision!==selectionRevision)return;
   if(!ready){sceneStatus.textContent='This scene could not load. Please try another.';updateSceneControl();return;}
   if(explicit)chooseOpening({selected:nextStudy,ignoreRequested:true,current:study});
+  applySceneAssets(ready);
   scene=next;study=nextStudy;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
   stage.querySelector('.arc-study').className='arc-study '+study;
   layoutOpening();setOpening();updateSceneControl();releaseReviewLink();
@@ -145,12 +144,13 @@ function layoutOpening() {
   // Keep a visible side image after the artboard is cropped to a tall viewport.
   const visibleSide=Math.min(40,width*.06);
   const minimumInset=((art.width-width)/2+visibleSide)/art.width*100;
-  finalInset=Math.max(scene.finalInset,minimumInset);
-  const portrait=width<=height;
+  const loadedSideInset=Number(stage.querySelector('.arc-study').dataset.sideCoverage)||50;
+  finalInset=Math.min(loadedSideInset,Math.max(scene.finalInset,minimumInset));
+  const portrait=(stage.querySelector('.arc-study').dataset.assetProfile||currentProfile())==='portrait';
   const radius=(portrait?(scene.portraitRadius||scene.radius):scene.radius)*art.height/(portrait?1280:960);
-  const tilt=scene.angle*Math.PI/180;
+  const tilt=(portrait?(scene.portrait_angle??scene.angle):scene.angle)*Math.PI/180;
   const centerX=width/2+radius*Math.sin(tilt);
-  const unshiftedHorizon=height/2+((scene.horizon??.53)-.5)*art.height;
+  const unshiftedHorizon=height/2+(((portrait?scene.portrait_horizon:undefined)??scene.horizon??.53)-.5)*art.height;
   const titleSize=parseFloat(getComputedStyle(stage.querySelector('.cover-title')).fontSize);
   const minimumBaseline=Math.min(height*.30,60+titleSize*.8);
   const artOffset=Math.min(Math.max(0,(art.height-height)/2),Math.max(0,minimumBaseline+16-unshiftedHorizon));
@@ -161,10 +161,12 @@ function layoutOpening() {
   const maximumBaseline=height<560&&width>620?height-130:Infinity;
   const baseline=Math.min(Math.max(horizon-gap,minimumBaseline),Math.max(minimumBaseline,maximumBaseline));
   const centerY=radius*Math.cos(tilt)+baseline;
-  const leftY=centerY-Math.sqrt(radius*radius-centerX*centerX);
-  const rightY=centerY-Math.sqrt(radius*radius-(width-centerX)**2);
+  const leftX=Math.max(0,centerX-radius+.001),rightX=Math.min(width,centerX+radius-.001);
+  const leftY=centerY-Math.sqrt(Math.max(0,radius*radius-(leftX-centerX)**2));
+  const rightY=centerY-Math.sqrt(Math.max(0,radius*radius-(rightX-centerX)**2));
   stage.querySelector('.cover-title').setAttribute('viewBox',`0 0 ${width} ${height}`);
-  stage.querySelector('#title-arc').setAttribute('d',`M 0 ${leftY} A ${radius} ${radius} 0 0 1 ${width} ${rightY}`);
+  stage.querySelector('#title-arc').setAttribute('d',`M ${leftX} ${leftY} A ${radius} ${radius} 0 0 1 ${rightX} ${rightY}`);
+  stage.style.setProperty('--opening-inset',Math.min(loadedSideInset,Math.max(finalInset,portrait?(scene.portrait_openingInset??25):(scene.openingInset??26))));
   if(topSection.classList.contains('opened'))framePlates(finalInset);
 }
 new ResizeObserver(layoutOpening).observe(stage);
@@ -201,7 +203,13 @@ function setHeaderTone() {
   header.classList.toggle('on-paper', document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2);
 }
 addEventListener('scroll', setHeaderTone, {passive:true});
-addEventListener('resize',()=>{layoutOpening();setHeaderTone();});
+let assetResizeTimer;
+addEventListener('resize',()=>{
+ layoutOpening();setHeaderTone();clearTimeout(assetResizeTimer);
+ assetResizeTimer=setTimeout(()=>{
+  if(stage.dataset.ready==='true'&&!sceneControls.hasAttribute('aria-busy')&&OpeningAssets.pick(scene).key!==stage.querySelector('.arc-study').dataset.assetKey)selectScene(study,{refresh:true});
+ },120);
+});
 reduced.addEventListener('change',setHeaderTone);
 setHeaderTone();
 </script>

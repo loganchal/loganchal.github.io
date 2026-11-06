@@ -1,0 +1,96 @@
+{
+  "recorded_date": "2026-11-06",
+  "source_run_directory": "/private/tmp/opening-performance-2026-11-06",
+  "runs": {
+    "original_full_profile_loading": [
+      {
+        "device": "mac",
+        "viewport": [
+          1512,
+          982
+        ],
+        "dpr": 2,
+        "network": "4 Mbps / 80 ms cold cache",
+        "scene": "apollo-earth",
+        "ready_ms": 18626,
+        "total_bytes": 8991635,
+        "image_bytes": 8688128,
+        "image_requests": 6
+      },
+      {
+        "device": "phone",
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 2,
+        "network": "4 Mbps / 80 ms cold cache",
+        "scene": "apollo-earth",
+        "ready_ms": 9871,
+        "total_bytes": 4644324,
+        "image_bytes": 4341586,
+        "image_requests": 6
+      }
+    ],
+    "first_responsive_delivery": [
+      {
+        "device": "mac",
+        "viewport": [
+          1512,
+          982
+        ],
+        "dpr": 2,
+        "network": "4 Mbps / 80 ms cold cache",
+        "scene": "apollo-earth",
+        "ready_ms": 4587,
+        "total_bytes": 1920744,
+        "image_bytes": 1536378,
+        "image_requests": 3
+      },
+      {
+        "device": "phone",
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 2,
+        "network": "4 Mbps / 80 ms cold cache",
+        "scene": "apollo-earth",
+        "ready_ms": 2596,
+        "total_bytes": 964436,
+        "image_bytes": 581608,
+        "image_requests": 3
+      }
+    ],
+    "cropped_trial_before_full_44_scene_regeneration": [
+      {
+        "device": "mac",
+        "viewport": [
+          1512,
+          982
+        ],
+        "dpr": 2,
+        "network": "4 Mbps / 80 ms cold cache",
+        "scene": "apollo-earth",
+        "ready_ms": 3172,
+        "total_bytes": 1345349,
+        "image_bytes": 943836,
+        "image_requests": 3
+      },
+      {
+        "device": "phone",
+        "viewport": [
+          390,
+          844
+        ],
+        "dpr": 2,
+        "network": "4 Mbps / 80 ms cold cache",
+        "scene": "apollo-earth",
+        "ready_ms": 2165,
+        "total_bytes": 771645,
+        "image_bytes": 371670,
+        "image_requests": 3
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import argparse,json
-parser=argparse.ArgumentParser();parser.add_argument('--url',default='http://127.0.0.1:8732');parser.add_argument('--screenshots',type=Path,default=Path('/tmp/loganchal-scene-controls'));args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--url',default='http://127.0.0.1:8732');parser.add_argument('--screenshots',type=Path,default=Path('/tmp/scene-compose-2026-11-06/tests/switching'));args=parser.parse_args()
 repo=Path(__file__).resolve().parent.parent;text=(repo/'studies/catalogue.js').read_text();catalogue=json.loads(text[text.index('['):text.rindex(']')+1]);active=[s['id'] for s in catalogue if s.get('active',True)];count=len(active)
 args.screenshots.mkdir(parents=True,exist_ok=True);results=[];errors=[]
 def current(page):return page.locator('.stage').get_attribute('data-scene')
@@ -57,11 +57,11 @@ with sync_playwright() as p:
  assert len(set(no_storage))==count
  context.close()
  # A failed destination keeps the current complete scene and restores the button.
- context=browser.new_context();page=context.new_page();page.goto(args.url+'/');page.wait_for_selector('.stage[data-ready=true]');before=current(page);page.route('**/studies/scenes/**',lambda route:route.abort());page.locator('.scene-switch').click();page.wait_for_function('document.querySelector("#scene-status").textContent.includes("could not load")');assert current(page)==before;assert page.locator('.scene-switch').is_enabled();context.close();browser.close()
+ context=browser.new_context();page=context.new_page();page.goto(args.url+'/');page.wait_for_selector('.stage[data-ready=true]');before=current(page);before_layers=page.locator('.arc-study').evaluate('(e)=>[...e.children].map(layer=>layer.style.backgroundImage)');page.route('**/studies/scene-assets/**',lambda route:route.abort());page.locator('.scene-switch').click();page.wait_for_function('document.querySelector("#scene-status").textContent.includes("could not load")');assert current(page)==before;assert page.locator('.arc-study').evaluate('(e)=>[...e.children].map(layer=>layer.style.backgroundImage)')==before_layers;assert page.locator('.scene-switch').is_enabled();context.close();browser.close()
 # Initial-load recovery: a broken requested scene advances to a complete alternative.
 with sync_playwright() as p:
  browser=p.chromium.launch(channel='chrome');page=browser.new_page()
- page.route('**/studies/scenes/lion-dawn/**',lambda route:route.abort())
+ page.route('**/studies/scene-assets/lion-dawn/**',lambda route:route.abort())
  page.goto(args.url+'/?study=lion-dawn');page.wait_for_selector('.stage[data-ready=true]')
  assert current(page)!='lion-dawn' and page.locator('.scene-switch').is_enabled()
  browser.close()

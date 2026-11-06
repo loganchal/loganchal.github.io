@@ -18,10 +18,10 @@ for scene in scenes:
   if black:image=image.point([max(0,round((v-black)*255/(255-black))) for v in range(256)]*3)
   images.append(image)
  for profile,W,H in [('wide',1600,960),('portrait',768,1280)]:
-  R=scene.get('portraitRadius',scene['radius']) if profile=='portrait' else scene['radius'];tilt=math.radians(scene['angle']);center=np.array([W/2+R*math.sin(tilt),H*scene.get('horizon',.53)+R*math.cos(tilt)])
+  R=scene.get('portraitRadius',scene['radius']) if profile=='portrait' else scene['radius'];tilt=math.radians(scene.get('portrait_angle',scene['angle']) if profile=='portrait' else scene['angle']);horizon=scene.get('portrait_horizon',scene.get('horizon',.53)) if profile=='portrait' else scene.get('horizon',.53);center=np.array([W/2+R*math.sin(tilt),H*horizon+R*math.cos(tilt)])
   for slot,(name,source,image) in enumerate(zip(scene['slots'],scene['source_geometry'],images)):
    if args.slot and slot not in args.slot:continue
-   cx,cy,r=source['circle'];angle=source.get('portrait_source_angle',source['source_angle']) if profile=='portrait' else source['source_angle'];contact=([208,800,1392] if profile=='wide' else [96,384,672])[slot]
+   cx,cy,r=source['circle'];angle=source.get('portrait_source_angle',source['source_angle']) if profile=='portrait' else source['source_angle'];contact=source.get('target_x',[208,800,1392][slot]) if profile=='wide' else source.get('portrait_target_x',[96,384,672][slot])
    if name=='saturn' and (profile=='portrait' or slot==0):angle=math.atan2(-math.sqrt(r*r-(3800-cx)**2),3800-cx)
    theta=math.atan2(-math.sqrt(R*R-(contact-center[0])**2),contact-center[0])-angle
    inverse=np.array([[math.cos(theta),math.sin(theta)],[-math.sin(theta),math.cos(theta)]])*r/R;offset=np.array([cx,cy])-inverse@center

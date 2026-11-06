@@ -1,8 +1,10 @@
 """Generate public opening assets and validate distinct motifs per scene."""
 import json,hashlib
+from subjects import subjects
 from pathlib import Path
 b=Path(__file__).resolve().parent
 scenes=json.loads((b/'scenes.json').read_text())
+delivery=json.loads((b/'delivery.json').read_text()) if (b/'delivery.json').exists() else {}
 entries=[];css=[]
 assert len({scene['id'] for scene in scenes})==len(scenes),'Duplicate scene ID'
 for scene in scenes:
@@ -11,10 +13,13 @@ for scene in scenes:
  for source in scene['source_geometry']:
   for key in ('source_file','circle','source_angle','black_point','page','original','credit','rights','source_sha256'):
    assert source.get(key) is not None,(scene['id'], 'Missing source field', key)
+ subject_types=subjects(scene)
  assert len(scene['motifs'])==3 and len(set(scene['motifs']))==3,scene['id']
- entry={k:scene[k] for k in ('id','title','radius','portraitRadius','horizon','angle','finalInset','gap','tone','lead','motifs') if k in scene}
+ entry={k:scene[k] for k in ('id','title','radius','portraitRadius','horizon','angle','finalInset','gap','tone','lead','motifs','portrait_angle','portrait_horizon','openingInset','portrait_openingInset') if k in scene}
+ entry['subjects']=subject_types
  stamp=hashlib.sha256(json.dumps(scene,sort_keys=True).encode()).hexdigest()[:12]
  entry['assets']={}
+ if scene['id'] in delivery:entry['delivery']=delivery[scene['id']]
  for profile,W in [('wide',1600),('portrait',768)]:
   density=scene.get('portrait_density',scene.get('render_density',2.4)) if profile=='portrait' else scene.get('render_density',2.4)
   size=round(W*density)

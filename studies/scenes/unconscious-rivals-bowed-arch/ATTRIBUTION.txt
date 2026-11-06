@@ -1,0 +1,27 @@
+Celestial engraving, physical Earth & Unconscious Rivals arch
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries
+https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962
+CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license
+Original: https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg
+SHA-256: 27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3
+Global black point: 0
+center of original thick engraved circular band; no new line drawn
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required
+
+Lawrence Alma-Tadema, Unconscious Rivals, 1893. Bristol Museum & Art Gallery, K1248. Wikimedia Commons faithful public-domain painting reproduction.
+https://commons.wikimedia.org/wiki/File:Alma-Tadema_Unconscious_Rivals_1893.jpg
+Public domain; Commons PD-Art / PD-old-100-expired / Public Domain Mark
+Original: https://upload.wikimedia.org/wikipedia/commons/a/a8/Alma-Tadema_Unconscious_Rivals_1893.jpg
+SHA-256: 0feb8386a9e6da8cfd8ef8fbcdd7c4d4f514f3d1ec552e4fdd128bc31ee52e7e
+Global black point: 0
+Direct native pigment gradient between orange vault and darker green marble band; flowers may naturally overlap boundary

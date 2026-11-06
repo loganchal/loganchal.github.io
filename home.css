@@ -79,3 +79,10 @@ footer {border-top:1px solid #c9c5b9;display:flex;justify-content:space-between;
 .scene-controls[aria-busy="true"] .scene-angle-value{opacity:.55}
 @media(max-width:620px){.scene-controls{top:56px}.scene-controls .scene-count{display:none}}
 @media(max-height:560px) and (min-width:621px){.scene-controls{top:10px}}
+
+/* No speculative fallback photographs before a scene has been selected. */
+.stage .arc-study>i{background-image:none}
+
+/* Explicit paint order survives responsive canvas replacement. */
+.stage .arc-study{z-index:0}
+.cover-title,.stage nav,.stage .scroll{z-index:1}

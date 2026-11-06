@@ -1,6 +1,6 @@
 # Opening scenes
 
-The approved deck contains 43 compositions from 30 found originals, with 13 distinct central photographs. Different materials share one measured circle in each authored profile: historical mathematical and astronomical prints, metal, ceramic, woven fibre, optical glass, microscopy and fossils beside a real photographed horizon. A scene never repeats a motif category.
+The approved deck contains 44 compositions from 33 found originals, with 14 distinct central photographs. Different materials share one measured circle in each authored profile: historical mathematical and astronomical prints, metal, ceramic, woven fibre, optical glass, microscopy and fossils beside a real photographed horizon. A scene never repeats a motif category.
 
 ## The physical curve
 
@@ -8,7 +8,7 @@ Earth scenes register the common curve on the visible opaque Earth or cloud-body
 
 Side contours use genuine object silhouettes, engraved circles or architectural boundaries. The ocean/sunlit side-angle errors that crossed engraving texture or missed a ceramic rim were corrected. Natural texture and small physical irregularities remain visible. The proposed Colosseum ground/hatch boundary was rejected in plain-image review and is not an approved composition. The optical-glass source uses a genuine internal circular ridge. Shapes are never stretched or replaced by a circular stencil.
 
-Unresolved dune, ocean-haze and station-aurora registrations are held outside the public rotation. Their sources and prior candidates remain private. Whole neoclassical paintings, Venus/Pythia imagery and koru sources are also retained as reference material where no satisfactory common-curve composition has been established; research references are not automatically approved scenes. Inverted classical paintings and small koru crops that hide the head are not approved.
+Unresolved dune, ocean-haze and station-aurora registrations are held outside the public rotation. Their sources and prior candidates remain private. Two painted architectural scenes now pair the orange vault of Unconscious Rivals and the curved staircase of The Golden Stairs with physical Earth limbs and historical celestial diagrams. Their visible painted edges are measured directly from native pixels; earlier annotated-preview measurements of the staircase were discarded because they sat below the actual edge. Other whole paintings, Venus/Pythia imagery and koru sources remain reference material where no satisfactory composition has been established. Inverted classical paintings and small koru crops that hide the head are not approved.
 
 ## Screen profiles and controls
 
@@ -24,6 +24,10 @@ scenes.json records original URLs, rights, credits, SHA-256, source contours and
 
 ## Rebuild and verify
 
-Run `python3 studies/build_catalogue.py` after metadata changes. Build with `python3 studies/build_scenes.py --cache SOURCE_CACHE --scene SCENE_ID`; repeat `--slot` to rebuild only changed layers. The source cache accepts preserved library-relative originals and the earlier research-cache layout. Rebuild credits with `python3 studies/build_credits.py`.
+Run `python3 studies/build_catalogue.py` after metadata changes. Build with `python3 studies/build_scenes.py --cache SOURCE_CACHE --scene SCENE_ID`; repeat `--slot` to rebuild only changed layers. The source cache accepts preserved library-relative originals and the earlier research-cache layout. Build responsive delivery crops with `python3 studies/build_delivery.py` after rendering; rebuild the catalogue afterward. Rebuild credits with `python3 studies/build_credits.py`.
 
-Checks: `python3 studies/check_opening_geometry.py --cache SOURCE_CACHE`, `python3 studies/check_openings.py`, `python3 studies/check_scene_switching.py`, and `python3 studies/check_scene_angles.py`. Source checks cover native density, visible corners and verified empty-black extensions. Browser checks cover desktop, phone, landscape, one-way scrolling, reduced motion, deck exhaustion, keyboard controls, angle wrap, rapid selection and load failures. Physical native-image inspection remains necessary: a small numerical circle residual is not sufficient proof of a correct visible edge.
+Checks: `python3 studies/check_opening_geometry.py --cache SOURCE_CACHE`, `python3 studies/check_openings.py`, `python3 studies/check_scene_switching.py`, `python3 studies/check_scene_angles.py`, and `python3 studies/check_scene_delivery.py`. Source checks cover native density, visible corners and verified empty-black extensions. Browser checks cover desktop, phone, landscape, one-way scrolling, reduced motion, deck exhaustion, keyboard controls, angle wrap, rapid selection and load failures. Physical native-image inspection remains necessary: a small numerical circle residual is not sufficient proof of a correct visible edge.
+
+## Image delivery
+
+The opening requests only its selected orientation and density, and swaps all three decoded layers together. Responsive delivery crops remove hidden side pixels while retaining wider coverage for unusually tall viewports. During a pending orientation change, framing stays within the downloaded side coverage; the prior complete frame remains visible. The gallery loads nearby cards only. These delivery crops preserve the full registered canvas coordinates and do not change the measured circle.
