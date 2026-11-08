@@ -7401,5 +7401,413 @@ const openingScenes = [
         ]
       }
     }
+  },
+  {
+    "id": "bronze-ocean",
+    "title": "Bronze, ocean & celestial ink",
+    "radius": 740,
+    "portraitRadius": 1000,
+    "horizon": 0.35,
+    "angle": -3,
+    "finalInset": 18,
+    "lead": "art002e023506",
+    "motifs": [
+      "ancient-coin",
+      "earth",
+      "historical-mathematics"
+    ],
+    "portrait_horizon": 0.4,
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "subjects": [
+      "ancient-coin",
+      "celestial-horizon",
+      "mathematical-diagram"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/bronze-ocean/0-wide-3200.webp?v=4a228e08d8da",
+        "studies/scenes/bronze-ocean/1-wide-3200.webp?v=4a228e08d8da",
+        "studies/scenes/bronze-ocean/2-wide-3200.webp?v=4a228e08d8da"
+      ],
+      "portrait": [
+        "studies/scenes/bronze-ocean/0-portrait-1152.webp?v=4a228e08d8da",
+        "studies/scenes/bronze-ocean/1-portrait-1152.webp?v=4a228e08d8da",
+        "studies/scenes/bronze-ocean/2-portrait-1152.webp?v=4a228e08d8da"
+      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "2b7350ba224e",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/bronze-ocean/0-wide-1600.webp?v=2b7350ba224e",
+              "studies/scene-assets/bronze-ocean/1-wide-1600.webp?v=2b7350ba224e",
+              "studies/scene-assets/bronze-ocean/2-wide-1600.webp?v=2b7350ba224e"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/bronze-ocean/0-wide-2400.webp?v=2b7350ba224e",
+              "studies/scene-assets/bronze-ocean/1-wide-2400.webp?v=2b7350ba224e",
+              "studies/scene-assets/bronze-ocean/2-wide-2400.webp?v=2b7350ba224e"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 2,
+            "urls": [
+              "studies/scene-assets/bronze-ocean/0-wide-3200.webp?v=2b7350ba224e",
+              "studies/scene-assets/bronze-ocean/1-wide-3200.webp?v=2b7350ba224e",
+              "studies/scene-assets/bronze-ocean/2-wide-3200.webp?v=2b7350ba224e"
+            ],
+            "widths": [
+              0.260625,
+              0.64,
+              0.260625
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "e2ac8c5f33f6",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/bronze-ocean/0-portrait-768.webp?v=e2ac8c5f33f6",
+              "studies/scene-assets/bronze-ocean/1-portrait-768.webp?v=e2ac8c5f33f6",
+              "studies/scene-assets/bronze-ocean/2-portrait-768.webp?v=e2ac8c5f33f6"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/bronze-ocean/0-portrait-tall-768.webp?v=e2ac8c5f33f6",
+                "studies/scene-assets/bronze-ocean/1-portrait-768.webp?v=e2ac8c5f33f6",
+                "studies/scene-assets/bronze-ocean/2-portrait-tall-768.webp?v=e2ac8c5f33f6"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/bronze-ocean/0-portrait-1152.webp?v=e2ac8c5f33f6",
+              "studies/scene-assets/bronze-ocean/1-portrait-1152.webp?v=e2ac8c5f33f6",
+              "studies/scene-assets/bronze-ocean/2-portrait-1152.webp?v=e2ac8c5f33f6"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/bronze-ocean/0-portrait-tall-1152.webp?v=e2ac8c5f33f6",
+                "studies/scene-assets/bronze-ocean/1-portrait-1152.webp?v=e2ac8c5f33f6",
+                "studies/scene-assets/bronze-ocean/2-portrait-tall-1152.webp?v=e2ac8c5f33f6"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ammonite-orbit",
+    "title": "Ammonite, Earth & celadon",
+    "radius": 1000,
+    "portraitRadius": 1100,
+    "horizon": 0.25,
+    "angle": 0,
+    "finalInset": 18,
+    "lead": "AS17-148-22727",
+    "motifs": [
+      "fossil",
+      "space",
+      "ceramic"
+    ],
+    "portrait_angle": 0,
+    "portrait_horizon": 0.3,
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "subjects": [
+      "fossil",
+      "celestial-horizon",
+      "vessel"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/ammonite-orbit/0-wide-2400.webp?v=862da068db90",
+        "studies/scenes/ammonite-orbit/1-wide-2400.webp?v=862da068db90",
+        "studies/scenes/ammonite-orbit/2-wide-2400.webp?v=862da068db90"
+      ],
+      "portrait": [
+        "studies/scenes/ammonite-orbit/0-portrait-1037.webp?v=862da068db90",
+        "studies/scenes/ammonite-orbit/1-portrait-1037.webp?v=862da068db90",
+        "studies/scenes/ammonite-orbit/2-portrait-1037.webp?v=862da068db90"
+      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "df3b283d192f",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/ammonite-orbit/0-wide-1600.webp?v=df3b283d192f",
+              "studies/scene-assets/ammonite-orbit/1-wide-1600.webp?v=df3b283d192f",
+              "studies/scene-assets/ammonite-orbit/2-wide-1600.webp?v=df3b283d192f"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/ammonite-orbit/0-wide-2400.webp?v=df3b283d192f",
+              "studies/scene-assets/ammonite-orbit/1-wide-2400.webp?v=df3b283d192f",
+              "studies/scene-assets/ammonite-orbit/2-wide-2400.webp?v=df3b283d192f"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "9b84b2f4471a",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/ammonite-orbit/0-portrait-768.webp?v=9b84b2f4471a",
+              "studies/scene-assets/ammonite-orbit/1-portrait-768.webp?v=9b84b2f4471a",
+              "studies/scene-assets/ammonite-orbit/2-portrait-768.webp?v=9b84b2f4471a"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/ammonite-orbit/0-portrait-tall-768.webp?v=9b84b2f4471a",
+                "studies/scene-assets/ammonite-orbit/1-portrait-768.webp?v=9b84b2f4471a",
+                "studies/scene-assets/ammonite-orbit/2-portrait-tall-768.webp?v=9b84b2f4471a"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.35,
+            "urls": [
+              "studies/scene-assets/ammonite-orbit/0-portrait-1037.webp?v=9b84b2f4471a",
+              "studies/scene-assets/ammonite-orbit/1-portrait-1037.webp?v=9b84b2f4471a",
+              "studies/scene-assets/ammonite-orbit/2-portrait-1037.webp?v=9b84b2f4471a"
+            ],
+            "widths": [
+              0.25265188042430087,
+              0.6412729026036644,
+              0.25265188042430087
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/ammonite-orbit/0-portrait-tall-1037.webp?v=9b84b2f4471a",
+                "studies/scene-assets/ammonite-orbit/1-portrait-1037.webp?v=9b84b2f4471a",
+                "studies/scene-assets/ammonite-orbit/2-portrait-tall-1037.webp?v=9b84b2f4471a"
+              ],
+              "widths": [
+                0.5004821600771456,
+                0.6412729026036644,
+                0.5004821600771456
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "astrolabe-stairs",
+    "title": "Brass, Earth & painted stairs",
+    "radius": 700,
+    "portraitRadius": 800,
+    "horizon": 0.3,
+    "angle": -4,
+    "finalInset": 20,
+    "lead": "AS17-148-22727",
+    "motifs": [
+      "historical-instrument",
+      "earth",
+      "figural-painting"
+    ],
+    "portrait_horizon": 0.54,
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "subjects": [
+      "scientific-instrument",
+      "celestial-horizon",
+      "painting"
+    ],
+    "assets": {
+      "wide": [
+        "studies/scenes/astrolabe-stairs/0-wide-2560.webp?v=c58e14e58449",
+        "studies/scenes/astrolabe-stairs/1-wide-2560.webp?v=c58e14e58449",
+        "studies/scenes/astrolabe-stairs/2-wide-2560.webp?v=c58e14e58449"
+      ],
+      "portrait": [
+        "studies/scenes/astrolabe-stairs/0-portrait-1037.webp?v=c58e14e58449",
+        "studies/scenes/astrolabe-stairs/1-portrait-1037.webp?v=c58e14e58449",
+        "studies/scenes/astrolabe-stairs/2-portrait-1037.webp?v=c58e14e58449"
+      ]
+    },
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "f16aa93a7c68",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/astrolabe-stairs/0-wide-1600.webp?v=f16aa93a7c68",
+              "studies/scene-assets/astrolabe-stairs/1-wide-1600.webp?v=f16aa93a7c68",
+              "studies/scene-assets/astrolabe-stairs/2-wide-1600.webp?v=f16aa93a7c68"
+            ],
+            "widths": [
+              0.26125,
+              0.6,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/astrolabe-stairs/0-wide-2400.webp?v=f16aa93a7c68",
+              "studies/scene-assets/astrolabe-stairs/1-wide-2400.webp?v=f16aa93a7c68",
+              "studies/scene-assets/astrolabe-stairs/2-wide-2400.webp?v=f16aa93a7c68"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.6,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 1.6,
+            "urls": [
+              "studies/scene-assets/astrolabe-stairs/0-wide-2560.webp?v=f16aa93a7c68",
+              "studies/scene-assets/astrolabe-stairs/1-wide-2560.webp?v=f16aa93a7c68",
+              "studies/scene-assets/astrolabe-stairs/2-wide-2560.webp?v=f16aa93a7c68"
+            ],
+            "widths": [
+              0.2609375,
+              0.6,
+              0.2609375
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "0c0379106a80",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/astrolabe-stairs/0-portrait-768.webp?v=0c0379106a80",
+              "studies/scene-assets/astrolabe-stairs/1-portrait-768.webp?v=0c0379106a80",
+              "studies/scene-assets/astrolabe-stairs/2-portrait-768.webp?v=0c0379106a80"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.6015625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/astrolabe-stairs/0-portrait-tall-768.webp?v=0c0379106a80",
+                "studies/scene-assets/astrolabe-stairs/1-portrait-768.webp?v=0c0379106a80",
+                "studies/scene-assets/astrolabe-stairs/2-portrait-tall-768.webp?v=0c0379106a80"
+              ],
+              "widths": [
+                0.5,
+                0.6015625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.35,
+            "urls": [
+              "studies/scene-assets/astrolabe-stairs/0-portrait-1037.webp?v=0c0379106a80",
+              "studies/scene-assets/astrolabe-stairs/1-portrait-1037.webp?v=0c0379106a80",
+              "studies/scene-assets/astrolabe-stairs/2-portrait-1037.webp?v=0c0379106a80"
+            ],
+            "widths": [
+              0.25265188042430087,
+              0.600771456123433,
+              0.25265188042430087
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/astrolabe-stairs/0-portrait-tall-1037.webp?v=0c0379106a80",
+                "studies/scene-assets/astrolabe-stairs/1-portrait-1037.webp?v=0c0379106a80",
+                "studies/scene-assets/astrolabe-stairs/2-portrait-tall-1037.webp?v=0c0379106a80"
+              ],
+              "widths": [
+                0.5004821600771456,
+                0.600771456123433,
+                0.5004821600771456
+              ]
+            }
+          }
+        ]
+      }
+    }
   }
 ];

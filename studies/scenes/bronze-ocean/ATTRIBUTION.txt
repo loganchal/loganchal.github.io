@@ -1,0 +1,27 @@
+Bronze, ocean & celestial ink
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Provincial Coin: Head of Antoninus Pius, Laureate (obverse), 138–61 CE. The Cleveland Museum of Art, John L. Severance Fund, 2004.93.a
+https://clevelandart.org/art/2004.93.a
+CC0, Cleveland Museum of Art Open Access; confirmed object page reuse statement and API share_license_status
+Original: https://openaccess-cdn.clevelandart.org/2004.93.a/2004.93.a_full.tif
+SHA-256: 9293d289e43579ecbb7d4977fc00838f5bf30b06db92bcee7bd1275234f2f27b
+Global black point: 0
+Local photographed metal boundary against gray background, -2.56 to -2.23 radians, measured natively; no mask or recoloring.
+
+NASA / Artemis II crew, art002e023506.
+https://images.nasa.gov/details/art002e023506
+NASA media usage guidelines
+Original: https://images-assets.nasa.gov/image/art002e023506/art002e023506~orig.jpg
+SHA-256: 7c2702ab219e3a6670b590b4d5b5ff1918c0028cf8ce2007819eeb41b81bbc76
+Global black point: 0
+Native radial maximum inward luminance gradient across bright opaque illuminated Earth/cloud limb, not the terminator. Arc -2.55 to -0.95 radians. Untouched photo, bilinear samples, Gaussian sigma0.5 native pixel.
+
+Georg Christoph Eimmart
+https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+Public Domain Mark, Commons; faithfully reproduced historical map
+Original: https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+SHA-256: 0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb
+Global black point: 0
+Local measured outer gold engraved border, x10000–11575; yellow threshold with 15px support.

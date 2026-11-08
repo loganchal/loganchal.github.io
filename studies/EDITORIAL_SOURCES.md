@@ -1,6 +1,6 @@
 # Opening scenes
 
-The approved deck contains 44 compositions from 33 found originals, with 14 distinct central photographs. Different materials share one measured circle in each authored profile: historical mathematical and astronomical prints, metal, ceramic, woven fibre, optical glass, microscopy and fossils beside a real photographed horizon. A scene never repeats a motif category.
+The approved deck contains 47 compositions from 37 found originals, with 15 distinct central photographs. Different materials share one measured circle in each authored profile: historical mathematical and astronomical prints, metal, ceramic, woven fibre, optical glass, microscopy and fossils beside a real photographed horizon. A scene never repeats a motif category.
 
 ## The physical curve
 
@@ -31,3 +31,9 @@ Checks: `python3 studies/check_opening_geometry.py --cache SOURCE_CACHE`, `pytho
 ## Image delivery
 
 The opening requests only its selected orientation and density, and swaps all three decoded layers together. Responsive delivery crops remove hidden side pixels while retaining wider coverage for unusually tall viewports. During a pending orientation change, framing stays within the downloaded side coverage; the prior complete frame remains visible. The gallery loads nearby cards only. These delivery crops preserve the full registered canvas coordinates and do not change the measured circle.
+
+## New material scenes
+
+The new batch introduces a Roman bronze coin, a photographed historical brass astrolabe, an ammonite specimen and a different Artemis ocean/cloud hemisphere. Each has a distinct subject type in its three-panel group. The new brass and fossil scenes use source-limited output densities rather than enlarging original pixels. The fern-stalk candidate remains private because its rough boundary did not give consistent joins.
+
+The Pages workflow packages browser dependencies separately from registered analysis masters and QA. Originals and registered masters remain in Git/private source storage; the published artifact keeps responsive delivery variants, attribution files, the existing image library, robots/sitemap and the separate ocean-model route.

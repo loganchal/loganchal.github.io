@@ -3266,5 +3266,225 @@
     ],
     "native_pixels_per_output_pixel": 1.1771261657661134,
     "visible_source_clearance_px": 973.769188856632
+  },
+  {
+    "scene": "bronze-ocean",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/refinement-2026-11-06/ancient-materials/originals/2004.93.a.tif",
+    "source_pixels": [
+      5915,
+      5432
+    ],
+    "native_pixels_per_output_pixel": 1.1377734520807878,
+    "visible_source_clearance_px": 503.919754329846
+  },
+  {
+    "scene": "bronze-ocean",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-artemis/art002e023506.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.2718631826020605,
+    "visible_source_clearance_px": -819.1032989838318
+  },
+  {
+    "scene": "bronze-ocean",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 2.2300016447317823,
+    "visible_source_clearance_px": 467.1064569535556
+  },
+  {
+    "scene": "bronze-ocean",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/refinement-2026-11-06/ancient-materials/originals/2004.93.a.tif",
+    "source_pixels": [
+      5915,
+      5432
+    ],
+    "native_pixels_per_output_pixel": 1.1226031393863773,
+    "visible_source_clearance_px": 826.6874858262581
+  },
+  {
+    "scene": "bronze-ocean",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-artemis/art002e023506.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.254905006834033,
+    "visible_source_clearance_px": -732.5378109439943
+  },
+  {
+    "scene": "bronze-ocean",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 2.2002682894686916,
+    "visible_source_clearance_px": 1373.4283978638666
+  },
+  {
+    "scene": "ammonite-orbit",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/research/fresh-elements/marine-micro/ammonite.jpg",
+    "source_pixels": [
+      6000,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.361437619608738,
+    "visible_source_clearance_px": 274.4402263593947
+  },
+  {
+    "scene": "ammonite-orbit",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0167926477233689,
+    "visible_source_clearance_px": 424.49675453114673
+  },
+  {
+    "scene": "ammonite-orbit",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 3.7029598967862456,
+    "visible_source_clearance_px": 84.67850133976117
+  },
+  {
+    "scene": "ammonite-orbit",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/research/fresh-elements/marine-micro/ammonite.jpg",
+    "source_pixels": [
+      6000,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.3751895147563011,
+    "visible_source_clearance_px": 365.74709687793666
+  },
+  {
+    "scene": "ammonite-orbit",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0270632805286553,
+    "visible_source_clearance_px": 258.1125030855046
+  },
+  {
+    "scene": "ammonite-orbit",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 3.7403635321073185,
+    "visible_source_clearance_px": 563.3594409351826
+  },
+  {
+    "scene": "astrolabe-stairs",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/new-material-scenes-2026-11-09/originals/jansen-astrolabe.jpg",
+    "source_pixels": [
+      4252,
+      4962
+    ],
+    "native_pixels_per_output_pixel": 1.0544721267173647,
+    "visible_source_clearance_px": 307.6697081380312
+  },
+  {
+    "scene": "astrolabe-stairs",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.3617758674866545,
+    "visible_source_clearance_px": 91.6099816351232
+  },
+  {
+    "scene": "astrolabe-stairs",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+    "source_pixels": [
+      2658,
+      4986
+    ],
+    "native_pixels_per_output_pixel": 1.2803743403984598,
+    "visible_source_clearance_px": 378.99667200845215,
+    "contour_rms_artboard_px": 0.5547183956392872,
+    "contour_max_artboard_px": 2.193869918978773
+  },
+  {
+    "scene": "astrolabe-stairs",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/new-material-scenes-2026-11-09/originals/jansen-astrolabe.jpg",
+    "source_pixels": [
+      4252,
+      4962
+    ],
+    "native_pixels_per_output_pixel": 1.093526649929119,
+    "visible_source_clearance_px": 225.63448121614238
+  },
+  {
+    "scene": "astrolabe-stairs",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.412212010726901,
+    "visible_source_clearance_px": -554.6519983211722
+  },
+  {
+    "scene": "astrolabe-stairs",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+    "source_pixels": [
+      2658,
+      4986
+    ],
+    "native_pixels_per_output_pixel": 1.3277956122650694,
+    "visible_source_clearance_px": 758.7078570587722,
+    "contour_rms_artboard_px": 0.6339638807306139,
+    "contour_max_artboard_px": 2.5072799074043117
   }
 ]

@@ -45,9 +45,9 @@
   "pending_resize_keeps_complete_old_frame": true,
   "resize_profile_applied_atomically": true,
   "gallery_lazy": {
-    "scene_count": 44,
+    "scene_count": 47,
     "initial_loaded_cards": 4,
-    "loaded_after_jump": 8,
+    "loaded_after_jump": 7,
     "requests_per_card": 3
   },
   "browser_errors": []

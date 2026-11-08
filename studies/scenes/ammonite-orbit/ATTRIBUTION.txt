@@ -1,0 +1,26 @@
+Ammonite, Earth & celadon
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+H.Wolfgang — Ammonite Fossil 1; CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Ammonite_Fossil_1.jpg
+CC BY-SA 4.0
+Original: https://upload.wikimedia.org/wikipedia/commons/f/fe/Ammonite_Fossil_1.jpg
+SHA-256: 56691b95d3f903a3d72eaa24a5b4cd0ba98d4984cb6d73d36bbbe429f3e60c8c
+Global black point: 0
+
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required
+
+The Cleveland Museum of Art, Director’s Contingent Fund, 1918.442
+https://www.clevelandart.org/art/1918.442
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif
+SHA-256: cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18
+Global black point: 0
