@@ -1,0 +1,26 @@
+Facets & Stars
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+fredrik Andreasson from Sweden, compoundeye
+https://commons.wikimedia.org/wiki/File:Compound_eye_(34195277211).jpg
+CC BY 2.0
+Original: https://upload.wikimedia.org/wikipedia/commons/9/97/Compound_eye_%2834195277211%29.jpg
+SHA-256: 7ec85bb4dbfa53a938efde530b862558a7287b62c700d40444ddccec68c4e6b8
+Global black point: 0
+
+
+NASA
+https://images.nasa.gov/details/iss058e005282
+NASA image use guidelines; NASA astronaut photography, public domain US government work
+Original: http://images-assets.nasa.gov/image/iss058e005282/iss058e005282~orig.jpg
+SHA-256: 6c94af4b4617619862e0e8685087143aa021fa678a8e83a797f58d3b3413b091
+Global black point: 0
+
+
+Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
+https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
+Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
+Global black point: 0

@@ -80,8 +80,11 @@ class References(HTMLParser):
     def __init__(self):
         super().__init__()
         self.urls = []
+        self.root_base = False
 
     def handle_starttag(self, tag, attrs):
+        if tag == "base" and dict(attrs).get("href") == "/":
+            self.root_base = True
         for name, value in attrs:
             if not value:
                 continue
@@ -131,10 +134,10 @@ def validate_links(output, files):
             parser = References()
             parser.feed(text)
             for url in parser.urls:
-                check(path, url)
+                check(path, url, root_relative=parser.root_base)
         if path.endswith(('.html', '.css', '.svg')):
             for match in re.finditer(r'''url\(\s*(?:"([^"]*)"|'([^']*)'|([^)]*))\s*\)''', text):
-                check(path, next(group for group in match.groups() if group is not None).strip())
+                check(path, next(group for group in match.groups() if group is not None).strip(), root_relative=path.endswith((".html", ".svg")) and parser.root_base)
         if path.endswith('.js'):
             # The catalogue's URL values are site-root paths. Other current JS
             # gets image URLs from that catalogue rather than fetching masters.
@@ -243,7 +246,7 @@ def main():
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--report', type=Path)
     parser.add_argument('--revision', default='HEAD', help='Committed revision to publish (default: HEAD)')
-    parser.add_argument('--max-bytes', type=int, default=320_000_000)
+    parser.add_argument('--max-bytes', type=int, default=400_000_000)
     package(parser.parse_args())
 
 

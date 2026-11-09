@@ -1,0 +1,26 @@
+Willow & Airglow
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Philippe de La Hire; Nicolas de Fer, publisher. Planisphere Celeste Septentrional, ca. 1709. David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries
+https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~341942~90107962
+CC BY-NC-SA 3.0 per David Rumsey Map Collection; cropped chart derivatives retain this license
+Original: https://upload.wikimedia.org/wikipedia/commons/7/7d/Planisphere_Celeste_Septentrional_Par_Monsr_De_La_Hire._%28IA_dr_planisphere-celeste-septentrional-par-monsr-de-la-hire-10022005%29.jpg
+SHA-256: 27118248670b9685f9230bd94a6ea8ca4cbe717a4d1b88db4a02c24134c635f3
+Global black point: 0
+center of original thick engraved circular band; no new line drawn
+
+NASA
+https://images.nasa.gov/details/iss058e005282
+NASA image use guidelines; NASA astronaut photography, public domain US government work
+Original: http://images-assets.nasa.gov/image/iss058e005282/iss058e005282~orig.jpg
+SHA-256: 6c94af4b4617619862e0e8685087143aa021fa678a8e83a797f58d3b3413b091
+Global black point: 0
+
+
+Presentation Bowl, 1880–90, Timbisha (Panamint) Shoshone. The Cleveland Museum of Art, Presented by William Albert Price in memory of Mrs. William Albert Price, 1917.482
+https://www.clevelandart.org/art/1917.482
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1917.482/1917.482_full.tif
+SHA-256: f3a932cb6c237f830f7cf87a944b90f5e145e748d0b1f4b837e7924ed3f758c2
+Global black point: 0

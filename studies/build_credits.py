@@ -1,4 +1,4 @@
-"""Build image credits only for the approved opening deck."""
+"""Build image credits only for the published opening compositions and review options."""
 import html,json,re
 from pathlib import Path
 base=Path(__file__).resolve().parent;scenes=json.loads((base/'scenes.json').read_text());used={g['source_sha256']:g for s in scenes for g in s['source_geometry']}
@@ -18,4 +18,4 @@ for digest,g in used.items():
  if 'BY-SA' in rights or 'BY-NC-SA' in rights:text+=' These cropped derivatives retain the same licence.'
  parts.append(text+'</p>')
 parts.append('<p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/">NASA image use guidelines</a>.</p>');page.write_text(head+'\n'+'\n'.join(parts)+'\n</main></html>\n')
-print('Credited',len(used),'originals in',len(scenes),'approved compositions')
+print('Credited',len(used),'originals in',len(scenes),'published compositions and review options')

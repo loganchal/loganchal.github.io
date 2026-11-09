@@ -1,0 +1,26 @@
+The Celestial Clock
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Johann Elert Bode, 1800
+https://commons.wikimedia.org/wiki/File:1800_Northern_and_Southern_Celestial_Hemisphere_maps.jpg
+Commons public domain scan or PD-Art; check individual page for jurisdiction and attribution
+Original: https://upload.wikimedia.org/wikipedia/commons/4/4d/1800_Northern_and_Southern_Celestial_Hemisphere_maps.jpg
+SHA-256: c71e0f48f3addb7a71feef07848c5f938539c72dca9f97db737ea3c6f9b8d60b
+Global black point: 0
+Right-hand blue/yellow printed circumference, direct radial chromatic transition
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required
+
+Master CR; The Metropolitan Museum of Art
+https://www.metmuseum.org/art/collection/search/193609
+CC0 1.0; Met Open Access
+Original: https://images.metmuseum.org/CRDImages/es/original/DP340913.jpg
+SHA-256: 1b70043bf3b4ef315e7f5e4417e6be2c536215992f3f7fa3f1543de17a928bdc
+Global black point: 0

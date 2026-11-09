@@ -3147,7 +3147,7 @@
       2688
     ],
     "native_pixels_per_output_pixel": 1.0309429898954356,
-    "visible_source_clearance_px": 11.847864758691884,
+    "visible_source_clearance_px": 34.38102256341594,
     "contour_rms_artboard_px": 0.6404572083932804,
     "contour_max_artboard_px": 2.3117727171701263
   },
@@ -3161,7 +3161,7 @@
       12842
     ],
     "native_pixels_per_output_pixel": 5.9193035246195524,
-    "visible_source_clearance_px": 1867.267129497906,
+    "visible_source_clearance_px": 1892.5286231019927,
     "contour_rms_artboard_px": 0.15685945807870788,
     "contour_max_artboard_px": 0.46696121379865013
   },
@@ -3486,5 +3486,1113 @@
     "visible_source_clearance_px": 758.7078570587722,
     "contour_rms_artboard_px": 0.6339638807306139,
     "contour_max_artboard_px": 2.5072799074043117
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
+    "source_pixels": [
+      17455,
+      9212
+    ],
+    "native_pixels_per_output_pixel": 2.7098761712717567,
+    "visible_source_clearance_px": 2089.089125463801
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/a62b930272a5-art002e004462.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.1304400641411907,
+    "visible_source_clearance_px": 627.1296008810286
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/unconscious-rivals.jpg",
+    "source_pixels": [
+      3786,
+      2688
+    ],
+    "native_pixels_per_output_pixel": 1.0309429898954356,
+    "visible_source_clearance_px": 174.45683639095296,
+    "contour_rms_artboard_px": 0.6404572083932804,
+    "contour_max_artboard_px": 2.3117727171701263
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
+    "source_pixels": [
+      17455,
+      9212
+    ],
+    "native_pixels_per_output_pixel": 2.7098761712717567,
+    "visible_source_clearance_px": 3133.7478534540464
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/a62b930272a5-art002e004462.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.1304400641411907,
+    "visible_source_clearance_px": 141.03849565268018
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/unconscious-rivals.jpg",
+    "source_pixels": [
+      3786,
+      2688
+    ],
+    "native_pixels_per_output_pixel": 1.0309429898954356,
+    "visible_source_clearance_px": 44.59941795716304,
+    "contour_rms_artboard_px": 0.6404572083932804,
+    "contour_max_artboard_px": 2.3117727171701263
+  },
+  {
+    "scene": "eimmart-artemis-stairs",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 2.2406430845714285,
+    "visible_source_clearance_px": 113.19962386078805
+  },
+  {
+    "scene": "eimmart-artemis-stairs",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/a62b930272a5-art002e004462.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.2111857830084187,
+    "visible_source_clearance_px": 667.6398004398025
+  },
+  {
+    "scene": "eimmart-artemis-stairs",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+    "source_pixels": [
+      2658,
+      4986
+    ],
+    "native_pixels_per_output_pixel": 1.024299472318768,
+    "visible_source_clearance_px": 313.48836347868996,
+    "contour_rms_artboard_px": 0.5547183956392872,
+    "contour_max_artboard_px": 2.193869918978773
+  },
+  {
+    "scene": "eimmart-artemis-stairs",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 2.323629865481481,
+    "visible_source_clearance_px": 1959.6225932018917
+  },
+  {
+    "scene": "eimmart-artemis-stairs",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/a62b930272a5-art002e004462.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.2560445157124343,
+    "visible_source_clearance_px": 766.8934334093474
+  },
+  {
+    "scene": "eimmart-artemis-stairs",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+    "source_pixels": [
+      2658,
+      4986
+    ],
+    "native_pixels_per_output_pixel": 1.0622364898120555,
+    "visible_source_clearance_px": 692.1847492524664,
+    "contour_rms_artboard_px": 0.7132093658219407,
+    "contour_max_artboard_px": 2.820689895829851
+  },
+  {
+    "scene": "silver-aurora-enamel",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/654c74d0ef0c-silver-favourites-native.jpg",
+    "source_pixels": [
+      2592,
+      3837
+    ],
+    "native_pixels_per_output_pixel": 1.171875,
+    "visible_source_clearance_px": 324.9999999999218
+  },
+  {
+    "scene": "silver-aurora-enamel",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/65ddc5cd0cb2-iss073e0761799.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.2550511479097068,
+    "visible_source_clearance_px": 1509.9570238986444
+  },
+  {
+    "scene": "silver-aurora-enamel",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.241-full.tif",
+    "source_pixels": [
+      10598,
+      6602
+    ],
+    "native_pixels_per_output_pixel": 1.411319969819362,
+    "visible_source_clearance_px": 798.4490623685309
+  },
+  {
+    "scene": "silver-aurora-enamel",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/654c74d0ef0c-silver-favourites-native.jpg",
+    "source_pixels": [
+      2592,
+      3837
+    ],
+    "native_pixels_per_output_pixel": 1.0279605263157896,
+    "visible_source_clearance_px": 531.25
+  },
+  {
+    "scene": "silver-aurora-enamel",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/65ddc5cd0cb2-iss073e0761799.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.1009220595699183,
+    "visible_source_clearance_px": 1296.8459921483227
+  },
+  {
+    "scene": "silver-aurora-enamel",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.241-full.tif",
+    "source_pixels": [
+      10598,
+      6602
+    ],
+    "native_pixels_per_output_pixel": 1.237999973525756,
+    "visible_source_clearance_px": 480.36018852504617
+  },
+  {
+    "scene": "silver-sunlit-opal",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/654c74d0ef0c-silver-favourites-native.jpg",
+    "source_pixels": [
+      2592,
+      3837
+    ],
+    "native_pixels_per_output_pixel": 1.0279605263157896,
+    "visible_source_clearance_px": 507.49999999999955
+  },
+  {
+    "scene": "silver-sunlit-opal",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/f38633f1f684-iss074e0089803.jpg",
+    "source_pixels": [
+      4928,
+      2768
+    ],
+    "native_pixels_per_output_pixel": 1.1193080627090026,
+    "visible_source_clearance_px": 62.255182612118915
+  },
+  {
+    "scene": "silver-sunlit-opal",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.9564574266324182,
+    "visible_source_clearance_px": 97.07027135659519
+  },
+  {
+    "scene": "silver-sunlit-opal",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/654c74d0ef0c-silver-favourites-native.jpg",
+    "source_pixels": [
+      2592,
+      3837
+    ],
+    "native_pixels_per_output_pixel": 1.022493483966983,
+    "visible_source_clearance_px": 471.57536748586426
+  },
+  {
+    "scene": "silver-sunlit-opal",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/f38633f1f684-iss074e0089803.jpg",
+    "source_pixels": [
+      4928,
+      2768
+    ],
+    "native_pixels_per_output_pixel": 1.1133552032133933,
+    "visible_source_clearance_px": 20.335244058334865
+  },
+  {
+    "scene": "silver-sunlit-opal",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.9460523231958389,
+    "visible_source_clearance_px": 6.532859667939192
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
+    "source_pixels": [
+      17455,
+      9212
+    ],
+    "native_pixels_per_output_pixel": 3.687618420111524,
+    "visible_source_clearance_px": 293.8206154513373
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.3944584883063342,
+    "visible_source_clearance_px": -218.6130927791626
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/1b70043bf3b4-met-193609-1.jpg",
+    "source_pixels": [
+      3059,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.041644250897226,
+    "visible_source_clearance_px": 250.52956616838856
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
+    "source_pixels": [
+      17455,
+      9212
+    ],
+    "native_pixels_per_output_pixel": 3.734567265737944,
+    "visible_source_clearance_px": 1692.9551261924921
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.4122120107269012,
+    "visible_source_clearance_px": -348.26565773861375
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/1b70043bf3b4-met-193609-1.jpg",
+    "source_pixels": [
+      3059,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.0549059253878155,
+    "visible_source_clearance_px": 124.0700196062221
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+    "source_pixels": [
+      14053,
+      12136
+    ],
+    "native_pixels_per_output_pixel": 3.10697734364741,
+    "visible_source_clearance_px": 2441.7575561016115
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.3944584883063342,
+    "visible_source_clearance_px": -218.6130927791626
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
+    "source_pixels": [
+      3760,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.0200749513325802,
+    "visible_source_clearance_px": 193.0319377059784
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+    "source_pixels": [
+      14053,
+      12136
+    ],
+    "native_pixels_per_output_pixel": 3.1465337681614396,
+    "visible_source_clearance_px": 2365.87954867235
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.4122120107269012,
+    "visible_source_clearance_px": -348.26565773861375
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
+    "source_pixels": [
+      3760,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.033062016685194,
+    "visible_source_clearance_px": 208.49598526477098
+  },
+  {
+    "scene": "bode-earth-echinoid",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
+    "source_pixels": [
+      17455,
+      9212
+    ],
+    "native_pixels_per_output_pixel": 2.880951890712128,
+    "visible_source_clearance_px": 620.3932450634184
+  },
+  {
+    "scene": "bode-earth-echinoid",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0894206939893236,
+    "visible_source_clearance_px": -104.31238418567631
+  },
+  {
+    "scene": "bode-earth-echinoid",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
+    "source_pixels": [
+      8725,
+      6034
+    ],
+    "native_pixels_per_output_pixel": 1.1422968175766113,
+    "visible_source_clearance_px": 155.12016078198815
+  },
+  {
+    "scene": "bode-earth-echinoid",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
+    "source_pixels": [
+      17455,
+      9212
+    ],
+    "native_pixels_per_output_pixel": 2.880951890712128,
+    "visible_source_clearance_px": 1848.152106582174
+  },
+  {
+    "scene": "bode-earth-echinoid",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0894206939893236,
+    "visible_source_clearance_px": -89.61864901150152
+  },
+  {
+    "scene": "bode-earth-echinoid",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
+    "source_pixels": [
+      8725,
+      6034
+    ],
+    "native_pixels_per_output_pixel": 1.1422968175766113,
+    "visible_source_clearance_px": 16.509032576839218
+  },
+  {
+    "scene": "rein-earth-echinoid",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+    "source_pixels": [
+      14053,
+      12136
+    ],
+    "native_pixels_per_output_pixel": 2.4273260497245395,
+    "visible_source_clearance_px": 2752.0923863342123
+  },
+  {
+    "scene": "rein-earth-echinoid",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0894206939893236,
+    "visible_source_clearance_px": -104.31238418567631
+  },
+  {
+    "scene": "rein-earth-echinoid",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
+    "source_pixels": [
+      8725,
+      6034
+    ],
+    "native_pixels_per_output_pixel": 1.1422968175766113,
+    "visible_source_clearance_px": 155.12016078198815
+  },
+  {
+    "scene": "rein-earth-echinoid",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+    "source_pixels": [
+      14053,
+      12136
+    ],
+    "native_pixels_per_output_pixel": 2.4273260497245395,
+    "visible_source_clearance_px": 2759.669346040725
+  },
+  {
+    "scene": "rein-earth-echinoid",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0894206939893236,
+    "visible_source_clearance_px": -89.61864901150152
+  },
+  {
+    "scene": "rein-earth-echinoid",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
+    "source_pixels": [
+      8725,
+      6034
+    ],
+    "native_pixels_per_output_pixel": 1.1422968175766113,
+    "visible_source_clearance_px": 16.509032576839218
+  },
+  {
+    "scene": "aratus-aurora-celadon",
+    "profile": "wide",
+    "slot": 0,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.0544892427305168,
+    "visible_source_clearance_px": 1855.58819870172
+  },
+  {
+    "scene": "aratus-aurora-celadon",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.6027224281243089,
+    "visible_source_clearance_px": 392.42621317491785
+  },
+  {
+    "scene": "aratus-aurora-celadon",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.1020713978530492,
+    "visible_source_clearance_px": 2305.7567837965707
+  },
+  {
+    "scene": "aratus-aurora-celadon",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.0420834869336872,
+    "visible_source_clearance_px": 1988.1364486093116
+  },
+  {
+    "scene": "aratus-aurora-celadon",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.5838668701463758,
+    "visible_source_clearance_px": 38.74709742763753
+  },
+  {
+    "scene": "aratus-aurora-celadon",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/curve-sources/cleveland-celadon-1918.442.tif",
+    "source_pixels": [
+      12082,
+      8930
+    ],
+    "native_pixels_per_output_pixel": 1.0891058519959547,
+    "visible_source_clearance_px": 2230.094604259513
+  },
+  {
+    "scene": "lahire-aurora-weave",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.248603087224437,
+    "visible_source_clearance_px": 2913.6531225145627,
+    "contour_rms_artboard_px": 0.5019502658518651,
+    "contour_max_artboard_px": 1.4942758841556805
+  },
+  {
+    "scene": "lahire-aurora-weave",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.6828585495305244,
+    "visible_source_clearance_px": 101.51270961145883
+  },
+  {
+    "scene": "lahire-aurora-weave",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/research/materials/1917.492_full.tif",
+    "source_pixels": [
+      7208,
+      4637
+    ],
+    "native_pixels_per_output_pixel": 1.2383114955816492,
+    "visible_source_clearance_px": 832.9061491109564,
+    "contour_rms_artboard_px": 39.013999947837064,
+    "contour_max_artboard_px": 44.085073397784576
+  },
+  {
+    "scene": "lahire-aurora-weave",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.1098694108661662,
+    "visible_source_clearance_px": 3541.8035228844856,
+    "contour_rms_artboard_px": 0.6274378323148315,
+    "contour_max_artboard_px": 1.8678448551946005
+  },
+  {
+    "scene": "lahire-aurora-weave",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.495874266249355,
+    "visible_source_clearance_px": 63.10258287816032
+  },
+  {
+    "scene": "lahire-aurora-weave",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/research/materials/1917.492_full.tif",
+    "source_pixels": [
+      7208,
+      4637
+    ],
+    "native_pixels_per_output_pixel": 1.1007213294059104,
+    "visible_source_clearance_px": 1004.5274212122766,
+    "contour_rms_artboard_px": 48.767499934796334,
+    "contour_max_artboard_px": 55.10634174723072
+  },
+  {
+    "scene": "lahire-aurora-silver",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.248603087224437,
+    "visible_source_clearance_px": 2913.6531225145627,
+    "contour_rms_artboard_px": 0.5019502658518651,
+    "contour_max_artboard_px": 1.4942758841556805
+  },
+  {
+    "scene": "lahire-aurora-silver",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.6828585495305244,
+    "visible_source_clearance_px": 101.51270961145883
+  },
+  {
+    "scene": "lahire-aurora-silver",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-expansion-2026-11-06/material/1940.274.tif",
+    "source_pixels": [
+      7139,
+      4576
+    ],
+    "native_pixels_per_output_pixel": 1.3242669364868778,
+    "visible_source_clearance_px": 870.808873746761
+  },
+  {
+    "scene": "lahire-aurora-silver",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.1098694108661662,
+    "visible_source_clearance_px": 3448.189024748168,
+    "contour_rms_artboard_px": 0.6274378323148315,
+    "contour_max_artboard_px": 1.8678448551946005
+  },
+  {
+    "scene": "lahire-aurora-silver",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.495874266249355,
+    "visible_source_clearance_px": 38.74709742763753
+  },
+  {
+    "scene": "lahire-aurora-silver",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-expansion-2026-11-06/material/1940.274.tif",
+    "source_pixels": [
+      7139,
+      4576
+    ],
+    "native_pixels_per_output_pixel": 1.1771261657661136,
+    "visible_source_clearance_px": 621.6638139005181
+  },
+  {
+    "scene": "gold-ocean",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.5818321479529018,
+    "visible_source_clearance_px": 498.3989453124668
+  },
+  {
+    "scene": "gold-ocean",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/2f9942e8a0c5-iss073e0035649.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.3676102668162862,
+    "visible_source_clearance_px": 439.14006786857726
+  },
+  {
+    "scene": "gold-ocean",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.241-full.tif",
+    "source_pixels": [
+      10598,
+      6602
+    ],
+    "native_pixels_per_output_pixel": 1.0009459600961774,
+    "visible_source_clearance_px": 437.0763475734634
+  },
+  {
+    "scene": "gold-ocean",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.5818321479529018,
+    "visible_source_clearance_px": 175.43201871182646
+  },
+  {
+    "scene": "gold-ocean",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/2f9942e8a0c5-iss073e0035649.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.3676102668162862,
+    "visible_source_clearance_px": 150.9407210000154
+  },
+  {
+    "scene": "gold-ocean",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/objects/2022.241-full.tif",
+    "source_pixels": [
+      10598,
+      6602
+    ],
+    "native_pixels_per_output_pixel": 1.0009459600961774,
+    "visible_source_clearance_px": 747.7955449965465
+  },
+  {
+    "scene": "violet-aurora",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.9298352205025404,
+    "visible_source_clearance_px": 304.8802533028538
+  },
+  {
+    "scene": "violet-aurora",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/65ddc5cd0cb2-iss073e0761799.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.0859414248758894,
+    "visible_source_clearance_px": 1385.2421908501249
+  },
+  {
+    "scene": "violet-aurora",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-expansion-2026-11-06/material/1983.1036.tif",
+    "source_pixels": [
+      6014,
+      4517
+    ],
+    "native_pixels_per_output_pixel": 1.7778317075245826,
+    "visible_source_clearance_px": 366.7775406752246
+  },
+  {
+    "scene": "violet-aurora",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/optical-material/belemnite.jpg",
+    "source_pixels": [
+      6147,
+      7412
+    ],
+    "native_pixels_per_output_pixel": 1.7905687612910168,
+    "visible_source_clearance_px": 770.21116427794
+  },
+  {
+    "scene": "violet-aurora",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/65ddc5cd0cb2-iss073e0761799.jpg",
+    "source_pixels": [
+      8256,
+      5504
+    ],
+    "native_pixels_per_output_pixel": 1.0075745179260829,
+    "visible_source_clearance_px": 1105.1342637781431
+  },
+  {
+    "scene": "violet-aurora",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-expansion-2026-11-06/material/1983.1036.tif",
+    "source_pixels": [
+      6014,
+      4517
+    ],
+    "native_pixels_per_output_pixel": 1.6495345739918807,
+    "visible_source_clearance_px": 220.46546838363884
+  },
+  {
+    "scene": "engraved-night",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0333266928753961,
+    "visible_source_clearance_px": 3632.7285665148574,
+    "contour_rms_artboard_px": 0.6065232379043372,
+    "contour_max_artboard_px": 1.8055833600214473
+  },
+  {
+    "scene": "engraved-night",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.4270152410960433,
+    "visible_source_clearance_px": 359.1406655860482
+  },
+  {
+    "scene": "engraved-night",
+    "profile": "wide",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+    "source_pixels": [
+      7323,
+      4894
+    ],
+    "native_pixels_per_output_pixel": 1.1465767959450555,
+    "visible_source_clearance_px": 1056.2237984304838,
+    "contour_rms_artboard_px": 1.811972059464124,
+    "contour_max_artboard_px": 5.630028067659441
+  },
+  {
+    "scene": "engraved-night",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/math-large-format-next/lahire-full.jpg",
+    "source_pixels": [
+      18678,
+      12842
+    ],
+    "native_pixels_per_output_pixel": 1.0158126811317454,
+    "visible_source_clearance_px": 3842.784168237568,
+    "contour_rms_artboard_px": 0.6169805351095843,
+    "contour_max_artboard_px": 1.8367141076080238
+  },
+  {
+    "scene": "engraved-night",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.4028285420944155,
+    "visible_source_clearance_px": 48.048769303426255
+  },
+  {
+    "scene": "engraved-night",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "opening-scenes-2026-11-05/materials/1917.482_full.tif",
+    "source_pixels": [
+      7323,
+      4894
+    ],
+    "native_pixels_per_output_pixel": 1.1271432909290375,
+    "visible_source_clearance_px": 1069.143199965155,
+    "contour_rms_artboard_px": 1.8432129570410918,
+    "contour_max_artboard_px": 5.727097517101845
+  },
+  {
+    "scene": "facets-aurora-aratus",
+    "profile": "wide",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/marine-micro/compoundeye.jpg",
+    "source_pixels": [
+      6000,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.0070403788932196,
+    "visible_source_clearance_px": 28.828237166048893
+  },
+  {
+    "scene": "facets-aurora-aratus",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.7560263125535907,
+    "visible_source_clearance_px": 18.671009274740754
+  },
+  {
+    "scene": "facets-aurora-aratus",
+    "profile": "wide",
+    "slot": 2,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1553534311656097,
+    "visible_source_clearance_px": 2146.3358297626473
+  },
+  {
+    "scene": "facets-aurora-aratus",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "opening-scenes-2026-11-05/fresh-elements/marine-micro/compoundeye.jpg",
+    "source_pixels": [
+      6000,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.0294190539797357,
+    "visible_source_clearance_px": 99.39437772567467
+  },
+  {
+    "scene": "facets-aurora-aratus",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/6c94af4b4617-iss058e005282.jpg",
+    "source_pixels": [
+      5568,
+      3712
+    ],
+    "native_pixels_per_output_pixel": 1.795049119499226,
+    "visible_source_clearance_px": 63.10258287816032
+  },
+  {
+    "scene": "facets-aurora-aratus",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "curve-sources/aratus-1660.jpg",
+    "source_pixels": [
+      15046,
+      12788
+    ],
+    "native_pixels_per_output_pixel": 1.1810279518581788,
+    "visible_source_clearance_px": 2020.016727168375
   }
 ]

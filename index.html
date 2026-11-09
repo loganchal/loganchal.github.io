@@ -54,7 +54,7 @@ const topSection = document.querySelector('#top'), stage = topSection.querySelec
 let study = chooseOpening();
 let scene=openingScenes.find(item=>item.id===study);
 let finalInset=scene.finalInset;
-stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
+stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';stage.dataset.navTone=scene.nav_tone||scene.tone||'light';
 stage.classList.add('scene-loading');
 stage.querySelector('.arc-study').className='arc-study '+study;
 const sceneButton=stage.querySelector('.scene-switch'), sceneStatus=stage.querySelector('#scene-status');
@@ -92,7 +92,7 @@ updateSceneControl();
   const ready=await prepareScene(scene);
   if(ready){
    applySceneAssets(ready);
-   study=scene.id;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
+   study=scene.id;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';stage.dataset.navTone=scene.nav_tone||scene.tone||'light';
    stage.querySelector('.arc-study').className='arc-study '+study;
    layoutOpening();setOpening();updateSceneControl();
    stage.classList.remove('scene-loading');stage.dataset.ready='true';sceneButton.disabled=false;angleButtons.forEach(button=>button.disabled=false);releaseReviewLink();return;
@@ -115,7 +115,7 @@ async function selectScene(nextStudy,{explicit=false,refresh=false}={}){
   if(!ready){sceneStatus.textContent='This scene could not load. Please try another.';updateSceneControl();return;}
   if(explicit)chooseOpening({selected:nextStudy,ignoreRequested:true,current:study});
   applySceneAssets(ready);
-  scene=next;study=nextStudy;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';
+  scene=next;study=nextStudy;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';stage.dataset.navTone=scene.nav_tone||scene.tone||'light';
   stage.querySelector('.arc-study').className='arc-study '+study;
   layoutOpening();setOpening();updateSceneControl();releaseReviewLink();
   sceneStatus.textContent=`${scene.title}. Curve angle ${angleLabel(scene.angle)}.`;
@@ -166,6 +166,12 @@ function layoutOpening() {
   const rightY=centerY-Math.sqrt(Math.max(0,radius*radius-(rightX-centerX)**2));
   stage.querySelector('.cover-title').setAttribute('viewBox',`0 0 ${width} ${height}`);
   stage.querySelector('#title-arc').setAttribute('d',`M ${leftX} ${leftY} A ${radius} ${radius} 0 0 1 ${rightX} ${rightY}`);
+  // Centre the word in the viewport, not halfway along a clipped circular arc.
+  const startAngle=Math.atan2(leftY-centerY,leftX-centerX);
+  const endAngle=Math.atan2(rightY-centerY,rightX-centerX);
+  const middleX=width/2;
+  const middleAngle=Math.atan2(-Math.sqrt(Math.max(0,radius*radius-(middleX-centerX)**2)),middleX-centerX);
+  stage.querySelector('.cover-title textPath').setAttribute('startOffset',`${100*(middleAngle-startAngle)/(endAngle-startAngle)}%`);
   stage.style.setProperty('--opening-inset',Math.min(loadedSideInset,Math.max(finalInset,portrait?(scene.portrait_openingInset??25):(scene.openingInset??26))));
   if(topSection.classList.contains('opened'))framePlates(finalInset);
 }

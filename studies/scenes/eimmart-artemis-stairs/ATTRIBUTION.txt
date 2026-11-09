@@ -1,0 +1,27 @@
+Music & Orbit
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Georg Christoph Eimmart / RareMaps
+https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+Public Domain Mark
+Original: https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+SHA-256: 0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb
+Global black point: 0
+actual printed chart outer yellow band; local native fit
+
+NASA / Artemis II crew, art002e004462
+https://images.nasa.gov/details/art002e004462
+NASA image use guidelines
+Original: https://images-assets.nasa.gov/image/art002e004462/art002e004462~orig.jpg
+SHA-256: a62b930272a5f3090b4a5e1099a543ab8d6c3ba253fb72f7d255c28f84357feb
+Global black point: 0
+Strongest red-channel inward-body-to-space gradient on photographed illuminated right-hand Earth limb, sampled radially; outer blue atmospheric halo excluded by red channel. Source unchanged.
+
+Edward Burne-Jones, The Golden Stairs, 1880. Tate Britain. Photograph by Sailko / Wikimedia Commons, CC BY 3.0.
+https://commons.wikimedia.org/wiki/File:Edward_coley_burne-jones,_the_golden_stairs,_1880.jpg
+Painting public domain. Photograph by Sailko, CC BY 3.0, https://creativecommons.org/licenses/by/3.0/
+Original: https://upload.wikimedia.org/wikipedia/commons/2/20/Edward_coley_burne-jones%2C_the_golden_stairs%2C_1880.jpg
+SHA-256: 1aae2c1476ecf08f0dbf53b3d97d176dca34f1005ec1b32189b61907e346a108
+Global black point: 0
+Direct native pixel gradient along the bright marble / dark stair underside boundary; no annotated-preview coordinates

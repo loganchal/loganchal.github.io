@@ -1,0 +1,26 @@
+Violet & Patina
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo
+https://imaggeo.egu.eu/view/12428/
+CC BY 3.0
+Original: https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg
+SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
+Global black point: 22
+
+
+Zena Cardman
+https://images.nasa.gov/details/iss073e0761799
+NASA image use guidelines; NASA astronaut photography, public domain US government work
+Original: http://images-assets.nasa.gov/image/iss073e0761799/iss073e0761799~orig.jpg
+SHA-256: 65ddc5cd0cb2a3a68cccf17c8904bec1254f13a174b3d393b4ab889e3b00dbd7
+Global black point: 0
+
+
+Bowl (유기완 [鍮器碗]), 1700s. Korea, Joseon dynasty (1392–1910). Bronze; overall: 7.3 cm (2 7/8 in.). The Cleveland Museum of Art, Gift of Helen L. Marshall, 1983.1036
+https://clevelandart.org/art/1983.1036
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1983.1036/1983.1036_full.tif
+SHA-256: 18073f3f94a6745cf787a654ebe2c5195dc5ab5568e93d7c943fa08bbf666381
+Global black point: 0

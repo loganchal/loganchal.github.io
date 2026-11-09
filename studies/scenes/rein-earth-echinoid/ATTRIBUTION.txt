@@ -1,0 +1,26 @@
+Natural Geometry
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Melchior Rein, 1728
+https://commons.wikimedia.org/wiki/File:1728_celestial_map_by_Melchior_Rein.jpg
+Commons public domain scan or PD-Art; check individual page for jurisdiction and attribution
+Original: https://upload.wikimedia.org/wikipedia/commons/7/75/1728_celestial_map_by_Melchior_Rein.jpg
+SHA-256: bb73f2a08f1cc3add558ff890238735d08bb9e6b4aa57f015ab5c1dc74878d42
+Global black point: 0
+Main hemisphere east yellow/gray outer rim, radial negative chromatic transition
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required
+
+Didier Descouens
+https://commons.wikimedia.org/wiki/File:Conolampas_diomedeae_MHNT.jpg
+CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Original: https://upload.wikimedia.org/wikipedia/commons/c/cc/Conolampas_diomedeae_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+SHA-256: 6bed0879985132031f08ff5a14fb93b80ccc33f26169cffaae69eecff2ae8247
+Global black point: 0

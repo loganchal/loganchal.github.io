@@ -1,0 +1,26 @@
+Ancient Seas
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Johann Elert Bode, 1800
+https://commons.wikimedia.org/wiki/File:1800_Northern_and_Southern_Celestial_Hemisphere_maps.jpg
+Commons public domain scan or PD-Art; check individual page for jurisdiction and attribution
+Original: https://upload.wikimedia.org/wikipedia/commons/4/4d/1800_Northern_and_Southern_Celestial_Hemisphere_maps.jpg
+SHA-256: c71e0f48f3addb7a71feef07848c5f938539c72dca9f97db737ea3c6f9b8d60b
+Global black point: 0
+Right-hand blue/yellow printed circumference, direct radial chromatic transition
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required
+
+Didier Descouens
+https://commons.wikimedia.org/wiki/File:Conolampas_diomedeae_MHNT.jpg
+CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+Original: https://upload.wikimedia.org/wikipedia/commons/c/cc/Conolampas_diomedeae_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+SHA-256: 6bed0879985132031f08ff5a14fb93b80ccc33f26169cffaae69eecff2ae8247
+Global black point: 0

@@ -15,7 +15,7 @@ for scene in scenes:
    assert source.get(key) is not None,(scene['id'], 'Missing source field', key)
  subject_types=subjects(scene)
  assert len(scene['motifs'])==3 and len(set(scene['motifs']))==3,scene['id']
- entry={k:scene[k] for k in ('id','title','radius','portraitRadius','horizon','angle','finalInset','gap','tone','lead','motifs','portrait_angle','portrait_horizon','openingInset','portrait_openingInset') if k in scene}
+ entry={k:scene[k] for k in ('id','title','radius','portraitRadius','horizon','angle','finalInset','gap','tone','lead','motifs','portrait_angle','portrait_horizon','openingInset','portrait_openingInset','active','review_batch','nav_tone') if k in scene}
  entry['subjects']=subject_types
  stamp=hashlib.sha256(json.dumps(scene,sort_keys=True).encode()).hexdigest()[:12]
  entry['assets']={}

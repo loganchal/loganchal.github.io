@@ -1,0 +1,26 @@
+Silver & Sunlight
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Lawrence Alma-Tadema, Silver Favourites,1903; Manchester Art Gallery. Faithful public-domain painting reproduction via Wikimedia Commons.
+https://commons.wikimedia.org/wiki/File:Alma_Tadema_Silver_Favourites.jpg
+Public domain artwork, faithful reproduction PD-Art
+Original: https://upload.wikimedia.org/wikipedia/commons/1/13/Alma_Tadema_Silver_Favourites.jpg
+SHA-256: 654c74d0ef0c135538818bb3d20832b4fdc48b8cbaad7cb631055c242c9ba6ae
+Global black point: 0
+Actual pale marble back-edge against deep blue sea; direct native gradient picks in unoccluded middle/right segments x1200..1320,1560..1640,2260..2586. Local osculating circle over the displayed bench segment; global left bench edge is not claimed circular. Figures naturally overlap parts of this real boundary.
+
+NASA
+https://images.nasa.gov/details/iss074e0089803
+NASA image use guidelines; NASA astronaut photography, public domain US government work
+Original: http://images-assets.nasa.gov/image/iss074e0089803/iss074e0089803~orig.jpg
+SHA-256: f38633f1f6845f2be52ce38b6d7852735c8baa1f80afaaf341b1e99b243be450
+Global black point: 0
+
+
+Rene Hoffmann, The beauty of shells, 2018. European Geosciences Union Imaggeo
+https://imaggeo.egu.eu/view/12428/
+CC BY 3.0
+Original: https://imaggeo.egu.eu/media/uploads/2018/02/09/12428/f0ef28c68bb52df63a3cb6269defa552459ff27b4046b653b04fca09b1eb9d6d.jpg
+SHA-256: bf404fdef8b6de6636a59b149c113dda8ce09193b1e375482f228e9699eaef3b
+Global black point: 22

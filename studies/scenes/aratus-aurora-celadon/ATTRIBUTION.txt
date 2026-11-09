@@ -1,0 +1,26 @@
+Midnight Atlas
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Andreas Cellarius, Planisphaerium Arateum Sive Compages Orbium Mundanorum Ex Hypothesi Aratea In Plano Expressa, 1660
+https://commons.wikimedia.org/wiki/File:1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+Public domain (PD-Art / PD-old-100-expired), as stated by Wikimedia Commons
+Original: https://upload.wikimedia.org/wikipedia/commons/8/87/1660_celestial_chart_illustrating_the_Greek_Astronomer_Aratus%27_model_of_the_universe.jpg
+SHA-256: aaba955fdb4e11d31076bdc78c66a2a49bb97605b0b4068007d92412890441d2
+Global black point: 0
+
+
+NASA
+https://images.nasa.gov/details/iss058e005282
+NASA image use guidelines; NASA astronaut photography, public domain US government work
+Original: http://images-assets.nasa.gov/image/iss058e005282/iss058e005282~orig.jpg
+SHA-256: 6c94af4b4617619862e0e8685087143aa021fa678a8e83a797f58d3b3413b091
+Global black point: 0
+
+
+The Cleveland Museum of Art, Director’s Contingent Fund, 1918.442
+https://www.clevelandart.org/art/1918.442
+CC0
+Original: https://openaccess-cdn.clevelandart.org/1918.442/1918.442_full.tif
+SHA-256: cace313c3b0052ae1e54649fb0f2c82a679d55c40be6c776ce375f46c0472b18
+Global black point: 0

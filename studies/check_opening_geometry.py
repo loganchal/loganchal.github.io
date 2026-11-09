@@ -14,7 +14,7 @@ for s in scenes:
    a=math.atan2(-math.sqrt(R*R-(contact-C[0])**2),contact-C[0])-(g.get('portrait_source_angle',g['source_angle']) if pr=='portrait' else g['source_angle']);inv=np.array([[math.cos(a),math.sin(a)],[-math.sin(a),math.cos(a)]])*r/R;o=np.array([cx,cy])-inv@C
    assert R*d/r<=1+1e-8
    # Check every corner of each visible side panel. Affine extrema lie at corners.
-   edge=W*(.26 if pr=='wide' else .25);x0,x1=(0,edge) if slot==0 else ((W-edge,W) if slot==2 else (W*s['finalInset']/100,W*(1-s['finalInset']/100)))
+   edge=W*(s.get('openingInset',26)/100 if pr=='wide' else s.get('portrait_openingInset',25)/100);x0,x1=(0,edge) if slot==0 else ((W-edge,W) if slot==2 else (W*s['finalInset']/100,W*(1-s['finalInset']/100)))
    points=np.array([[x,y] for x in [x0,x1] for y in [0,H]])@inv.T+o
    clearance=float(min(points[:,0].min(),points[:,1].min(),im.width-points[:,0].max(),im.height-points[:,1].max()))
    if clearance<0 and g.get('allow_black_extension'):
