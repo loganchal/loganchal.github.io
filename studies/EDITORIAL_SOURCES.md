@@ -37,3 +37,11 @@ The opening requests only its selected orientation and density, and swaps all th
 The new batch introduces a Roman bronze coin, a photographed historical brass astrolabe, an ammonite specimen and a different Artemis ocean/cloud hemisphere. Each has a distinct subject type in its three-panel group. The new brass and fossil scenes use source-limited output densities rather than enlarging original pixels. The fern-stalk candidate remains private because its rough boundary did not give consistent joins.
 
 The Pages workflow packages browser dependencies separately from registered analysis masters and QA. Originals and registered masters remain in Git/private source storage; the published artifact keeps responsive delivery variants, attribution files, the existing image library, robots/sitemap and the separate ocean-model route.
+
+## Fifteen complete review options — 9 November
+
+The selected homepage rotation remains 47 compositions. A separate `/options/` comparison presents fifteen completed compositions, with desktop/phone and opening/settled views plus the full one-way entrance. Together the published catalogue contains 62 compositions from 48 originals; review entries carry active:false. This review source set introduces eleven additional originals, with some already approved images recomposed alongside them. It does not claim fifteen new paintings or fifteen different central photographs.
+
+The figural options use wider sides: Rivals and Golden Stairs open at38% wide/36% phone and settle at32%; Silver Favourites opens at34% and settles at26%. These settings preserve faces and expose the actual measured architecture at the joins. Other compositions retain their authored26/25% to18% framing. Actual seam phases, rather than a layer contact angle alone, are checked against the measured source segments. Typography anchors to the viewport centre along its circular path; the halfway point of a clipped arc can drift off-centre on steep compositions.
+
+Source originals, rejected research and native registration proofs are preserved in the private image bank. Registered masters, production generators, attribution, source geometry and compact browser/native checks are kept in Git. The runtime Pages artifact is capped at400MB and publishes responsive derivatives; it fetches only the selected scene profile.
