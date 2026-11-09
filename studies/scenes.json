@@ -9994,6 +9994,1270 @@
     "lead": "artemis-crescent-004462"
   },
   {
+    "id": "rein-earth-regiomontanus",
+    "title": "Brass & Geometry",
+    "slots": [
+      "rein-1728",
+      "apollo-full-globe",
+      "met-923639-2"
+    ],
+    "motifs": [
+      "historical-celestial-map",
+      "celestial-horizon",
+      "historical-instrument"
+    ],
+    "radius": 625,
+    "portraitRadius": 600,
+    "angle": 9.2,
+    "horizon": 0.35,
+    "portrait_horizon": 0.35,
+    "render_density": 1.75,
+    "portrait_density": 1.8,
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "finalInset": 18,
+    "end": 18,
+    "custom_contacts": true,
+    "fresh_family": true,
+    "source_geometry": [
+      {
+        "name": "rein-1728-east-rim",
+        "source_file": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+        "circle": [
+          3721.6973185007528,
+          5992.742642178846,
+          3398.256469614355
+        ],
+        "source_angle": -0.52,
+        "black_point": 0,
+        "page": "https://commons.wikimedia.org/wiki/File:1728_celestial_map_by_Melchior_Rein.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/1728_celestial_map_by_Melchior_Rein.jpg",
+        "credit": "Melchior Rein, 1728",
+        "rights": "Commons public domain scan or PD-Art; check individual page for jurisdiction and attribution",
+        "source_sha256": "bb73f2a08f1cc3add558ff890238735d08bb9e6b4aa57f015ab5c1dc74878d42",
+        "native_size": [
+          14053,
+          12136
+        ],
+        "contour_kind": "Main hemisphere east yellow/gray outer rim, radial negative chromatic transition",
+        "fit_rms_native_px": 2.003742434302344,
+        "fit_max_native_px": 4.105371379695498,
+        "angle_span_degrees": [
+          -55,
+          -6
+        ],
+        "accepted_points": [
+          [
+            2124.0,
+            3044.0,
+            13.858173771197286
+          ],
+          [
+            2230.0,
+            2942.0,
+            16.480440077319727
+          ],
+          [
+            2337.0,
+            2931.0,
+            15.500395488001942
+          ],
+          [
+            2444.0,
+            2843.0,
+            15.117395750657757
+          ],
+          [
+            2551.0,
+            2800.0,
+            15.159830315353325
+          ],
+          [
+            2657.0,
+            2758.0,
+            17.535383322742877
+          ],
+          [
+            2764.0,
+            2765.0,
+            12.965011440462902
+          ],
+          [
+            2871.0,
+            2694.0,
+            19.348467487651448
+          ],
+          [
+            2977.0,
+            2666.0,
+            14.725082088780411
+          ],
+          [
+            3084.0,
+            2646.0,
+            16.556146740002696
+          ],
+          [
+            3191.0,
+            2622.0,
+            16.134615600393055
+          ],
+          [
+            3298.0,
+            2646.0,
+            15.995051967629543
+          ],
+          [
+            3404.0,
+            2594.0,
+            14.900456380878019
+          ],
+          [
+            3511.0,
+            2627.0,
+            18.042132684581198
+          ],
+          [
+            3618.0,
+            2618.0,
+            19.050850848323215
+          ],
+          [
+            3724.0,
+            2613.0,
+            17.504485981538892
+          ],
+          [
+            3831.0,
+            2612.0,
+            18.584503924807066
+          ],
+          [
+            3938.0,
+            2617.0,
+            15.810307295261659
+          ],
+          [
+            4044.0,
+            2625.0,
+            15.243874254674743
+          ],
+          [
+            4151.0,
+            2637.0,
+            16.111361406421885
+          ],
+          [
+            4258.0,
+            2650.0,
+            13.252204046210245
+          ],
+          [
+            4365.0,
+            2667.0,
+            16.321414194976654
+          ],
+          [
+            4471.0,
+            2688.0,
+            17.5379788834624
+          ],
+          [
+            4578.0,
+            2668.0,
+            20.138978853012482
+          ],
+          [
+            4685.0,
+            2741.0,
+            20.017151317525556
+          ],
+          [
+            4791.0,
+            2731.0,
+            15.851391052179949
+          ],
+          [
+            4898.0,
+            2812.0,
+            20.22058284286375
+          ],
+          [
+            5005.0,
+            2850.0,
+            19.914914131959428
+          ],
+          [
+            5112.0,
+            2848.0,
+            19.1783726301966
+          ],
+          [
+            5218.0,
+            2947.0,
+            16.866760543332106
+          ]
+        ],
+        "rejected_points": [],
+        "method": "vertical color-transition gradient at fixed original x, initial location selected on preview, sigma 2, iterative robust circle fit",
+        "max_render_radius_at_2x": 1677.368433592765,
+        "limitations": "Fit only supported on sampled upper arc, not the full printed circumference; source cropping and seam coverage require per-scene check.",
+        "portrait_source_angle": -0.52,
+        "fit_points": [
+          [
+            5715.525799713079,
+            3239.6459599355912
+          ],
+          [
+            5761.9621146889895,
+            3275.250980687075
+          ],
+          [
+            5807.756117443674,
+            3311.65037930741
+          ],
+          [
+            5899.93423113028,
+            3383.7216168084997
+          ],
+          [
+            5943.11768985259,
+            3423.2338486855483
+          ],
+          [
+            5986.247975446632,
+            3462.727443596322
+          ],
+          [
+            6031.0565603257355,
+            3500.396221635717
+          ],
+          [
+            6073.495913915831,
+            3540.6696644270014
+          ],
+          [
+            6116.286595466372,
+            3580.6169820538903
+          ],
+          [
+            6159.470942194785,
+            3620.281700937366
+          ],
+          [
+            6197.604386436974,
+            3664.8240196544334
+          ],
+          [
+            6239.006575289543,
+            3706.3062531322976
+          ],
+          [
+            6276.311212365494,
+            3751.4896810662062
+          ],
+          [
+            6317.395205148918,
+            3793.4340145367073
+          ],
+          [
+            6353.122441390387,
+            3839.918765443027
+          ],
+          [
+            6388.4052412272795,
+            3886.6848141752857
+          ],
+          [
+            6423.649185608306,
+            3933.4369252733923
+          ],
+          [
+            6459.280160070609,
+            3979.9083146764524
+          ],
+          [
+            6524.795866937721,
+            4076.960803369478
+          ],
+          [
+            6621.26442667614,
+            4223.734807176174
+          ],
+          [
+            6682.453969500257,
+            4323.719118068518
+          ],
+          [
+            6709.100724902865,
+            4375.939824476107
+          ],
+          [
+            6735.710963010087,
+            4428.140415328387
+          ],
+          [
+            6763.649213676027,
+            4479.693730925232
+          ],
+          [
+            6813.652095527059,
+            4585.742336500596
+          ],
+          [
+            6883.288252602591,
+            4747.328315151986
+          ],
+          [
+            6903.365995171944,
+            4802.45634808979
+          ],
+          [
+            6943.9403810032,
+            4912.6152065902315
+          ],
+          [
+            6964.462992529769,
+            4967.728465944187
+          ],
+          [
+            6980.671074245012,
+            5024.206434031387
+          ],
+          [
+            6999.269419263932,
+            5080.044394466939
+          ],
+          [
+            7028.694428985309,
+            5193.928726494157
+          ],
+          [
+            7036.045808102264,
+            5252.498931942712
+          ],
+          [
+            7068.1478872539155,
+            5425.7062513367955
+          ]
+        ],
+        "target_x": 300,
+        "portrait_target_x": 96,
+        "subject_type": "historical-celestial-map"
+      },
+      {
+        "name": "apollo-full-globe",
+        "source_file": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+        "circle": [
+          2297.942178080728,
+          2315.7310792966127,
+          1525.1889715850532
+        ],
+        "source_angle": -1.5707963267948966,
+        "black_point": 0,
+        "allow_black_extension": true,
+        "page": "https://images.nasa.gov/details/as17-148-22727",
+        "original": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
+        "credit": "NASA / Apollo 17 crew, AS17-148-22727.",
+        "rights": "NASA informational/personal image-use guidelines",
+        "fit_rms_native_px": 0.8996036519717188,
+        "fit_max_native_px": 2.3893761439026093,
+        "contour_kind": "photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required",
+        "source_pixels": [
+          4579,
+          4579
+        ],
+        "source_sha256": "cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f",
+        "target_x": 800,
+        "portrait_target_x": 384,
+        "native_pixels_per_artboard_pixel": 2.1788413879786472,
+        "native_pixels_per_portrait_artboard_pixel": 1.9064862144813164,
+        "subject_type": "celestial-horizon"
+      },
+      {
+        "name": "met-923639-2",
+        "source_file": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
+        "circle": [
+          1941.434009481427,
+          1894.190828288078,
+          1115.7069780200095
+        ],
+        "source_angle": -0.8761434231661659,
+        "portrait_source_angle": -0.6981317007977318,
+        "black_point": 0,
+        "target_x": 1300,
+        "portrait_target_x": 672,
+        "page": "https://www.metmuseum.org/art/collection/search/923639",
+        "original": "https://images.metmuseum.org/CRDImages/cl/original/DP-41678-014.jpg",
+        "credit": "Regiomontanus; The Metropolitan Museum of Art",
+        "rights": "CC0 1.0; Met Open Access",
+        "source_sha256": "d237f91f4c422494fa720c41c67d7777ec19b771fdc6fe245e4c73798e853932",
+        "fit_rms_native_px": 0.6382049869369911,
+        "fit_max_native_px": 1.4242825038218143,
+        "fit_points": [
+          [
+            2383.7922551276656,
+            868.5041607897949
+          ],
+          [
+            2419.9326198267163,
+            885.5747781732716
+          ],
+          [
+            2455.4706223972407,
+            903.9044705450374
+          ],
+          [
+            2490.233633846922,
+            923.6862733953793
+          ],
+          [
+            2524.9732926797437,
+            943.6255232826259
+          ],
+          [
+            2558.465748931001,
+            965.6134531562374
+          ],
+          [
+            2591.3350078459152,
+            988.5674578331724
+          ],
+          [
+            2623.403789511788,
+            1012.670717305212
+          ],
+          [
+            2655.451971882569,
+            1036.951918373478
+          ],
+          [
+            2685.491611201983,
+            1063.6633741601204
+          ],
+          [
+            2715.470895403386,
+            1090.5291045966142
+          ],
+          [
+            2744.3478485193323,
+            1118.6328933078455
+          ],
+          [
+            2772.444274737524,
+            1147.5957624869736
+          ],
+          [
+            2798.3807314442583,
+            1178.505627946388
+          ],
+          [
+            2823.4223084921823,
+            1210.1513794804441
+          ],
+          [
+            2847.349339220219,
+            1242.6588513600152
+          ],
+          [
+            2870.3418471128557,
+            1275.8526364876136
+          ],
+          [
+            2892.3854423878706,
+            1309.7146687728848
+          ],
+          [
+            2912.372311013851,
+            1344.8328645648648
+          ],
+          [
+            2931.340051748036,
+            1380.5059965514747
+          ],
+          [
+            2949.2778404416813,
+            1416.7137074697052
+          ],
+          [
+            2966.4048727246523,
+            1453.3379876451763
+          ],
+          [
+            2981.3195289903842,
+            1490.9203224391558
+          ],
+          [
+            2995.3832698318083,
+            1528.8292930613839
+          ],
+          [
+            3008.357212161158,
+            1567.141194226348
+          ],
+          [
+            3019.2665512124577,
+            1606.0934314874542
+          ]
+        ],
+        "source_pixels": [
+          3760,
+          4000
+        ],
+        "subject_type": "historical-instrument",
+        "valid_angle_span_degrees": [
+          -65,
+          -15
+        ]
+      }
+    ],
+    "wide_coverage": [
+      {
+        "slot": 0,
+        "source_corners": [
+          [
+            10848.04173865724,
+            6062.546179532738
+          ],
+          [
+            9279.03333517042,
+            7691.75197692103
+          ],
+          [
+            7088.336052376566,
+            2441.7575561016115
+          ],
+          [
+            5519.3276488897445,
+            4070.963353489904
+          ]
+        ],
+        "inside_original": true,
+        "allow_black_extension": false
+      },
+      {
+        "slot": 1,
+        "source_corners": [
+          [
+            1504.0136079758472,
+            -168.6728126165499
+          ],
+          [
+            3354.057219039325,
+            130.96886835912574
+          ],
+          [
+            1129.461506756253,
+            2143.881701212797
+          ],
+          [
+            2979.5051178197305,
+            2443.5233821884726
+          ]
+        ],
+        "inside_original": false,
+        "allow_black_extension": true
+      },
+      {
+        "slot": 2,
+        "source_corners": [
+          [
+            2448.543820015014,
+            193.0319377059784
+          ],
+          [
+            3191.158384585132,
+            193.0319377059784
+          ],
+          [
+            2448.543820015014,
+            1906.757855944713
+          ],
+          [
+            3191.158384585132,
+            1906.757855944713
+          ]
+        ],
+        "inside_original": true,
+        "allow_black_extension": false
+      }
+    ],
+    "portrait_coverage": [
+      {
+        "slot": 0,
+        "source_corners": [
+          [
+            9614.136844535904,
+            3703.4463142768527
+          ],
+          [
+            9635.17241201247,
+            4790.684908656385
+          ],
+          [
+            2365.87954867235,
+            3843.683430787298
+          ],
+          [
+            2386.915116148917,
+            4930.922025166831
+          ]
+        ],
+        "inside_original": true,
+        "allow_black_extension": false
+      },
+      {
+        "slot": 1,
+        "source_corners": [
+          [
+            1809.881707173511,
+            -348.26565773861375
+          ],
+          [
+            2786.002648987945,
+            -348.26565773861375
+          ],
+          [
+            1809.881707173511,
+            2905.470814976167
+          ],
+          [
+            2786.002648987945,
+            2905.470814976167
+          ]
+        ],
+        "inside_original": false,
+        "allow_black_extension": true
+      },
+      {
+        "slot": 2,
+        "source_corners": [
+          [
+            2982.394181084183,
+            208.4959852647712
+          ],
+          [
+            3314.999336708497,
+            338.27095002418037
+          ],
+          [
+            2117.2277493547886,
+            2425.863689426867
+          ],
+          [
+            2449.8329049791028,
+            2555.638654186276
+          ]
+        ],
+        "inside_original": true,
+        "allow_black_extension": false
+      }
+    ],
+    "portrait_angle": 0,
+    "active": false,
+    "review_batch": "fifteen-20261109",
+    "initialInsetWide": 26,
+    "initialInsetPortrait": 25,
+    "nav_tone": "ink",
+    "lead": "apollo-full-globe"
+  },
+  {
+    "id": "spring-festival-horizon",
+    "title": "Spring Festival",
+    "radius": 400,
+    "portraitRadius": 440,
+    "horizon": 0.24977072317291552,
+    "portrait_horizon": 0.3232233200317127,
+    "angle": 9.674532116159067,
+    "portrait_angle": -3.290777272199767,
+    "initialInsetWide": 42,
+    "initialInsetPortrait": 42,
+    "finalInset": 40,
+    "end": 40,
+    "render_density": 1.4,
+    "portrait_density": 1.25,
+    "slots": [
+      "eimmart-right-hemisphere",
+      "apollo-full-globe",
+      "spring-orange-vault"
+    ],
+    "motifs": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "painting"
+    ],
+    "source_geometry": [
+      {
+        "name": "expansion-2026-11-06-historical-math-eimmart",
+        "source_file": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+        "credit": "Georg Christoph Eimmart",
+        "rights": "Public Domain Mark, Commons; faithfully reproduced historical map",
+        "source_sha256": "0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb",
+        "black_point": 0,
+        "dimensions": [
+          15275,
+          13115
+        ],
+        "circle": [
+          10892.988243300648,
+          6547.4684949063785,
+          3300.4024342030375
+        ],
+        "fit_points": [
+          [
+            10000,
+            3375
+          ],
+          [
+            10025,
+            3367
+          ],
+          [
+            10050,
+            3359
+          ],
+          [
+            10075,
+            3354
+          ],
+          [
+            10100,
+            3345
+          ],
+          [
+            10125,
+            3338
+          ],
+          [
+            10150,
+            3333
+          ],
+          [
+            10175,
+            3325
+          ],
+          [
+            10200,
+            3320
+          ],
+          [
+            10225,
+            3314
+          ],
+          [
+            10250,
+            3309
+          ],
+          [
+            10275,
+            3304
+          ],
+          [
+            10300,
+            3299
+          ],
+          [
+            10325,
+            3295
+          ],
+          [
+            10350,
+            3291
+          ],
+          [
+            10375,
+            3287
+          ],
+          [
+            10400,
+            3281
+          ],
+          [
+            10425,
+            3277
+          ],
+          [
+            10450,
+            3273
+          ],
+          [
+            10475,
+            3269
+          ],
+          [
+            10500,
+            3266
+          ],
+          [
+            10525,
+            3263
+          ],
+          [
+            10550,
+            3260
+          ],
+          [
+            10575,
+            3257
+          ],
+          [
+            10600,
+            3255
+          ],
+          [
+            10625,
+            3255
+          ],
+          [
+            10650,
+            3253
+          ],
+          [
+            10675,
+            3253
+          ],
+          [
+            10700,
+            3252
+          ],
+          [
+            10725,
+            3269
+          ],
+          [
+            10750,
+            3267
+          ],
+          [
+            10775,
+            3266
+          ],
+          [
+            10800,
+            3265
+          ],
+          [
+            10825,
+            3264
+          ],
+          [
+            10850,
+            3241
+          ],
+          [
+            10875,
+            3240
+          ],
+          [
+            10900,
+            3242
+          ],
+          [
+            10925,
+            3241
+          ],
+          [
+            10950,
+            3243
+          ],
+          [
+            10975,
+            3242
+          ],
+          [
+            11000,
+            3242
+          ],
+          [
+            11025,
+            3241
+          ],
+          [
+            11050,
+            3241
+          ],
+          [
+            11075,
+            3243
+          ],
+          [
+            11100,
+            3245
+          ],
+          [
+            11125,
+            3245
+          ],
+          [
+            11150,
+            3246
+          ],
+          [
+            11175,
+            3251
+          ],
+          [
+            11200,
+            3273
+          ],
+          [
+            11225,
+            3276
+          ],
+          [
+            11250,
+            3278
+          ],
+          [
+            11275,
+            3281
+          ],
+          [
+            11300,
+            3284
+          ],
+          [
+            11325,
+            3286
+          ],
+          [
+            11350,
+            3290
+          ],
+          [
+            11375,
+            3294
+          ],
+          [
+            11400,
+            3297
+          ],
+          [
+            11425,
+            3300
+          ],
+          [
+            11450,
+            3305
+          ],
+          [
+            11475,
+            3290
+          ],
+          [
+            11500,
+            3293
+          ],
+          [
+            11525,
+            3295
+          ],
+          [
+            11550,
+            3302
+          ],
+          [
+            11575,
+            3303
+          ]
+        ],
+        "fit_rms_native_px": 8.490543613677952,
+        "fit_max_native_px": 16.03709504066137,
+        "source_angle": -2.459867047760808,
+        "contour_kind": "Local measured outer gold engraved border, x10000–11575; yellow threshold with 15px support.",
+        "native_pixels_per_artboard_pixel": 8.251006085507594,
+        "native_pixels_per_portrait_artboard_pixel": 7.500914623188722,
+        "target_x": 640.0,
+        "portrait_target_x": 307.20000000000005,
+        "subject_type": "mathematical-diagram",
+        "source_dimensions": [
+          15275,
+          13115
+        ],
+        "portrait_source_angle": -2.486570585316321
+      },
+      {
+        "name": "apollo-full-globe",
+        "source_file": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+        "circle": [
+          2297.942178080728,
+          2315.7310792966127,
+          1525.1889715850532
+        ],
+        "source_angle": -2.3766148424406786,
+        "black_point": 0,
+        "allow_black_extension": true,
+        "page": "https://images.nasa.gov/details/as17-148-22727",
+        "original": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
+        "credit": "NASA / Apollo 17 crew, AS17-148-22727.",
+        "rights": "NASA informational/personal image-use guidelines",
+        "fit_rms_native_px": 0.8996036519717188,
+        "fit_max_native_px": 2.3893761439026093,
+        "contour_kind": "photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required",
+        "source_pixels": [
+          4579,
+          4579
+        ],
+        "source_sha256": "cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f",
+        "target_x": 800.0,
+        "portrait_target_x": 384.0,
+        "native_pixels_per_artboard_pixel": 3.8129724289626328,
+        "native_pixels_per_portrait_artboard_pixel": 3.466338571784212,
+        "subject_type": "celestial-horizon",
+        "source_dimensions": [
+          4579,
+          4579
+        ],
+        "portrait_source_angle": -2.326349359983242
+      },
+      {
+        "name": "spring-orange-vault",
+        "source_file": "collections/new-classical-approved-direction-2026-11-10/originals/b518c03f022e-spring-orange-vault.jpg",
+        "circle": [
+          2317.9482974373173,
+          4096.006656973629,
+          569.3140621839665
+        ],
+        "source_angle": -1.3367157029811718,
+        "portrait_source_angle": -1.3367157029811718,
+        "target_x": 960.0,
+        "portrait_target_x": 460.79999999999995,
+        "black_point": 0,
+        "page": "https://www.getty.edu/art/collection/object/103RC9",
+        "original": "https://www.getty.edu/art/collection/object/103RC9",
+        "rights": "Getty Open Content; public domain painting image",
+        "credit": "Lawrence Alma-Tadema, Spring,1894. Getty Museum,Open Content.",
+        "source_sha256": "b518c03f022ebac51036bbb1328f1b71b691ba0ba387b2aa6b65ac528890f5a7",
+        "source_dimensions": [
+          4259,
+          9543
+        ],
+        "fit_points": [
+          [
+            2400,
+            3532.5
+          ],
+          [
+            2405,
+            3533.5
+          ],
+          [
+            2410,
+            3534.5
+          ],
+          [
+            2415,
+            3535.5
+          ],
+          [
+            2420,
+            3536.5
+          ],
+          [
+            2425,
+            3536.5
+          ],
+          [
+            2430,
+            3536.5
+          ],
+          [
+            2435,
+            3538.5
+          ],
+          [
+            2440,
+            3540.5
+          ],
+          [
+            2445,
+            3540.5
+          ],
+          [
+            2450,
+            3542.5
+          ],
+          [
+            2455,
+            3542.5
+          ],
+          [
+            2460,
+            3543.5
+          ],
+          [
+            2465,
+            3545.5
+          ],
+          [
+            2470,
+            3547.5
+          ],
+          [
+            2475,
+            3549.5
+          ],
+          [
+            2480,
+            3550.5
+          ],
+          [
+            2485,
+            3552.5
+          ],
+          [
+            2490,
+            3553.5
+          ],
+          [
+            2495,
+            3555.5
+          ],
+          [
+            2500,
+            3556.5
+          ],
+          [
+            2505,
+            3558.5
+          ],
+          [
+            2510,
+            3560.5
+          ],
+          [
+            2515,
+            3561.5
+          ],
+          [
+            2520,
+            3563.5
+          ],
+          [
+            2525,
+            3564.5
+          ],
+          [
+            2530,
+            3568.5
+          ],
+          [
+            2535,
+            3570.5
+          ],
+          [
+            2540,
+            3572.5
+          ],
+          [
+            2545,
+            3574.5
+          ],
+          [
+            2550,
+            3576.5
+          ],
+          [
+            2555,
+            3577.5
+          ],
+          [
+            2560,
+            3581.5
+          ],
+          [
+            2565,
+            3583.5
+          ],
+          [
+            2570,
+            3585.5
+          ],
+          [
+            2575,
+            3588.5
+          ],
+          [
+            2580,
+            3589.5
+          ],
+          [
+            2585,
+            3592.5
+          ],
+          [
+            2590,
+            3595.5
+          ],
+          [
+            2595,
+            3597.5
+          ],
+          [
+            2600,
+            3603.5
+          ],
+          [
+            2605,
+            3604.5
+          ],
+          [
+            2610,
+            3607.5
+          ],
+          [
+            2615,
+            3609.5
+          ],
+          [
+            2620,
+            3613.5
+          ],
+          [
+            2625,
+            3617.5
+          ],
+          [
+            2630,
+            3619.5
+          ],
+          [
+            2635,
+            3622.5
+          ],
+          [
+            2640,
+            3626.5
+          ],
+          [
+            2645,
+            3629.5
+          ],
+          [
+            2650,
+            3633.5
+          ]
+        ],
+        "fit_rms_native_px": 0.617095058428333,
+        "fit_max_native_px": 1.7614478107719833,
+        "contour_kind": "Actual outer pale marble arch against green wall; native gradient fit x2400..2650, RMS0.617px; visible balcony group below orange vault",
+        "allow_black_extension": false,
+        "native_pixels_per_artboard_pixel": 1.4232851554599162,
+        "native_pixels_per_portrait_artboard_pixel": 1.293895595872651,
+        "subject_type": "painting"
+      }
+    ],
+    "lead": "apollo-full-globe",
+    "fresh_family": true,
+    "openingInset": 42,
+    "portrait_openingInset": 42,
+    "review_batch": "fifteen-20261109",
+    "active": false,
+    "nav_tone": "ink"
+  },
+  {
     "id": "silver-aurora-enamel",
     "title": "Silver & Aurora",
     "slots": [
@@ -11599,1433 +12863,6 @@
       }
     ],
     "portrait_angle": 0,
-    "active": false,
-    "review_batch": "fifteen-20261109",
-    "initialInsetWide": 26,
-    "initialInsetPortrait": 25,
-    "nav_tone": "ink",
-    "lead": "apollo-full-globe"
-  },
-  {
-    "id": "rein-earth-regiomontanus",
-    "title": "Brass & Geometry",
-    "slots": [
-      "rein-1728",
-      "apollo-full-globe",
-      "met-923639-2"
-    ],
-    "motifs": [
-      "historical-celestial-map",
-      "celestial-horizon",
-      "historical-instrument"
-    ],
-    "radius": 625,
-    "portraitRadius": 600,
-    "angle": 9.2,
-    "horizon": 0.35,
-    "portrait_horizon": 0.35,
-    "render_density": 1.75,
-    "portrait_density": 1.8,
-    "openingInset": 26,
-    "portrait_openingInset": 25,
-    "finalInset": 18,
-    "end": 18,
-    "custom_contacts": true,
-    "fresh_family": true,
-    "source_geometry": [
-      {
-        "name": "rein-1728-east-rim",
-        "source_file": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
-        "circle": [
-          3721.6973185007528,
-          5992.742642178846,
-          3398.256469614355
-        ],
-        "source_angle": -0.52,
-        "black_point": 0,
-        "page": "https://commons.wikimedia.org/wiki/File:1728_celestial_map_by_Melchior_Rein.jpg",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/1728_celestial_map_by_Melchior_Rein.jpg",
-        "credit": "Melchior Rein, 1728",
-        "rights": "Commons public domain scan or PD-Art; check individual page for jurisdiction and attribution",
-        "source_sha256": "bb73f2a08f1cc3add558ff890238735d08bb9e6b4aa57f015ab5c1dc74878d42",
-        "native_size": [
-          14053,
-          12136
-        ],
-        "contour_kind": "Main hemisphere east yellow/gray outer rim, radial negative chromatic transition",
-        "fit_rms_native_px": 2.003742434302344,
-        "fit_max_native_px": 4.105371379695498,
-        "angle_span_degrees": [
-          -55,
-          -6
-        ],
-        "accepted_points": [
-          [
-            2124.0,
-            3044.0,
-            13.858173771197286
-          ],
-          [
-            2230.0,
-            2942.0,
-            16.480440077319727
-          ],
-          [
-            2337.0,
-            2931.0,
-            15.500395488001942
-          ],
-          [
-            2444.0,
-            2843.0,
-            15.117395750657757
-          ],
-          [
-            2551.0,
-            2800.0,
-            15.159830315353325
-          ],
-          [
-            2657.0,
-            2758.0,
-            17.535383322742877
-          ],
-          [
-            2764.0,
-            2765.0,
-            12.965011440462902
-          ],
-          [
-            2871.0,
-            2694.0,
-            19.348467487651448
-          ],
-          [
-            2977.0,
-            2666.0,
-            14.725082088780411
-          ],
-          [
-            3084.0,
-            2646.0,
-            16.556146740002696
-          ],
-          [
-            3191.0,
-            2622.0,
-            16.134615600393055
-          ],
-          [
-            3298.0,
-            2646.0,
-            15.995051967629543
-          ],
-          [
-            3404.0,
-            2594.0,
-            14.900456380878019
-          ],
-          [
-            3511.0,
-            2627.0,
-            18.042132684581198
-          ],
-          [
-            3618.0,
-            2618.0,
-            19.050850848323215
-          ],
-          [
-            3724.0,
-            2613.0,
-            17.504485981538892
-          ],
-          [
-            3831.0,
-            2612.0,
-            18.584503924807066
-          ],
-          [
-            3938.0,
-            2617.0,
-            15.810307295261659
-          ],
-          [
-            4044.0,
-            2625.0,
-            15.243874254674743
-          ],
-          [
-            4151.0,
-            2637.0,
-            16.111361406421885
-          ],
-          [
-            4258.0,
-            2650.0,
-            13.252204046210245
-          ],
-          [
-            4365.0,
-            2667.0,
-            16.321414194976654
-          ],
-          [
-            4471.0,
-            2688.0,
-            17.5379788834624
-          ],
-          [
-            4578.0,
-            2668.0,
-            20.138978853012482
-          ],
-          [
-            4685.0,
-            2741.0,
-            20.017151317525556
-          ],
-          [
-            4791.0,
-            2731.0,
-            15.851391052179949
-          ],
-          [
-            4898.0,
-            2812.0,
-            20.22058284286375
-          ],
-          [
-            5005.0,
-            2850.0,
-            19.914914131959428
-          ],
-          [
-            5112.0,
-            2848.0,
-            19.1783726301966
-          ],
-          [
-            5218.0,
-            2947.0,
-            16.866760543332106
-          ]
-        ],
-        "rejected_points": [],
-        "method": "vertical color-transition gradient at fixed original x, initial location selected on preview, sigma 2, iterative robust circle fit",
-        "max_render_radius_at_2x": 1677.368433592765,
-        "limitations": "Fit only supported on sampled upper arc, not the full printed circumference; source cropping and seam coverage require per-scene check.",
-        "portrait_source_angle": -0.52,
-        "fit_points": [
-          [
-            5715.525799713079,
-            3239.6459599355912
-          ],
-          [
-            5761.9621146889895,
-            3275.250980687075
-          ],
-          [
-            5807.756117443674,
-            3311.65037930741
-          ],
-          [
-            5899.93423113028,
-            3383.7216168084997
-          ],
-          [
-            5943.11768985259,
-            3423.2338486855483
-          ],
-          [
-            5986.247975446632,
-            3462.727443596322
-          ],
-          [
-            6031.0565603257355,
-            3500.396221635717
-          ],
-          [
-            6073.495913915831,
-            3540.6696644270014
-          ],
-          [
-            6116.286595466372,
-            3580.6169820538903
-          ],
-          [
-            6159.470942194785,
-            3620.281700937366
-          ],
-          [
-            6197.604386436974,
-            3664.8240196544334
-          ],
-          [
-            6239.006575289543,
-            3706.3062531322976
-          ],
-          [
-            6276.311212365494,
-            3751.4896810662062
-          ],
-          [
-            6317.395205148918,
-            3793.4340145367073
-          ],
-          [
-            6353.122441390387,
-            3839.918765443027
-          ],
-          [
-            6388.4052412272795,
-            3886.6848141752857
-          ],
-          [
-            6423.649185608306,
-            3933.4369252733923
-          ],
-          [
-            6459.280160070609,
-            3979.9083146764524
-          ],
-          [
-            6524.795866937721,
-            4076.960803369478
-          ],
-          [
-            6621.26442667614,
-            4223.734807176174
-          ],
-          [
-            6682.453969500257,
-            4323.719118068518
-          ],
-          [
-            6709.100724902865,
-            4375.939824476107
-          ],
-          [
-            6735.710963010087,
-            4428.140415328387
-          ],
-          [
-            6763.649213676027,
-            4479.693730925232
-          ],
-          [
-            6813.652095527059,
-            4585.742336500596
-          ],
-          [
-            6883.288252602591,
-            4747.328315151986
-          ],
-          [
-            6903.365995171944,
-            4802.45634808979
-          ],
-          [
-            6943.9403810032,
-            4912.6152065902315
-          ],
-          [
-            6964.462992529769,
-            4967.728465944187
-          ],
-          [
-            6980.671074245012,
-            5024.206434031387
-          ],
-          [
-            6999.269419263932,
-            5080.044394466939
-          ],
-          [
-            7028.694428985309,
-            5193.928726494157
-          ],
-          [
-            7036.045808102264,
-            5252.498931942712
-          ],
-          [
-            7068.1478872539155,
-            5425.7062513367955
-          ]
-        ],
-        "target_x": 300,
-        "portrait_target_x": 96,
-        "subject_type": "historical-celestial-map"
-      },
-      {
-        "name": "apollo-full-globe",
-        "source_file": "collections/horizons/earth-daylight/as17-148-22727.jpg",
-        "circle": [
-          2297.942178080728,
-          2315.7310792966127,
-          1525.1889715850532
-        ],
-        "source_angle": -1.5707963267948966,
-        "black_point": 0,
-        "allow_black_extension": true,
-        "page": "https://images.nasa.gov/details/as17-148-22727",
-        "original": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
-        "credit": "NASA / Apollo 17 crew, AS17-148-22727.",
-        "rights": "NASA informational/personal image-use guidelines",
-        "fit_rms_native_px": 0.8996036519717188,
-        "fit_max_native_px": 2.3893761439026093,
-        "contour_kind": "photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required",
-        "source_pixels": [
-          4579,
-          4579
-        ],
-        "source_sha256": "cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f",
-        "target_x": 800,
-        "portrait_target_x": 384,
-        "native_pixels_per_artboard_pixel": 2.1788413879786472,
-        "native_pixels_per_portrait_artboard_pixel": 1.9064862144813164,
-        "subject_type": "celestial-horizon"
-      },
-      {
-        "name": "met-923639-2",
-        "source_file": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
-        "circle": [
-          1941.434009481427,
-          1894.190828288078,
-          1115.7069780200095
-        ],
-        "source_angle": -0.8761434231661659,
-        "portrait_source_angle": -0.6981317007977318,
-        "black_point": 0,
-        "target_x": 1300,
-        "portrait_target_x": 672,
-        "page": "https://www.metmuseum.org/art/collection/search/923639",
-        "original": "https://images.metmuseum.org/CRDImages/cl/original/DP-41678-014.jpg",
-        "credit": "Regiomontanus; The Metropolitan Museum of Art",
-        "rights": "CC0 1.0; Met Open Access",
-        "source_sha256": "d237f91f4c422494fa720c41c67d7777ec19b771fdc6fe245e4c73798e853932",
-        "fit_rms_native_px": 0.6382049869369911,
-        "fit_max_native_px": 1.4242825038218143,
-        "fit_points": [
-          [
-            2383.7922551276656,
-            868.5041607897949
-          ],
-          [
-            2419.9326198267163,
-            885.5747781732716
-          ],
-          [
-            2455.4706223972407,
-            903.9044705450374
-          ],
-          [
-            2490.233633846922,
-            923.6862733953793
-          ],
-          [
-            2524.9732926797437,
-            943.6255232826259
-          ],
-          [
-            2558.465748931001,
-            965.6134531562374
-          ],
-          [
-            2591.3350078459152,
-            988.5674578331724
-          ],
-          [
-            2623.403789511788,
-            1012.670717305212
-          ],
-          [
-            2655.451971882569,
-            1036.951918373478
-          ],
-          [
-            2685.491611201983,
-            1063.6633741601204
-          ],
-          [
-            2715.470895403386,
-            1090.5291045966142
-          ],
-          [
-            2744.3478485193323,
-            1118.6328933078455
-          ],
-          [
-            2772.444274737524,
-            1147.5957624869736
-          ],
-          [
-            2798.3807314442583,
-            1178.505627946388
-          ],
-          [
-            2823.4223084921823,
-            1210.1513794804441
-          ],
-          [
-            2847.349339220219,
-            1242.6588513600152
-          ],
-          [
-            2870.3418471128557,
-            1275.8526364876136
-          ],
-          [
-            2892.3854423878706,
-            1309.7146687728848
-          ],
-          [
-            2912.372311013851,
-            1344.8328645648648
-          ],
-          [
-            2931.340051748036,
-            1380.5059965514747
-          ],
-          [
-            2949.2778404416813,
-            1416.7137074697052
-          ],
-          [
-            2966.4048727246523,
-            1453.3379876451763
-          ],
-          [
-            2981.3195289903842,
-            1490.9203224391558
-          ],
-          [
-            2995.3832698318083,
-            1528.8292930613839
-          ],
-          [
-            3008.357212161158,
-            1567.141194226348
-          ],
-          [
-            3019.2665512124577,
-            1606.0934314874542
-          ]
-        ],
-        "source_pixels": [
-          3760,
-          4000
-        ],
-        "subject_type": "historical-instrument",
-        "valid_angle_span_degrees": [
-          -65,
-          -15
-        ]
-      }
-    ],
-    "wide_coverage": [
-      {
-        "slot": 0,
-        "source_corners": [
-          [
-            10848.04173865724,
-            6062.546179532738
-          ],
-          [
-            9279.03333517042,
-            7691.75197692103
-          ],
-          [
-            7088.336052376566,
-            2441.7575561016115
-          ],
-          [
-            5519.3276488897445,
-            4070.963353489904
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false
-      },
-      {
-        "slot": 1,
-        "source_corners": [
-          [
-            1504.0136079758472,
-            -168.6728126165499
-          ],
-          [
-            3354.057219039325,
-            130.96886835912574
-          ],
-          [
-            1129.461506756253,
-            2143.881701212797
-          ],
-          [
-            2979.5051178197305,
-            2443.5233821884726
-          ]
-        ],
-        "inside_original": false,
-        "allow_black_extension": true
-      },
-      {
-        "slot": 2,
-        "source_corners": [
-          [
-            2448.543820015014,
-            193.0319377059784
-          ],
-          [
-            3191.158384585132,
-            193.0319377059784
-          ],
-          [
-            2448.543820015014,
-            1906.757855944713
-          ],
-          [
-            3191.158384585132,
-            1906.757855944713
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false
-      }
-    ],
-    "portrait_coverage": [
-      {
-        "slot": 0,
-        "source_corners": [
-          [
-            9614.136844535904,
-            3703.4463142768527
-          ],
-          [
-            9635.17241201247,
-            4790.684908656385
-          ],
-          [
-            2365.87954867235,
-            3843.683430787298
-          ],
-          [
-            2386.915116148917,
-            4930.922025166831
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false
-      },
-      {
-        "slot": 1,
-        "source_corners": [
-          [
-            1809.881707173511,
-            -348.26565773861375
-          ],
-          [
-            2786.002648987945,
-            -348.26565773861375
-          ],
-          [
-            1809.881707173511,
-            2905.470814976167
-          ],
-          [
-            2786.002648987945,
-            2905.470814976167
-          ]
-        ],
-        "inside_original": false,
-        "allow_black_extension": true
-      },
-      {
-        "slot": 2,
-        "source_corners": [
-          [
-            2982.394181084183,
-            208.4959852647712
-          ],
-          [
-            3314.999336708497,
-            338.27095002418037
-          ],
-          [
-            2117.2277493547886,
-            2425.863689426867
-          ],
-          [
-            2449.8329049791028,
-            2555.638654186276
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false
-      }
-    ],
-    "portrait_angle": 0,
-    "active": false,
-    "review_batch": "fifteen-20261109",
-    "initialInsetWide": 26,
-    "initialInsetPortrait": 25,
-    "nav_tone": "ink",
-    "lead": "apollo-full-globe"
-  },
-  {
-    "id": "bode-earth-echinoid",
-    "title": "Ancient Seas",
-    "slots": [
-      "bode-1800",
-      "apollo-full-globe",
-      "conolampas-test"
-    ],
-    "motifs": [
-      "historical-celestial-map",
-      "celestial-horizon",
-      "echinoid-test"
-    ],
-    "radius": 700,
-    "portraitRadius": 700,
-    "angle": 15,
-    "horizon": 0.30000000000000004,
-    "portrait_horizon": 0.30000000000000004,
-    "render_density": 2,
-    "portrait_density": 2,
-    "openingInset": 26,
-    "portrait_openingInset": 25,
-    "finalInset": 18,
-    "end": 18,
-    "custom_contacts": true,
-    "fresh_family": true,
-    "source_geometry": [
-      {
-        "name": "bode-1800-east-rim",
-        "source_file": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
-        "circle": [
-          4236.613887370342,
-          4652.935913203665,
-          4033.3326469969793
-        ],
-        "source_angle": -0.15,
-        "black_point": 0,
-        "page": "https://commons.wikimedia.org/wiki/File:1800_Northern_and_Southern_Celestial_Hemisphere_maps.jpg",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/1800_Northern_and_Southern_Celestial_Hemisphere_maps.jpg",
-        "credit": "Johann Elert Bode, 1800",
-        "rights": "Commons public domain scan or PD-Art; check individual page for jurisdiction and attribution",
-        "source_sha256": "c71e0f48f3addb7a71feef07848c5f938539c72dca9f97db737ea3c6f9b8d60b",
-        "native_size": [
-          17455,
-          9212
-        ],
-        "contour_kind": "Right-hand blue/yellow printed circumference, direct radial chromatic transition",
-        "fit_rms_native_px": 3.451482303616202,
-        "fit_max_native_px": 8.613562182777514,
-        "angle_span_degrees": [
-          -36,
-          18
-        ],
-        "accepted_points": [
-          [
-            2618.0,
-            1055.0,
-            16.17378732501654
-          ],
-          [
-            2739.0,
-            995.0,
-            16.566655169115528
-          ],
-          [
-            2859.0,
-            942.0,
-            10.517143704765033
-          ],
-          [
-            3100.0,
-            861.0,
-            15.814160187426015
-          ],
-          [
-            3220.0,
-            822.0,
-            19.92531323479413
-          ],
-          [
-            3341.0,
-            790.0,
-            8.60567654626253
-          ],
-          [
-            3461.0,
-            759.0,
-            16.447972082766423
-          ],
-          [
-            3581.0,
-            733.0,
-            17.290676069539252
-          ],
-          [
-            3702.0,
-            710.0,
-            17.336826967301207
-          ],
-          [
-            3822.0,
-            691.0,
-            12.414626164411658
-          ],
-          [
-            4063.0,
-            667.0,
-            12.711205393659455
-          ],
-          [
-            4424.0,
-            660.0,
-            14.097268651770623
-          ],
-          [
-            4544.0,
-            665.0,
-            12.171152496328688
-          ],
-          [
-            4665.0,
-            673.0,
-            16.300367343692827
-          ],
-          [
-            4785.0,
-            684.0,
-            9.07616752122749
-          ],
-          [
-            4905.0,
-            701.0,
-            16.091125650399768
-          ],
-          [
-            5146.0,
-            743.0,
-            9.167333905941039
-          ],
-          [
-            5267.0,
-            770.0,
-            11.421127069049362
-          ],
-          [
-            5387.0,
-            803.0,
-            12.704544541473776
-          ],
-          [
-            5748.0,
-            924.0,
-            12.981074380220399
-          ],
-          [
-            5868.0,
-            973.0,
-            11.176085661528283
-          ],
-          [
-            5989.0,
-            1026.0,
-            11.25975751177026
-          ],
-          [
-            6109.0,
-            1087.0,
-            15.809733978370915
-          ]
-        ],
-        "rejected_points": [
-          [
-            2979.0,
-            794.0,
-            19.536883302726167
-          ],
-          [
-            3942.0,
-            687.0,
-            9.37420087720459
-          ],
-          [
-            4183.0,
-            653.0,
-            8.379491193090821
-          ],
-          [
-            4304.0,
-            621.0,
-            13.723301566359133
-          ],
-          [
-            5026.0,
-            733.0,
-            7.890151363153876
-          ],
-          [
-            5507.0,
-            827.0,
-            10.623012648483808
-          ],
-          [
-            5628.0,
-            869.0,
-            15.780746436015754
-          ]
-        ],
-        "method": "vertical color-transition gradient at fixed original x, initial location selected on preview, sigma 2, iterative robust circle fit",
-        "max_render_radius_at_2x": 1957.4112798116248,
-        "limitations": "Fit only supported on sampled upper arc, not the full printed circumference; source cropping and seam coverage require per-scene check.",
-        "portrait_source_angle": -0.15,
-        "fit_points": [
-          [
-            7496.676566396931,
-            2274.949648017344
-          ],
-          [
-            7534.674644155105,
-            2331.6649588193136
-          ],
-          [
-            7573.315420055234,
-            2387.8876366289096
-          ],
-          [
-            7610.130419185962,
-            2445.3207650134314
-          ],
-          [
-            7650.168327867044,
-            2500.7233402901866
-          ],
-          [
-            7684.126703333275,
-            2559.9659885483325
-          ],
-          [
-            7749.738656620062,
-            2679.608311395821
-          ],
-          [
-            7783.598649812378,
-            2738.8271729589114
-          ],
-          [
-            7812.8680366232165,
-            2800.4671371592362
-          ],
-          [
-            7847.778686398637,
-            2859.2817025459517
-          ],
-          [
-            7880.335670436572,
-            2919.409276856208
-          ],
-          [
-            7914.604293243246,
-            2978.9312668995644
-          ],
-          [
-            7937.748577495277,
-            3043.444339646998
-          ],
-          [
-            7965.760067944276,
-            3105.844006931409
-          ],
-          [
-            7991.757480469969,
-            3169.1138835977695
-          ],
-          [
-            8013.3639098825315,
-            3234.041259673035
-          ],
-          [
-            8035.237622551436,
-            3298.8063489783503
-          ],
-          [
-            8056.923215662049,
-            3363.617755016201
-          ],
-          [
-            8071.258410038092,
-            3430.6981718284887
-          ],
-          [
-            8098.807411725641,
-            3493.775222001851
-          ],
-          [
-            8117.563609747975,
-            3559.5369696112366
-          ],
-          [
-            8135.656583176329,
-            3625.503529805993
-          ],
-          [
-            8155.035525237879,
-            3691.230402105442
-          ],
-          [
-            8172.299497478552,
-            3757.5530225202265
-          ],
-          [
-            8185.467168411612,
-            3824.7820232636795
-          ],
-          [
-            8198.935147343998,
-            3891.96153957429
-          ],
-          [
-            8210.737667232332,
-            3959.4613037065383
-          ],
-          [
-            8220.866512051365,
-            4027.234986904362
-          ],
-          [
-            8231.299819560814,
-            4094.99231654338
-          ],
-          [
-            8244.530060768093,
-            4162.529310203179
-          ],
-          [
-            8249.51288888108,
-            4299.787056355265
-          ],
-          [
-            8260.68296699048,
-            4436.507193687255
-          ],
-          [
-            8272.57721330004,
-            4573.673472896591
-          ],
-          [
-            8268.678093606632,
-            4711.118948079548
-          ],
-          [
-            8274.66754491959,
-            4780.2603736538185
-          ],
-          [
-            8260.984875459068,
-            4848.362088885975
-          ],
-          [
-            8256.58880429763,
-            4916.964478631788
-          ],
-          [
-            8235.720533082489,
-            5122.199555403221
-          ],
-          [
-            8217.860865465385,
-            5328.8616193769285
-          ],
-          [
-            8202.622073101302,
-            5396.239185688307
-          ],
-          [
-            8187.189737375791,
-            5463.539928481088
-          ],
-          [
-            8175.923855816783,
-            5531.883174654576
-          ],
-          [
-            8157.166568625827,
-            5598.421557031149
-          ],
-          [
-            8135.3353561712975,
-            5664.045943312377
-          ],
-          [
-            8125.767781127985,
-            5733.313961133889
-          ],
-          [
-            8104.951569734954,
-            5799.334548992916
-          ]
-        ],
-        "target_x": 300,
-        "portrait_target_x": 96,
-        "subject_type": "historical-celestial-map"
-      },
-      {
-        "name": "apollo-full-globe",
-        "source_file": "collections/horizons/earth-daylight/as17-148-22727.jpg",
-        "circle": [
-          2297.942178080728,
-          2315.7310792966127,
-          1525.1889715850532
-        ],
-        "source_angle": -1.5707963267948966,
-        "black_point": 0,
-        "allow_black_extension": true,
-        "page": "https://images.nasa.gov/details/as17-148-22727",
-        "original": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
-        "credit": "NASA / Apollo 17 crew, AS17-148-22727.",
-        "rights": "NASA informational/personal image-use guidelines",
-        "fit_rms_native_px": 0.8996036519717188,
-        "fit_max_native_px": 2.3893761439026093,
-        "contour_kind": "photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required",
-        "source_pixels": [
-          4579,
-          4579
-        ],
-        "source_sha256": "cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f",
-        "target_x": 800,
-        "portrait_target_x": 384,
-        "native_pixels_per_artboard_pixel": 2.1788413879786472,
-        "native_pixels_per_portrait_artboard_pixel": 1.9064862144813164,
-        "subject_type": "celestial-horizon"
-      },
-      {
-        "name": "conolampas-test",
-        "source_file": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
-        "circle": [
-          2048.240653971698,
-          2131.0805399339747,
-          1599.2155446072557
-        ],
-        "black_point": 0,
-        "page": "https://commons.wikimedia.org/wiki/File:Conolampas_diomedeae_MHNT.jpg",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Conolampas_diomedeae_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "credit": "Didier Descouens",
-        "rights": "CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0",
-        "source_sha256": "6bed0879985132031f08ff5a14fb93b80ccc33f26169cffaae69eecff2ae8247",
-        "source_pixels": [
-          8725,
-          6034
-        ],
-        "fit_points_native": [
-          [
-            800,
-            1136
-          ],
-          [
-            875,
-            1052
-          ],
-          [
-            950,
-            976
-          ],
-          [
-            1025,
-            906
-          ],
-          [
-            1100,
-            840
-          ],
-          [
-            1175,
-            781
-          ],
-          [
-            1250,
-            732
-          ],
-          [
-            1325,
-            694
-          ],
-          [
-            1400,
-            663
-          ],
-          [
-            1475,
-            637
-          ],
-          [
-            1550,
-            614
-          ],
-          [
-            1625,
-            589
-          ],
-          [
-            1700,
-            570
-          ],
-          [
-            1775,
-            558
-          ],
-          [
-            1850,
-            547
-          ],
-          [
-            1925,
-            540
-          ],
-          [
-            2000,
-            536
-          ],
-          [
-            2075,
-            533
-          ],
-          [
-            2150,
-            539
-          ],
-          [
-            2225,
-            543
-          ],
-          [
-            2300,
-            550
-          ],
-          [
-            2375,
-            566
-          ],
-          [
-            2450,
-            583
-          ],
-          [
-            2525,
-            604
-          ],
-          [
-            2600,
-            631
-          ],
-          [
-            2675,
-            655
-          ],
-          [
-            2750,
-            692
-          ],
-          [
-            2825,
-            733
-          ],
-          [
-            2900,
-            779
-          ],
-          [
-            2975,
-            832
-          ],
-          [
-            3050,
-            890
-          ],
-          [
-            3125,
-            950
-          ],
-          [
-            3200,
-            1014
-          ],
-          [
-            3275,
-            1101
-          ]
-        ],
-        "fit_rms_native_px": 4.093824584870185,
-        "fit_max_native_px": 11.565166375808758,
-        "real_curve_angle_interval_degrees": [
-          -141.4386,
-          -40.0193
-        ],
-        "target_x": 1300,
-        "portrait_target_x": 672,
-        "subject_type": "echinoid-test",
-        "native_bounds": [
-          0,
-          0,
-          8725,
-          6034
-        ],
-        "source_angle": -0.8058116232464929,
-        "portrait_source_angle": -0.8058116232464929
-      }
-    ],
-    "wide_coverage": [
-      {
-        "slot": 0,
-        "source_corners": [
-          [
-            11554.818374406012,
-            7697.075632929355
-          ],
-          [
-            9331.039421142763,
-            8591.606754936583
-          ],
-          [
-            9490.515785158565,
-            2565.278048475702
-          ],
-          [
-            7266.736831895314,
-            3459.809170482929
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false
-      },
-      {
-        "slot": 1,
-        "source_corners": [
-          [
-            1652.1866840252146,
-            -32.129901309966044
-          ],
-          [
-            3268.518845076936,
-            400.96499594429383
-          ],
-          [
-            1110.8180624573897,
-            1988.2853000046855
-          ],
-          [
-            2727.150223509111,
-            2421.3801972589454
-          ]
-        ],
-        "inside_original": false,
-        "allow_black_extension": true
-      },
-      {
-        "slot": 2,
-        "source_corners": [
-          [
-            3126.260352925463,
-            155.12016078198803
-          ],
-          [
-            4036.3971303217604,
-            428.78785799784555
-          ],
-          [
-            2494.719513196561,
-            2255.4358009272905
-          ],
-          [
-            3404.856290592859,
-            2529.1034981431476
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false,
-        "margin_native": 155.12016078198803,
-        "seam_source_angle": -0.984739852970494
-      }
-    ],
-    "portrait_coverage": [
-      {
-        "slot": 0,
-        "source_corners": [
-          [
-            10973.006315175557,
-            4528.656995638043
-          ],
-          [
-            10570.930581817176,
-            5559.2892141114635
-          ],
-          [
-            4102.1248586860875,
-            1848.1521065821744
-          ],
-          [
-            3700.0491253277078,
-            2878.7843250555943
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false
-      },
-      {
-        "slot": 1,
-        "source_corners": [
-          [
-            1954.117571420257,
-            -79.40970352805562
-          ],
-          [
-            2787.6088630761374,
-            -6.4886643605864265
-          ],
-          [
-            1711.0474408620264,
-            2698.8946019915456
-          ],
-          [
-            2544.5387325179067,
-            2771.815641159015
-          ]
-        ],
-        "inside_original": false,
-        "allow_black_extension": true
-      },
-      {
-        "slot": 2,
-        "source_corners": [
-          [
-            3360.1438233116564,
-            16.509032576839218
-          ],
-          [
-            3757.9828094784925,
-            201.25460330891974
-          ],
-          [
-            2128.5066850977855,
-            2668.768940355747
-          ],
-          [
-            2526.3456712646216,
-            2853.5145110878275
-          ]
-        ],
-        "inside_original": true,
-        "allow_black_extension": false,
-        "margin_native": 16.509032576839218,
-        "seam_source_angle": -0.9478148501778543
-      }
-    ],
-    "portrait_angle": 5,
     "active": false,
     "review_batch": "fifteen-20261109",
     "initialInsetWide": 26,

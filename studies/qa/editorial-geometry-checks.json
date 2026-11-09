@@ -3640,6 +3640,150 @@
     "contour_max_artboard_px": 2.820689895829851
   },
   {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+    "source_pixels": [
+      14053,
+      12136
+    ],
+    "native_pixels_per_output_pixel": 3.10697734364741,
+    "visible_source_clearance_px": 2441.7575561016115
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.3944584883063342,
+    "visible_source_clearance_px": -218.6130927791626
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
+    "source_pixels": [
+      3760,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.0200749513325802,
+    "visible_source_clearance_px": 193.0319377059784
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
+    "source_pixels": [
+      14053,
+      12136
+    ],
+    "native_pixels_per_output_pixel": 3.1465337681614396,
+    "visible_source_clearance_px": 2365.87954867235
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.4122120107269012,
+    "visible_source_clearance_px": -348.26565773861375
+  },
+  {
+    "scene": "rein-earth-regiomontanus",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
+    "source_pixels": [
+      3760,
+      4000
+    ],
+    "native_pixels_per_output_pixel": 1.033062016685194,
+    "visible_source_clearance_px": 208.49598526477098
+  },
+  {
+    "scene": "spring-festival-horizon",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 5.893575775362567,
+    "visible_source_clearance_px": 1975.5220666236164
+  },
+  {
+    "scene": "spring-festival-horizon",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 2.7235517349733094,
+    "visible_source_clearance_px": 161.66908792027925
+  },
+  {
+    "scene": "spring-festival-horizon",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/new-classical-approved-direction-2026-11-10/originals/b518c03f022e-spring-orange-vault.jpg",
+    "source_pixels": [
+      4259,
+      9543
+    ],
+    "native_pixels_per_output_pixel": 1.0166322538999402,
+    "visible_source_clearance_px": 898.0975005056534
+  },
+  {
+    "scene": "spring-festival-horizon",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 6.000731698550977,
+    "visible_source_clearance_px": 2276.614522589536
+  },
+  {
+    "scene": "spring-festival-horizon",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 2.7730708574273697,
+    "visible_source_clearance_px": 26.482734238558805
+  },
+  {
+    "scene": "spring-festival-horizon",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/new-classical-approved-direction-2026-11-10/originals/b518c03f022e-spring-orange-vault.jpg",
+    "source_pixels": [
+      4259,
+      9543
+    ],
+    "native_pixels_per_output_pixel": 1.035116476698121,
+    "visible_source_clearance_px": 1411.5152729479214
+  },
+  {
     "scene": "silver-aurora-enamel",
     "profile": "wide",
     "slot": 0,
@@ -3854,150 +3998,6 @@
     ],
     "native_pixels_per_output_pixel": 1.0549059253878155,
     "visible_source_clearance_px": 124.0700196062221
-  },
-  {
-    "scene": "rein-earth-regiomontanus",
-    "profile": "wide",
-    "slot": 0,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
-    "source_pixels": [
-      14053,
-      12136
-    ],
-    "native_pixels_per_output_pixel": 3.10697734364741,
-    "visible_source_clearance_px": 2441.7575561016115
-  },
-  {
-    "scene": "rein-earth-regiomontanus",
-    "profile": "wide",
-    "slot": 1,
-    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
-    "source_pixels": [
-      4579,
-      4579
-    ],
-    "native_pixels_per_output_pixel": 1.3944584883063342,
-    "visible_source_clearance_px": -218.6130927791626
-  },
-  {
-    "scene": "rein-earth-regiomontanus",
-    "profile": "wide",
-    "slot": 2,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
-    "source_pixels": [
-      3760,
-      4000
-    ],
-    "native_pixels_per_output_pixel": 1.0200749513325802,
-    "visible_source_clearance_px": 193.0319377059784
-  },
-  {
-    "scene": "rein-earth-regiomontanus",
-    "profile": "portrait",
-    "slot": 0,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/bb73f2a08f1c-rein-1728.jpg",
-    "source_pixels": [
-      14053,
-      12136
-    ],
-    "native_pixels_per_output_pixel": 3.1465337681614396,
-    "visible_source_clearance_px": 2365.87954867235
-  },
-  {
-    "scene": "rein-earth-regiomontanus",
-    "profile": "portrait",
-    "slot": 1,
-    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
-    "source_pixels": [
-      4579,
-      4579
-    ],
-    "native_pixels_per_output_pixel": 1.4122120107269012,
-    "visible_source_clearance_px": -348.26565773861375
-  },
-  {
-    "scene": "rein-earth-regiomontanus",
-    "profile": "portrait",
-    "slot": 2,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/d237f91f4c42-met-923639-2.jpg",
-    "source_pixels": [
-      3760,
-      4000
-    ],
-    "native_pixels_per_output_pixel": 1.033062016685194,
-    "visible_source_clearance_px": 208.49598526477098
-  },
-  {
-    "scene": "bode-earth-echinoid",
-    "profile": "wide",
-    "slot": 0,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
-    "source_pixels": [
-      17455,
-      9212
-    ],
-    "native_pixels_per_output_pixel": 2.880951890712128,
-    "visible_source_clearance_px": 620.3932450634184
-  },
-  {
-    "scene": "bode-earth-echinoid",
-    "profile": "wide",
-    "slot": 1,
-    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
-    "source_pixels": [
-      4579,
-      4579
-    ],
-    "native_pixels_per_output_pixel": 1.0894206939893236,
-    "visible_source_clearance_px": -104.31238418567631
-  },
-  {
-    "scene": "bode-earth-echinoid",
-    "profile": "wide",
-    "slot": 2,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
-    "source_pixels": [
-      8725,
-      6034
-    ],
-    "native_pixels_per_output_pixel": 1.1422968175766113,
-    "visible_source_clearance_px": 155.12016078198815
-  },
-  {
-    "scene": "bode-earth-echinoid",
-    "profile": "portrait",
-    "slot": 0,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/c71e0f48f3ad-bode-1800.jpg",
-    "source_pixels": [
-      17455,
-      9212
-    ],
-    "native_pixels_per_output_pixel": 2.880951890712128,
-    "visible_source_clearance_px": 1848.152106582174
-  },
-  {
-    "scene": "bode-earth-echinoid",
-    "profile": "portrait",
-    "slot": 1,
-    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
-    "source_pixels": [
-      4579,
-      4579
-    ],
-    "native_pixels_per_output_pixel": 1.0894206939893236,
-    "visible_source_clearance_px": -89.61864901150152
-  },
-  {
-    "scene": "bode-earth-echinoid",
-    "profile": "portrait",
-    "slot": 2,
-    "source": "collections/fifteen-scene-options-2026-11-09/originals/6bed08799851-Conolampas_diomedeae_MHNT_jpg.jpg",
-    "source_pixels": [
-      8725,
-      6034
-    ],
-    "native_pixels_per_output_pixel": 1.1422968175766113,
-    "visible_source_clearance_px": 16.509032576839218
   },
   {
     "scene": "rein-earth-echinoid",

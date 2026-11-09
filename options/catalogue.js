@@ -287,6 +287,280 @@ const openingScenes = [
     }
   },
   {
+    "id": "rein-earth-regiomontanus",
+    "title": "Brass & Geometry",
+    "radius": 625,
+    "portraitRadius": 600,
+    "horizon": 0.35,
+    "angle": 9.2,
+    "finalInset": 18,
+    "lead": "apollo-full-globe",
+    "motifs": [
+      "historical-celestial-map",
+      "celestial-horizon",
+      "historical-instrument"
+    ],
+    "portrait_angle": 0,
+    "portrait_horizon": 0.35,
+    "openingInset": 26,
+    "portrait_openingInset": 25,
+    "review_batch": "fifteen-20261109",
+    "nav_tone": "ink",
+    "subjects": [
+      "historical-celestial-map",
+      "celestial-horizon",
+      "historical-instrument"
+    ],
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "8a0df432e2fb",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/rein-earth-regiomontanus/0-wide-1600.webp?v=8a0df432e2fb",
+              "studies/scene-assets/rein-earth-regiomontanus/1-wide-1600.webp?v=8a0df432e2fb",
+              "studies/scene-assets/rein-earth-regiomontanus/2-wide-1600.webp?v=8a0df432e2fb"
+            ],
+            "widths": [
+              0.26125,
+              0.64,
+              0.26125
+            ]
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/rein-earth-regiomontanus/0-wide-2400.webp?v=8a0df432e2fb",
+              "studies/scene-assets/rein-earth-regiomontanus/1-wide-2400.webp?v=8a0df432e2fb",
+              "studies/scene-assets/rein-earth-regiomontanus/2-wide-2400.webp?v=8a0df432e2fb"
+            ],
+            "widths": [
+              0.2608333333333333,
+              0.64,
+              0.2608333333333333
+            ]
+          },
+          {
+            "density": 1.75,
+            "urls": [
+              "studies/scene-assets/rein-earth-regiomontanus/0-wide-2800.webp?v=8a0df432e2fb",
+              "studies/scene-assets/rein-earth-regiomontanus/1-wide-2800.webp?v=8a0df432e2fb",
+              "studies/scene-assets/rein-earth-regiomontanus/2-wide-2800.webp?v=8a0df432e2fb"
+            ],
+            "widths": [
+              0.26071428571428573,
+              0.64,
+              0.26071428571428573
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "9fee660060db",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/rein-earth-regiomontanus/0-portrait-768.webp?v=9fee660060db",
+              "studies/scene-assets/rein-earth-regiomontanus/1-portrait-768.webp?v=9fee660060db",
+              "studies/scene-assets/rein-earth-regiomontanus/2-portrait-768.webp?v=9fee660060db"
+            ],
+            "widths": [
+              0.2526041666666667,
+              0.640625,
+              0.2526041666666667
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/rein-earth-regiomontanus/0-portrait-tall-768.webp?v=9fee660060db",
+                "studies/scene-assets/rein-earth-regiomontanus/1-portrait-768.webp?v=9fee660060db",
+                "studies/scene-assets/rein-earth-regiomontanus/2-portrait-tall-768.webp?v=9fee660060db"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.5,
+            "urls": [
+              "studies/scene-assets/rein-earth-regiomontanus/0-portrait-1152.webp?v=9fee660060db",
+              "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1152.webp?v=9fee660060db",
+              "studies/scene-assets/rein-earth-regiomontanus/2-portrait-1152.webp?v=9fee660060db"
+            ],
+            "widths": [
+              0.2517361111111111,
+              0.640625,
+              0.2517361111111111
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/rein-earth-regiomontanus/0-portrait-tall-1152.webp?v=9fee660060db",
+                "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1152.webp?v=9fee660060db",
+                "studies/scene-assets/rein-earth-regiomontanus/2-portrait-tall-1152.webp?v=9fee660060db"
+              ],
+              "widths": [
+                0.5,
+                0.640625,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.8,
+            "urls": [
+              "studies/scene-assets/rein-earth-regiomontanus/0-portrait-1382.webp?v=9fee660060db",
+              "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1382.webp?v=9fee660060db",
+              "studies/scene-assets/rein-earth-regiomontanus/2-portrait-1382.webp?v=9fee660060db"
+            ],
+            "widths": [
+              0.25180897250361794,
+              0.6410998552821997,
+              0.25180897250361794
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/rein-earth-regiomontanus/0-portrait-tall-1382.webp?v=9fee660060db",
+                "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1382.webp?v=9fee660060db",
+                "studies/scene-assets/rein-earth-regiomontanus/2-portrait-tall-1382.webp?v=9fee660060db"
+              ],
+              "widths": [
+                0.5,
+                0.6410998552821997,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "spring-festival-horizon",
+    "title": "Spring Festival",
+    "radius": 400,
+    "portraitRadius": 440,
+    "horizon": 0.24977072317291552,
+    "angle": 9.674532116159067,
+    "finalInset": 40,
+    "lead": "apollo-full-globe",
+    "motifs": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "painting"
+    ],
+    "portrait_angle": -3.290777272199767,
+    "portrait_horizon": 0.3232233200317127,
+    "openingInset": 42,
+    "portrait_openingInset": 42,
+    "review_batch": "fifteen-20261109",
+    "nav_tone": "ink",
+    "subjects": [
+      "mathematical-diagram",
+      "celestial-horizon",
+      "painting"
+    ],
+    "delivery": {
+      "wide": {
+        "width": 1600,
+        "height": 960,
+        "stamp": "08b67b73a3c0",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/spring-festival-horizon/0-wide-1600.webp?v=08b67b73a3c0",
+              "studies/scene-assets/spring-festival-horizon/1-wide-1600.webp?v=08b67b73a3c0",
+              "studies/scene-assets/spring-festival-horizon/2-wide-1600.webp?v=08b67b73a3c0"
+            ],
+            "widths": [
+              0.42125,
+              0.2,
+              0.42125
+            ]
+          },
+          {
+            "density": 1.4,
+            "urls": [
+              "studies/scene-assets/spring-festival-horizon/0-wide-2240.webp?v=08b67b73a3c0",
+              "studies/scene-assets/spring-festival-horizon/1-wide-2240.webp?v=08b67b73a3c0",
+              "studies/scene-assets/spring-festival-horizon/2-wide-2240.webp?v=08b67b73a3c0"
+            ],
+            "widths": [
+              0.42098214285714286,
+              0.2,
+              0.42098214285714286
+            ]
+          }
+        ]
+      },
+      "portrait": {
+        "width": 768,
+        "height": 1280,
+        "stamp": "8a8d053a3967",
+        "levels": [
+          {
+            "density": 1,
+            "urls": [
+              "studies/scene-assets/spring-festival-horizon/0-portrait-768.webp?v=8a8d053a3967",
+              "studies/scene-assets/spring-festival-horizon/1-portrait-768.webp?v=8a8d053a3967",
+              "studies/scene-assets/spring-festival-horizon/2-portrait-768.webp?v=8a8d053a3967"
+            ],
+            "widths": [
+              0.4231770833333333,
+              0.20052083333333334,
+              0.4231770833333333
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/spring-festival-horizon/0-portrait-tall-768.webp?v=8a8d053a3967",
+                "studies/scene-assets/spring-festival-horizon/1-portrait-768.webp?v=8a8d053a3967",
+                "studies/scene-assets/spring-festival-horizon/2-portrait-tall-768.webp?v=8a8d053a3967"
+              ],
+              "widths": [
+                0.5,
+                0.20052083333333334,
+                0.5
+              ]
+            }
+          },
+          {
+            "density": 1.25,
+            "urls": [
+              "studies/scene-assets/spring-festival-horizon/0-portrait-960.webp?v=8a8d053a3967",
+              "studies/scene-assets/spring-festival-horizon/1-portrait-960.webp?v=8a8d053a3967",
+              "studies/scene-assets/spring-festival-horizon/2-portrait-960.webp?v=8a8d053a3967"
+            ],
+            "widths": [
+              0.42291666666666666,
+              0.2,
+              0.42291666666666666
+            ],
+            "tall": {
+              "urls": [
+                "studies/scene-assets/spring-festival-horizon/0-portrait-tall-960.webp?v=8a8d053a3967",
+                "studies/scene-assets/spring-festival-horizon/1-portrait-960.webp?v=8a8d053a3967",
+                "studies/scene-assets/spring-festival-horizon/2-portrait-tall-960.webp?v=8a8d053a3967"
+              ],
+              "widths": [
+                0.5,
+                0.2,
+                0.5
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "silver-aurora-enamel",
     "title": "Silver & Aurora",
     "radius": 7787.310373892544,
@@ -746,318 +1020,6 @@ const openingScenes = [
               "widths": [
                 0.5,
                 0.6410998552821997,
-                0.5
-              ]
-            }
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "rein-earth-regiomontanus",
-    "title": "Brass & Geometry",
-    "radius": 625,
-    "portraitRadius": 600,
-    "horizon": 0.35,
-    "angle": 9.2,
-    "finalInset": 18,
-    "lead": "apollo-full-globe",
-    "motifs": [
-      "historical-celestial-map",
-      "celestial-horizon",
-      "historical-instrument"
-    ],
-    "portrait_angle": 0,
-    "portrait_horizon": 0.35,
-    "openingInset": 26,
-    "portrait_openingInset": 25,
-    "review_batch": "fifteen-20261109",
-    "nav_tone": "ink",
-    "subjects": [
-      "historical-celestial-map",
-      "celestial-horizon",
-      "historical-instrument"
-    ],
-    "delivery": {
-      "wide": {
-        "width": 1600,
-        "height": 960,
-        "stamp": "8a0df432e2fb",
-        "levels": [
-          {
-            "density": 1,
-            "urls": [
-              "studies/scene-assets/rein-earth-regiomontanus/0-wide-1600.webp?v=8a0df432e2fb",
-              "studies/scene-assets/rein-earth-regiomontanus/1-wide-1600.webp?v=8a0df432e2fb",
-              "studies/scene-assets/rein-earth-regiomontanus/2-wide-1600.webp?v=8a0df432e2fb"
-            ],
-            "widths": [
-              0.26125,
-              0.64,
-              0.26125
-            ]
-          },
-          {
-            "density": 1.5,
-            "urls": [
-              "studies/scene-assets/rein-earth-regiomontanus/0-wide-2400.webp?v=8a0df432e2fb",
-              "studies/scene-assets/rein-earth-regiomontanus/1-wide-2400.webp?v=8a0df432e2fb",
-              "studies/scene-assets/rein-earth-regiomontanus/2-wide-2400.webp?v=8a0df432e2fb"
-            ],
-            "widths": [
-              0.2608333333333333,
-              0.64,
-              0.2608333333333333
-            ]
-          },
-          {
-            "density": 1.75,
-            "urls": [
-              "studies/scene-assets/rein-earth-regiomontanus/0-wide-2800.webp?v=8a0df432e2fb",
-              "studies/scene-assets/rein-earth-regiomontanus/1-wide-2800.webp?v=8a0df432e2fb",
-              "studies/scene-assets/rein-earth-regiomontanus/2-wide-2800.webp?v=8a0df432e2fb"
-            ],
-            "widths": [
-              0.26071428571428573,
-              0.64,
-              0.26071428571428573
-            ]
-          }
-        ]
-      },
-      "portrait": {
-        "width": 768,
-        "height": 1280,
-        "stamp": "9fee660060db",
-        "levels": [
-          {
-            "density": 1,
-            "urls": [
-              "studies/scene-assets/rein-earth-regiomontanus/0-portrait-768.webp?v=9fee660060db",
-              "studies/scene-assets/rein-earth-regiomontanus/1-portrait-768.webp?v=9fee660060db",
-              "studies/scene-assets/rein-earth-regiomontanus/2-portrait-768.webp?v=9fee660060db"
-            ],
-            "widths": [
-              0.2526041666666667,
-              0.640625,
-              0.2526041666666667
-            ],
-            "tall": {
-              "urls": [
-                "studies/scene-assets/rein-earth-regiomontanus/0-portrait-tall-768.webp?v=9fee660060db",
-                "studies/scene-assets/rein-earth-regiomontanus/1-portrait-768.webp?v=9fee660060db",
-                "studies/scene-assets/rein-earth-regiomontanus/2-portrait-tall-768.webp?v=9fee660060db"
-              ],
-              "widths": [
-                0.5,
-                0.640625,
-                0.5
-              ]
-            }
-          },
-          {
-            "density": 1.5,
-            "urls": [
-              "studies/scene-assets/rein-earth-regiomontanus/0-portrait-1152.webp?v=9fee660060db",
-              "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1152.webp?v=9fee660060db",
-              "studies/scene-assets/rein-earth-regiomontanus/2-portrait-1152.webp?v=9fee660060db"
-            ],
-            "widths": [
-              0.2517361111111111,
-              0.640625,
-              0.2517361111111111
-            ],
-            "tall": {
-              "urls": [
-                "studies/scene-assets/rein-earth-regiomontanus/0-portrait-tall-1152.webp?v=9fee660060db",
-                "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1152.webp?v=9fee660060db",
-                "studies/scene-assets/rein-earth-regiomontanus/2-portrait-tall-1152.webp?v=9fee660060db"
-              ],
-              "widths": [
-                0.5,
-                0.640625,
-                0.5
-              ]
-            }
-          },
-          {
-            "density": 1.8,
-            "urls": [
-              "studies/scene-assets/rein-earth-regiomontanus/0-portrait-1382.webp?v=9fee660060db",
-              "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1382.webp?v=9fee660060db",
-              "studies/scene-assets/rein-earth-regiomontanus/2-portrait-1382.webp?v=9fee660060db"
-            ],
-            "widths": [
-              0.25180897250361794,
-              0.6410998552821997,
-              0.25180897250361794
-            ],
-            "tall": {
-              "urls": [
-                "studies/scene-assets/rein-earth-regiomontanus/0-portrait-tall-1382.webp?v=9fee660060db",
-                "studies/scene-assets/rein-earth-regiomontanus/1-portrait-1382.webp?v=9fee660060db",
-                "studies/scene-assets/rein-earth-regiomontanus/2-portrait-tall-1382.webp?v=9fee660060db"
-              ],
-              "widths": [
-                0.5,
-                0.6410998552821997,
-                0.5
-              ]
-            }
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "bode-earth-echinoid",
-    "title": "Ancient Seas",
-    "radius": 700,
-    "portraitRadius": 700,
-    "horizon": 0.30000000000000004,
-    "angle": 15,
-    "finalInset": 18,
-    "lead": "apollo-full-globe",
-    "motifs": [
-      "historical-celestial-map",
-      "celestial-horizon",
-      "echinoid-test"
-    ],
-    "portrait_angle": 5,
-    "portrait_horizon": 0.30000000000000004,
-    "openingInset": 26,
-    "portrait_openingInset": 25,
-    "review_batch": "fifteen-20261109",
-    "nav_tone": "ink",
-    "subjects": [
-      "historical-celestial-map",
-      "celestial-horizon",
-      "echinoid-test"
-    ],
-    "delivery": {
-      "wide": {
-        "width": 1600,
-        "height": 960,
-        "stamp": "a582449fb165",
-        "levels": [
-          {
-            "density": 1,
-            "urls": [
-              "studies/scene-assets/bode-earth-echinoid/0-wide-1600.webp?v=a582449fb165",
-              "studies/scene-assets/bode-earth-echinoid/1-wide-1600.webp?v=a582449fb165",
-              "studies/scene-assets/bode-earth-echinoid/2-wide-1600.webp?v=a582449fb165"
-            ],
-            "widths": [
-              0.26125,
-              0.64,
-              0.26125
-            ]
-          },
-          {
-            "density": 1.5,
-            "urls": [
-              "studies/scene-assets/bode-earth-echinoid/0-wide-2400.webp?v=a582449fb165",
-              "studies/scene-assets/bode-earth-echinoid/1-wide-2400.webp?v=a582449fb165",
-              "studies/scene-assets/bode-earth-echinoid/2-wide-2400.webp?v=a582449fb165"
-            ],
-            "widths": [
-              0.2608333333333333,
-              0.64,
-              0.2608333333333333
-            ]
-          },
-          {
-            "density": 2,
-            "urls": [
-              "studies/scene-assets/bode-earth-echinoid/0-wide-3200.webp?v=a582449fb165",
-              "studies/scene-assets/bode-earth-echinoid/1-wide-3200.webp?v=a582449fb165",
-              "studies/scene-assets/bode-earth-echinoid/2-wide-3200.webp?v=a582449fb165"
-            ],
-            "widths": [
-              0.260625,
-              0.64,
-              0.260625
-            ]
-          }
-        ]
-      },
-      "portrait": {
-        "width": 768,
-        "height": 1280,
-        "stamp": "d9be38cb7674",
-        "levels": [
-          {
-            "density": 1,
-            "urls": [
-              "studies/scene-assets/bode-earth-echinoid/0-portrait-768.webp?v=d9be38cb7674",
-              "studies/scene-assets/bode-earth-echinoid/1-portrait-768.webp?v=d9be38cb7674",
-              "studies/scene-assets/bode-earth-echinoid/2-portrait-768.webp?v=d9be38cb7674"
-            ],
-            "widths": [
-              0.2526041666666667,
-              0.640625,
-              0.2526041666666667
-            ],
-            "tall": {
-              "urls": [
-                "studies/scene-assets/bode-earth-echinoid/0-portrait-tall-768.webp?v=d9be38cb7674",
-                "studies/scene-assets/bode-earth-echinoid/1-portrait-768.webp?v=d9be38cb7674",
-                "studies/scene-assets/bode-earth-echinoid/2-portrait-tall-768.webp?v=d9be38cb7674"
-              ],
-              "widths": [
-                0.5,
-                0.640625,
-                0.5
-              ]
-            }
-          },
-          {
-            "density": 1.5,
-            "urls": [
-              "studies/scene-assets/bode-earth-echinoid/0-portrait-1152.webp?v=d9be38cb7674",
-              "studies/scene-assets/bode-earth-echinoid/1-portrait-1152.webp?v=d9be38cb7674",
-              "studies/scene-assets/bode-earth-echinoid/2-portrait-1152.webp?v=d9be38cb7674"
-            ],
-            "widths": [
-              0.2517361111111111,
-              0.640625,
-              0.2517361111111111
-            ],
-            "tall": {
-              "urls": [
-                "studies/scene-assets/bode-earth-echinoid/0-portrait-tall-1152.webp?v=d9be38cb7674",
-                "studies/scene-assets/bode-earth-echinoid/1-portrait-1152.webp?v=d9be38cb7674",
-                "studies/scene-assets/bode-earth-echinoid/2-portrait-tall-1152.webp?v=d9be38cb7674"
-              ],
-              "widths": [
-                0.5,
-                0.640625,
-                0.5
-              ]
-            }
-          },
-          {
-            "density": 2,
-            "urls": [
-              "studies/scene-assets/bode-earth-echinoid/0-portrait-1536.webp?v=d9be38cb7674",
-              "studies/scene-assets/bode-earth-echinoid/1-portrait-1536.webp?v=d9be38cb7674",
-              "studies/scene-assets/bode-earth-echinoid/2-portrait-1536.webp?v=d9be38cb7674"
-            ],
-            "widths": [
-              0.2513020833333333,
-              0.640625,
-              0.2513020833333333
-            ],
-            "tall": {
-              "urls": [
-                "studies/scene-assets/bode-earth-echinoid/0-portrait-tall-1536.webp?v=d9be38cb7674",
-                "studies/scene-assets/bode-earth-echinoid/1-portrait-1536.webp?v=d9be38cb7674",
-                "studies/scene-assets/bode-earth-echinoid/2-portrait-tall-1536.webp?v=d9be38cb7674"
-              ],
-              "widths": [
-                0.5,
-                0.640625,
                 0.5
               ]
             }

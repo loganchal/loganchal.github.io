@@ -16,6 +16,7 @@ with sync_playwright() as p:
    assert q.evaluate('openingScenes.length')==15
    assert q.locator('.arc-study > i').count()==3
    assert not q.evaluate('document.documentElement.scrollWidth>innerWidth')
+   assert q.evaluate('''()=>{const stage=document.querySelector('.stage'),art=stage.querySelector('.arc-study').getBoundingClientRect(),t=stage.querySelector('.cover-title text').getBoundingClientRect();const span=(1-2*parseFloat(stage.style.getPropertyValue('--opening-inset'))/100)*art.width;return t.left>=innerWidth/2-span/2-2&&t.right<=innerWidth/2+span/2+2}'''),(id,profile,'title spills outside central window')
    assert q.evaluate('new DOMMatrix(getComputedStyle(document.querySelector(".arc-study")).transform).b===0')
    q.screenshot(scale="css",animations="disabled",path=str(out/f'{id}-{profile}-opening.png'))
    runway=q.evaluate('document.querySelector("#top").offsetHeight-innerHeight');q.evaluate('(r)=>scrollTo(0,r)',runway);q.wait_for_selector('#top.opened');q.evaluate('scrollTo(0,0)');q.wait_for_timeout(80)

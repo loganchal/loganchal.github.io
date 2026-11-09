@@ -3,11 +3,11 @@
   "options": [
     "bode-artemis-rivals",
     "eimmart-artemis-stairs",
+    "rein-earth-regiomontanus",
+    "spring-festival-horizon",
     "silver-aurora-enamel",
     "silver-sunlit-opal",
     "bode-earth-mirror-clock",
-    "rein-earth-regiomontanus",
-    "bode-earth-echinoid",
     "rein-earth-echinoid",
     "aratus-aurora-celadon",
     "lahire-aurora-weave",
@@ -25,5 +25,13 @@
   "approved_frame_hashes": {
     "bode-artemis-rivals": "95515ab943dd031a876d66a6cd337ad1c18a477268f3edad0760397dfe0c7d26",
     "eimmart-artemis-stairs": "1a73e19253b105d3f58d95bb8b7756a71794552bbb7974d7409628f14b3a2c6c"
-  }
+  },
+  "new_classical_works": [
+    "Spring"
+  ],
+  "approved_frames_unchanged_from": "4d3388c018c2e1342e61ff398a08b5db48e3bbb1",
+  "excluded_after_user_review": [
+    "agrippa-atlas-horizon"
+  ],
+  "approved_frames_identical": true
 }

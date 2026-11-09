@@ -390,6 +390,22 @@
 .stage .arc-study.eimmart-artemis-stairs>i:last-child{background-image:image-set(url(scenes/eimmart-artemis-stairs/1-portrait-768.webp?v=54c9c177dfb0) 1x,url(scenes/eimmart-artemis-stairs/1-portrait-1152.webp?v=54c9c177dfb0) 2x)}
 .stage .arc-study.eimmart-artemis-stairs>i:nth-child(2){background-image:image-set(url(scenes/eimmart-artemis-stairs/2-portrait-768.webp?v=54c9c177dfb0) 1x,url(scenes/eimmart-artemis-stairs/2-portrait-1152.webp?v=54c9c177dfb0) 2x)}
 }
+.arc-study.rein-earth-regiomontanus>i:first-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/0-wide-1600.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/0-wide-2800.webp?v=4dd7e8b47b2d) 2x)}
+.arc-study.rein-earth-regiomontanus>i:last-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/1-wide-1600.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/1-wide-2800.webp?v=4dd7e8b47b2d) 2x)}
+.arc-study.rein-earth-regiomontanus>i:nth-child(2){background-image:image-set(url(scenes/rein-earth-regiomontanus/2-wide-1600.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/2-wide-2800.webp?v=4dd7e8b47b2d) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.rein-earth-regiomontanus>i:first-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/0-portrait-768.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/0-portrait-1382.webp?v=4dd7e8b47b2d) 2x)}
+.stage .arc-study.rein-earth-regiomontanus>i:last-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/1-portrait-768.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/1-portrait-1382.webp?v=4dd7e8b47b2d) 2x)}
+.stage .arc-study.rein-earth-regiomontanus>i:nth-child(2){background-image:image-set(url(scenes/rein-earth-regiomontanus/2-portrait-768.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/2-portrait-1382.webp?v=4dd7e8b47b2d) 2x)}
+}
+.arc-study.spring-festival-horizon>i:first-child{background-image:image-set(url(scenes/spring-festival-horizon/0-wide-1600.webp?v=a03a4b6bba80) 1x,url(scenes/spring-festival-horizon/0-wide-2240.webp?v=a03a4b6bba80) 2x)}
+.arc-study.spring-festival-horizon>i:last-child{background-image:image-set(url(scenes/spring-festival-horizon/1-wide-1600.webp?v=a03a4b6bba80) 1x,url(scenes/spring-festival-horizon/1-wide-2240.webp?v=a03a4b6bba80) 2x)}
+.arc-study.spring-festival-horizon>i:nth-child(2){background-image:image-set(url(scenes/spring-festival-horizon/2-wide-1600.webp?v=a03a4b6bba80) 1x,url(scenes/spring-festival-horizon/2-wide-2240.webp?v=a03a4b6bba80) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.spring-festival-horizon>i:first-child{background-image:image-set(url(scenes/spring-festival-horizon/0-portrait-768.webp?v=a03a4b6bba80) 1x,url(scenes/spring-festival-horizon/0-portrait-960.webp?v=a03a4b6bba80) 2x)}
+.stage .arc-study.spring-festival-horizon>i:last-child{background-image:image-set(url(scenes/spring-festival-horizon/1-portrait-768.webp?v=a03a4b6bba80) 1x,url(scenes/spring-festival-horizon/1-portrait-960.webp?v=a03a4b6bba80) 2x)}
+.stage .arc-study.spring-festival-horizon>i:nth-child(2){background-image:image-set(url(scenes/spring-festival-horizon/2-portrait-768.webp?v=a03a4b6bba80) 1x,url(scenes/spring-festival-horizon/2-portrait-960.webp?v=a03a4b6bba80) 2x)}
+}
 .arc-study.silver-aurora-enamel>i:first-child{background-image:image-set(url(scenes/silver-aurora-enamel/0-wide-1600.webp?v=d10d113934a9) 1x,url(scenes/silver-aurora-enamel/0-wide-3200.webp?v=d10d113934a9) 2x)}
 .arc-study.silver-aurora-enamel>i:last-child{background-image:image-set(url(scenes/silver-aurora-enamel/1-wide-1600.webp?v=d10d113934a9) 1x,url(scenes/silver-aurora-enamel/1-wide-3200.webp?v=d10d113934a9) 2x)}
 .arc-study.silver-aurora-enamel>i:nth-child(2){background-image:image-set(url(scenes/silver-aurora-enamel/2-wide-1600.webp?v=d10d113934a9) 1x,url(scenes/silver-aurora-enamel/2-wide-3200.webp?v=d10d113934a9) 2x)}
@@ -413,22 +429,6 @@
 .stage .arc-study.bode-earth-mirror-clock>i:first-child{background-image:image-set(url(scenes/bode-earth-mirror-clock/0-portrait-768.webp?v=1de5d7438498) 1x,url(scenes/bode-earth-mirror-clock/0-portrait-1382.webp?v=1de5d7438498) 2x)}
 .stage .arc-study.bode-earth-mirror-clock>i:last-child{background-image:image-set(url(scenes/bode-earth-mirror-clock/1-portrait-768.webp?v=1de5d7438498) 1x,url(scenes/bode-earth-mirror-clock/1-portrait-1382.webp?v=1de5d7438498) 2x)}
 .stage .arc-study.bode-earth-mirror-clock>i:nth-child(2){background-image:image-set(url(scenes/bode-earth-mirror-clock/2-portrait-768.webp?v=1de5d7438498) 1x,url(scenes/bode-earth-mirror-clock/2-portrait-1382.webp?v=1de5d7438498) 2x)}
-}
-.arc-study.rein-earth-regiomontanus>i:first-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/0-wide-1600.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/0-wide-2800.webp?v=4dd7e8b47b2d) 2x)}
-.arc-study.rein-earth-regiomontanus>i:last-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/1-wide-1600.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/1-wide-2800.webp?v=4dd7e8b47b2d) 2x)}
-.arc-study.rein-earth-regiomontanus>i:nth-child(2){background-image:image-set(url(scenes/rein-earth-regiomontanus/2-wide-1600.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/2-wide-2800.webp?v=4dd7e8b47b2d) 2x)}
-@media(max-aspect-ratio:1/1){
-.stage .arc-study.rein-earth-regiomontanus>i:first-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/0-portrait-768.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/0-portrait-1382.webp?v=4dd7e8b47b2d) 2x)}
-.stage .arc-study.rein-earth-regiomontanus>i:last-child{background-image:image-set(url(scenes/rein-earth-regiomontanus/1-portrait-768.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/1-portrait-1382.webp?v=4dd7e8b47b2d) 2x)}
-.stage .arc-study.rein-earth-regiomontanus>i:nth-child(2){background-image:image-set(url(scenes/rein-earth-regiomontanus/2-portrait-768.webp?v=4dd7e8b47b2d) 1x,url(scenes/rein-earth-regiomontanus/2-portrait-1382.webp?v=4dd7e8b47b2d) 2x)}
-}
-.arc-study.bode-earth-echinoid>i:first-child{background-image:image-set(url(scenes/bode-earth-echinoid/0-wide-1600.webp?v=eec9ae13293c) 1x,url(scenes/bode-earth-echinoid/0-wide-3200.webp?v=eec9ae13293c) 2x)}
-.arc-study.bode-earth-echinoid>i:last-child{background-image:image-set(url(scenes/bode-earth-echinoid/1-wide-1600.webp?v=eec9ae13293c) 1x,url(scenes/bode-earth-echinoid/1-wide-3200.webp?v=eec9ae13293c) 2x)}
-.arc-study.bode-earth-echinoid>i:nth-child(2){background-image:image-set(url(scenes/bode-earth-echinoid/2-wide-1600.webp?v=eec9ae13293c) 1x,url(scenes/bode-earth-echinoid/2-wide-3200.webp?v=eec9ae13293c) 2x)}
-@media(max-aspect-ratio:1/1){
-.stage .arc-study.bode-earth-echinoid>i:first-child{background-image:image-set(url(scenes/bode-earth-echinoid/0-portrait-768.webp?v=eec9ae13293c) 1x,url(scenes/bode-earth-echinoid/0-portrait-1536.webp?v=eec9ae13293c) 2x)}
-.stage .arc-study.bode-earth-echinoid>i:last-child{background-image:image-set(url(scenes/bode-earth-echinoid/1-portrait-768.webp?v=eec9ae13293c) 1x,url(scenes/bode-earth-echinoid/1-portrait-1536.webp?v=eec9ae13293c) 2x)}
-.stage .arc-study.bode-earth-echinoid>i:nth-child(2){background-image:image-set(url(scenes/bode-earth-echinoid/2-portrait-768.webp?v=eec9ae13293c) 1x,url(scenes/bode-earth-echinoid/2-portrait-1536.webp?v=eec9ae13293c) 2x)}
 }
 .arc-study.rein-earth-echinoid>i:first-child{background-image:image-set(url(scenes/rein-earth-echinoid/0-wide-1600.webp?v=3b419fba14d7) 1x,url(scenes/rein-earth-echinoid/0-wide-3200.webp?v=3b419fba14d7) 2x)}
 .arc-study.rein-earth-echinoid>i:last-child{background-image:image-set(url(scenes/rein-earth-echinoid/1-wide-1600.webp?v=3b419fba14d7) 1x,url(scenes/rein-earth-echinoid/1-wide-3200.webp?v=3b419fba14d7) 2x)}

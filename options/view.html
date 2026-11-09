@@ -11,7 +11,7 @@
 <meta property="og:description" content="Research in upper-ocean stratification and the geometry of equilateral sets.">
 <meta property="og:url" content="https://loganchalmers.net/">
 
-<link rel="stylesheet" href="home.css?v=20261106-delivery">
+<link rel="stylesheet" href="home.css?v=20261110-options">
 <link rel="stylesheet" href="studies/studies.css?v=20261106-delivery">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal", "https://scholar.google.com/citations?user=fGeMPeEAAAAJ&hl=en"]}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers \u00b7 Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
@@ -46,7 +46,7 @@
 <article id="mathematics"><img loading="lazy" decoding="async" src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Mathematics</h2><a href="https://scholar.google.com/citations?user=fGeMPeEAAAAJ&amp;hl=en">Google Scholar ↗</a>　<a href="https://arxiv.org/search/math?query=Chalmers%2C+L+R&amp;searchtype=author">arXiv ↗</a>　<a href="https://sciprofiles.com/profile/5708743">Preprints.org ↗</a></div></article>
 </section></main>
 <footer><span>Logan Chalmers</span><a href="options/">All fifteen options</a><a href="plates/credits.html">Image credits</a><a href="#top">Back to top ↑</a></footer>
-<script src="options/catalogue.js?v=20261109-fifteen"></script>
+<script src="options/catalogue.js?v=cb8ce68f8c54"></script>
 <script src="studies/shuffle.js?v=20261106-delivery"></script>
 <script src="studies/assets.js?v=20261106-delivery"></script>
 <script>
@@ -151,7 +151,19 @@ function layoutOpening() {
   const tilt=(portrait?(scene.portrait_angle??scene.angle):scene.angle)*Math.PI/180;
   const centerX=width/2+radius*Math.sin(tilt);
   const unshiftedHorizon=height/2+(((portrait?scene.portrait_horizon:undefined)??scene.horizon??.53)-.5)*art.height;
-  const titleSize=parseFloat(getComputedStyle(stage.querySelector('.cover-title')).fontSize);
+  // Keep the title and contents inside the photograph as side panels widen.
+  const openingInset=Math.min(loadedSideInset,Math.max(finalInset,portrait?(scene.portrait_openingInset??25):(scene.openingInset??26)));
+  const centralWindow=(1-2*openingInset/100)*art.width;
+  const title=stage.querySelector('.cover-title');
+  title.setAttribute('viewBox',`0 0 ${width} ${height}`);
+  title.style.removeProperty('font-size');
+  const nominalSize=parseFloat(getComputedStyle(title).fontSize);
+  const titleAdvance=title.querySelector('text').getComputedTextLength();
+  const titleFit=Math.min(1,Math.max(80,centralWindow-12)/Math.max(1,titleAdvance));
+  title.style.fontSize=(nominalSize*titleFit)+'px';
+  const titleSize=nominalSize*titleFit;
+  stage.style.setProperty('--cover-menu-width',Math.min(340,Math.max(80,centralWindow-24))+'px');
+  stage.classList.toggle('narrow-cover',centralWindow<230);
   const minimumBaseline=Math.min(height*.30,60+titleSize*.8);
   const artOffset=Math.min(Math.max(0,(art.height-height)/2),Math.max(0,minimumBaseline+16-unshiftedHorizon));
   stage.style.setProperty('--art-offset-y',artOffset+'px');
@@ -172,7 +184,14 @@ function layoutOpening() {
   const middleX=width/2;
   const middleAngle=Math.atan2(-Math.sqrt(Math.max(0,radius*radius-(middleX-centerX)**2)),middleX-centerX);
   stage.querySelector('.cover-title textPath').setAttribute('startOffset',`${100*(middleAngle-startAngle)/(endAngle-startAngle)}%`);
-  stage.style.setProperty('--opening-inset',Math.min(loadedSideInset,Math.max(finalInset,portrait?(scene.portrait_openingInset??25):(scene.openingInset??26))));
+  // Rotated glyphs have a wider footprint than their advance along the arc.
+  for(let pass=0;pass<2;pass++){
+    const bounds=title.querySelector('text').getBoundingClientRect();
+    const footprint=2*Math.max(width/2-bounds.left,bounds.right-width/2);
+    const fit=Math.min(1,Math.max(1,centralWindow-12)/Math.max(1,footprint));
+    title.style.fontSize=(parseFloat(title.style.fontSize)*fit)+'px';
+  }
+  stage.style.setProperty('--opening-inset',openingInset);
   if(topSection.classList.contains('opened'))framePlates(finalInset);
 }
 new ResizeObserver(layoutOpening).observe(stage);

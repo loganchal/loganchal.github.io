@@ -18,6 +18,22 @@
       "no_horizontal_overflow": true
     },
     {
+      "scene": "rein-earth-regiomontanus",
+      "profile": "wide",
+      "ready": true,
+      "three_layers": true,
+      "one_way_scroll": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "scene": "spring-festival-horizon",
+      "profile": "wide",
+      "ready": true,
+      "three_layers": true,
+      "one_way_scroll": true,
+      "no_horizontal_overflow": true
+    },
+    {
       "scene": "silver-aurora-enamel",
       "profile": "wide",
       "ready": true,
@@ -35,22 +51,6 @@
     },
     {
       "scene": "bode-earth-mirror-clock",
-      "profile": "wide",
-      "ready": true,
-      "three_layers": true,
-      "one_way_scroll": true,
-      "no_horizontal_overflow": true
-    },
-    {
-      "scene": "rein-earth-regiomontanus",
-      "profile": "wide",
-      "ready": true,
-      "three_layers": true,
-      "one_way_scroll": true,
-      "no_horizontal_overflow": true
-    },
-    {
-      "scene": "bode-earth-echinoid",
       "profile": "wide",
       "ready": true,
       "three_layers": true,
@@ -138,6 +138,22 @@
       "no_horizontal_overflow": true
     },
     {
+      "scene": "rein-earth-regiomontanus",
+      "profile": "portrait",
+      "ready": true,
+      "three_layers": true,
+      "one_way_scroll": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "scene": "spring-festival-horizon",
+      "profile": "portrait",
+      "ready": true,
+      "three_layers": true,
+      "one_way_scroll": true,
+      "no_horizontal_overflow": true
+    },
+    {
       "scene": "silver-aurora-enamel",
       "profile": "portrait",
       "ready": true,
@@ -155,22 +171,6 @@
     },
     {
       "scene": "bode-earth-mirror-clock",
-      "profile": "portrait",
-      "ready": true,
-      "three_layers": true,
-      "one_way_scroll": true,
-      "no_horizontal_overflow": true
-    },
-    {
-      "scene": "rein-earth-regiomontanus",
-      "profile": "portrait",
-      "ready": true,
-      "three_layers": true,
-      "one_way_scroll": true,
-      "no_horizontal_overflow": true
-    },
-    {
-      "scene": "bode-earth-echinoid",
       "profile": "portrait",
       "ready": true,
       "three_layers": true,
@@ -246,246 +246,7 @@
   "gallery_framing": true,
   "existing_rotation": 47,
   "page_errors": [],
-  "extra_viewports": [
-    {
-      "scene": "bode-artemis-rivals",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "eimmart-artemis-stairs",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "silver-aurora-enamel",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "silver-sunlit-opal",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "bode-earth-mirror-clock",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "rein-earth-regiomontanus",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "bode-earth-echinoid",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "rein-earth-echinoid",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "aratus-aurora-celadon",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "lahire-aurora-weave",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "lahire-aurora-silver",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "gold-ocean",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "violet-aurora",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "engraved-night",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "facets-aurora-aratus",
-      "viewport": [
-        320,
-        740
-      ],
-      "fits": true
-    },
-    {
-      "scene": "bode-artemis-rivals",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "eimmart-artemis-stairs",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "silver-aurora-enamel",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "silver-sunlit-opal",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "bode-earth-mirror-clock",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "rein-earth-regiomontanus",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "bode-earth-echinoid",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "rein-earth-echinoid",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "aratus-aurora-celadon",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "lahire-aurora-weave",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "lahire-aurora-silver",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "gold-ocean",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "violet-aurora",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "engraved-night",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    },
-    {
-      "scene": "facets-aurora-aratus",
-      "viewport": [
-        844,
-        390
-      ],
-      "fits": true
-    }
-  ]
+  "central_window_title_fit": true,
+  "source_profile_checks": 372,
+  "approved_frames_identical": true
 }

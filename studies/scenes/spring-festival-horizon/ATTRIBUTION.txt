@@ -1,0 +1,27 @@
+Spring Festival
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Georg Christoph Eimmart
+https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+Public Domain Mark, Commons; faithfully reproduced historical map
+Original: https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+SHA-256: 0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb
+Global black point: 0
+Local measured outer gold engraved border, x10000–11575; yellow threshold with 15px support.
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+photographed full Earth globe; strongest inward body-to-black gradient; separate native proof required
+
+Lawrence Alma-Tadema, Spring,1894. Getty Museum,Open Content.
+https://www.getty.edu/art/collection/object/103RC9
+Getty Open Content; public domain painting image
+Original: https://www.getty.edu/art/collection/object/103RC9
+SHA-256: b518c03f022ebac51036bbb1328f1b71b691ba0ba387b2aa6b65ac528890f5a7
+Global black point: 0
+Actual outer pale marble arch against green wall; native gradient fit x2400..2650, RMS0.617px; visible balcony group below orange vault
