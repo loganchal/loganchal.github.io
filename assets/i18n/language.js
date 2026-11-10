@@ -14,5 +14,6 @@
   document.dispatchEvent(new CustomEvent('site-language-change',{detail:{language}}));
  }
  controls.forEach(el=>el.addEventListener('click',()=>apply(el.dataset.language)));
+ window.addEventListener('storage',e=>{if(e.key==='site-language'&&['en','mi'].includes(e.newValue)&&e.newValue!==language)apply(e.newValue)});
  fetch('/assets/i18n/messages.json?v=20261110-reo1').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{messages=data;apply(language)}).catch(()=>controls.forEach(el=>el.disabled=true));
 })();

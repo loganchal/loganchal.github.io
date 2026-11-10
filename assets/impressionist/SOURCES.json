@@ -1,0 +1,57 @@
+[
+  {
+    "id": "cezanne",
+    "url": "/assets/impressionist/cezanne.webp",
+    "title": "Mont Sainte-Victoire with Large Pine",
+    "artist": "Paul Cézanne",
+    "date": "c. 1887",
+    "source": "https://commons.wikimedia.org/wiki/File:Cezanne_-_Mont_Sainte-Victoire,_Courtauld.jpg",
+    "credit": "The Courtauld Gallery, London, P.1934.SC.55",
+    "rights": "Public domain faithful reproduction per Commons",
+    "sha256": "16b78843ea46feb3befc3f5b3ddd9961a84e7d9e06895833d2e1327c85d9c595"
+  },
+  {
+    "id": "seine",
+    "url": "/assets/impressionist/seine.webp",
+    "title": "The Seine at Bougival",
+    "artist": "Alfred Sisley",
+    "date": "1876",
+    "source": "https://www.metmuseum.org/art/collection/search/901617",
+    "credit": "The Metropolitan Museum of Art, Gift of Mr. and Mrs. Douglas Dillon, 1992",
+    "rights": "Public domain, Met Open Access (CC0)",
+    "sha256": "0ef5782157ca73518262fcf72bb3d8cb77e377c55f791749f7fd8631d6a485d7"
+  },
+  {
+    "id": "pontoise",
+    "url": "/assets/impressionist/pontoise.webp",
+    "title": "The Public Garden at Pontoise",
+    "artist": "Camille Pissarro",
+    "date": "1874",
+    "source": "https://www.metmuseum.org/art/collection/search/437301",
+    "credit": "The Metropolitan Museum of Art, Gift of Mr. and Mrs. Arthur Murray, 1964",
+    "rights": "Public domain, Met Open Access (CC0)",
+    "sha256": "54ec72509111965fe80fb9059b0736698d3bd0934cfde25a4293a446fbd1ab3e"
+  },
+  {
+    "id": "moret",
+    "url": "/assets/impressionist/moret.webp",
+    "title": "The Road from Moret to Saint-Mammès",
+    "artist": "Alfred Sisley",
+    "date": "1883–85",
+    "source": "https://www.metmuseum.org/art/collection/search/437684",
+    "credit": "The Metropolitan Museum of Art, Bequest of Joan Whitney Payson, 1975",
+    "rights": "Public domain, Met Open Access (CC0)",
+    "sha256": "b7ec0dd1bd6755102ce832a781b2233c5b7e488ee37e1b576f67947e55eb0a70"
+  },
+  {
+    "id": "monet-meadow",
+    "url": "/assets/impressionist/monet-meadow.webp",
+    "title": "The Flowered Meadow",
+    "artist": "Claude Monet",
+    "date": "1885",
+    "source": "https://commons.wikimedia.org/wiki/File:MB-Mon-20_Monet_Die-bluehende-Wiese_1.jpg",
+    "credit": "Museum Barberini, Hasso Plattner Collection",
+    "rights": "Public-domain faithful reproduction per Commons",
+    "sha256": "ce084fca16f61c39e67cb8549a6cc6be9cdc6889f5702cc2cd6a257ef2706ad5"
+  }
+]
