@@ -126,3 +126,7 @@ header h1{font-family:Georgia,serif}
 #mathematics:hover .area-preview[data-active=true],#mathematics:focus-visible .area-preview[data-active=true]{opacity:1}
 @media(hover:none){#mathematics .area-preview[data-active=true]{opacity:1}}
 @media(prefers-reduced-motion:reduce){#mathematics .area-preview{transition:none}}
+/* A previous painting must never flash before the next hover has decoded. */
+#oceanography.rotating-art .area-preview,#mathematics.rotating-art .area-preview{opacity:0}
+#oceanography.rotating-art[data-art-visible=true] .area-preview[data-active=true],#mathematics.rotating-art[data-art-visible=true] .area-preview[data-active=true]{opacity:1}
+#oceanography.rotating-art[data-art-waiting=true] .area-preview,#mathematics.rotating-art[data-art-waiting=true] .area-preview{opacity:0;transition:none}

@@ -13,32 +13,6 @@
     "height": 1236
   },
   {
-    "id": "coubron",
-    "title": "The Forest of Coubron",
-    "artist": "Jean-Baptiste-Camille Corot",
-    "date": "1872",
-    "url": "/assets/classical/coubron.webp",
-    "source": "https://www.nga.gov/artworks/1149",
-    "rights": "CC0 per Wikimedia Commons record",
-    "credit": "National Gallery of Art, Washington",
-    "sha256": "0aacfbae85fac6bf9895431fadd07a74bcddd9b1b966c2268024cdbac90c00e8",
-    "width": 1292,
-    "height": 1600
-  },
-  {
-    "id": "italian",
-    "title": "Italian Landscape",
-    "artist": "Camille Corot",
-    "date": "ca. 1825\u201328",
-    "url": "/assets/classical/italian.webp",
-    "source": "https://www.metmuseum.org/art/collection/search/435973",
-    "rights": "Public domain, Met Open Access",
-    "credit": "The Metropolitan Museum of Art, Gift of Mr. and Mrs. William B. Jaffe, 1950",
-    "sha256": "8184d907964fd9acb06f57ef7199de6cfb3f58c9b77e8c1815c3e32622fb09c1",
-    "width": 1600,
-    "height": 759
-  },
-  {
     "id": "ville",
     "title": "A Woman Gathering Faggots at Ville-d\u2019Avray",
     "artist": "Camille Corot",
@@ -50,5 +24,31 @@
     "sha256": "7dc0b5ae07ff3a01f9c25eaf474c8c48f009c7a3991ff89f58542b9af0b429e6",
     "width": 1262,
     "height": 1600
+  },
+  {
+    "id": "claude",
+    "title": "Pastoral Landscape: The Roman Campagna",
+    "artist": "Claude Lorrain (Claude Gell\u00e9e)",
+    "date": "ca. 1639",
+    "url": "/assets/classical/claude.webp",
+    "source": "https://www.metmuseum.org/art/collection/search/435906",
+    "rights": "Public domain, Met Open Access",
+    "credit": "The Metropolitan Museum of Art, Bequest of Adele L. Lehman, in memory of Arthur Lehman, 1965",
+    "sha256": "19241ede72183b50ab9dce82407083cd11536cc84dbf741c347629ca68111e66",
+    "width": 1600,
+    "height": 1175
+  },
+  {
+    "id": "duncanson",
+    "title": "Landscape with Shepherd",
+    "artist": "Robert S. Duncanson",
+    "date": "1852",
+    "url": "/assets/classical/duncanson.webp",
+    "source": "https://www.metmuseum.org/art/collection/search/10777",
+    "rights": "Public domain, Met Open Access",
+    "credit": "The Metropolitan Museum of Art, Purchase, Gift of Hanson K. Corning, by exchange, 1975",
+    "sha256": "8b2189bb5a0a71c513b81079e63ff2e6521908d9ebcf991afbaa8fd75405e517",
+    "width": 1600,
+    "height": 1070
   }
 ]
