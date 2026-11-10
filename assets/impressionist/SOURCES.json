@@ -77,5 +77,22 @@
     "credit": "Cleveland Museum of Art, Nancy F. and Joseph P. Keithley Collection Gift, 2020.106",
     "rights": "CC0, Cleveland Museum of Art Open Access",
     "sha256": "4d651b331e63c9a492488b76735e14548192e0de071ad27b92c47e57aad48d0c"
+  },
+  {
+    "id": "lebasque-pomegranate",
+    "url": "/assets/impressionist/lebasque-pomegranate.webp",
+    "title": "Nature morte aux grenades (detail)",
+    "artist": "Henri Lebasque",
+    "date": "undated",
+    "source": "https://www.audap-associes.com/lot/165410/29698193-henri-lebasque-1865-1937-nature",
+    "reproduction": "https://cdn.drouot.com/d/lot/fullHD/1641/165410/9c2d1de374e58eafb9ba90748677107f",
+    "credit": "Audap & Associés, 26 June 2025, lot 11",
+    "rights": "Underlying painting public domain; auction photograph source retained.",
+    "source_pixels": [
+      1200,
+      1600
+    ],
+    "note": "Auction close-up photograph of the open fruit, converted to WebP without enlargement. Full framed view retained separately.",
+    "sha256": "6190050c399182e7176ff1f8973fe31dac8f34d48a7a293991ff2afed8fabcdb"
   }
 ]

@@ -101,7 +101,7 @@ header h1{font-family:Georgia,serif}
 @media(hover:none){.area-preview,.area-link::after{opacity:1}}
 /* Historical mathematical material appears behind each paper on hover/focus. */
 .published-paper,.preprint-panel{position:relative;isolation:isolate;overflow:hidden}
-.published-paper::before,.preprint-panel::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(100deg,rgba(248,246,239,.95),rgba(248,246,239,.64)),var(--paper-art,none);background-size:cover;background-position:center;opacity:0;transition:opacity .24s ease}
+.published-paper::before,.preprint-panel::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(100deg,rgba(248,246,239,.95),rgba(248,246,239,.64)),var(--paper-art,none);background-size:cover;background-position:var(--paper-position,center);opacity:0;transition:opacity .24s ease}
 .published-paper:hover::before,.published-paper:focus-within::before,.preprint-panel:hover::before,.preprint-panel:focus-within::before{opacity:1}
 .preprint-panel:hover{border-color:#7a826b}
 @media(prefers-reduced-motion:reduce){.area-preview,.area-link::after,.area-bottom>span:last-child,.published-paper::before,.preprint-panel::before{transition:none}.area-link:hover .area-bottom>span:last-child{transform:none}}
