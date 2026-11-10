@@ -9,3 +9,9 @@ Decisions and undo history are stored locally under `opening-scene-review-v1`. J
 The homepage angle arrows and numeric angle output were removed. Shuffle and scene count remain.
 
 Validation: `python3 scripts/check_scene_review.py --base-url http://127.0.0.1:8742` checks a real horizontal drag, button and keyboard votes, undo, persistence, JSON import/export, the two framing modes, Te Reo, mobile width and absence of angle controls. Outputs go to a temporary directory or `--output`. Chrome and Playwright are required. Completed-deck and revisit behaviour were also checked in the browser.
+
+## Applied review — 10 November 2026
+
+The exported review covered all 47 live scenes: 13 kept and 34 rejected. All 47 render fingerprints matched before applying the decisions. The 34 rejected scenes were deactivated; the 13 kept scenes remain active. The 16 previously archived, unreviewed scenes retain their prior status. No image pixels or geometry were changed. A compact receipt with the export digest and selected IDs is in `scene-review-20261110-applied.json`; the raw export is not published.
+
+Validation covered three complete 13-scene cycles with fresh, blocked and stale 47-scene browser storage, plus an actual browser shuffle cycle. No rejected scene appeared, each cycle visited all 13 kept scenes once, and adjacent visits did not repeat the central photograph. The swipe-review regression also passed. Previously reviewed scenes remain available in the reviewer even when later archived.

@@ -5,6 +5,7 @@ from playwright.sync_api import sync_playwright
 from PIL import Image,ImageDraw,ImageFont
 base=sys.argv[1] if len(sys.argv)>1 else 'http://127.0.0.1:8735'
 out=Path('/tmp/fifteen-options-browser');out.mkdir(exist_ok=True);ids=[s['id']for s in json.loads(Path(__file__).with_name('scenes.json').read_text())if s.get('review_batch')=='fifteen-20261109'];rows=[];errors=[]
+active_count=sum(s.get('active') is not False for s in json.loads(Path(__file__).with_name('scenes.json').read_text()))
 with sync_playwright() as p:
  b=p.chromium.launch(channel='chrome')
  for W,H,profile in [(1512,982,'wide'),(390,844,'portrait')]:
@@ -30,11 +31,11 @@ with sync_playwright() as p:
  q.locator('#portrait').click();q.wait_for_function('cards.filter(c=>c.seen).every(c=>c.frame.classList.contains("portrait"))');q.locator('#framing').click();q.wait_for_timeout(200)
  q.locator('#wide').click();q.wait_for_function('cards.filter(c=>c.seen).every(c=>!c.frame.classList.contains("portrait"))')
  q.screenshot(scale="css",animations="disabled",path=str(out/'gallery.png'));assert not q.evaluate('document.documentElement.scrollWidth>innerWidth')
- # The approved homepage rotation stays unchanged; review options are isolated.
- q.goto(base+'/');q.wait_for_selector('.stage[data-ready=true]');assert q.evaluate('openings.length')==47
+ # Review options are isolated from the currently selected homepage rotation.
+ q.goto(base+'/');q.wait_for_selector('.stage[data-ready=true]');assert q.evaluate('openings.length')==active_count
  c.close();b.close()
 assert not errors,errors
-Path(__file__).with_name('qa').joinpath('fifteen-options-browser-checks.json').write_text(json.dumps({'options':15,'layouts':rows,'gallery_profiles':True,'gallery_framing':True,'existing_rotation':47,'page_errors':errors},indent=2)+'\n')
+Path(__file__).with_name('qa').joinpath('fifteen-options-browser-checks.json').write_text(json.dumps({'options':15,'layouts':rows,'gallery_profiles':True,'gallery_framing':True,'existing_rotation':active_count,'page_errors':errors},indent=2)+'\n')
 # Five review sheets, each showing actual browser desktop and phone renders.
 font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',18)
 for start in range(0,15,3):
@@ -43,4 +44,4 @@ for start in range(0,15,3):
   a=Image.open(out/f'{id}-wide-settled.png');a.thumbnail((870,550));sheet.paste(a,(0,row*590+25))
   a=Image.open(out/f'{id}-portrait-settled.png');a.thumbnail((260,550));sheet.paste(a,(900,row*590+25));d.text((8,row*590),f'{start+row+1:02d}  {id}',font=font,fill='#242a26')
  sheet.save(out/f'review-{start//3+1}.jpg',quality=94)
-print('PASS15options30layouts, gallery controls, original47-scene rotation, zero page errors')
+print(f'PASS15options30layouts, gallery controls, current {active_count}-scene rotation, zero page errors')

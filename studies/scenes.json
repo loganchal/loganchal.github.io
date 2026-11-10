@@ -76,7 +76,8 @@
       "engraving",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "night-archive",
@@ -312,7 +313,8 @@
       "ceramic",
       "space",
       "engraving"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "night-gradient",
@@ -471,7 +473,8 @@
       "engraving",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "glaze-dawn",
@@ -551,7 +554,8 @@
       "ceramic",
       "space",
       "engraving"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "prism-dawn",
@@ -631,7 +635,8 @@
       "optics",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "woven-dawn",
@@ -871,7 +876,8 @@
       "engraving",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "lion-earth",
@@ -954,7 +960,8 @@
       "engraving",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "prism-earth",
@@ -1276,7 +1283,8 @@
       "mineral",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "facets-eclipse",
@@ -1363,7 +1371,8 @@
       "microscopy",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "atlantic-cobalt",
@@ -1446,7 +1455,8 @@
       "mineral",
       "space",
       "ceramic"
-    ]
+    ],
+    "active": false
   },
   {
     "id": "celestial-eclipse",
@@ -1533,7 +1543,8 @@
     "portrait_density": 1.5,
     "horizon": 0.53,
     "gap": "glow",
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "celestial-dawn",
@@ -1619,7 +1630,8 @@
     "horizon": 0.53,
     "gap": "glow",
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "solar-horizon",
@@ -1706,7 +1718,8 @@
     ],
     "gap": "glow",
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "apollo-earth",
@@ -1863,7 +1876,8 @@
     ],
     "gap": "glow",
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "sunlit-earth",
@@ -1980,7 +1994,8 @@
     ],
     "gap": "glow",
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "patina-airglow",
@@ -2113,7 +2128,8 @@
     ],
     "lead": "iss073e0830977",
     "finalInset": 18,
-    "title": "Bronze, green airglow & polarized fossil"
+    "title": "Bronze, green airglow & polarized fossil",
+    "active": false
   },
   {
     "id": "silver-earth",
@@ -2265,7 +2281,8 @@
     ],
     "lead": "as17-148-22718",
     "finalInset": 18,
-    "title": "Celestial engraving, Earth & silver"
+    "title": "Celestial engraving, Earth & silver",
+    "active": false
   },
   {
     "id": "milky-airglow",
@@ -2399,7 +2416,8 @@
     "cycle_expansion": true,
     "fresh_family": true,
     "gap": "glow",
-    "lead": "iss073e0830977"
+    "lead": "iss073e0830977",
+    "active": false
   },
   {
     "id": "eimmart-earth",
@@ -2560,7 +2578,8 @@
     "cycle_expansion": true,
     "fresh_family": true,
     "gap": "glow",
-    "lead": "as17-148-22718"
+    "lead": "as17-148-22718",
+    "active": false
   },
   {
     "id": "eimmart-earth-m10",
@@ -2721,7 +2740,8 @@
     "cycle_expansion": true,
     "fresh_family": true,
     "gap": "glow",
-    "lead": "as17-148-22718"
+    "lead": "as17-148-22718",
+    "active": false
   },
   {
     "id": "brunacci-earth",
@@ -3039,7 +3059,8 @@
     ],
     "gap": "glow",
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "lion-dawn-m6",
@@ -3123,7 +3144,8 @@
       "ceramic"
     ],
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "celestial-eclipse-m3",
@@ -3210,7 +3232,8 @@
     "portrait_density": 1.5,
     "horizon": 0.53,
     "gap": "glow",
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "celestial-eclipse-p3",
@@ -3297,7 +3320,8 @@
     "portrait_density": 1.5,
     "horizon": 0.53,
     "gap": "glow",
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "lion-dawn-p6",
@@ -3381,7 +3405,8 @@
       "ceramic"
     ],
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "apollo-earth-p12",
@@ -3539,7 +3564,8 @@
     ],
     "gap": "glow",
     "cycle_expansion": true,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "woven-planisphere-dawn",
@@ -3629,7 +3655,8 @@
     "end": 18,
     "lead": "iss072e340644",
     "fresh_family": true,
-    "cycle_expansion": true
+    "cycle_expansion": true,
+    "active": false
   },
   {
     "id": "silver-planisphere-dawn",
@@ -3715,7 +3742,8 @@
     "end": 18,
     "lead": "iss072e340644",
     "fresh_family": true,
-    "cycle_expansion": true
+    "cycle_expansion": true,
+    "active": false
   },
   {
     "id": "cobalt-cloud-earth",
@@ -3803,7 +3831,8 @@
     "finalInset": 18,
     "end": 18,
     "lead": "iss073e0111251",
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "blue-ocean-twilight",
@@ -3891,7 +3920,8 @@
     "finalInset": 18,
     "end": 18,
     "lead": "iss073e1198911",
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "pacific-ocean",
@@ -4027,7 +4057,8 @@
     "finalInset": 18,
     "title": "Bronze, Pacific Ocean & polarized fossil",
     "end": 18,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "polar-ground",
@@ -4164,7 +4195,8 @@
     "gap": "glow",
     "lead": "iss066e023323",
     "end": 18,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "golden-stairs-earth",
@@ -5600,7 +5632,8 @@
       }
     ],
     "lead": "art002e023575",
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "bronze-ocean",
@@ -7051,7 +7084,8 @@
     "portrait_density": 1.35,
     "horizon": 0.25,
     "portrait_horizon": 0.3,
-    "fresh_family": true
+    "fresh_family": true,
+    "active": false
   },
   {
     "id": "astrolabe-stairs",

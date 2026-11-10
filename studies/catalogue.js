@@ -11,6 +11,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -18,14 +19,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/observatory/0-wide-3840.webp?v=2f03a7a152b2",
-        "studies/scenes/observatory/1-wide-3840.webp?v=2f03a7a152b2",
-        "studies/scenes/observatory/2-wide-3840.webp?v=2f03a7a152b2"
+        "studies/scenes/observatory/0-wide-3840.webp?v=fe18d9c38492",
+        "studies/scenes/observatory/1-wide-3840.webp?v=fe18d9c38492",
+        "studies/scenes/observatory/2-wide-3840.webp?v=fe18d9c38492"
       ],
       "portrait": [
-        "studies/scenes/observatory/0-portrait-1843.webp?v=2f03a7a152b2",
-        "studies/scenes/observatory/1-portrait-1843.webp?v=2f03a7a152b2",
-        "studies/scenes/observatory/2-portrait-1843.webp?v=2f03a7a152b2"
+        "studies/scenes/observatory/0-portrait-1843.webp?v=fe18d9c38492",
+        "studies/scenes/observatory/1-portrait-1843.webp?v=fe18d9c38492",
+        "studies/scenes/observatory/2-portrait-1843.webp?v=fe18d9c38492"
       ]
     },
     "delivery": {
@@ -605,6 +606,7 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "active": false,
     "subjects": [
       "vessel",
       "celestial-horizon",
@@ -612,14 +614,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/porcelain-earth/0-wide-3840.webp?v=465e34a2cdb1",
-        "studies/scenes/porcelain-earth/1-wide-3840.webp?v=465e34a2cdb1",
-        "studies/scenes/porcelain-earth/2-wide-3840.webp?v=465e34a2cdb1"
+        "studies/scenes/porcelain-earth/0-wide-3840.webp?v=a8443683442c",
+        "studies/scenes/porcelain-earth/1-wide-3840.webp?v=a8443683442c",
+        "studies/scenes/porcelain-earth/2-wide-3840.webp?v=a8443683442c"
       ],
       "portrait": [
-        "studies/scenes/porcelain-earth/0-portrait-1843.webp?v=465e34a2cdb1",
-        "studies/scenes/porcelain-earth/1-portrait-1843.webp?v=465e34a2cdb1",
-        "studies/scenes/porcelain-earth/2-portrait-1843.webp?v=465e34a2cdb1"
+        "studies/scenes/porcelain-earth/0-portrait-1843.webp?v=a8443683442c",
+        "studies/scenes/porcelain-earth/1-portrait-1843.webp?v=a8443683442c",
+        "studies/scenes/porcelain-earth/2-portrait-1843.webp?v=a8443683442c"
       ]
     },
     "delivery": {
@@ -1001,6 +1003,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -1008,14 +1011,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/lion-dawn/0-wide-3840.webp?v=eee2a44f8e92",
-        "studies/scenes/lion-dawn/1-wide-3840.webp?v=eee2a44f8e92",
-        "studies/scenes/lion-dawn/2-wide-3840.webp?v=eee2a44f8e92"
+        "studies/scenes/lion-dawn/0-wide-3840.webp?v=b9bd6bf5a356",
+        "studies/scenes/lion-dawn/1-wide-3840.webp?v=b9bd6bf5a356",
+        "studies/scenes/lion-dawn/2-wide-3840.webp?v=b9bd6bf5a356"
       ],
       "portrait": [
-        "studies/scenes/lion-dawn/0-portrait-1843.webp?v=eee2a44f8e92",
-        "studies/scenes/lion-dawn/1-portrait-1843.webp?v=eee2a44f8e92",
-        "studies/scenes/lion-dawn/2-portrait-1843.webp?v=eee2a44f8e92"
+        "studies/scenes/lion-dawn/0-portrait-1843.webp?v=b9bd6bf5a356",
+        "studies/scenes/lion-dawn/1-portrait-1843.webp?v=b9bd6bf5a356",
+        "studies/scenes/lion-dawn/2-portrait-1843.webp?v=b9bd6bf5a356"
       ]
     },
     "delivery": {
@@ -1199,6 +1202,7 @@ const openingScenes = [
       "space",
       "engraving"
     ],
+    "active": false,
     "subjects": [
       "vessel",
       "celestial-horizon",
@@ -1206,14 +1210,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/glaze-dawn/0-wide-3840.webp?v=ff9f228bb34e",
-        "studies/scenes/glaze-dawn/1-wide-3840.webp?v=ff9f228bb34e",
-        "studies/scenes/glaze-dawn/2-wide-3840.webp?v=ff9f228bb34e"
+        "studies/scenes/glaze-dawn/0-wide-3840.webp?v=a858f7097121",
+        "studies/scenes/glaze-dawn/1-wide-3840.webp?v=a858f7097121",
+        "studies/scenes/glaze-dawn/2-wide-3840.webp?v=a858f7097121"
       ],
       "portrait": [
-        "studies/scenes/glaze-dawn/0-portrait-1843.webp?v=ff9f228bb34e",
-        "studies/scenes/glaze-dawn/1-portrait-1843.webp?v=ff9f228bb34e",
-        "studies/scenes/glaze-dawn/2-portrait-1843.webp?v=ff9f228bb34e"
+        "studies/scenes/glaze-dawn/0-portrait-1843.webp?v=a858f7097121",
+        "studies/scenes/glaze-dawn/1-portrait-1843.webp?v=a858f7097121",
+        "studies/scenes/glaze-dawn/2-portrait-1843.webp?v=a858f7097121"
       ]
     },
     "delivery": {
@@ -1397,6 +1401,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "optical-glass",
       "celestial-horizon",
@@ -1404,14 +1409,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/prism-dawn/0-wide-3680.webp?v=47c46699df6b",
-        "studies/scenes/prism-dawn/1-wide-3680.webp?v=47c46699df6b",
-        "studies/scenes/prism-dawn/2-wide-3680.webp?v=47c46699df6b"
+        "studies/scenes/prism-dawn/0-wide-3680.webp?v=343af453c2ab",
+        "studies/scenes/prism-dawn/1-wide-3680.webp?v=343af453c2ab",
+        "studies/scenes/prism-dawn/2-wide-3680.webp?v=343af453c2ab"
       ],
       "portrait": [
-        "studies/scenes/prism-dawn/0-portrait-1766.webp?v=47c46699df6b",
-        "studies/scenes/prism-dawn/1-portrait-1766.webp?v=47c46699df6b",
-        "studies/scenes/prism-dawn/2-portrait-1766.webp?v=47c46699df6b"
+        "studies/scenes/prism-dawn/0-portrait-1766.webp?v=343af453c2ab",
+        "studies/scenes/prism-dawn/1-portrait-1766.webp?v=343af453c2ab",
+        "studies/scenes/prism-dawn/2-portrait-1766.webp?v=343af453c2ab"
       ]
     },
     "delivery": {
@@ -1953,6 +1958,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -1960,14 +1966,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/lion-eclipse/0-wide-3328.webp?v=bd32bb545085",
-        "studies/scenes/lion-eclipse/1-wide-3328.webp?v=bd32bb545085",
-        "studies/scenes/lion-eclipse/2-wide-3328.webp?v=bd32bb545085"
+        "studies/scenes/lion-eclipse/0-wide-3328.webp?v=f6859eede427",
+        "studies/scenes/lion-eclipse/1-wide-3328.webp?v=f6859eede427",
+        "studies/scenes/lion-eclipse/2-wide-3328.webp?v=f6859eede427"
       ],
       "portrait": [
-        "studies/scenes/lion-eclipse/0-portrait-1597.webp?v=bd32bb545085",
-        "studies/scenes/lion-eclipse/1-portrait-1597.webp?v=bd32bb545085",
-        "studies/scenes/lion-eclipse/2-portrait-1597.webp?v=bd32bb545085"
+        "studies/scenes/lion-eclipse/0-portrait-1597.webp?v=f6859eede427",
+        "studies/scenes/lion-eclipse/1-portrait-1597.webp?v=f6859eede427",
+        "studies/scenes/lion-eclipse/2-portrait-1597.webp?v=f6859eede427"
       ]
     },
     "delivery": {
@@ -2113,6 +2119,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -2120,14 +2127,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/lion-earth/0-wide-3840.webp?v=9c195f689a98",
-        "studies/scenes/lion-earth/1-wide-3840.webp?v=9c195f689a98",
-        "studies/scenes/lion-earth/2-wide-3840.webp?v=9c195f689a98"
+        "studies/scenes/lion-earth/0-wide-3840.webp?v=2cd35b9133e5",
+        "studies/scenes/lion-earth/1-wide-3840.webp?v=2cd35b9133e5",
+        "studies/scenes/lion-earth/2-wide-3840.webp?v=2cd35b9133e5"
       ],
       "portrait": [
-        "studies/scenes/lion-earth/0-portrait-1843.webp?v=9c195f689a98",
-        "studies/scenes/lion-earth/1-portrait-1843.webp?v=9c195f689a98",
-        "studies/scenes/lion-earth/2-portrait-1843.webp?v=9c195f689a98"
+        "studies/scenes/lion-earth/0-portrait-1843.webp?v=2cd35b9133e5",
+        "studies/scenes/lion-earth/1-portrait-1843.webp?v=2cd35b9133e5",
+        "studies/scenes/lion-earth/2-portrait-1843.webp?v=2cd35b9133e5"
       ]
     },
     "delivery": {
@@ -2907,6 +2914,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "shell-specimen",
       "celestial-horizon",
@@ -2914,14 +2922,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/atlantic-spectrum/0-wide-3840.webp?v=b02a060509c7",
-        "studies/scenes/atlantic-spectrum/1-wide-3840.webp?v=b02a060509c7",
-        "studies/scenes/atlantic-spectrum/2-wide-3840.webp?v=b02a060509c7"
+        "studies/scenes/atlantic-spectrum/0-wide-3840.webp?v=6fbe46919137",
+        "studies/scenes/atlantic-spectrum/1-wide-3840.webp?v=6fbe46919137",
+        "studies/scenes/atlantic-spectrum/2-wide-3840.webp?v=6fbe46919137"
       ],
       "portrait": [
-        "studies/scenes/atlantic-spectrum/0-portrait-1382.webp?v=b02a060509c7",
-        "studies/scenes/atlantic-spectrum/1-portrait-1382.webp?v=b02a060509c7",
-        "studies/scenes/atlantic-spectrum/2-portrait-1382.webp?v=b02a060509c7"
+        "studies/scenes/atlantic-spectrum/0-portrait-1382.webp?v=6fbe46919137",
+        "studies/scenes/atlantic-spectrum/1-portrait-1382.webp?v=6fbe46919137",
+        "studies/scenes/atlantic-spectrum/2-portrait-1382.webp?v=6fbe46919137"
       ]
     },
     "delivery": {
@@ -3082,6 +3090,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "compound-eye",
       "celestial-horizon",
@@ -3089,14 +3098,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/facets-eclipse/0-wide-3200.webp?v=3071d52bbf9d",
-        "studies/scenes/facets-eclipse/1-wide-3200.webp?v=3071d52bbf9d",
-        "studies/scenes/facets-eclipse/2-wide-3200.webp?v=3071d52bbf9d"
+        "studies/scenes/facets-eclipse/0-wide-3200.webp?v=5c86b3400f9f",
+        "studies/scenes/facets-eclipse/1-wide-3200.webp?v=5c86b3400f9f",
+        "studies/scenes/facets-eclipse/2-wide-3200.webp?v=5c86b3400f9f"
       ],
       "portrait": [
-        "studies/scenes/facets-eclipse/0-portrait-1152.webp?v=3071d52bbf9d",
-        "studies/scenes/facets-eclipse/1-portrait-1152.webp?v=3071d52bbf9d",
-        "studies/scenes/facets-eclipse/2-portrait-1152.webp?v=3071d52bbf9d"
+        "studies/scenes/facets-eclipse/0-portrait-1152.webp?v=5c86b3400f9f",
+        "studies/scenes/facets-eclipse/1-portrait-1152.webp?v=5c86b3400f9f",
+        "studies/scenes/facets-eclipse/2-portrait-1152.webp?v=5c86b3400f9f"
       ]
     },
     "delivery": {
@@ -3219,6 +3228,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "shell-specimen",
       "celestial-horizon",
@@ -3226,14 +3236,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/atlantic-cobalt/0-wide-3840.webp?v=f2d0aea3f37e",
-        "studies/scenes/atlantic-cobalt/1-wide-3840.webp?v=f2d0aea3f37e",
-        "studies/scenes/atlantic-cobalt/2-wide-3840.webp?v=f2d0aea3f37e"
+        "studies/scenes/atlantic-cobalt/0-wide-3840.webp?v=ea952abacfad",
+        "studies/scenes/atlantic-cobalt/1-wide-3840.webp?v=ea952abacfad",
+        "studies/scenes/atlantic-cobalt/2-wide-3840.webp?v=ea952abacfad"
       ],
       "portrait": [
-        "studies/scenes/atlantic-cobalt/0-portrait-1382.webp?v=f2d0aea3f37e",
-        "studies/scenes/atlantic-cobalt/1-portrait-1382.webp?v=f2d0aea3f37e",
-        "studies/scenes/atlantic-cobalt/2-portrait-1382.webp?v=f2d0aea3f37e"
+        "studies/scenes/atlantic-cobalt/0-portrait-1382.webp?v=ea952abacfad",
+        "studies/scenes/atlantic-cobalt/1-portrait-1382.webp?v=ea952abacfad",
+        "studies/scenes/atlantic-cobalt/2-portrait-1382.webp?v=ea952abacfad"
       ]
     },
     "delivery": {
@@ -3395,6 +3405,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -3402,14 +3413,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/celestial-eclipse/0-wide-3200.webp?v=b9f4d3e0f680",
-        "studies/scenes/celestial-eclipse/1-wide-3200.webp?v=b9f4d3e0f680",
-        "studies/scenes/celestial-eclipse/2-wide-3200.webp?v=b9f4d3e0f680"
+        "studies/scenes/celestial-eclipse/0-wide-3200.webp?v=69dac4e64d21",
+        "studies/scenes/celestial-eclipse/1-wide-3200.webp?v=69dac4e64d21",
+        "studies/scenes/celestial-eclipse/2-wide-3200.webp?v=69dac4e64d21"
       ],
       "portrait": [
-        "studies/scenes/celestial-eclipse/0-portrait-1152.webp?v=b9f4d3e0f680",
-        "studies/scenes/celestial-eclipse/1-portrait-1152.webp?v=b9f4d3e0f680",
-        "studies/scenes/celestial-eclipse/2-portrait-1152.webp?v=b9f4d3e0f680"
+        "studies/scenes/celestial-eclipse/0-portrait-1152.webp?v=69dac4e64d21",
+        "studies/scenes/celestial-eclipse/1-portrait-1152.webp?v=69dac4e64d21",
+        "studies/scenes/celestial-eclipse/2-portrait-1152.webp?v=69dac4e64d21"
       ]
     },
     "delivery": {
@@ -3533,6 +3544,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -3540,14 +3552,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/celestial-dawn/0-wide-3200.webp?v=9fabf03332ec",
-        "studies/scenes/celestial-dawn/1-wide-3200.webp?v=9fabf03332ec",
-        "studies/scenes/celestial-dawn/2-wide-3200.webp?v=9fabf03332ec"
+        "studies/scenes/celestial-dawn/0-wide-3200.webp?v=9d13e1c970ee",
+        "studies/scenes/celestial-dawn/1-wide-3200.webp?v=9d13e1c970ee",
+        "studies/scenes/celestial-dawn/2-wide-3200.webp?v=9d13e1c970ee"
       ],
       "portrait": [
-        "studies/scenes/celestial-dawn/0-portrait-1152.webp?v=9fabf03332ec",
-        "studies/scenes/celestial-dawn/1-portrait-1152.webp?v=9fabf03332ec",
-        "studies/scenes/celestial-dawn/2-portrait-1152.webp?v=9fabf03332ec"
+        "studies/scenes/celestial-dawn/0-portrait-1152.webp?v=9d13e1c970ee",
+        "studies/scenes/celestial-dawn/1-portrait-1152.webp?v=9d13e1c970ee",
+        "studies/scenes/celestial-dawn/2-portrait-1152.webp?v=9d13e1c970ee"
       ]
     },
     "delivery": {
@@ -3671,6 +3683,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -3678,14 +3691,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/solar-horizon/0-wide-3360.webp?v=767a44a22773",
-        "studies/scenes/solar-horizon/1-wide-3360.webp?v=767a44a22773",
-        "studies/scenes/solar-horizon/2-wide-3360.webp?v=767a44a22773"
+        "studies/scenes/solar-horizon/0-wide-3360.webp?v=02ee14a07991",
+        "studies/scenes/solar-horizon/1-wide-3360.webp?v=02ee14a07991",
+        "studies/scenes/solar-horizon/2-wide-3360.webp?v=02ee14a07991"
       ],
       "portrait": [
-        "studies/scenes/solar-horizon/0-portrait-1152.webp?v=767a44a22773",
-        "studies/scenes/solar-horizon/1-portrait-1152.webp?v=767a44a22773",
-        "studies/scenes/solar-horizon/2-portrait-1152.webp?v=767a44a22773"
+        "studies/scenes/solar-horizon/0-portrait-1152.webp?v=02ee14a07991",
+        "studies/scenes/solar-horizon/1-portrait-1152.webp?v=02ee14a07991",
+        "studies/scenes/solar-horizon/2-portrait-1152.webp?v=02ee14a07991"
       ]
     },
     "delivery": {
@@ -3809,6 +3822,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -3816,14 +3830,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/apollo-earth/0-wide-3840.webp?v=664499863907",
-        "studies/scenes/apollo-earth/1-wide-3840.webp?v=664499863907",
-        "studies/scenes/apollo-earth/2-wide-3840.webp?v=664499863907"
+        "studies/scenes/apollo-earth/0-wide-3840.webp?v=02025535053c",
+        "studies/scenes/apollo-earth/1-wide-3840.webp?v=02025535053c",
+        "studies/scenes/apollo-earth/2-wide-3840.webp?v=02025535053c"
       ],
       "portrait": [
-        "studies/scenes/apollo-earth/0-portrait-1382.webp?v=664499863907",
-        "studies/scenes/apollo-earth/1-portrait-1382.webp?v=664499863907",
-        "studies/scenes/apollo-earth/2-portrait-1382.webp?v=664499863907"
+        "studies/scenes/apollo-earth/0-portrait-1382.webp?v=02025535053c",
+        "studies/scenes/apollo-earth/1-portrait-1382.webp?v=02025535053c",
+        "studies/scenes/apollo-earth/2-portrait-1382.webp?v=02025535053c"
       ]
     },
     "delivery": {
@@ -3985,6 +3999,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -3992,14 +4007,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/sunlit-earth/0-wide-3360.webp?v=0c1a67d4f262",
-        "studies/scenes/sunlit-earth/1-wide-3360.webp?v=0c1a67d4f262",
-        "studies/scenes/sunlit-earth/2-wide-3360.webp?v=0c1a67d4f262"
+        "studies/scenes/sunlit-earth/0-wide-3360.webp?v=f5aa62f4cd4f",
+        "studies/scenes/sunlit-earth/1-wide-3360.webp?v=f5aa62f4cd4f",
+        "studies/scenes/sunlit-earth/2-wide-3360.webp?v=f5aa62f4cd4f"
       ],
       "portrait": [
-        "studies/scenes/sunlit-earth/0-portrait-1613.webp?v=0c1a67d4f262",
-        "studies/scenes/sunlit-earth/1-portrait-1613.webp?v=0c1a67d4f262",
-        "studies/scenes/sunlit-earth/2-portrait-1613.webp?v=0c1a67d4f262"
+        "studies/scenes/sunlit-earth/0-portrait-1613.webp?v=f5aa62f4cd4f",
+        "studies/scenes/sunlit-earth/1-portrait-1613.webp?v=f5aa62f4cd4f",
+        "studies/scenes/sunlit-earth/2-portrait-1613.webp?v=f5aa62f4cd4f"
       ]
     },
     "delivery": {
@@ -4148,6 +4163,7 @@ const openingScenes = [
       "space",
       "mineral"
     ],
+    "active": false,
     "subjects": [
       "vessel",
       "celestial-horizon",
@@ -4155,14 +4171,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/patina-airglow/0-wide-3840.webp?v=2d725f0ae2e7",
-        "studies/scenes/patina-airglow/1-wide-3840.webp?v=2d725f0ae2e7",
-        "studies/scenes/patina-airglow/2-wide-3840.webp?v=2d725f0ae2e7"
+        "studies/scenes/patina-airglow/0-wide-3840.webp?v=73e2c9fbdecc",
+        "studies/scenes/patina-airglow/1-wide-3840.webp?v=73e2c9fbdecc",
+        "studies/scenes/patina-airglow/2-wide-3840.webp?v=73e2c9fbdecc"
       ],
       "portrait": [
-        "studies/scenes/patina-airglow/0-portrait-1536.webp?v=2d725f0ae2e7",
-        "studies/scenes/patina-airglow/1-portrait-1536.webp?v=2d725f0ae2e7",
-        "studies/scenes/patina-airglow/2-portrait-1536.webp?v=2d725f0ae2e7"
+        "studies/scenes/patina-airglow/0-portrait-1536.webp?v=73e2c9fbdecc",
+        "studies/scenes/patina-airglow/1-portrait-1536.webp?v=73e2c9fbdecc",
+        "studies/scenes/patina-airglow/2-portrait-1536.webp?v=73e2c9fbdecc"
       ]
     },
     "delivery": {
@@ -4324,6 +4340,7 @@ const openingScenes = [
       "space",
       "metal"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -4331,14 +4348,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/silver-earth/0-wide-3360.webp?v=30d07d54d7c7",
-        "studies/scenes/silver-earth/1-wide-3360.webp?v=30d07d54d7c7",
-        "studies/scenes/silver-earth/2-wide-3360.webp?v=30d07d54d7c7"
+        "studies/scenes/silver-earth/0-wide-3360.webp?v=547b4bb861f3",
+        "studies/scenes/silver-earth/1-wide-3360.webp?v=547b4bb861f3",
+        "studies/scenes/silver-earth/2-wide-3360.webp?v=547b4bb861f3"
       ],
       "portrait": [
-        "studies/scenes/silver-earth/0-portrait-1152.webp?v=30d07d54d7c7",
-        "studies/scenes/silver-earth/1-portrait-1152.webp?v=30d07d54d7c7",
-        "studies/scenes/silver-earth/2-portrait-1152.webp?v=30d07d54d7c7"
+        "studies/scenes/silver-earth/0-portrait-1152.webp?v=547b4bb861f3",
+        "studies/scenes/silver-earth/1-portrait-1152.webp?v=547b4bb861f3",
+        "studies/scenes/silver-earth/2-portrait-1152.webp?v=547b4bb861f3"
       ]
     },
     "delivery": {
@@ -4462,6 +4479,7 @@ const openingScenes = [
       "space",
       "mineral"
     ],
+    "active": false,
     "subjects": [
       "vessel",
       "celestial-horizon",
@@ -4469,14 +4487,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/milky-airglow/0-wide-3200.webp?v=94627b7cd87e",
-        "studies/scenes/milky-airglow/1-wide-3200.webp?v=94627b7cd87e",
-        "studies/scenes/milky-airglow/2-wide-3200.webp?v=94627b7cd87e"
+        "studies/scenes/milky-airglow/0-wide-3200.webp?v=74d2351c8b65",
+        "studies/scenes/milky-airglow/1-wide-3200.webp?v=74d2351c8b65",
+        "studies/scenes/milky-airglow/2-wide-3200.webp?v=74d2351c8b65"
       ],
       "portrait": [
-        "studies/scenes/milky-airglow/0-portrait-1536.webp?v=94627b7cd87e",
-        "studies/scenes/milky-airglow/1-portrait-1536.webp?v=94627b7cd87e",
-        "studies/scenes/milky-airglow/2-portrait-1536.webp?v=94627b7cd87e"
+        "studies/scenes/milky-airglow/0-portrait-1536.webp?v=74d2351c8b65",
+        "studies/scenes/milky-airglow/1-portrait-1536.webp?v=74d2351c8b65",
+        "studies/scenes/milky-airglow/2-portrait-1536.webp?v=74d2351c8b65"
       ]
     },
     "delivery": {
@@ -4625,6 +4643,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -4632,14 +4651,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/eimmart-earth/0-wide-3280.webp?v=c2a5a4c39232",
-        "studies/scenes/eimmart-earth/1-wide-3280.webp?v=c2a5a4c39232",
-        "studies/scenes/eimmart-earth/2-wide-3280.webp?v=c2a5a4c39232"
+        "studies/scenes/eimmart-earth/0-wide-3280.webp?v=c1b275e0dbf4",
+        "studies/scenes/eimmart-earth/1-wide-3280.webp?v=c1b275e0dbf4",
+        "studies/scenes/eimmart-earth/2-wide-3280.webp?v=c1b275e0dbf4"
       ],
       "portrait": [
-        "studies/scenes/eimmart-earth/0-portrait-1152.webp?v=c2a5a4c39232",
-        "studies/scenes/eimmart-earth/1-portrait-1152.webp?v=c2a5a4c39232",
-        "studies/scenes/eimmart-earth/2-portrait-1152.webp?v=c2a5a4c39232"
+        "studies/scenes/eimmart-earth/0-portrait-1152.webp?v=c1b275e0dbf4",
+        "studies/scenes/eimmart-earth/1-portrait-1152.webp?v=c1b275e0dbf4",
+        "studies/scenes/eimmart-earth/2-portrait-1152.webp?v=c1b275e0dbf4"
       ]
     },
     "delivery": {
@@ -4763,6 +4782,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -4770,14 +4790,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/eimmart-earth-m10/0-wide-3280.webp?v=0c46265cfc53",
-        "studies/scenes/eimmart-earth-m10/1-wide-3280.webp?v=0c46265cfc53",
-        "studies/scenes/eimmart-earth-m10/2-wide-3280.webp?v=0c46265cfc53"
+        "studies/scenes/eimmart-earth-m10/0-wide-3280.webp?v=24a8b38d1ab9",
+        "studies/scenes/eimmart-earth-m10/1-wide-3280.webp?v=24a8b38d1ab9",
+        "studies/scenes/eimmart-earth-m10/2-wide-3280.webp?v=24a8b38d1ab9"
       ],
       "portrait": [
-        "studies/scenes/eimmart-earth-m10/0-portrait-1152.webp?v=0c46265cfc53",
-        "studies/scenes/eimmart-earth-m10/1-portrait-1152.webp?v=0c46265cfc53",
-        "studies/scenes/eimmart-earth-m10/2-portrait-1152.webp?v=0c46265cfc53"
+        "studies/scenes/eimmart-earth-m10/0-portrait-1152.webp?v=24a8b38d1ab9",
+        "studies/scenes/eimmart-earth-m10/1-portrait-1152.webp?v=24a8b38d1ab9",
+        "studies/scenes/eimmart-earth-m10/2-portrait-1152.webp?v=24a8b38d1ab9"
       ]
     },
     "delivery": {
@@ -5039,6 +5059,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -5046,14 +5067,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/apollo-earth-m12/0-wide-3840.webp?v=842988174da6",
-        "studies/scenes/apollo-earth-m12/1-wide-3840.webp?v=842988174da6",
-        "studies/scenes/apollo-earth-m12/2-wide-3840.webp?v=842988174da6"
+        "studies/scenes/apollo-earth-m12/0-wide-3840.webp?v=dd0e80287ca1",
+        "studies/scenes/apollo-earth-m12/1-wide-3840.webp?v=dd0e80287ca1",
+        "studies/scenes/apollo-earth-m12/2-wide-3840.webp?v=dd0e80287ca1"
       ],
       "portrait": [
-        "studies/scenes/apollo-earth-m12/0-portrait-1382.webp?v=842988174da6",
-        "studies/scenes/apollo-earth-m12/1-portrait-1382.webp?v=842988174da6",
-        "studies/scenes/apollo-earth-m12/2-portrait-1382.webp?v=842988174da6"
+        "studies/scenes/apollo-earth-m12/0-portrait-1382.webp?v=dd0e80287ca1",
+        "studies/scenes/apollo-earth-m12/1-portrait-1382.webp?v=dd0e80287ca1",
+        "studies/scenes/apollo-earth-m12/2-portrait-1382.webp?v=dd0e80287ca1"
       ]
     },
     "delivery": {
@@ -5212,6 +5233,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -5219,14 +5241,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/lion-dawn-m6/0-wide-3840.webp?v=3d40d936072c",
-        "studies/scenes/lion-dawn-m6/1-wide-3840.webp?v=3d40d936072c",
-        "studies/scenes/lion-dawn-m6/2-wide-3840.webp?v=3d40d936072c"
+        "studies/scenes/lion-dawn-m6/0-wide-3840.webp?v=c60ef15c3755",
+        "studies/scenes/lion-dawn-m6/1-wide-3840.webp?v=c60ef15c3755",
+        "studies/scenes/lion-dawn-m6/2-wide-3840.webp?v=c60ef15c3755"
       ],
       "portrait": [
-        "studies/scenes/lion-dawn-m6/0-portrait-1843.webp?v=3d40d936072c",
-        "studies/scenes/lion-dawn-m6/1-portrait-1843.webp?v=3d40d936072c",
-        "studies/scenes/lion-dawn-m6/2-portrait-1843.webp?v=3d40d936072c"
+        "studies/scenes/lion-dawn-m6/0-portrait-1843.webp?v=c60ef15c3755",
+        "studies/scenes/lion-dawn-m6/1-portrait-1843.webp?v=c60ef15c3755",
+        "studies/scenes/lion-dawn-m6/2-portrait-1843.webp?v=c60ef15c3755"
       ]
     },
     "delivery": {
@@ -5413,6 +5435,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -5420,14 +5443,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/celestial-eclipse-m3/0-wide-3200.webp?v=771054fc35b7",
-        "studies/scenes/celestial-eclipse-m3/1-wide-3200.webp?v=771054fc35b7",
-        "studies/scenes/celestial-eclipse-m3/2-wide-3200.webp?v=771054fc35b7"
+        "studies/scenes/celestial-eclipse-m3/0-wide-3200.webp?v=d0168a5c95cf",
+        "studies/scenes/celestial-eclipse-m3/1-wide-3200.webp?v=d0168a5c95cf",
+        "studies/scenes/celestial-eclipse-m3/2-wide-3200.webp?v=d0168a5c95cf"
       ],
       "portrait": [
-        "studies/scenes/celestial-eclipse-m3/0-portrait-1152.webp?v=771054fc35b7",
-        "studies/scenes/celestial-eclipse-m3/1-portrait-1152.webp?v=771054fc35b7",
-        "studies/scenes/celestial-eclipse-m3/2-portrait-1152.webp?v=771054fc35b7"
+        "studies/scenes/celestial-eclipse-m3/0-portrait-1152.webp?v=d0168a5c95cf",
+        "studies/scenes/celestial-eclipse-m3/1-portrait-1152.webp?v=d0168a5c95cf",
+        "studies/scenes/celestial-eclipse-m3/2-portrait-1152.webp?v=d0168a5c95cf"
       ]
     },
     "delivery": {
@@ -5551,6 +5574,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -5558,14 +5582,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/celestial-eclipse-p3/0-wide-3200.webp?v=697d80001966",
-        "studies/scenes/celestial-eclipse-p3/1-wide-3200.webp?v=697d80001966",
-        "studies/scenes/celestial-eclipse-p3/2-wide-3200.webp?v=697d80001966"
+        "studies/scenes/celestial-eclipse-p3/0-wide-3200.webp?v=cccf5eb943ea",
+        "studies/scenes/celestial-eclipse-p3/1-wide-3200.webp?v=cccf5eb943ea",
+        "studies/scenes/celestial-eclipse-p3/2-wide-3200.webp?v=cccf5eb943ea"
       ],
       "portrait": [
-        "studies/scenes/celestial-eclipse-p3/0-portrait-1152.webp?v=697d80001966",
-        "studies/scenes/celestial-eclipse-p3/1-portrait-1152.webp?v=697d80001966",
-        "studies/scenes/celestial-eclipse-p3/2-portrait-1152.webp?v=697d80001966"
+        "studies/scenes/celestial-eclipse-p3/0-portrait-1152.webp?v=cccf5eb943ea",
+        "studies/scenes/celestial-eclipse-p3/1-portrait-1152.webp?v=cccf5eb943ea",
+        "studies/scenes/celestial-eclipse-p3/2-portrait-1152.webp?v=cccf5eb943ea"
       ]
     },
     "delivery": {
@@ -5686,6 +5710,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -5693,14 +5718,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/lion-dawn-p6/0-wide-3840.webp?v=4d9350ab07f5",
-        "studies/scenes/lion-dawn-p6/1-wide-3840.webp?v=4d9350ab07f5",
-        "studies/scenes/lion-dawn-p6/2-wide-3840.webp?v=4d9350ab07f5"
+        "studies/scenes/lion-dawn-p6/0-wide-3840.webp?v=9235afadc5e0",
+        "studies/scenes/lion-dawn-p6/1-wide-3840.webp?v=9235afadc5e0",
+        "studies/scenes/lion-dawn-p6/2-wide-3840.webp?v=9235afadc5e0"
       ],
       "portrait": [
-        "studies/scenes/lion-dawn-p6/0-portrait-1843.webp?v=4d9350ab07f5",
-        "studies/scenes/lion-dawn-p6/1-portrait-1843.webp?v=4d9350ab07f5",
-        "studies/scenes/lion-dawn-p6/2-portrait-1843.webp?v=4d9350ab07f5"
+        "studies/scenes/lion-dawn-p6/0-portrait-1843.webp?v=9235afadc5e0",
+        "studies/scenes/lion-dawn-p6/1-portrait-1843.webp?v=9235afadc5e0",
+        "studies/scenes/lion-dawn-p6/2-portrait-1843.webp?v=9235afadc5e0"
       ]
     },
     "delivery": {
@@ -5887,6 +5912,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -5894,14 +5920,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/apollo-earth-p12/0-wide-3840.webp?v=a1591a91a220",
-        "studies/scenes/apollo-earth-p12/1-wide-3840.webp?v=a1591a91a220",
-        "studies/scenes/apollo-earth-p12/2-wide-3840.webp?v=a1591a91a220"
+        "studies/scenes/apollo-earth-p12/0-wide-3840.webp?v=a09fef73f077",
+        "studies/scenes/apollo-earth-p12/1-wide-3840.webp?v=a09fef73f077",
+        "studies/scenes/apollo-earth-p12/2-wide-3840.webp?v=a09fef73f077"
       ],
       "portrait": [
-        "studies/scenes/apollo-earth-p12/0-portrait-1382.webp?v=a1591a91a220",
-        "studies/scenes/apollo-earth-p12/1-portrait-1382.webp?v=a1591a91a220",
-        "studies/scenes/apollo-earth-p12/2-portrait-1382.webp?v=a1591a91a220"
+        "studies/scenes/apollo-earth-p12/0-portrait-1382.webp?v=a09fef73f077",
+        "studies/scenes/apollo-earth-p12/1-portrait-1382.webp?v=a09fef73f077",
+        "studies/scenes/apollo-earth-p12/2-portrait-1382.webp?v=a09fef73f077"
       ]
     },
     "delivery": {
@@ -6062,6 +6088,7 @@ const openingScenes = [
       "earth-atmosphere",
       "fibre"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -6069,14 +6096,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/woven-planisphere-dawn/0-wide-3840.webp?v=1f0dac62bf00",
-        "studies/scenes/woven-planisphere-dawn/1-wide-3840.webp?v=1f0dac62bf00",
-        "studies/scenes/woven-planisphere-dawn/2-wide-3840.webp?v=1f0dac62bf00"
+        "studies/scenes/woven-planisphere-dawn/0-wide-3840.webp?v=73ab8403c730",
+        "studies/scenes/woven-planisphere-dawn/1-wide-3840.webp?v=73ab8403c730",
+        "studies/scenes/woven-planisphere-dawn/2-wide-3840.webp?v=73ab8403c730"
       ],
       "portrait": [
-        "studies/scenes/woven-planisphere-dawn/0-portrait-1613.webp?v=1f0dac62bf00",
-        "studies/scenes/woven-planisphere-dawn/1-portrait-1613.webp?v=1f0dac62bf00",
-        "studies/scenes/woven-planisphere-dawn/2-portrait-1613.webp?v=1f0dac62bf00"
+        "studies/scenes/woven-planisphere-dawn/0-portrait-1613.webp?v=73ab8403c730",
+        "studies/scenes/woven-planisphere-dawn/1-portrait-1613.webp?v=73ab8403c730",
+        "studies/scenes/woven-planisphere-dawn/2-portrait-1613.webp?v=73ab8403c730"
       ]
     },
     "delivery": {
@@ -6237,6 +6264,7 @@ const openingScenes = [
       "earth-atmosphere",
       "metal"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -6244,14 +6272,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/silver-planisphere-dawn/0-wide-3200.webp?v=b13c15aafb32",
-        "studies/scenes/silver-planisphere-dawn/1-wide-3200.webp?v=b13c15aafb32",
-        "studies/scenes/silver-planisphere-dawn/2-wide-3200.webp?v=b13c15aafb32"
+        "studies/scenes/silver-planisphere-dawn/0-wide-3200.webp?v=9c5d2d155ff2",
+        "studies/scenes/silver-planisphere-dawn/1-wide-3200.webp?v=9c5d2d155ff2",
+        "studies/scenes/silver-planisphere-dawn/2-wide-3200.webp?v=9c5d2d155ff2"
       ],
       "portrait": [
-        "studies/scenes/silver-planisphere-dawn/0-portrait-1229.webp?v=b13c15aafb32",
-        "studies/scenes/silver-planisphere-dawn/1-portrait-1229.webp?v=b13c15aafb32",
-        "studies/scenes/silver-planisphere-dawn/2-portrait-1229.webp?v=b13c15aafb32"
+        "studies/scenes/silver-planisphere-dawn/0-portrait-1229.webp?v=9c5d2d155ff2",
+        "studies/scenes/silver-planisphere-dawn/1-portrait-1229.webp?v=9c5d2d155ff2",
+        "studies/scenes/silver-planisphere-dawn/2-portrait-1229.webp?v=9c5d2d155ff2"
       ]
     },
     "delivery": {
@@ -6399,6 +6427,7 @@ const openingScenes = [
       "earth-atmosphere",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "shell-specimen",
       "celestial-horizon",
@@ -6406,14 +6435,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/cobalt-cloud-earth/0-wide-3520.webp?v=63a87962f51b",
-        "studies/scenes/cobalt-cloud-earth/1-wide-3520.webp?v=63a87962f51b",
-        "studies/scenes/cobalt-cloud-earth/2-wide-3520.webp?v=63a87962f51b"
+        "studies/scenes/cobalt-cloud-earth/0-wide-3520.webp?v=225569552b3f",
+        "studies/scenes/cobalt-cloud-earth/1-wide-3520.webp?v=225569552b3f",
+        "studies/scenes/cobalt-cloud-earth/2-wide-3520.webp?v=225569552b3f"
       ],
       "portrait": [
-        "studies/scenes/cobalt-cloud-earth/0-portrait-1306.webp?v=63a87962f51b",
-        "studies/scenes/cobalt-cloud-earth/1-portrait-1306.webp?v=63a87962f51b",
-        "studies/scenes/cobalt-cloud-earth/2-portrait-1306.webp?v=63a87962f51b"
+        "studies/scenes/cobalt-cloud-earth/0-portrait-1306.webp?v=225569552b3f",
+        "studies/scenes/cobalt-cloud-earth/1-portrait-1306.webp?v=225569552b3f",
+        "studies/scenes/cobalt-cloud-earth/2-portrait-1306.webp?v=225569552b3f"
       ]
     },
     "delivery": {
@@ -6561,6 +6590,7 @@ const openingScenes = [
       "earth-atmosphere",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "shell-specimen",
       "celestial-horizon",
@@ -6568,14 +6598,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/blue-ocean-twilight/0-wide-3520.webp?v=ea28645adbda",
-        "studies/scenes/blue-ocean-twilight/1-wide-3520.webp?v=ea28645adbda",
-        "studies/scenes/blue-ocean-twilight/2-wide-3520.webp?v=ea28645adbda"
+        "studies/scenes/blue-ocean-twilight/0-wide-3520.webp?v=083e894e5582",
+        "studies/scenes/blue-ocean-twilight/1-wide-3520.webp?v=083e894e5582",
+        "studies/scenes/blue-ocean-twilight/2-wide-3520.webp?v=083e894e5582"
       ],
       "portrait": [
-        "studies/scenes/blue-ocean-twilight/0-portrait-1382.webp?v=ea28645adbda",
-        "studies/scenes/blue-ocean-twilight/1-portrait-1382.webp?v=ea28645adbda",
-        "studies/scenes/blue-ocean-twilight/2-portrait-1382.webp?v=ea28645adbda"
+        "studies/scenes/blue-ocean-twilight/0-portrait-1382.webp?v=083e894e5582",
+        "studies/scenes/blue-ocean-twilight/1-portrait-1382.webp?v=083e894e5582",
+        "studies/scenes/blue-ocean-twilight/2-portrait-1382.webp?v=083e894e5582"
       ]
     },
     "delivery": {
@@ -6724,6 +6754,7 @@ const openingScenes = [
       "space",
       "mineral"
     ],
+    "active": false,
     "subjects": [
       "vessel",
       "celestial-horizon",
@@ -6731,14 +6762,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/pacific-ocean/0-wide-3200.webp?v=03bc6d83bbf9",
-        "studies/scenes/pacific-ocean/1-wide-3200.webp?v=03bc6d83bbf9",
-        "studies/scenes/pacific-ocean/2-wide-3200.webp?v=03bc6d83bbf9"
+        "studies/scenes/pacific-ocean/0-wide-3200.webp?v=6e12c852b72a",
+        "studies/scenes/pacific-ocean/1-wide-3200.webp?v=6e12c852b72a",
+        "studies/scenes/pacific-ocean/2-wide-3200.webp?v=6e12c852b72a"
       ],
       "portrait": [
-        "studies/scenes/pacific-ocean/0-portrait-1037.webp?v=03bc6d83bbf9",
-        "studies/scenes/pacific-ocean/1-portrait-1037.webp?v=03bc6d83bbf9",
-        "studies/scenes/pacific-ocean/2-portrait-1037.webp?v=03bc6d83bbf9"
+        "studies/scenes/pacific-ocean/0-portrait-1037.webp?v=6e12c852b72a",
+        "studies/scenes/pacific-ocean/1-portrait-1037.webp?v=6e12c852b72a",
+        "studies/scenes/pacific-ocean/2-portrait-1037.webp?v=6e12c852b72a"
       ]
     },
     "delivery": {
@@ -6862,6 +6893,7 @@ const openingScenes = [
       "space",
       "ceramic"
     ],
+    "active": false,
     "subjects": [
       "shell-specimen",
       "celestial-horizon",
@@ -6869,14 +6901,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/polar-ground/0-wide-3200.webp?v=15afb371676f",
-        "studies/scenes/polar-ground/1-wide-3200.webp?v=15afb371676f",
-        "studies/scenes/polar-ground/2-wide-3200.webp?v=15afb371676f"
+        "studies/scenes/polar-ground/0-wide-3200.webp?v=5d509313baf1",
+        "studies/scenes/polar-ground/1-wide-3200.webp?v=5d509313baf1",
+        "studies/scenes/polar-ground/2-wide-3200.webp?v=5d509313baf1"
       ],
       "portrait": [
-        "studies/scenes/polar-ground/0-portrait-1152.webp?v=15afb371676f",
-        "studies/scenes/polar-ground/1-portrait-1152.webp?v=15afb371676f",
-        "studies/scenes/polar-ground/2-portrait-1152.webp?v=15afb371676f"
+        "studies/scenes/polar-ground/0-portrait-1152.webp?v=5d509313baf1",
+        "studies/scenes/polar-ground/1-portrait-1152.webp?v=5d509313baf1",
+        "studies/scenes/polar-ground/2-portrait-1152.webp?v=5d509313baf1"
       ]
     },
     "delivery": {
@@ -7279,6 +7311,7 @@ const openingScenes = [
       "space",
       "metal"
     ],
+    "active": false,
     "subjects": [
       "mathematical-diagram",
       "celestial-horizon",
@@ -7286,14 +7319,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/cloud-ocean-575/0-wide-3200.webp?v=f3bbd950811f",
-        "studies/scenes/cloud-ocean-575/1-wide-3200.webp?v=f3bbd950811f",
-        "studies/scenes/cloud-ocean-575/2-wide-3200.webp?v=f3bbd950811f"
+        "studies/scenes/cloud-ocean-575/0-wide-3200.webp?v=19be7e093642",
+        "studies/scenes/cloud-ocean-575/1-wide-3200.webp?v=19be7e093642",
+        "studies/scenes/cloud-ocean-575/2-wide-3200.webp?v=19be7e093642"
       ],
       "portrait": [
-        "studies/scenes/cloud-ocean-575/0-portrait-1037.webp?v=f3bbd950811f",
-        "studies/scenes/cloud-ocean-575/1-portrait-1037.webp?v=f3bbd950811f",
-        "studies/scenes/cloud-ocean-575/2-portrait-1037.webp?v=f3bbd950811f"
+        "studies/scenes/cloud-ocean-575/0-portrait-1037.webp?v=19be7e093642",
+        "studies/scenes/cloud-ocean-575/1-portrait-1037.webp?v=19be7e093642",
+        "studies/scenes/cloud-ocean-575/2-portrait-1037.webp?v=19be7e093642"
       ]
     },
     "delivery": {
@@ -7560,6 +7593,7 @@ const openingScenes = [
     "portrait_horizon": 0.3,
     "openingInset": 26,
     "portrait_openingInset": 25,
+    "active": false,
     "subjects": [
       "fossil",
       "celestial-horizon",
@@ -7567,14 +7601,14 @@ const openingScenes = [
     ],
     "assets": {
       "wide": [
-        "studies/scenes/ammonite-orbit/0-wide-2400.webp?v=862da068db90",
-        "studies/scenes/ammonite-orbit/1-wide-2400.webp?v=862da068db90",
-        "studies/scenes/ammonite-orbit/2-wide-2400.webp?v=862da068db90"
+        "studies/scenes/ammonite-orbit/0-wide-2400.webp?v=011d49cf7010",
+        "studies/scenes/ammonite-orbit/1-wide-2400.webp?v=011d49cf7010",
+        "studies/scenes/ammonite-orbit/2-wide-2400.webp?v=011d49cf7010"
       ],
       "portrait": [
-        "studies/scenes/ammonite-orbit/0-portrait-1037.webp?v=862da068db90",
-        "studies/scenes/ammonite-orbit/1-portrait-1037.webp?v=862da068db90",
-        "studies/scenes/ammonite-orbit/2-portrait-1037.webp?v=862da068db90"
+        "studies/scenes/ammonite-orbit/0-portrait-1037.webp?v=011d49cf7010",
+        "studies/scenes/ammonite-orbit/1-portrait-1037.webp?v=011d49cf7010",
+        "studies/scenes/ammonite-orbit/2-portrait-1037.webp?v=011d49cf7010"
       ]
     },
     "delivery": {
