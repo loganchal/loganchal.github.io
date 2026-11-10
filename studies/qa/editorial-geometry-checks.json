@@ -3496,8 +3496,8 @@
       17455,
       9212
     ],
-    "native_pixels_per_output_pixel": 2.7098761712717567,
-    "visible_source_clearance_px": 2089.089125463801
+    "native_pixels_per_output_pixel": 2.8302146790340115,
+    "visible_source_clearance_px": 1965.4337660664978
   },
   {
     "scene": "bode-artemis-rivals",
@@ -3534,8 +3534,8 @@
       17455,
       9212
     ],
-    "native_pixels_per_output_pixel": 2.7098761712717567,
-    "visible_source_clearance_px": 3133.7478534540464
+    "native_pixels_per_output_pixel": 2.8302146790340115,
+    "visible_source_clearance_px": 3133.2576281283327
   },
   {
     "scene": "bode-artemis-rivals",
@@ -3936,8 +3936,8 @@
       17455,
       9212
     ],
-    "native_pixels_per_output_pixel": 3.687618420111524,
-    "visible_source_clearance_px": 293.8206154513373
+    "native_pixels_per_output_pixel": 3.829450276083256,
+    "visible_source_clearance_px": 16.60858438265859
   },
   {
     "scene": "bode-earth-mirror-clock",
@@ -3948,8 +3948,8 @@
       4579,
       4579
     ],
-    "native_pixels_per_output_pixel": 1.3944584883063342,
-    "visible_source_clearance_px": -218.6130927791626
+    "native_pixels_per_output_pixel": 1.38537885193762,
+    "visible_source_clearance_px": -211.57890475207046
   },
   {
     "scene": "bode-earth-mirror-clock",
@@ -3972,8 +3972,8 @@
       17455,
       9212
     ],
-    "native_pixels_per_output_pixel": 3.734567265737944,
-    "visible_source_clearance_px": 1692.9551261924921
+    "native_pixels_per_output_pixel": 3.8782048513574634,
+    "visible_source_clearance_px": 1585.1416286249887
   },
   {
     "scene": "bode-earth-mirror-clock",
@@ -3984,8 +3984,8 @@
       4579,
       4579
     ],
-    "native_pixels_per_output_pixel": 1.4122120107269012,
-    "visible_source_clearance_px": -348.26565773861375
+    "native_pixels_per_output_pixel": 1.4030167771359,
+    "visible_source_clearance_px": -340.38727237328976
   },
   {
     "scene": "bode-earth-mirror-clock",

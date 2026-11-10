@@ -33,5 +33,10 @@
   "excluded_after_user_review": [
     "agrippa-atlas-horizon"
   ],
-  "approved_frames_identical": true
+  "approved_frames_identical": false,
+  "registration_correction": {
+    "scene": "bode-artemis-rivals",
+    "reason": "User screenshot identified gold outer edge above photographed horizon; replace inner blue/gold registration with visible outside gold/paper silhouette. Small rigid phone framing adjustment; source subjects, proportions, common target circle, photo and painting retained.",
+    "supersedes_exact_registration_freeze": true
+  }
 }

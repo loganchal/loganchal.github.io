@@ -17,4 +17,4 @@ view=view.replace('<title>Logan Chalmers','<title>Classical scene · Logan Chalm
 gallery=(root/'options/index.html').read_text().replace('options/','classical-scenes/').replace('Fifteen openings','Classical scenes').replace('Fifteen openings.','Classical scenes.').replace('Different materials, different horizons. Each composition shares one curve. Open any scene to try its full-screen entrance.','A new scene variation, followed by the two favourites. Open a composition to try the complete entrance; switch between desktop and phone framing below.')
 gallery=re.sub(r'classical-scenes/catalogue\.js\?v=[A-Za-z0-9-]+','classical-scenes/catalogue.js?v='+stamp,gallery)
 (out/'index.html').write_text(gallery)
-print('Built3completeclassicalscenes:1newvariationand2unchangedbenchmarks')
+print('Built3completeclassicalscenes:1newvariationand2favouredcompositions')

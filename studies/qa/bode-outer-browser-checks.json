@@ -1,0 +1,37 @@
+{
+  "layouts": [
+    {
+      "scene": "bode-artemis-rivals",
+      "profile": "wide",
+      "opening": true,
+      "settled": true,
+      "one_way_scroll": true,
+      "no_overflow": true
+    },
+    {
+      "scene": "bode-earth-mirror-clock",
+      "profile": "wide",
+      "opening": true,
+      "settled": true,
+      "one_way_scroll": true,
+      "no_overflow": true
+    },
+    {
+      "scene": "bode-artemis-rivals",
+      "profile": "phone",
+      "opening": true,
+      "settled": true,
+      "one_way_scroll": true,
+      "no_overflow": true
+    },
+    {
+      "scene": "bode-earth-mirror-clock",
+      "profile": "phone",
+      "opening": true,
+      "settled": true,
+      "one_way_scroll": true,
+      "no_overflow": true
+    }
+  ],
+  "page_errors": []
+}
