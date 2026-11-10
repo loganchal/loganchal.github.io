@@ -20,7 +20,7 @@
 <link href="/paintings/" rel="license"/><script defer="" src="/assets/i18n/language.js?v=20261110-review1"></script></head>
 <body>
 <a class="skip" data-i18n="skip" href="#profile">Skip to profile</a>
-<header><h1><a href="#top">Logan Chalmers</a></h1><div aria-label="Language" class="language-switch" data-i18n-aria="language" hidden="" role="group"><button aria-pressed="true" data-language="en" lang="en" type="button">EN</button><button aria-pressed="false" data-language="mi" lang="mi" type="button">Te Reo Māori</button></div></header>
+<header><div aria-label="Language" class="language-switch" data-i18n-aria="language" hidden="" role="group"><button aria-pressed="true" data-language="en" lang="en" type="button">EN</button><button aria-pressed="false" data-language="mi" lang="mi" type="button">Te Reo Māori</button></div></header>
 <main>
 <section aria-label="Research contents" data-i18n-aria="contents" id="top">
 <div class="stage">
@@ -243,7 +243,7 @@ for(const link of document.querySelectorAll('a[href="#profile"], .cover-title a[
 const header = document.querySelector('header');
 function setHeaderTone() {
   setOpening();
-  const onPaper = document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2;
+  const onPaper = document.querySelector('#research').getBoundingClientRect().top < 32;
   header.classList.toggle('on-paper', onPaper);
   header.querySelector('.language-switch').hidden = !onPaper;
 }
