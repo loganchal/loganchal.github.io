@@ -122,3 +122,7 @@ header h1{font-family:Georgia,serif}
 .tree-paper:hover .painting-credit,.tree-paper:focus-within .painting-credit{opacity:1}
 @media(hover:none){#oceanography .area-preview[data-active=true],.painting-caption{opacity:1}}
 @media(prefers-reduced-motion:reduce){#oceanography .area-preview,.painting-caption,.painting-credit{transition:none}}
+#mathematics .area-preview{opacity:0;transition:opacity 1s ease;object-position:center 42%}
+#mathematics:hover .area-preview[data-active=true],#mathematics:focus-visible .area-preview[data-active=true]{opacity:1}
+@media(hover:none){#mathematics .area-preview[data-active=true]{opacity:1}}
+@media(prefers-reduced-motion:reduce){#mathematics .area-preview{transition:none}}

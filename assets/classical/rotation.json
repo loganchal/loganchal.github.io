@@ -1,0 +1,35 @@
+[
+  {
+    "id": "musician",
+    "title": "A Musician",
+    "url": "/assets/classical/musician.webp",
+    "source": "https://collections.britishart.yale.edu/catalog/tms:503",
+    "rights": "Public domain; Yale Center for British Art",
+    "credit": "Albert Joseph Moore",
+    "source_sha256": "af87a065859a02add8ef11b83fc14e5417d1cfae5aa4fa65d3ee50f54b2d415a",
+    "width": 1600,
+    "height": 1161
+  },
+  {
+    "id": "music-lesson",
+    "title": "Music Lesson",
+    "url": "/assets/classical/music-lesson.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Music_Lesson,_1877_by_Frederic_Leighton.jpg",
+    "rights": "Public domain",
+    "credit": "Frederic Leighton",
+    "source_sha256": "93a2fa470a3782c423f00bdb16d9589cda80036ef76d6cafea33124c93999986",
+    "width": 1600,
+    "height": 1569
+  },
+  {
+    "id": "spring",
+    "title": "Spring",
+    "url": "/assets/classical/spring.webp",
+    "source": "https://www.getty.edu/art/collection/object/103RC9",
+    "rights": "Getty Open Content CC0",
+    "credit": "Lawrence Alma-Tadema",
+    "source_sha256": "b518c03f022ebac51036bbb1328f1b71b691ba0ba387b2aa6b65ac528890f5a7",
+    "width": 714,
+    "height": 1600
+  }
+]
