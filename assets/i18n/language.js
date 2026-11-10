@@ -9,11 +9,11 @@
   controls.forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.language===language)));
   // Publication metadata keeps the canonical titles; the displayed titles follow the language.
   document.querySelectorAll('.published-paper h2,.preprint-panel h3').forEach(el=>el.lang=language);
-  document.title=location.pathname.includes('mathematics')?strings.mathematics+' · Logan Chalmers':(language==='en'?originalTitle:'Logan Chalmers · Mātai aumoana me te Pāngarau');
+  document.title=location.pathname.includes('scene-review')?strings.sceneReview+' · Logan Chalmers':location.pathname.includes('mathematics')?strings.mathematics+' · Logan Chalmers':(language==='en'?originalTitle:'Logan Chalmers · Mātai aumoana me te Pāngarau');
   try{localStorage.setItem('site-language',language)}catch(_){}
   document.dispatchEvent(new CustomEvent('site-language-change',{detail:{language}}));
  }
  controls.forEach(el=>el.addEventListener('click',()=>apply(el.dataset.language)));
  window.addEventListener('storage',e=>{if(e.key==='site-language'&&['en','mi'].includes(e.newValue)&&e.newValue!==language)apply(e.newValue)});
- fetch('/assets/i18n/messages.json?v=20261110-reo1').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{messages=data;apply(language)}).catch(()=>controls.forEach(el=>el.disabled=true));
+ fetch('/assets/i18n/messages.json?v=20261110-review1').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{messages=data;apply(language)}).catch(()=>controls.forEach(el=>el.disabled=true));
 })();
