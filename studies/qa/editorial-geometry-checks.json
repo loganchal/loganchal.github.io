@@ -4594,5 +4594,81 @@
     ],
     "native_pixels_per_output_pixel": 1.1810279518581788,
     "visible_source_clearance_px": 2020.016727168375
+  },
+  {
+    "scene": "gold-earth",
+    "profile": "wide",
+    "slot": 0,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 2.2406430845714285,
+    "visible_source_clearance_px": 113.19962386078805
+  },
+  {
+    "scene": "gold-earth",
+    "profile": "wide",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.0823272280762657,
+    "visible_source_clearance_px": 197.86330146478406
+  },
+  {
+    "scene": "gold-earth",
+    "profile": "wide",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+    "source_pixels": [
+      2658,
+      4986
+    ],
+    "native_pixels_per_output_pixel": 1.024299472318768,
+    "visible_source_clearance_px": 313.48836347868996,
+    "contour_rms_artboard_px": 0.5547183956392872,
+    "contour_max_artboard_px": 2.193869918978773
+  },
+  {
+    "scene": "gold-earth",
+    "profile": "portrait",
+    "slot": 0,
+    "source": "collections/expansion-2026-11-06/historical-math/eimmart.jpg",
+    "source_pixels": [
+      15275,
+      13115
+    ],
+    "native_pixels_per_output_pixel": 2.323629865481481,
+    "visible_source_clearance_px": 1959.6225932018917
+  },
+  {
+    "scene": "gold-earth",
+    "profile": "portrait",
+    "slot": 1,
+    "source": "collections/horizons/earth-daylight/as17-148-22727.jpg",
+    "source_pixels": [
+      4579,
+      4579
+    ],
+    "native_pixels_per_output_pixel": 1.12241342170872,
+    "visible_source_clearance_px": 127.66583404050215
+  },
+  {
+    "scene": "gold-earth",
+    "profile": "portrait",
+    "slot": 2,
+    "source": "collections/neoclassical-better-2026-11-06/originals/golden-stairs.jpg",
+    "source_pixels": [
+      2658,
+      4986
+    ],
+    "native_pixels_per_output_pixel": 1.0622364898120555,
+    "visible_source_clearance_px": 692.1847492524664,
+    "contour_rms_artboard_px": 0.7132093658219407,
+    "contour_max_artboard_px": 2.820689895829851
   }
 ]

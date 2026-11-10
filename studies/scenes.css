@@ -494,3 +494,11 @@
 .stage .arc-study.facets-aurora-aratus>i:last-child{background-image:image-set(url(scenes/facets-aurora-aratus/1-portrait-768.webp?v=d53b69ac648f) 1x,url(scenes/facets-aurora-aratus/1-portrait-1152.webp?v=d53b69ac648f) 2x)}
 .stage .arc-study.facets-aurora-aratus>i:nth-child(2){background-image:image-set(url(scenes/facets-aurora-aratus/2-portrait-768.webp?v=d53b69ac648f) 1x,url(scenes/facets-aurora-aratus/2-portrait-1152.webp?v=d53b69ac648f) 2x)}
 }
+.arc-study.gold-earth>i:first-child{background-image:image-set(url(scenes/gold-earth/0-wide-1600.webp?v=da87413ace50) 1x,url(scenes/gold-earth/0-wide-3200.webp?v=da87413ace50) 2x)}
+.arc-study.gold-earth>i:last-child{background-image:image-set(url(scenes/gold-earth/1-wide-1600.webp?v=da87413ace50) 1x,url(scenes/gold-earth/1-wide-3200.webp?v=da87413ace50) 2x)}
+.arc-study.gold-earth>i:nth-child(2){background-image:image-set(url(scenes/gold-earth/2-wide-1600.webp?v=da87413ace50) 1x,url(scenes/gold-earth/2-wide-3200.webp?v=da87413ace50) 2x)}
+@media(max-aspect-ratio:1/1){
+.stage .arc-study.gold-earth>i:first-child{background-image:image-set(url(scenes/gold-earth/0-portrait-768.webp?v=da87413ace50) 1x,url(scenes/gold-earth/0-portrait-1152.webp?v=da87413ace50) 2x)}
+.stage .arc-study.gold-earth>i:last-child{background-image:image-set(url(scenes/gold-earth/1-portrait-768.webp?v=da87413ace50) 1x,url(scenes/gold-earth/1-portrait-1152.webp?v=da87413ace50) 2x)}
+.stage .arc-study.gold-earth>i:nth-child(2){background-image:image-set(url(scenes/gold-earth/2-portrait-768.webp?v=da87413ace50) 1x,url(scenes/gold-earth/2-portrait-1152.webp?v=da87413ace50) 2x)}
+}
