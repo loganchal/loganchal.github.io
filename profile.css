@@ -130,3 +130,8 @@ header h1{font-family:Georgia,serif}
 #oceanography.rotating-art .area-preview,#mathematics.rotating-art .area-preview{opacity:0}
 #oceanography.rotating-art[data-art-visible=true] .area-preview[data-active=true],#mathematics.rotating-art[data-art-visible=true] .area-preview[data-active=true]{opacity:1}
 #oceanography.rotating-art[data-art-waiting=true] .area-preview,#mathematics.rotating-art[data-art-waiting=true] .area-preview{opacity:0;transition:none}
+/* Matisse's original cut-paper swimmers run as a frieze above the colophon. */
+footer.pool-footer{display:block;position:relative;padding:0;border:0;background:var(--paper,#f7f5ee);color:var(--ink,#292d26)}
+.pool-frieze{height:clamp(200px,18vw,280px);width:100%;background-image:url('/assets/footer/matisse-swimming-pool.jpg');background-repeat:no-repeat;background-size:max(100%,1500px) auto;background-position:center 40%}
+footer.pool-footer>span{display:block;padding:22px var(--page-gutter);font:13px/1.5 Georgia,serif}
+@media(max-width:720px){.pool-frieze{height:210px;background-size:1300px auto;background-position:48% 40%}}

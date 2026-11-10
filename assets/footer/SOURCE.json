@@ -1,0 +1,10 @@
+{
+  "artist": "Henri Matisse",
+  "title": "The Swimming Pool",
+  "date": "1952",
+  "source": "https://www.moma.org/collection/works/79462",
+  "image": "https://www.moma.org/media/W1siZiIsIjI5MjQ1NSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=0e0d28654c08a271",
+  "credit": "The Museum of Modern Art, New York. Mrs. Bernard F. Gimbel Fund. \u00a9 Succession H. Matisse / Artists Rights Society (ARS), New York.",
+  "usage": "Footer displays a detail through CSS; source image preserved unchanged.",
+  "sha256": "e75b84f15ecdafeb1bbc0c7cc8e80852a000887154a1100dc267e53d74115973"
+}
