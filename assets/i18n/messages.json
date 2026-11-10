@@ -30,7 +30,7 @@
     "paper2": "Petty’s conjecture holds in Lₚ for 2 ≤ p ≤ 4: d+1 equidistant points in every dimension d",
     "paper3": "Equilateral sets in ℓₚⁿ beyond n+1: Linear excess and dimension cost",
     "paper4": "A counterexample to Kusner’s conjecture on equilateral sets",
-    "paper5": "A 32-leaf tree requiring six coordinates for an isometric ℓ∞ embedding",
+    "paper5": "Isometric embeddings of trees: why 32 leaves can require six dimensions, and bounds for every tree",
     "profilePhoto": "Logan Chalmers on a boat",
     "contents": "Research contents",
     "scenes": "Opening scenes",
@@ -99,7 +99,14 @@
     "reviewFraming": "Framing",
     "reviewScreen": "Screen",
     "reviewScene": "Scene",
-    "reviewPreview": "Opening scene preview"
+    "reviewPreview": "Opening scene preview",
+    "matrices": "Matrix theory",
+    "geometryFunctional": "Geometry and functional analysis",
+    "combinatorics": "Combinatorics",
+    "lean": "Lean formalisation",
+    "preprint": "Preprint",
+    "paper6": "Pate’s tensor-product conjecture holds in dimension three",
+    "paper7": "The Bapat–Sunder eigenvalue conjecture fails over the reals"
   },
   "mi": {
     "research": "Rangahau",
@@ -132,7 +139,7 @@
     "paper2": "Ka mana te whakapae a Petty i te Lₚ mō te 2 ≤ p ≤ 4: he d+1 ngā ira tawhiti ōrite i ia ahu d",
     "paper3": "Ngā huinga tawhiti ōrite i te ℓₚⁿ kei tua atu i te n+1: te taikaha rārangi me te utu o ngā ahu",
     "paper4": "He tauira whakahē ki te whakapae a Kusner mō ngā huinga tawhiti ōrite",
-    "paper5": "He rākau 32 ngā rau e matea ana kia ono ngā taunga mō tētahi whakaurunga tiaki-tawhiti ki te ℓ∞",
+    "paper5": "Ngā whakaurunga tiaki-tawhiti o ngā rākau: he aha e matea ai kia ono ngā ahu mō ngā rau 32, me ngā paenga mō ia rākau",
     "profilePhoto": "Ko Logan Chalmers i runga i tētahi poti",
     "contents": "Ngā kaupapa rangahau",
     "scenes": "Ngā whakaaturanga whakataki",
@@ -201,6 +208,13 @@
     "reviewFraming": "Te tāpare",
     "reviewScreen": "Mata",
     "reviewScene": "Whakaaturanga",
-    "reviewPreview": "Arokite whakaaturanga whakataki"
+    "reviewPreview": "Arokite whakaaturanga whakataki",
+    "matrices": "Te ariā matarau",
+    "geometryFunctional": "Āhuahanga me te tātari taumahi",
+    "combinatorics": "Te pāngarau pahekotanga",
+    "lean": "He whakaōkawatanga Lean",
+    "preprint": "Tuhinga tōmua",
+    "paper6": "Ka mana te whakapae a Pate mō te hua tensor i te ahu-toru",
+    "paper7": "Ka hinga te whakapae uara-eigen a Bapat–Sunder mō ngā tau tūturu"
   }
 }

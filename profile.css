@@ -182,3 +182,6 @@ header > .language-switch[hidden]{display:none}
 .area-arrow{display:flex;flex:0 0 auto;align-items:center}
 .area-arrow svg{display:block;width:44px;height:44px}
 @media(max-width:720px){.area-arrow svg{width:36px;height:36px}}
+
+.preprint-links a{display:inline-flex;align-items:center;gap:6px}
+.preprint-links svg{flex:0 0 auto}

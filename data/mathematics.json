@@ -1,16 +1,18 @@
 {
-  "verified_on": "2026-11-10",
+  "verified_on": "2026-11-11",
   "sources": [
     "https://api.crossref.org/works?filter=orcid:0009-0001-6468-3889&rows=100",
     "https://pub.orcid.org/v3.0/0009-0001-6468-3889/works",
-    "https://arxiv.org/search/math?query=Chalmers%2C+L+R&searchtype=author"
+    "https://arxiv.org/search/math?query=Chalmers%2C+L+R&searchtype=author",
+    "https://zenodo.org/api/records?q=creators.orcid:%220009-0001-6468-3889%22&size=25",
+    "https://www.researchgate.net/publication/414113736_Pate%27s_tensor-product_conjecture_holds_in_dimension_three"
   ],
   "papers": [
     {
       "id": "drury",
       "title": "A real counterexample to the Drury permanent conjecture",
       "status": "published",
-      "category": "Linear algebra",
+      "category": "Matrix theory",
       "year": 2026,
       "journal": "Electronic Journal of Linear Algebra",
       "volume": "42",
@@ -22,39 +24,102 @@
           "url": "https://doi.org/10.13001/ela.2026.10718"
         }
       ],
-      "verified_source": "https://api.crossref.org/works/10.13001/ela.2026.10718"
+      "verified_source": "https://api.crossref.org/works/10.13001/ela.2026.10718",
+      "translation_key": "paper0"
+    },
+    {
+      "id": "pate",
+      "title": "Pate’s tensor-product conjecture holds in dimension three",
+      "status": "preprint",
+      "category": "Matrix theory",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://www.researchgate.net/publication/414113736_Pate%27s_tensor-product_conjecture_holds_in_dimension_three"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/22658177"
+        }
+      ],
+      "art": "monet-japanese-bridge",
+      "translation_key": "paper6"
+    },
+    {
+      "id": "bapat-sunder",
+      "title": "The Bapat–Sunder eigenvalue conjecture fails over the reals",
+      "status": "preprint",
+      "category": "Matrix theory",
+      "year": 2026,
+      "links": [
+        {
+          "label": "OurArchive",
+          "url": "https://doi.org/10.82348/our-archive.00345"
+        }
+      ],
+      "art": "sisley-canal",
+      "translation_key": "paper7"
     },
     {
       "id": "borsuk",
       "title": "The four-dimensional Borsuk number is five or six",
       "status": "preprint",
-      "category": "Geometry",
+      "category": "Geometry and functional analysis",
       "year": 2026,
       "links": [
         {
           "label": "Preprints.org",
           "url": "https://www.preprints.org/manuscript/202611.0339"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23966881"
         }
-      ]
+      ],
+      "translation_key": "paper1"
     },
     {
       "id": "petty-lp",
       "title": "Petty’s conjecture holds in Lₚ for 2 ≤ p ≤ 4: d+1 equidistant points in every dimension d",
       "status": "preprint",
-      "category": "Geometry",
+      "category": "Geometry and functional analysis",
       "year": 2026,
       "links": [
         {
           "label": "Preprints.org",
           "url": "https://www.preprints.org/manuscript/202610.2426"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23565543"
         }
-      ]
+      ],
+      "translation_key": "paper2"
+    },
+    {
+      "id": "kusner",
+      "title": "A counterexample to Kusner’s conjecture on equilateral sets",
+      "status": "preprint",
+      "category": "Geometry and functional analysis",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2608.14013"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23786173"
+        }
+      ],
+      "translation_key": "paper4"
     },
     {
       "id": "excess",
       "title": "Equilateral sets in ℓₚⁿ beyond n+1: Linear excess and dimension cost",
       "status": "preprint",
-      "category": "Geometry",
+      "category": "Geometry and functional analysis",
       "year": 2026,
       "links": [
         {
@@ -62,36 +127,34 @@
           "url": "https://arxiv.org/abs/2610.13983"
         },
         {
-          "label": "Preprints.org",
-          "url": "https://www.preprints.org/manuscript/202610.1360"
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/22917956"
         }
-      ]
-    },
-    {
-      "id": "kusner",
-      "title": "A counterexample to Kusner’s conjecture on equilateral sets",
-      "status": "preprint",
-      "category": "Geometry",
-      "year": 2026,
-      "links": [
-        {
-          "label": "arXiv",
-          "url": "https://arxiv.org/abs/2608.14013"
-        }
-      ]
+      ],
+      "translation_key": "paper3"
     },
     {
       "id": "tree",
-      "title": "A 32-leaf tree requiring six coordinates for an isometric ℓ∞ embedding",
+      "title": "Isometric embeddings of trees: why 32 leaves can require six dimensions, and bounds for every tree",
       "status": "preprint",
-      "category": "Graph theory and metric geometry",
+      "category": "Combinatorics",
       "year": 2026,
       "links": [
         {
           "label": "arXiv",
           "url": "https://arxiv.org/abs/2608.16288"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23664556"
         }
-      ]
+      ],
+      "translation_key": "paper5"
     }
+  ],
+  "category_order": [
+    "Matrix theory",
+    "Geometry and functional analysis",
+    "Combinatorics"
   ]
 }

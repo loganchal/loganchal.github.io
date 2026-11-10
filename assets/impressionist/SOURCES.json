@@ -94,5 +94,29 @@
     ],
     "note": "Auction close-up photograph of the open fruit, converted to WebP without enlargement. Full framed view retained separately.",
     "sha256": "6190050c399182e7176ff1f8973fe31dac8f34d48a7a293991ff2afed8fabcdb"
+  },
+  {
+    "id": "sisley-canal",
+    "url": "/assets/impressionist/sisley-canal.webp",
+    "title": "Saint-Mammès, Loing Canal",
+    "artist": "Alfred Sisley (French, 1840–1899)",
+    "date": "1885",
+    "source": "https://clevelandart.org/art/1961.262",
+    "reproduction": "https://openaccess-cdn.clevelandart.org/1961.262/1961.262_print.jpg",
+    "credit": "Gift of Mr. and Mrs. Lewis B. Williams from The Blair Trust",
+    "rights": "CC0, Cleveland Museum of Art Open Access",
+    "sha256": "003435cac4bcf5c8cae7ccc6ffb6f0f9ac495ecaf85d0aef2488998e82401fb7"
+  },
+  {
+    "id": "monet-japanese-bridge",
+    "url": "/assets/impressionist/monet-japanese-bridge.webp",
+    "title": "The Japanese Footbridge",
+    "artist": "Claude Monet",
+    "date": "1899",
+    "source": "https://www.nga.gov/artworks/74796-japanese-footbridge",
+    "reproduction": "https://api.nga.gov/iiif/0b9cefb5-1ee4-401a-8154-8d4039191a28/full/!1800,1800/0/default.jpg",
+    "credit": "National Gallery of Art, Gift of Victoria Nebeker Coberly, in memory of her son John W. Mudd, and Walter H. and Leonore Annenberg, 1992.9.1",
+    "rights": "Public domain, NGA Open Access",
+    "sha256": "9bc6851eeda01c0ca78dbed0a026524e69f117161dcb91b583bbc1aa011211c2"
   }
 ]
