@@ -53,5 +53,29 @@
     "credit": "Museum Barberini, Hasso Plattner Collection",
     "rights": "Public-domain faithful reproduction per Commons",
     "sha256": "ce084fca16f61c39e67cb8549a6cc6be9cdc6889f5702cc2cd6a257ef2706ad5"
+  },
+  {
+    "id": "monet-lilies",
+    "url": "/assets/impressionist/monet-lilies.webp",
+    "title": "Water Lilies",
+    "artist": "Claude Monet",
+    "date": "1906",
+    "source": "https://www.artic.edu/artworks/16568",
+    "reproduction": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg",
+    "credit": "Art Institute of Chicago, 1933.1157",
+    "rights": "Public domain, faithful reproduction per Commons",
+    "sha256": "bc91ac24d5099bd26cf6d7f8823ce07c73a5f435d1d608d8c9c2d495c664d711"
+  },
+  {
+    "id": "cross-pink-cloud",
+    "url": "/assets/impressionist/cross-pink-cloud.webp",
+    "title": "The Pink Cloud",
+    "artist": "Henri-Edmond Cross",
+    "date": "c. 1896",
+    "source": "https://www.clevelandart.org/art/2020.106",
+    "reproduction": "https://openaccess-cdn.clevelandart.org/2020.106/2020.106_print.jpg",
+    "credit": "Cleveland Museum of Art, Nancy F. and Joseph P. Keithley Collection Gift, 2020.106",
+    "rights": "CC0, Cleveland Museum of Art Open Access",
+    "sha256": "4d651b331e63c9a492488b76735e14548192e0de071ad27b92c47e57aad48d0c"
   }
 ]
