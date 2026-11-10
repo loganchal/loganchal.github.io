@@ -1,0 +1,97 @@
+{
+  "verified_on": "2026-11-10",
+  "sources": [
+    "https://api.crossref.org/works?filter=orcid:0009-0001-6468-3889&rows=100",
+    "https://pub.orcid.org/v3.0/0009-0001-6468-3889/works",
+    "https://arxiv.org/search/math?query=Chalmers%2C+L+R&searchtype=author"
+  ],
+  "papers": [
+    {
+      "id": "drury",
+      "title": "A real counterexample to the Drury permanent conjecture",
+      "status": "published",
+      "category": "Linear algebra",
+      "year": 2026,
+      "journal": "Electronic Journal of Linear Algebra",
+      "volume": "42",
+      "pages": "730–734",
+      "doi": "10.13001/ela.2026.10718",
+      "links": [
+        {
+          "label": "Read in the journal",
+          "url": "https://doi.org/10.13001/ela.2026.10718"
+        }
+      ],
+      "verified_source": "https://api.crossref.org/works/10.13001/ela.2026.10718"
+    },
+    {
+      "id": "borsuk",
+      "title": "The four-dimensional Borsuk number is five or six",
+      "status": "preprint",
+      "category": "Geometry",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202611.0339"
+        }
+      ]
+    },
+    {
+      "id": "petty-lp",
+      "title": "Petty’s conjecture holds in Lₚ for 2 ≤ p ≤ 4: d+1 equidistant points in every dimension d",
+      "status": "preprint",
+      "category": "Geometry",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202610.2426"
+        }
+      ]
+    },
+    {
+      "id": "excess",
+      "title": "Equilateral sets in ℓₚⁿ beyond n+1: Linear excess and dimension cost",
+      "status": "preprint",
+      "category": "Geometry",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.13983"
+        },
+        {
+          "label": "Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202610.1360"
+        }
+      ]
+    },
+    {
+      "id": "kusner",
+      "title": "A counterexample to Kusner’s conjecture on equilateral sets",
+      "status": "preprint",
+      "category": "Geometry",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2608.14013"
+        }
+      ]
+    },
+    {
+      "id": "tree",
+      "title": "A 32-leaf tree requiring six coordinates for an isometric ℓ∞ embedding",
+      "status": "preprint",
+      "category": "Graph theory and metric geometry",
+      "year": 2026,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2608.16288"
+        }
+      ]
+    }
+  ]
+}

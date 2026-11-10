@@ -1,0 +1,22 @@
+[
+  {
+    "asset": "assets/previews/oceanography.webp",
+    "alt": "Southern Pacific Ocean photographed from orbit",
+    "source": "https://images.nasa.gov/details/iss073e0982346",
+    "rights": "NASA image use guidelines",
+    "source_sha256": "92d0baf387c3a1cac08b9f985e6c77d7db515b2a68163c39d48c208523b84cae"
+  },
+  {
+    "asset": "assets/previews/mathematics.webp",
+    "alt": "A geometric diagram from Oliver Byrne\u2019s 1847 edition of Euclid",
+    "source": "https://archive.org/details/firstsixbooksofe00byrn",
+    "rights": "Public domain, 1847",
+    "source_sha256": "e771462f74614eeb43c63e36c883e47a279e1febaae254d69ab9e77fdf51de4b"
+  },
+  {
+    "asset": "assets/previews/celestial.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+    "rights": "Public domain",
+    "credit": "Georg Christoph Eimmart, Planisphaerium Caeleste"
+  }
+]

@@ -14,11 +14,11 @@ header.on-paper a {color:#272822;background:#f8f6efed}
 .motion #top.opened {height:auto}
 .opened .stage {position:relative}
 .cover-title {position:absolute;inset:0;width:100%;height:100%;overflow:visible;text-align:center;pointer-events:none;color:#f9f6ee;fill:currentColor;font:400 var(--type-hero)/.94 Georgia,serif;letter-spacing:-.05em}
-nav {position:absolute;top:min(calc(var(--horizon-y) + clamp(54px,17cqh,170px)),calc(100% - 190px));left:50%;transform:translateX(-50%);width:min(var(--cover-menu-width,340px),calc(100% - 48px));opacity:var(--show)}
-nav a {display:flex;align-items:center;gap:13px;text-decoration:none;min-height:44px;font-size:var(--type-menu)}
-nav i {flex:1;border-bottom:1px dotted #ffefd280}
-nav a:hover {text-decoration:underline}
-nav:focus-within {opacity:1}
+.stage nav {position:absolute;top:min(calc(var(--horizon-y) + clamp(54px,17cqh,170px)),calc(100% - 190px));left:50%;transform:translateX(-50%);width:min(var(--cover-menu-width,340px),calc(100% - 48px));opacity:var(--show)}
+.stage nav a {display:flex;align-items:center;gap:13px;text-decoration:none;min-height:44px;font-size:var(--type-menu)}
+.stage nav i {flex:1;border-bottom:1px dotted #ffefd280}
+.stage nav a:hover {text-decoration:underline}
+.stage nav:focus-within {opacity:1}
 .scroll {position:absolute;bottom:4%;left:50%;transform:translateX(-50%);font:var(--type-meta) system-ui;text-decoration:none;padding:7px 12px;border-radius:3px;background:#141a20d9;color:#fff8ec}
 #research {max-width:var(--content-width);margin:auto;padding:clamp(64px,9vw,128px) var(--page-gutter)}
 .index-label,article small,footer {font:var(--type-meta) system-ui}

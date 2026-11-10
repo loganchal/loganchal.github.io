@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "title": "Moonlight on the Pacific",
+    "group": "Oceanography",
+    "note": "A quiet silver-blue field; my first choice for the homepage.",
+    "asset": "assets/01.webp",
+    "source": "https://images.nasa.gov/details/iss073e0982346",
+    "rights": "NASA imagery guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "sha256": "92d0baf387c3a1cac08b9f985e6c77d7db515b2a68163c39d48c208523b84cae"
+  },
+  {
+    "id": "02",
+    "title": "Pacific sunset",
+    "group": "Oceanography",
+    "note": "Warm amber against deep blue; a more dramatic entrance.",
+    "asset": "assets/02.webp",
+    "source": "https://images.nasa.gov/details/iss074e0046371",
+    "rights": "NASA imagery subject to NASA media usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "sha256": "22bd9012b4056c9db8fb2315c0e70e35c3c4ee06ff7de16b31ad52765cacb413"
+  },
+  {
+    "id": "03",
+    "title": "Pacific sunrise",
+    "group": "Oceanography",
+    "note": "A luminous atmospheric gradient with a cooler palette.",
+    "asset": "assets/03.webp",
+    "source": "https://images.nasa.gov/details/iss074e0796544",
+    "rights": "NASA media usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "sha256": "38351c82031b75b5940eb8e4ffc6f426c2b93e401a4476e3c97f0028e3c273e0"
+  },
+  {
+    "id": "04",
+    "title": "The geometry of perspective",
+    "group": "Mathematics",
+    "note": "Architectural construction and fine engraved lines.",
+    "asset": "assets/04.webp",
+    "source": "https://wellcomecollection.org/works/ab6j9maw",
+    "rights": "Public Domain Mark (Wellcome Collection)",
+    "sha256": "3d49bc3441f4af751e5b762c7a80e685dfd02d7d28ddbea0b257fcfe13a8d2ae"
+  },
+  {
+    "id": "05",
+    "title": "Geometry in manuscript",
+    "group": "Mathematics",
+    "note": "Hand-drawn figures and warm paper; quieter and more tactile.",
+    "asset": "assets/05.webp",
+    "source": "https://wellcomecollection.org/works/raasdmv2",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "sha256": "f402a2080db6b90d8a5f87e696e4f02452c7e4366fd964dbf9101242c1e2c9e8"
+  },
+  {
+    "id": "06",
+    "title": "Astronomy and timekeeping",
+    "group": "Mathematics",
+    "note": "Historical mathematical notation with an intricate rhythm.",
+    "asset": "assets/06.webp",
+    "source": "https://wellcomecollection.org/works/qt4uv56j",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "sha256": "9d489a1a469212ec12bc1ad39b9e95a123408f98e3ccae44dd8dc4a981a64736"
+  },
+  {
+    "id": "07",
+    "title": "Brass and calculation",
+    "group": "Mathematics",
+    "note": "A physical mathematical object; strong circular detail.",
+    "asset": "assets/07.webp",
+    "source": "https://www.metmuseum.org/art/collection/search/923639",
+    "rights": "CC0 museum open access",
+    "sha256": "6e34ec6199e09a41152a17986a395e820711b2f22206477c09e2a2592123dd2d"
+  },
+  {
+    "id": "08",
+    "title": "Geometry personified",
+    "group": "Mathematics",
+    "note": "A classical allegory of mathematics in an engraved image.",
+    "asset": "assets/08.webp",
+    "source": "https://www.clevelandart.org/art/1924.432.24",
+    "rights": "CC0 Cleveland Museum of Art Open Access",
+    "sha256": "b7f1539260f8feeee15c86cc512e596c1d97e632b270fb976d00f64c7a1a9f2b"
+  },
+  {
+    "id": "09",
+    "title": "A celestial planisphere",
+    "group": "Mathematics",
+    "note": "A richer blue-and-gold alternative for the homepage panel.",
+    "asset": "assets/09.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg",
+    "rights": "Public Domain Mark, Commons; faithfully reproduced historical map",
+    "sha256": "0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb"
+  },
+  {
+    "id": "10",
+    "title": "Measurement and astronomy",
+    "group": "Mathematics",
+    "note": "A different manuscript, with a restrained scholarly character.",
+    "asset": "assets/10.webp",
+    "source": "https://wellcomecollection.org/works/bvv2j7td",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "sha256": "7a0841a47dba62f5dda1ba1ed5d21b150b6b06ce816c7dcd9797dad756f31b4f"
+  },
+  {
+    "id": "11",
+    "title": "Euclid in primary colours",
+    "group": "Mathematics",
+    "note": "Clear colour and generous paper; a brighter mathematical direction.",
+    "asset": "assets/11.webp",
+    "source": "https://archive.org/details/firstsixbooksofe00byrn",
+    "rights": "Public domain, Oliver Byrne, 1847",
+    "sha256": "f4ec036db45297c9e1f5d305028adbf7a8b911a416fef69b61f81e39affba6a7"
+  },
+  {
+    "id": "12",
+    "title": "Circles in colour",
+    "group": "Mathematics",
+    "note": "Graphic circular constructions; suited to geometry panels.",
+    "asset": "assets/12.webp",
+    "source": "https://archive.org/details/firstsixbooksofe00byrn",
+    "rights": "Public domain, Oliver Byrne, 1847",
+    "sha256": "e771462f74614eeb43c63e36c883e47a279e1febaae254d69ab9e77fdf51de4b"
+  }
+]

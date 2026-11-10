@@ -1,0 +1,35 @@
+[
+  {
+    "asset": "assets/paper-backgrounds/euclid.webp",
+    "source": "https://archive.org/details/firstsixbooksofe00byrn",
+    "credit": "Oliver Byrne, The First Six Books of the Elements of Euclid,1847",
+    "rights": "Public domain",
+    "source_sha256": "e771462f74614eeb43c63e36c883e47a279e1febaae254d69ab9e77fdf51de4b"
+  },
+  {
+    "asset": "assets/paper-backgrounds/manuscript.webp",
+    "source": "https://wellcomecollection.org/works/raasdmv2",
+    "credit": "Treatise on geometry, MS Arabic585, Wellcome Collection",
+    "rights": "Public Domain Mark; Wellcome Collection",
+    "source_sha256": "f402a2080db6b90d8a5f87e696e4f02452c7e4366fd964dbf9101242c1e2c9e8"
+  },
+  {
+    "asset": "assets/paper-backgrounds/perspective.webp",
+    "source": "https://wellcomecollection.org/works/ab6j9maw",
+    "credit": "Perspective and geometry in art,1786, Wellcome Collection",
+    "rights": "Public Domain Mark; Wellcome Collection",
+    "source_sha256": "3d49bc3441f4af751e5b762c7a80e685dfd02d7d28ddbea0b257fcfe13a8d2ae"
+  },
+  {
+    "asset": "assets/paper-backgrounds/byrne-colour.webp",
+    "source": "https://archive.org/details/firstsixbooksofe00byrn",
+    "rights": "Public domain, Oliver Byrne, 1847",
+    "source_sha256": "f4ec036db45297c9e1f5d305028adbf7a8b911a416fef69b61f81e39affba6a7"
+  },
+  {
+    "asset": "assets/paper-backgrounds/astronomy.webp",
+    "source": "https://wellcomecollection.org/works/qt4uv56j",
+    "rights": "Public Domain Mark; credit Wellcome Collection",
+    "source_sha256": "9d489a1a469212ec12bc1ad39b9e95a123408f98e3ccae44dd8dc4a981a64736"
+  }
+]
