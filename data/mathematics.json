@@ -43,7 +43,7 @@
           "url": "https://zenodo.org/records/22658177"
         }
       ],
-      "art": "monet-japanese-bridge",
+      "art": "cezanne-brook",
       "translation_key": "paper6"
     },
     {
@@ -78,6 +78,21 @@
         }
       ],
       "translation_key": "paper1"
+    },
+    {
+      "id": "petty-d5",
+      "title": "Petty’s conjecture holds in dimension five",
+      "status": "research",
+      "category": "Geometry and functional analysis",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23683864"
+        }
+      ],
+      "art": "monet-japanese-bridge",
+      "translation_key": "paper8"
     },
     {
       "id": "petty-lp",

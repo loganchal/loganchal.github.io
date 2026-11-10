@@ -118,5 +118,17 @@
     "credit": "National Gallery of Art, Gift of Victoria Nebeker Coberly, in memory of her son John W. Mudd, and Walter H. and Leonore Annenberg, 1992.9.1",
     "rights": "Public domain, NGA Open Access",
     "sha256": "9bc6851eeda01c0ca78dbed0a026524e69f117161dcb91b583bbc1aa011211c2"
+  },
+  {
+    "id": "cezanne-brook",
+    "url": "/assets/impressionist/cezanne-brook.webp",
+    "title": "The Brook",
+    "artist": "Paul Cezanne (French, 1839–1906)",
+    "date": "c. 1895–1900",
+    "source": "https://clevelandart.org/art/1958.20",
+    "reproduction": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_print.jpg",
+    "credit": "Bequest of Leonard C. Hanna Jr.",
+    "rights": "CC0, Cleveland Museum of Art Open Access",
+    "sha256": "d72b0f44cc77a5b0fa74e190352795c122d5795b3df1f929591911e33e77037f"
   }
 ]
