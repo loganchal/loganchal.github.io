@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "wide",
+    "state": "opening",
+    "gold_edge": 293.0,
+    "body_edge": 293.0,
+    "edge_difference_artboard_px": 0.0
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "wide",
+    "state": "settled",
+    "gold_edge": 292.0,
+    "body_edge": 291.0,
+    "edge_difference_artboard_px": 1.0
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "portrait",
+    "state": "opening",
+    "gold_edge": 630.5,
+    "body_edge": 630.0,
+    "edge_difference_artboard_px": 0.5
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "portrait",
+    "state": "settled",
+    "gold_edge": 620.5,
+    "body_edge": 619.0,
+    "edge_difference_artboard_px": 1.5
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "wide",
+    "state": "opening",
+    "gold_edge": 554.8571428571429,
+    "body_edge": 556.5714285714286,
+    "edge_difference_artboard_px": -1.7142857142856656
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "wide",
+    "state": "settled",
+    "gold_edge": 823.4285714285714,
+    "body_edge": 824.5714285714286,
+    "edge_difference_artboard_px": -1.1428571428571104
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "portrait",
+    "state": "opening",
+    "gold_edge": 478.88888888888886,
+    "body_edge": 479.44444444444446,
+    "edge_difference_artboard_px": -0.5555555555555998
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "portrait",
+    "state": "settled",
+    "gold_edge": 500.0,
+    "body_edge": 500.55555555555554,
+    "edge_difference_artboard_px": -0.5555555555555429
+  }
+]

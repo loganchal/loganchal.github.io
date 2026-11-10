@@ -1,0 +1,101 @@
+{
+  "delivered_physical_joins": [
+    {
+      "profile": "wide",
+      "state": "opening",
+      "join": "left",
+      "body_edge": 410.0,
+      "material_edge": 410.0,
+      "difference_artboard_px": 0.0
+    },
+    {
+      "profile": "wide",
+      "state": "opening",
+      "join": "right",
+      "body_edge": 302.5,
+      "material_edge": 303.0,
+      "difference_artboard_px": 0.5
+    },
+    {
+      "profile": "wide",
+      "state": "settled",
+      "join": "left",
+      "body_edge": 483.0,
+      "material_edge": 483.5,
+      "difference_artboard_px": 0.5
+    },
+    {
+      "profile": "wide",
+      "state": "settled",
+      "join": "right",
+      "body_edge": 311.0,
+      "material_edge": 311.0,
+      "difference_artboard_px": 0.07702417178609267
+    },
+    {
+      "profile": "portrait",
+      "state": "opening",
+      "join": "left",
+      "body_edge": 372.0,
+      "material_edge": 372.0,
+      "difference_artboard_px": 0.0
+    },
+    {
+      "profile": "portrait",
+      "state": "opening",
+      "join": "right",
+      "body_edge": 410.6666666666667,
+      "material_edge": 410.0,
+      "difference_artboard_px": 0.6666666666666856
+    },
+    {
+      "profile": "portrait",
+      "state": "settled",
+      "join": "left",
+      "body_edge": 371.3333333333333,
+      "material_edge": 370.6666666666667,
+      "difference_artboard_px": 0.6666666666666288
+    },
+    {
+      "profile": "portrait",
+      "state": "settled",
+      "join": "right",
+      "body_edge": 420.6666666666667,
+      "material_edge": 420.0,
+      "difference_artboard_px": 0.6666666666666856
+    }
+  ],
+  "maximum_difference_artboard_px": 0.6666666666666856,
+  "layouts": [
+    {
+      "width": 1512,
+      "height": 982,
+      "one_way_scroll": true,
+      "three_layers": true,
+      "no_overflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "one_way_scroll": true,
+      "three_layers": true,
+      "no_overflow": true
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "one_way_scroll": true,
+      "three_layers": true,
+      "no_overflow": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "one_way_scroll": true,
+      "three_layers": true,
+      "no_overflow": true
+    }
+  ],
+  "page_errors": [],
+  "fan_studies_excluded_from_rotation": true
+}

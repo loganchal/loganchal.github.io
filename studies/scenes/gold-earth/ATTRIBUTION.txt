@@ -1,0 +1,27 @@
+Gold & Earth
+
+Found originals: uniformly scaled, rotated and cropped; contours are not warped.
+
+Georg Christoph Eimmart / RareMaps
+https://commons.wikimedia.org/wiki/File:Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+Public Domain Mark
+Original: https://commons.wikimedia.org/wiki/Special:FilePath/Ca._1720_celestial_map_by_Georg_Christoph_Eimmart.jpg
+SHA-256: 0838462b20a0289ce1fd824914e9688ddc0209faafac766b7adf553730922eeb
+Global black point: 0
+actual printed chart outer yellow band; local native fit
+
+NASA / Apollo 17 crew, AS17-148-22727.
+https://images.nasa.gov/details/as17-148-22727
+NASA informational/personal image-use guidelines
+Original: https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg
+SHA-256: cb4c3d2da98ee72130ebfd2ea472fc84ede6726002c2a8c9cabd86e4deea9f0f
+Global black point: 0
+Native red-channel opaque body/space gradient, sampled independently at141angles from−169to−52degrees. Blue outer atmospheric band excluded. Robust circle fit; no image retouching.
+
+Edward Burne-Jones, The Golden Stairs, 1880. Tate Britain. Photograph by Sailko / Wikimedia Commons, CC BY 3.0.
+https://commons.wikimedia.org/wiki/File:Edward_coley_burne-jones,_the_golden_stairs,_1880.jpg
+Painting public domain. Photograph by Sailko, CC BY 3.0, https://creativecommons.org/licenses/by/3.0/
+Original: https://upload.wikimedia.org/wikipedia/commons/2/20/Edward_coley_burne-jones%2C_the_golden_stairs%2C_1880.jpg
+SHA-256: 1aae2c1476ecf08f0dbf53b3d97d176dca34f1005ec1b32189b61907e346a108
+Global black point: 0
+Direct native pixel gradient along the bright marble / dark stair underside boundary; no annotated-preview coordinates

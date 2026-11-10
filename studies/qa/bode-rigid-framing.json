@@ -1,0 +1,42 @@
+[
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "wide",
+    "old_phase": 0.06108652381980173,
+    "new_phase": 0.06958652381980175,
+    "native_predicted_differences_artboard_px": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scene": "bode-artemis-rivals",
+    "profile": "portrait",
+    "old_phase": -0.021816615649929094,
+    "new_phase": -0.0030666156499290914,
+    "native_predicted_differences_artboard_px": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "wide",
+    "old_phase": -0.15,
+    "new_phase": -0.13125,
+    "native_predicted_differences_artboard_px": [
+      -0.9999999999999964,
+      -0.4999999999999982
+    ]
+  },
+  {
+    "scene": "bode-earth-mirror-clock",
+    "profile": "portrait",
+    "old_phase": -0.15,
+    "new_phase": -0.14600000000000002,
+    "native_predicted_differences_artboard_px": [
+      -0.09999999999999964,
+      0.09999999999999964
+    ]
+  }
+]

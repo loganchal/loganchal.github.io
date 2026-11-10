@@ -28,14 +28,14 @@ const openingScenes = [
       "wide": {
         "width": 1600,
         "height": 960,
-        "stamp": "c6073f93b54b",
+        "stamp": "08bea2c3c103",
         "levels": [
           {
             "density": 1,
             "urls": [
-              "studies/scene-assets/bode-artemis-rivals/0-wide-1600.webp?v=c6073f93b54b",
-              "studies/scene-assets/bode-artemis-rivals/1-wide-1600.webp?v=c6073f93b54b",
-              "studies/scene-assets/bode-artemis-rivals/2-wide-1600.webp?v=c6073f93b54b"
+              "studies/scene-assets/bode-artemis-rivals/0-wide-1600.webp?v=08bea2c3c103",
+              "studies/scene-assets/bode-artemis-rivals/1-wide-1600.webp?v=08bea2c3c103",
+              "studies/scene-assets/bode-artemis-rivals/2-wide-1600.webp?v=08bea2c3c103"
             ],
             "widths": [
               0.38125,
@@ -46,9 +46,9 @@ const openingScenes = [
           {
             "density": 1.5,
             "urls": [
-              "studies/scene-assets/bode-artemis-rivals/0-wide-2400.webp?v=c6073f93b54b",
-              "studies/scene-assets/bode-artemis-rivals/1-wide-2400.webp?v=c6073f93b54b",
-              "studies/scene-assets/bode-artemis-rivals/2-wide-2400.webp?v=c6073f93b54b"
+              "studies/scene-assets/bode-artemis-rivals/0-wide-2400.webp?v=08bea2c3c103",
+              "studies/scene-assets/bode-artemis-rivals/1-wide-2400.webp?v=08bea2c3c103",
+              "studies/scene-assets/bode-artemis-rivals/2-wide-2400.webp?v=08bea2c3c103"
             ],
             "widths": [
               0.38083333333333336,
@@ -59,9 +59,9 @@ const openingScenes = [
           {
             "density": 2,
             "urls": [
-              "studies/scene-assets/bode-artemis-rivals/0-wide-3200.webp?v=c6073f93b54b",
-              "studies/scene-assets/bode-artemis-rivals/1-wide-3200.webp?v=c6073f93b54b",
-              "studies/scene-assets/bode-artemis-rivals/2-wide-3200.webp?v=c6073f93b54b"
+              "studies/scene-assets/bode-artemis-rivals/0-wide-3200.webp?v=08bea2c3c103",
+              "studies/scene-assets/bode-artemis-rivals/1-wide-3200.webp?v=08bea2c3c103",
+              "studies/scene-assets/bode-artemis-rivals/2-wide-3200.webp?v=08bea2c3c103"
             ],
             "widths": [
               0.380625,
@@ -74,14 +74,14 @@ const openingScenes = [
       "portrait": {
         "width": 768,
         "height": 1280,
-        "stamp": "12a5671b620e",
+        "stamp": "96842f9cb9a4",
         "levels": [
           {
             "density": 1,
             "urls": [
-              "studies/scene-assets/bode-artemis-rivals/0-portrait-768.webp?v=12a5671b620e",
-              "studies/scene-assets/bode-artemis-rivals/1-portrait-768.webp?v=12a5671b620e",
-              "studies/scene-assets/bode-artemis-rivals/2-portrait-768.webp?v=12a5671b620e"
+              "studies/scene-assets/bode-artemis-rivals/0-portrait-768.webp?v=96842f9cb9a4",
+              "studies/scene-assets/bode-artemis-rivals/1-portrait-768.webp?v=96842f9cb9a4",
+              "studies/scene-assets/bode-artemis-rivals/2-portrait-768.webp?v=96842f9cb9a4"
             ],
             "widths": [
               0.36328125,
@@ -90,9 +90,9 @@ const openingScenes = [
             ],
             "tall": {
               "urls": [
-                "studies/scene-assets/bode-artemis-rivals/0-portrait-tall-768.webp?v=12a5671b620e",
-                "studies/scene-assets/bode-artemis-rivals/1-portrait-768.webp?v=12a5671b620e",
-                "studies/scene-assets/bode-artemis-rivals/2-portrait-tall-768.webp?v=12a5671b620e"
+                "studies/scene-assets/bode-artemis-rivals/0-portrait-tall-768.webp?v=96842f9cb9a4",
+                "studies/scene-assets/bode-artemis-rivals/1-portrait-768.webp?v=96842f9cb9a4",
+                "studies/scene-assets/bode-artemis-rivals/2-portrait-tall-768.webp?v=96842f9cb9a4"
               ],
               "widths": [
                 0.5,
@@ -104,9 +104,9 @@ const openingScenes = [
           {
             "density": 1.5,
             "urls": [
-              "studies/scene-assets/bode-artemis-rivals/0-portrait-1152.webp?v=12a5671b620e",
-              "studies/scene-assets/bode-artemis-rivals/1-portrait-1152.webp?v=12a5671b620e",
-              "studies/scene-assets/bode-artemis-rivals/2-portrait-1152.webp?v=12a5671b620e"
+              "studies/scene-assets/bode-artemis-rivals/0-portrait-1152.webp?v=96842f9cb9a4",
+              "studies/scene-assets/bode-artemis-rivals/1-portrait-1152.webp?v=96842f9cb9a4",
+              "studies/scene-assets/bode-artemis-rivals/2-portrait-1152.webp?v=96842f9cb9a4"
             ],
             "widths": [
               0.3619791666666667,
@@ -115,9 +115,9 @@ const openingScenes = [
             ],
             "tall": {
               "urls": [
-                "studies/scene-assets/bode-artemis-rivals/0-portrait-tall-1152.webp?v=12a5671b620e",
-                "studies/scene-assets/bode-artemis-rivals/1-portrait-1152.webp?v=12a5671b620e",
-                "studies/scene-assets/bode-artemis-rivals/2-portrait-tall-1152.webp?v=12a5671b620e"
+                "studies/scene-assets/bode-artemis-rivals/0-portrait-tall-1152.webp?v=96842f9cb9a4",
+                "studies/scene-assets/bode-artemis-rivals/1-portrait-1152.webp?v=96842f9cb9a4",
+                "studies/scene-assets/bode-artemis-rivals/2-portrait-tall-1152.webp?v=96842f9cb9a4"
               ],
               "widths": [
                 0.5,
@@ -129,9 +129,9 @@ const openingScenes = [
           {
             "density": 2,
             "urls": [
-              "studies/scene-assets/bode-artemis-rivals/0-portrait-1536.webp?v=12a5671b620e",
-              "studies/scene-assets/bode-artemis-rivals/1-portrait-1536.webp?v=12a5671b620e",
-              "studies/scene-assets/bode-artemis-rivals/2-portrait-1536.webp?v=12a5671b620e"
+              "studies/scene-assets/bode-artemis-rivals/0-portrait-1536.webp?v=96842f9cb9a4",
+              "studies/scene-assets/bode-artemis-rivals/1-portrait-1536.webp?v=96842f9cb9a4",
+              "studies/scene-assets/bode-artemis-rivals/2-portrait-1536.webp?v=96842f9cb9a4"
             ],
             "widths": [
               0.361328125,
@@ -140,9 +140,9 @@ const openingScenes = [
             ],
             "tall": {
               "urls": [
-                "studies/scene-assets/bode-artemis-rivals/0-portrait-tall-1536.webp?v=12a5671b620e",
-                "studies/scene-assets/bode-artemis-rivals/1-portrait-1536.webp?v=12a5671b620e",
-                "studies/scene-assets/bode-artemis-rivals/2-portrait-tall-1536.webp?v=12a5671b620e"
+                "studies/scene-assets/bode-artemis-rivals/0-portrait-tall-1536.webp?v=96842f9cb9a4",
+                "studies/scene-assets/bode-artemis-rivals/1-portrait-1536.webp?v=96842f9cb9a4",
+                "studies/scene-assets/bode-artemis-rivals/2-portrait-tall-1536.webp?v=96842f9cb9a4"
               ],
               "widths": [
                 0.5,
@@ -901,14 +901,14 @@ const openingScenes = [
       "wide": {
         "width": 1600,
         "height": 960,
-        "stamp": "19547019df44",
+        "stamp": "f717df316570",
         "levels": [
           {
             "density": 1,
             "urls": [
-              "studies/scene-assets/bode-earth-mirror-clock/0-wide-1600.webp?v=19547019df44",
-              "studies/scene-assets/bode-earth-mirror-clock/1-wide-1600.webp?v=19547019df44",
-              "studies/scene-assets/bode-earth-mirror-clock/2-wide-1600.webp?v=19547019df44"
+              "studies/scene-assets/bode-earth-mirror-clock/0-wide-1600.webp?v=f717df316570",
+              "studies/scene-assets/bode-earth-mirror-clock/1-wide-1600.webp?v=f717df316570",
+              "studies/scene-assets/bode-earth-mirror-clock/2-wide-1600.webp?v=f717df316570"
             ],
             "widths": [
               0.26125,
@@ -919,9 +919,9 @@ const openingScenes = [
           {
             "density": 1.5,
             "urls": [
-              "studies/scene-assets/bode-earth-mirror-clock/0-wide-2400.webp?v=19547019df44",
-              "studies/scene-assets/bode-earth-mirror-clock/1-wide-2400.webp?v=19547019df44",
-              "studies/scene-assets/bode-earth-mirror-clock/2-wide-2400.webp?v=19547019df44"
+              "studies/scene-assets/bode-earth-mirror-clock/0-wide-2400.webp?v=f717df316570",
+              "studies/scene-assets/bode-earth-mirror-clock/1-wide-2400.webp?v=f717df316570",
+              "studies/scene-assets/bode-earth-mirror-clock/2-wide-2400.webp?v=f717df316570"
             ],
             "widths": [
               0.2608333333333333,
@@ -932,9 +932,9 @@ const openingScenes = [
           {
             "density": 1.75,
             "urls": [
-              "studies/scene-assets/bode-earth-mirror-clock/0-wide-2800.webp?v=19547019df44",
-              "studies/scene-assets/bode-earth-mirror-clock/1-wide-2800.webp?v=19547019df44",
-              "studies/scene-assets/bode-earth-mirror-clock/2-wide-2800.webp?v=19547019df44"
+              "studies/scene-assets/bode-earth-mirror-clock/0-wide-2800.webp?v=f717df316570",
+              "studies/scene-assets/bode-earth-mirror-clock/1-wide-2800.webp?v=f717df316570",
+              "studies/scene-assets/bode-earth-mirror-clock/2-wide-2800.webp?v=f717df316570"
             ],
             "widths": [
               0.26071428571428573,
@@ -947,14 +947,14 @@ const openingScenes = [
       "portrait": {
         "width": 768,
         "height": 1280,
-        "stamp": "bf3224204980",
+        "stamp": "d6a957efcb96",
         "levels": [
           {
             "density": 1,
             "urls": [
-              "studies/scene-assets/bode-earth-mirror-clock/0-portrait-768.webp?v=bf3224204980",
-              "studies/scene-assets/bode-earth-mirror-clock/1-portrait-768.webp?v=bf3224204980",
-              "studies/scene-assets/bode-earth-mirror-clock/2-portrait-768.webp?v=bf3224204980"
+              "studies/scene-assets/bode-earth-mirror-clock/0-portrait-768.webp?v=d6a957efcb96",
+              "studies/scene-assets/bode-earth-mirror-clock/1-portrait-768.webp?v=d6a957efcb96",
+              "studies/scene-assets/bode-earth-mirror-clock/2-portrait-768.webp?v=d6a957efcb96"
             ],
             "widths": [
               0.2526041666666667,
@@ -963,9 +963,9 @@ const openingScenes = [
             ],
             "tall": {
               "urls": [
-                "studies/scene-assets/bode-earth-mirror-clock/0-portrait-tall-768.webp?v=bf3224204980",
-                "studies/scene-assets/bode-earth-mirror-clock/1-portrait-768.webp?v=bf3224204980",
-                "studies/scene-assets/bode-earth-mirror-clock/2-portrait-tall-768.webp?v=bf3224204980"
+                "studies/scene-assets/bode-earth-mirror-clock/0-portrait-tall-768.webp?v=d6a957efcb96",
+                "studies/scene-assets/bode-earth-mirror-clock/1-portrait-768.webp?v=d6a957efcb96",
+                "studies/scene-assets/bode-earth-mirror-clock/2-portrait-tall-768.webp?v=d6a957efcb96"
               ],
               "widths": [
                 0.5,
@@ -977,9 +977,9 @@ const openingScenes = [
           {
             "density": 1.5,
             "urls": [
-              "studies/scene-assets/bode-earth-mirror-clock/0-portrait-1152.webp?v=bf3224204980",
-              "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1152.webp?v=bf3224204980",
-              "studies/scene-assets/bode-earth-mirror-clock/2-portrait-1152.webp?v=bf3224204980"
+              "studies/scene-assets/bode-earth-mirror-clock/0-portrait-1152.webp?v=d6a957efcb96",
+              "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1152.webp?v=d6a957efcb96",
+              "studies/scene-assets/bode-earth-mirror-clock/2-portrait-1152.webp?v=d6a957efcb96"
             ],
             "widths": [
               0.2517361111111111,
@@ -988,9 +988,9 @@ const openingScenes = [
             ],
             "tall": {
               "urls": [
-                "studies/scene-assets/bode-earth-mirror-clock/0-portrait-tall-1152.webp?v=bf3224204980",
-                "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1152.webp?v=bf3224204980",
-                "studies/scene-assets/bode-earth-mirror-clock/2-portrait-tall-1152.webp?v=bf3224204980"
+                "studies/scene-assets/bode-earth-mirror-clock/0-portrait-tall-1152.webp?v=d6a957efcb96",
+                "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1152.webp?v=d6a957efcb96",
+                "studies/scene-assets/bode-earth-mirror-clock/2-portrait-tall-1152.webp?v=d6a957efcb96"
               ],
               "widths": [
                 0.5,
@@ -1002,9 +1002,9 @@ const openingScenes = [
           {
             "density": 1.8,
             "urls": [
-              "studies/scene-assets/bode-earth-mirror-clock/0-portrait-1382.webp?v=bf3224204980",
-              "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1382.webp?v=bf3224204980",
-              "studies/scene-assets/bode-earth-mirror-clock/2-portrait-1382.webp?v=bf3224204980"
+              "studies/scene-assets/bode-earth-mirror-clock/0-portrait-1382.webp?v=d6a957efcb96",
+              "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1382.webp?v=d6a957efcb96",
+              "studies/scene-assets/bode-earth-mirror-clock/2-portrait-1382.webp?v=d6a957efcb96"
             ],
             "widths": [
               0.25180897250361794,
@@ -1013,9 +1013,9 @@ const openingScenes = [
             ],
             "tall": {
               "urls": [
-                "studies/scene-assets/bode-earth-mirror-clock/0-portrait-tall-1382.webp?v=bf3224204980",
-                "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1382.webp?v=bf3224204980",
-                "studies/scene-assets/bode-earth-mirror-clock/2-portrait-tall-1382.webp?v=bf3224204980"
+                "studies/scene-assets/bode-earth-mirror-clock/0-portrait-tall-1382.webp?v=d6a957efcb96",
+                "studies/scene-assets/bode-earth-mirror-clock/1-portrait-1382.webp?v=d6a957efcb96",
+                "studies/scene-assets/bode-earth-mirror-clock/2-portrait-tall-1382.webp?v=d6a957efcb96"
               ],
               "widths": [
                 0.5,

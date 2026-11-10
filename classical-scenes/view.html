@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head><base href="/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Logan Chalmers’ research in upper-ocean stratification and the geometry of equilateral sets.">
+<title>Classical scene · Logan Chalmers · Oceanography and Mathematics</title>
+<link rel="canonical" href="https://loganchalmers.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Logan Chalmers · Oceanography and Mathematics">
+<meta property="og:description" content="Research in upper-ocean stratification and the geometry of equilateral sets.">
+<meta property="og:url" content="https://loganchalmers.net/">
+
+<link rel="stylesheet" href="home.css?v=20261110-options">
+<link rel="stylesheet" href="studies/studies.css?v=20261106-delivery">
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal", "https://scholar.google.com/citations?user=fGeMPeEAAAAJ&hl=en"]}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers \u00b7 Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
+<meta name="robots" content="noindex,follow"></head>
+<body>
+<a class="skip" href="#research">Skip to research</a>
+<header><h1><a href="#top">Logan Chalmers</a></h1></header>
+<main>
+<section id="top" aria-label="Research contents">
+<div class="stage">
+<div class="scene-controls" aria-label="Opening scenes">
+<button class="scene-switch" type="button" title="Shuffle scene" aria-label="Change opening scene" disabled><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M15.5 6.5A6 6 0 1 0 16 12M15.5 2.5v4h-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="angle-controls" role="group" aria-label="Change curve angle">
+<button class="angle-step angle-previous" type="button" aria-label="Previous curve angle" title="Previous angle" disabled><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="m12 5-5 5 5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<output class="scene-angle-value" aria-label="Current curve angle">0°</output>
+<button class="angle-step angle-next" type="button" aria-label="Next curve angle" title="Next angle" disabled><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="m8 5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+</div>
+<span class="scene-count" aria-hidden="true"></span>
+</div>
+<span id="scene-status" class="sr-only" role="status" aria-live="polite"></span>
+<div class="arc-study common-arc" aria-hidden="true"><i></i><i></i><i></i></div>
+<svg class="cover-title" viewBox="0 0 1600 960" role="img" aria-label="Research"><defs><path id="title-arc" d="M 0 538 A 2250 2250 0 0 1 1600 538"/></defs><text><textPath href="#title-arc" startOffset="50%" text-anchor="middle">Research</textPath></text></svg>
+<nav aria-label="Research areas">
+<a href="#oceanography"><small>01</small><i></i>Oceanography</a>
+<a href="#mathematics"><small>02</small><i></i>Mathematics</a>
+</nav>
+<a class="scroll" href="#research">Scroll to explore ↓</a></div>
+</section>
+<section id="research" aria-label="Research index">
+<p class="index-label">Research index</p>
+<article id="oceanography"><img loading="lazy" decoding="async" src="soundings.svg" alt="Illustrated sounding chart crossed by a transect"><div><small>01　/　Oceanography</small><h2>Ocean model explorer</h2><a href="/roms-explorer/">Explore the model ↗</a></div></article>
+<article id="mathematics"><img loading="lazy" decoding="async" src="construction.svg" alt="Compass construction of an equilateral triangle"><div><small>02　/　Mathematics</small><h2>Mathematics</h2><a href="https://scholar.google.com/citations?user=fGeMPeEAAAAJ&amp;hl=en">Google Scholar ↗</a>　<a href="https://arxiv.org/search/math?query=Chalmers%2C+L+R&amp;searchtype=author">arXiv ↗</a>　<a href="https://sciprofiles.com/profile/5708743">Preprints.org ↗</a></div></article>
+</section></main>
+<footer><span>Logan Chalmers</span><a href="classical-scenes/">All classical scenes</a><a href="plates/credits.html">Image credits</a><a href="#top">Back to top ↑</a></footer>
+<script src="classical-scenes/catalogue.js?v=bbe7a98cf4d2"></script>
+<script src="studies/shuffle.js?v=20261106-delivery"></script>
+<script src="studies/assets.js?v=20261106-delivery"></script>
+<script>
+const topSection = document.querySelector('#top'), stage = topSection.querySelector('.stage');
+let study = chooseOpening();
+let scene=openingScenes.find(item=>item.id===study);
+let finalInset=scene.finalInset;
+stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';stage.dataset.navTone=scene.nav_tone||scene.tone||'light';
+stage.classList.add('scene-loading');
+stage.querySelector('.arc-study').className='arc-study '+study;
+const sceneButton=stage.querySelector('.scene-switch'), sceneStatus=stage.querySelector('#scene-status');
+const sceneControls=stage.querySelector('.scene-controls'),angleButtons=[...stage.querySelectorAll('.angle-step')],sceneAngle=stage.querySelector('.scene-angle-value'),sceneCount=stage.querySelector('.scene-count');
+const sceneOrder=openingScenes.filter(item=>item.active!==false).slice().sort((a,b)=>a.angle-b.angle||a.radius-b.radius||a.id.localeCompare(b.id));
+const sceneAngles=[...new Set(sceneOrder.map(item=>item.angle))];
+const lastAngleScene=new Map();
+let requestedAngle=scene.angle;
+const angleLabel=angle=>angle===0?'0°':`${angle<0?'−':'+'}${Math.round(Math.abs(angle)*10)/10}°`;
+let selectionRevision=0;
+sceneButton.hidden=openings.length<2;
+let assetController=new AbortController();
+const currentProfile=()=>OpeningAssets.profile();
+const prepareScene=next=>OpeningAssets.prepare(next,assetController.signal);
+function applySceneAssets(choice){OpeningAssets.apply(stage.querySelector('.arc-study'),choice);}
+function updateSceneControl(){
+ const position=sceneOrder.findIndex(item=>item.id===study)+1;
+ sceneCount.textContent=`${position} / ${sceneOrder.length}`;
+ requestedAngle=scene.angle;
+ lastAngleScene.set(scene.angle,scene.id);
+ for(const [index,button] of angleButtons.entries()){
+  const direction=index===0?-1:1;
+  const nextAngle=sceneAngles[(sceneAngles.indexOf(scene.angle)+direction+sceneAngles.length)%sceneAngles.length];
+  button.setAttribute('aria-label',`${index===0?'Previous':'Next'} curve angle, ${angleLabel(nextAngle)}`);
+ }
+ sceneAngle.value=angleLabel(currentProfile()==='portrait'?(scene.portrait_angle??scene.angle):scene.angle);
+ sceneButton.setAttribute('aria-label',`Change opening scene. Current scene: ${scene.title}${position?`, ${position} of ${openings.length}`:''}.`);
+}
+function releaseReviewLink(){
+ const url=new URL(location.href);if(url.searchParams.has('study')){url.searchParams.delete('study');history.replaceState(history.state,'',url);}
+}
+updateSceneControl();
+(async()=>{
+ for(let attempt=0;attempt<openings.length;attempt++){
+  const ready=await prepareScene(scene);
+  if(ready){
+   applySceneAssets(ready);
+   study=scene.id;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';stage.dataset.navTone=scene.nav_tone||scene.tone||'light';
+   stage.querySelector('.arc-study').className='arc-study '+study;
+   layoutOpening();setOpening();updateSceneControl();
+   stage.classList.remove('scene-loading');stage.dataset.ready='true';sceneButton.disabled=false;angleButtons.forEach(button=>button.disabled=false);releaseReviewLink();return;
+  }
+  const replacement=chooseOpening({ignoreRequested:true,current:scene.id});
+  scene=openingScenes.find(item=>item.id===replacement);
+ }
+ stage.classList.remove('scene-loading');stage.dataset.tone='light';sceneButton.disabled=false;angleButtons.forEach(button=>button.disabled=false);
+ sceneStatus.textContent='The opening images could not load. You can retry with Change scene or scroll to research.';
+})();
+async function selectScene(nextStudy,{explicit=false,refresh=false}={}){
+ assetController.abort();assetController=new AbortController();
+ const revision=++selectionRevision,next=openingScenes.find(item=>item.id===nextStudy);
+ if(!next)return;
+ if(nextStudy===study&&!refresh){sceneButton.disabled=false;sceneControls.removeAttribute('aria-busy');updateSceneControl();return;}
+ sceneButton.disabled=true;sceneControls.setAttribute('aria-busy','true');
+ try{
+  const ready=await prepareScene(next);
+  if(revision!==selectionRevision)return;
+  if(!ready){sceneStatus.textContent='This scene could not load. Please try another.';updateSceneControl();return;}
+  if(explicit)chooseOpening({selected:nextStudy,ignoreRequested:true,current:study});
+  applySceneAssets(ready);
+  scene=next;study=nextStudy;stage.dataset.scene=study;stage.dataset.tone=scene.tone||'light';stage.dataset.navTone=scene.nav_tone||scene.tone||'light';
+  stage.querySelector('.arc-study').className='arc-study '+study;
+  layoutOpening();setOpening();updateSceneControl();releaseReviewLink();
+  sceneStatus.textContent=`${scene.title}. Curve angle ${angleLabel(scene.angle)}.`;
+ }finally{
+  if(revision===selectionRevision){sceneButton.disabled=false;sceneControls.removeAttribute('aria-busy');}
+ }
+}
+sceneButton.addEventListener('click',()=>{
+ selectScene(chooseOpening({ignoreRequested:true,current:study}));
+});
+function requestAngle(direction){
+ const position=sceneAngles.indexOf(requestedAngle);
+ requestedAngle=sceneAngles[(position+direction+sceneAngles.length)%sceneAngles.length];
+ const candidates=sceneOrder.filter(item=>item.angle===requestedAngle);
+ const previous=candidates.findIndex(item=>item.id===lastAngleScene.get(requestedAngle));
+ const next=candidates[(previous+1)%candidates.length];
+ sceneAngle.value=angleLabel(requestedAngle);
+ selectScene(next.id,{explicit:true});
+}
+angleButtons[0].addEventListener('click',()=>requestAngle(-1));
+angleButtons[1].addEventListener('click',()=>requestAngle(1));
+function framePlates(inset) {stage.style.setProperty('--inset', inset + '%');}
+function layoutOpening() {
+  const width=stage.clientWidth, height=stage.clientHeight;
+  const art=stage.querySelector('.arc-study').getBoundingClientRect();
+  // Keep a visible side image after the artboard is cropped to a tall viewport.
+  const visibleSide=Math.min(40,width*.06);
+  const minimumInset=((art.width-width)/2+visibleSide)/art.width*100;
+  const loadedSideInset=Number(stage.querySelector('.arc-study').dataset.sideCoverage)||50;
+  finalInset=Math.min(loadedSideInset,Math.max(scene.finalInset,minimumInset));
+  const portrait=(stage.querySelector('.arc-study').dataset.assetProfile||currentProfile())==='portrait';
+  const radius=(portrait?(scene.portraitRadius||scene.radius):scene.radius)*art.height/(portrait?1280:960);
+  const tilt=(portrait?(scene.portrait_angle??scene.angle):scene.angle)*Math.PI/180;
+  const centerX=width/2+radius*Math.sin(tilt);
+  const unshiftedHorizon=height/2+(((portrait?scene.portrait_horizon:undefined)??scene.horizon??.53)-.5)*art.height;
+  // Keep the title and contents inside the photograph as side panels widen.
+  const openingInset=Math.min(loadedSideInset,Math.max(finalInset,portrait?(scene.portrait_openingInset??25):(scene.openingInset??26)));
+  const centralWindow=(1-2*openingInset/100)*art.width;
+  const title=stage.querySelector('.cover-title');
+  title.setAttribute('viewBox',`0 0 ${width} ${height}`);
+  title.style.removeProperty('font-size');
+  const nominalSize=parseFloat(getComputedStyle(title).fontSize);
+  const titleAdvance=title.querySelector('text').getComputedTextLength();
+  const titleFit=Math.min(1,Math.max(80,centralWindow-12)/Math.max(1,titleAdvance));
+  title.style.fontSize=(nominalSize*titleFit)+'px';
+  const titleSize=nominalSize*titleFit;
+  stage.style.setProperty('--cover-menu-width',Math.min(340,Math.max(80,centralWindow-24))+'px');
+  stage.classList.toggle('narrow-cover',centralWindow<230);
+  const minimumBaseline=Math.min(height*.30,60+titleSize*.8);
+  const artOffset=Math.min(Math.max(0,(art.height-height)/2),Math.max(0,minimumBaseline+16-unshiftedHorizon));
+  stage.style.setProperty('--art-offset-y',artOffset+'px');
+  const horizon=unshiftedHorizon+artOffset;
+  stage.style.setProperty('--horizon-y',horizon+'px');
+  const gap=scene.gap==='glow'?Math.max(70,Math.min(100,.10*art.height)):Math.max(82,Math.min(160,.12*art.height));
+  const maximumBaseline=height<560&&width>620?height-130:Infinity;
+  const baseline=Math.min(Math.max(horizon-gap,minimumBaseline),Math.max(minimumBaseline,maximumBaseline));
+  const centerY=radius*Math.cos(tilt)+baseline;
+  const leftX=Math.max(0,centerX-radius+.001),rightX=Math.min(width,centerX+radius-.001);
+  const leftY=centerY-Math.sqrt(Math.max(0,radius*radius-(leftX-centerX)**2));
+  const rightY=centerY-Math.sqrt(Math.max(0,radius*radius-(rightX-centerX)**2));
+  stage.querySelector('.cover-title').setAttribute('viewBox',`0 0 ${width} ${height}`);
+  stage.querySelector('#title-arc').setAttribute('d',`M ${leftX} ${leftY} A ${radius} ${radius} 0 0 1 ${rightX} ${rightY}`);
+  // Centre the word in the viewport, not halfway along a clipped circular arc.
+  const startAngle=Math.atan2(leftY-centerY,leftX-centerX);
+  const endAngle=Math.atan2(rightY-centerY,rightX-centerX);
+  const middleX=width/2;
+  const middleAngle=Math.atan2(-Math.sqrt(Math.max(0,radius*radius-(middleX-centerX)**2)),middleX-centerX);
+  stage.querySelector('.cover-title textPath').setAttribute('startOffset',`${100*(middleAngle-startAngle)/(endAngle-startAngle)}%`);
+  // Rotated glyphs have a wider footprint than their advance along the arc.
+  for(let pass=0;pass<2;pass++){
+    const bounds=title.querySelector('text').getBoundingClientRect();
+    const footprint=2*Math.max(width/2-bounds.left,bounds.right-width/2);
+    const fit=Math.min(1,Math.max(1,centralWindow-12)/Math.max(1,footprint));
+    title.style.fontSize=(parseFloat(title.style.fontSize)*fit)+'px';
+  }
+  stage.style.setProperty('--opening-inset',openingInset);
+  if(topSection.classList.contains('opened'))framePlates(finalInset);
+}
+new ResizeObserver(layoutOpening).observe(stage);
+layoutOpening();
+const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+document.documentElement.classList.add('motion');
+const clamp = x => Math.max(0, Math.min(1,x));
+let openingProgress = 0;
+function setOpening() {
+  if (topSection.classList.contains('opened')) return framePlates(finalInset);
+  const runway = topSection.offsetHeight - stage.offsetHeight;
+  if (runway <= 0 && !reduced.matches) return;
+  const distance = -topSection.getBoundingClientRect().top;
+  openingProgress = reduced.matches ? 1 : Math.max(openingProgress, clamp(distance / runway));
+  // Hold the initial composition, expand slowly, then hold the resolved frame.
+  const progress = clamp((openingProgress - .10) / .68);
+  const eased = progress * progress * (3 - 2 * progress);
+  const initialInset = parseFloat(getComputedStyle(stage).getPropertyValue('--opening-inset')) || 26;
+  const inset = initialInset - (initialInset - finalInset) * eased;
+  framePlates(inset);
+  stage.style.setProperty('--inset', inset + '%');
+  stage.style.setProperty('--show', clamp((openingProgress - .58) / .20));
+
+  if (openingProgress === 1) {
+    // Retire the consumed scroll space while preserving the visible frame.
+    const landing = Math.max(0, window.scrollY - runway);
+    topSection.classList.add('opened');
+    window.scrollTo({top: landing, behavior: 'instant'});
+  }
+}
+const header = document.querySelector('header');
+function setHeaderTone() {
+  setOpening();
+  header.classList.toggle('on-paper', document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2);
+}
+addEventListener('scroll', setHeaderTone, {passive:true});
+let assetResizeTimer;
+addEventListener('resize',()=>{
+ layoutOpening();setHeaderTone();clearTimeout(assetResizeTimer);
+ assetResizeTimer=setTimeout(()=>{
+  if(stage.dataset.ready==='true'&&!sceneControls.hasAttribute('aria-busy')&&OpeningAssets.pick(scene).key!==stage.querySelector('.arc-study').dataset.assetKey)selectScene(study,{refresh:true});
+ },120);
+});
+reduced.addEventListener('change',setHeaderTone);
+setHeaderTone();
+</script>
+</body></html>
