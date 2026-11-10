@@ -6,5 +6,11 @@
   "image": "https://www.moma.org/media/W1siZiIsIjI5MjQ1NSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=0e0d28654c08a271",
   "credit": "The Museum of Modern Art, New York. Mrs. Bernard F. Gimbel Fund. \u00a9 Succession H. Matisse / Artists Rights Society (ARS), New York.",
   "usage": "Footer displays a detail through CSS; source image preserved unchanged.",
-  "sha256": "e75b84f15ecdafeb1bbc0c7cc8e80852a000887154a1100dc267e53d74115973"
+  "sha256": "e75b84f15ecdafeb1bbc0c7cc8e80852a000887154a1100dc267e53d74115973",
+  "second_section": {
+    "image": "https://www.moma.org/media/W1siZiIsIjI5MjQ1NiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg",
+    "asset": "assets/footer/matisse-swimming-pool-second.jpg",
+    "sha256": "e9e301567d1422a9955a318f8dcdd6088c84358da236eba21818b5fe0a79cc8c",
+    "usage": "Preserved unchanged; used in footer comparison previews."
+  }
 }

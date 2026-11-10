@@ -135,3 +135,34 @@ footer.pool-footer{display:block;position:relative;padding:0;border:0;background
 .pool-frieze{height:clamp(200px,18vw,280px);width:100%;background-image:url('/assets/footer/matisse-swimming-pool.jpg');background-repeat:no-repeat;background-size:max(100%,1500px) auto;background-position:center 40%}
 footer.pool-footer>span{display:block;padding:22px var(--page-gutter);font:13px/1.5 Georgia,serif}
 @media(max-width:720px){.pool-frieze{height:210px;background-size:1300px auto;background-position:48% 40%}}
+/* Let the paintings retain their original colour and light. */
+.area-link::after{display:none}
+.area-link[data-art-visible=true],#mathematics[data-art-visible=true] .area-number,#mathematics[data-art-visible=true] .area-bottom{color:#fffdf5;text-shadow:0 1px 3px #182424,0 2px 12px #182424aa}
+.language-switch{position:fixed;right:var(--page-gutter);top:22px;display:flex;align-items:center;gap:10px;padding:6px 10px;background:#f8f6efed;color:#292d26;z-index:6;font:12px/1.4 Georgia,serif}
+.language-switch button{font:inherit;color:inherit;border:0;background:none;padding:3px 0;cursor:pointer;white-space:nowrap}
+.language-switch button[aria-pressed=true]{text-decoration:underline;text-underline-offset:5px}
+.language-switch button:focus-visible{outline:2px solid #56665b;outline-offset:4px}
+.inner-header .language-switch{position:static;padding:0;background:none}
+html[lang=mi] .profile-main .area-link h3{font-size:clamp(30px,2.8vw,42px)}
+@media(max-width:720px){.language-switch{top:12px;gap:8px;padding:5px 7px;font-size:11px}.inner-page .inner-header{flex-wrap:wrap}.inner-header nav{width:100%;justify-content:space-between;gap:12px}html[lang=mi] .profile-main .area-link h3{font-size:38px}}
+/* Contrast follows the visible artwork, including static design previews. */
+#mathematics:hover h3,#mathematics:hover .area-number,#mathematics:hover .area-bottom,
+#mathematics:focus-visible h3,#mathematics:focus-visible .area-number,#mathematics:focus-visible .area-bottom,
+#oceanography:hover h3,#oceanography:hover .area-number,#oceanography:hover .area-bottom,
+#oceanography:focus-visible h3,#oceanography:focus-visible .area-number,#oceanography:focus-visible .area-bottom{color:#fffdf5;text-shadow:0 1px 3px #15221f,0 2px 10px #15221fcc}
+@media(hover:none){#mathematics h3,#mathematics .area-number,#mathematics .area-bottom,#oceanography h3,#oceanography .area-number,#oceanography .area-bottom{color:#fffdf5;text-shadow:0 1px 3px #15221f,0 2px 10px #15221fcc}}
+/* The numbered subject links replace the duplicate menu and enter with scroll. */
+.stage .cover-title{font-size:clamp(24px,2.8vw,44px);letter-spacing:-.025em;opacity:var(--show,0);transition:opacity .25s ease;pointer-events:none}
+.stage .cover-title a{pointer-events:auto;cursor:pointer;fill:currentColor;text-decoration:none}
+.stage .cover-title a:hover{opacity:.8}
+.stage .cover-title a:focus-visible{outline:none;filter:drop-shadow(0 0 3px currentColor)}
+.cover-number{font-size:.5em;letter-spacing:.03em}
+@media(prefers-reduced-motion:reduce){.stage .cover-title{transition:none}}
+/* Keep language choices clear of the scene controls. */
+header>.language-switch{top:70px}
+header.on-paper>.language-switch{top:20px}
+@media(max-width:720px){header>.language-switch{top:64px}header.on-paper>.language-switch{top:12px}}
+/* Paper artwork keeps its colour too; contrast is applied only to lettering. */
+.published-paper::before,.preprint-panel::before,.tree-paper::before{background-image:var(--paper-art,none)}
+.published-paper:is(:hover,:focus-within) h2,.preprint-panel:is(:hover,:focus-within):not(.tree-paper) h3{text-shadow:0 1px 3px #fffdf5,0 0 8px #fffdf5cc}
+.tree-paper:is(:hover,:focus-within) :is(h3 a,.paper-year,.preprint-links a){color:#fffdf5;text-shadow:0 1px 3px #15221f,0 2px 10px #15221fcc}
