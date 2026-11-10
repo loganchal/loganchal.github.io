@@ -14,13 +14,13 @@
 <meta content="https://loganchalmers.net/assets/profile/logan-chalmers.jpg" property="og:image"/>
 <meta content="Logan Chalmers on a boat" property="og:image:alt"/>
 <link href="home.css?v=20261110-impressionist1" rel="stylesheet"/>
-<link href="profile.css?v=20261110-scene-review1" rel="stylesheet"/>
+<link href="profile.css?v=20261111-language-reveal1" rel="stylesheet"/>
 <link href="studies/studies.css?v=20261106-delivery" rel="stylesheet"/>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal", "https://scholar.google.com/citations?user=fGeMPeEAAAAJ&hl=en", "https://orcid.org/0009-0001-6468-3889"], "image": "https://loganchalmers.net/assets/profile/logan-chalmers.jpg"}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers · Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
 <link href="/paintings/" rel="license"/><script defer="" src="/assets/i18n/language.js?v=20261110-review1"></script></head>
 <body>
 <a class="skip" data-i18n="skip" href="#profile">Skip to profile</a>
-<header><h1><a href="#top">Logan Chalmers</a></h1><div aria-label="Language" class="language-switch" data-i18n-aria="language" role="group"><button aria-pressed="true" data-language="en" lang="en" type="button">EN</button><button aria-pressed="false" data-language="mi" lang="mi" type="button">Te Reo Māori</button></div></header>
+<header><h1><a href="#top">Logan Chalmers</a></h1><div aria-label="Language" class="language-switch" data-i18n-aria="language" hidden="" role="group"><button aria-pressed="true" data-language="en" lang="en" type="button">EN</button><button aria-pressed="false" data-language="mi" lang="mi" type="button">Te Reo Māori</button></div></header>
 <main>
 <section aria-label="Research contents" data-i18n-aria="contents" id="top">
 <div class="stage">
@@ -243,7 +243,9 @@ for(const link of document.querySelectorAll('a[href="#profile"], .cover-title a[
 const header = document.querySelector('header');
 function setHeaderTone() {
   setOpening();
-  header.classList.toggle('on-paper', document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2);
+  const onPaper = document.querySelector('#research').getBoundingClientRect().top < header.offsetHeight / 2;
+  header.classList.toggle('on-paper', onPaper);
+  header.querySelector('.language-switch').hidden = !onPaper;
 }
 addEventListener('scroll', setHeaderTone, {passive:true});
 let assetResizeTimer;

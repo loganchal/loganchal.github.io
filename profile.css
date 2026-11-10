@@ -175,3 +175,6 @@ header.on-paper>.language-switch{top:20px}
 .scene-review-preview #top{height:100svh!important}
 .scene-review-preview .stage{position:relative;top:0;height:100svh}
 .scene-review-preview body{overflow:hidden}
+
+/* The homepage language control appears when the profile replaces the opening. */
+header > .language-switch[hidden]{display:none}
