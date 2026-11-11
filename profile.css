@@ -190,3 +190,6 @@ header > .language-switch[hidden]{display:none}
 .pool-masthead{display:block;width:100%;height:clamp(104px,15vw,240px);object-fit:cover;object-position:50% 41%}
 .profile-tools{position:sticky;top:0;height:0;padding:0;color:var(--ink)}
 .profile-tools>.language-switch{position:absolute;top:12px}
+@media(max-width:620px){
+    .pool-masthead{height:clamp(128px,33vw,180px);object-position:50% 22%}
+}
