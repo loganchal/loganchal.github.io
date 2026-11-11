@@ -104,10 +104,7 @@
     "geometryFunctional": "Geometry and functional analysis",
     "combinatorics": "Combinatorics",
     "lean": "Lean formalisation",
-    "preprint": "Preprint",
-    "paper6": "Pate’s tensor-product conjecture holds in dimension three",
-    "paper7": "The Bapat–Sunder eigenvalue conjecture fails over the reals",
-    "paper8": "Petty’s conjecture holds in dimension five"
+    "preprint": "Preprint"
   },
   "mi": {
     "research": "Rangahau",
@@ -214,9 +211,6 @@
     "geometryFunctional": "Āhuahanga me te tātari taumahi",
     "combinatorics": "Te pāngarau pahekotanga",
     "lean": "He whakaōkawatanga Lean",
-    "preprint": "Tuhinga tōmua",
-    "paper6": "Ka mana te whakapae a Pate mō te hua tensor i te ahu-toru",
-    "paper7": "Ka hinga te whakapae uara-eigen a Bapat–Sunder mō ngā tau tūturu",
-    "paper8": "Ka mana te whakapae a Petty i te ahu-rima"
+    "preprint": "Tuhinga tōmua"
   }
 }

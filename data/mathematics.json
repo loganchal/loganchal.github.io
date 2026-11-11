@@ -4,8 +4,7 @@
     "https://api.crossref.org/works?filter=orcid:0009-0001-6468-3889&rows=100",
     "https://pub.orcid.org/v3.0/0009-0001-6468-3889/works",
     "https://arxiv.org/search/math?query=Chalmers%2C+L+R&searchtype=author",
-    "https://zenodo.org/api/records?q=creators.orcid:%220009-0001-6468-3889%22&size=25",
-    "https://www.researchgate.net/publication/414113736_Pate%27s_tensor-product_conjecture_holds_in_dimension_three"
+    "https://zenodo.org/api/records?q=creators.orcid:%220009-0001-6468-3889%22&size=25"
   ],
   "papers": [
     {
@@ -28,40 +27,6 @@
       "translation_key": "paper0"
     },
     {
-      "id": "pate",
-      "title": "Pate’s tensor-product conjecture holds in dimension three",
-      "status": "preprint",
-      "category": "Matrix theory",
-      "year": 2026,
-      "links": [
-        {
-          "label": "Preprint",
-          "url": "https://www.researchgate.net/publication/414113736_Pate%27s_tensor-product_conjecture_holds_in_dimension_three"
-        },
-        {
-          "label": "Lean formalisation",
-          "url": "https://zenodo.org/records/22658177"
-        }
-      ],
-      "art": "cezanne-brook",
-      "translation_key": "paper6"
-    },
-    {
-      "id": "bapat-sunder",
-      "title": "The Bapat–Sunder eigenvalue conjecture fails over the reals",
-      "status": "preprint",
-      "category": "Matrix theory",
-      "year": 2026,
-      "links": [
-        {
-          "label": "OurArchive",
-          "url": "https://doi.org/10.82348/our-archive.00345"
-        }
-      ],
-      "art": "sisley-canal",
-      "translation_key": "paper7"
-    },
-    {
       "id": "borsuk",
       "title": "The four-dimensional Borsuk number is five or six",
       "status": "preprint",
@@ -78,21 +43,6 @@
         }
       ],
       "translation_key": "paper1"
-    },
-    {
-      "id": "petty-d5",
-      "title": "Petty’s conjecture holds in dimension five",
-      "status": "research",
-      "category": "Geometry and functional analysis",
-      "year": 2026,
-      "links": [
-        {
-          "label": "Lean formalisation",
-          "url": "https://zenodo.org/records/23683864"
-        }
-      ],
-      "art": "monet-japanese-bridge",
-      "translation_key": "paper8"
     },
     {
       "id": "petty-lp",
