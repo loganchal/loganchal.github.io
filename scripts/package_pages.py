@@ -32,7 +32,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC_SUFFIXES = {'.html', '.css', '.js', '.svg', '.png', '.jpg', '.jpeg', '.webp', '.gif', '.ico', '.woff', '.woff2', '.ttf', '.otf', '.txt', '.xml', '.json', '.pdf', '.mp3', '.mp4', '.webm'}
 SPECIAL_FILES = {'CNAME', '.nojekyll'}
-NON_RUNTIME_ROOTS = {'.github', 'scripts', 'design', 'personal-review'}
+NON_RUNTIME_ROOTS = {'.github', 'scripts', 'design', 'personal-review', 'scene-review', 'options', 'classical-scenes'}
 NON_RUNTIME_STUDIES = {'qa', 'registered', 'retina'}
 EXTERNAL_PROJECT_ROUTES = {'/roms-explorer/'}
 OWN_HOSTS = {'loganchalmers.net', 'www.loganchalmers.net', 'loganchal.github.io'}
@@ -65,7 +65,7 @@ def exclude_reason(path, required_images):
     if len(parts) > 1 and parts[0] == 'studies':
         if parts[1] == 'scenes' and PurePosixPath(path).name != 'ATTRIBUTION.txt':
             return 'registered full-frame intermediate masters'
-        if parts[1] in NON_RUNTIME_STUDIES:
+        if path == 'studies/index.html' or parts[1] in NON_RUNTIME_STUDIES:
             return 'development/QA/registered intermediates'
         if path == 'studies/scenes.css':
             return 'unused legacy full-frame stylesheet'
@@ -196,7 +196,7 @@ def package(args):
             if kind != 'blob' or mode == '120000':
                 raise ValueError(f'Refusing non-regular publishable Git entry: {path}')
             included.append(path)
-    required = {'index.html', 'home.css', 'CNAME', '.nojekyll', 'plates/credits.html', 'studies/index.html', 'studies/assets.js', 'studies/catalogue.js', 'image-library/index.html', 'image-library/manifest.json'}
+    required = {'index.html', 'home.css', 'CNAME', '.nojekyll', 'plates/credits.html', 'studies/assets.js', 'studies/catalogue.js', 'image-library/index.html', 'image-library/manifest.json'}
     if required - set(included):
         raise ValueError('Missing required public files: ' + ', '.join(sorted(required - set(included))))
     output = args.output.resolve()

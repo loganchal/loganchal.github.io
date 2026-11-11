@@ -29,7 +29,7 @@
     if(stage.dataset.scene!==id){fail(t('The requested scene did not load. Skip it or try again.','Kāore i utaina te whakaaturanga i tonoa. Tīpokatia, whakamātauria anō rānei.'));return}
     ready=true;card.classList.remove('loading');card.classList.add('ready');card.setAttribute('aria-busy','false');applyFrame();stats();return
    }}catch(_){}if(++tries<240)setTimeout(check,150);else fail(t('This scene could not load. Use Skip to continue.','Kāore i taea te uta i tēnei whakaaturanga. Tīpakohia Tīpoka kia haere tonu.'))};check();
-  };iframe.src='/?study='+encodeURIComponent(id)+'&review=1';save();stats();
+  };iframe.src='/design/opening-preview.html?study='+encodeURIComponent(id)+'&review=1';save();stats();
  }
  function vote(choice){if(!ready||decisionBusy||!state.current)return;decisionBusy=true;const id=state.current,previous=state.decisions[id]||null;state.decisions[id]={vote:choice,title:byId.get(id).title,reviewedAt:new Date().toISOString(),frame,screen,fingerprint:fingerprints.get(id),viewport:{width:iframe.contentWindow.innerWidth,height:iframe.contentWindow.innerHeight}};state.history.push({id,previous});state.history=state.history.slice(-500);save();stats();card.classList.add('exiting');card.style.transform=`translateX(${choice==='keep'?1:-1}00%) rotate(${choice==='keep'?8:-8}deg)`;if(reduced.matches)card.style.transform='';setTimeout(()=>{decisionBusy=false;next()},reduced.matches?0:200)}
  function undo(){if(!state.history.length||decisionBusy)return;const h=state.history.pop();if(h.previous)state.decisions[h.id]=h.previous;else delete state.decisions[h.id];show(h.id)}
