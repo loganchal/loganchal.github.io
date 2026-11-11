@@ -27,42 +27,6 @@
       "translation_key": "paper0"
     },
     {
-      "id": "borsuk",
-      "title": "The four-dimensional Borsuk number is five or six",
-      "status": "preprint",
-      "category": "Geometry and functional analysis",
-      "year": 2026,
-      "links": [
-        {
-          "label": "Preprints.org",
-          "url": "https://www.preprints.org/manuscript/202611.0339"
-        },
-        {
-          "label": "Lean formalisation",
-          "url": "https://zenodo.org/records/23966881"
-        }
-      ],
-      "translation_key": "paper1"
-    },
-    {
-      "id": "petty-lp",
-      "title": "Petty’s conjecture holds in Lₚ for 2 ≤ p ≤ 4: d+1 equidistant points in every dimension d",
-      "status": "preprint",
-      "category": "Geometry and functional analysis",
-      "year": 2026,
-      "links": [
-        {
-          "label": "Preprints.org",
-          "url": "https://www.preprints.org/manuscript/202610.2426"
-        },
-        {
-          "label": "Lean formalisation",
-          "url": "https://zenodo.org/records/23565543"
-        }
-      ],
-      "translation_key": "paper2"
-    },
-    {
       "id": "kusner",
       "title": "A counterexample to Kusner’s conjecture on equilateral sets",
       "status": "preprint",
@@ -97,6 +61,42 @@
         }
       ],
       "translation_key": "paper3"
+    },
+    {
+      "id": "borsuk",
+      "title": "The four-dimensional Borsuk number is five or six",
+      "status": "preprint",
+      "category": "Geometry and functional analysis",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202611.0339"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23966881"
+        }
+      ],
+      "translation_key": "paper1"
+    },
+    {
+      "id": "petty-lp",
+      "title": "Petty’s conjecture holds in Lₚ for 2 ≤ p ≤ 4: d+1 equidistant points in every dimension d",
+      "status": "preprint",
+      "category": "Geometry and functional analysis",
+      "year": 2026,
+      "links": [
+        {
+          "label": "Preprints.org",
+          "url": "https://www.preprints.org/manuscript/202610.2426"
+        },
+        {
+          "label": "Lean formalisation",
+          "url": "https://zenodo.org/records/23565543"
+        }
+      ],
+      "translation_key": "paper2"
     },
     {
       "id": "tree",
