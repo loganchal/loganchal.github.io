@@ -15,5 +15,5 @@
  }
  controls.forEach(el=>el.addEventListener('click',()=>apply(el.dataset.language)));
  window.addEventListener('storage',e=>{if(e.key==='site-language'&&['en','mi'].includes(e.newValue)&&e.newValue!==language)apply(e.newValue)});
- fetch('/assets/i18n/messages.json?v=20261112-journal-arrow').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{messages=data;apply(language)}).catch(()=>controls.forEach(el=>el.disabled=true));
+ fetch('/assets/i18n/messages.json?v=20261113-drury-title').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{messages=data;apply(language)}).catch(()=>controls.forEach(el=>el.disabled=true));
 })();
