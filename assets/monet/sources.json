@@ -79,15 +79,41 @@
     "title": "Bordighera",
     "artist": "Claude Monet",
     "date": "1884",
-    "url": "/assets/monet/bordighera.webp",
+    "url": "/assets/monet/bordighera.webp?v=20261112-hires",
     "source": "https://www.artic.edu/artworks/81537",
     "credit": "Art Institute of Chicago, Potter Palmer Collection",
     "rights": "Public domain; see linked Commons file",
     "license_url": null,
     "changes": "Resized and converted to WebP; panel displays a cropped detail",
-    "sha256": "7f592c4e28d35d02dea3659313d07e6fff751bc17344feb0d6521e3b5db7126c",
-    "width": 745,
-    "height": 600
+    "sha256": "25d2ca18e5798ce58dfde1fa564c6024c0d7cc0a225e58961fef83f1710be9b9",
+    "width": 1600,
+    "height": 1276,
+    "entrance_srcset": "/assets/monet/bordighera-900.webp 900w, /assets/monet/bordighera.webp 1600w, /assets/monet/bordighera-3000.webp 3000w",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Bordighera.jpg",
+    "source_image_dimensions": [
+      3000,
+      2393
+    ],
+    "responsive_images": {
+      "bordighera-900.webp": {
+        "width": 900,
+        "height": 718,
+        "bytes": 242872,
+        "sha256": "4c10e9fe336f64a6a67453397d7959f73a7d2d6ed0e4c4ed3d3e2c6c35a08cf6"
+      },
+      "bordighera.webp": {
+        "width": 1600,
+        "height": 1276,
+        "bytes": 848538,
+        "sha256": "25d2ca18e5798ce58dfde1fa564c6024c0d7cc0a225e58961fef83f1710be9b9"
+      },
+      "bordighera-3000.webp": {
+        "width": 3000,
+        "height": 2393,
+        "bytes": 3065010,
+        "sha256": "ec446ec21e81c36248619ae2a7298133071ccd686e8fde395fda448a8ba23154"
+      }
+    }
   },
   {
     "id": "cliff-walk",
