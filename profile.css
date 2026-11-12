@@ -135,7 +135,7 @@ header h1{font-family:Georgia,serif}
 footer.pool-footer{display:block;position:relative;padding:0;border:0;background:var(--paper,#f7f5ee);color:var(--ink,#292d26)}
 .pool-frieze{height:clamp(200px,18vw,280px);width:100%;background-image:url('/assets/footer/matisse-swimming-pool.jpg');background-repeat:no-repeat;background-size:max(100%,1500px) auto;background-position:center 40%}
 footer.pool-footer>span{display:block;padding:22px var(--page-gutter);font:13px/1.5 Georgia,serif}
-@media(max-width:720px){.pool-frieze{height:210px;background-size:1300px auto;background-position:48% 40%}}
+
 /* Let the paintings retain their original colour and light. */
 .area-link::after{display:none}
 .area-link[data-art-visible=true],#mathematics[data-art-visible=true] .area-number,#mathematics[data-art-visible=true] .area-bottom{color:#fffdf5;text-shadow:0 1px 3px #182424,0 2px 12px #182424aa}
@@ -187,9 +187,10 @@ header > .language-switch[hidden]{display:none}
 .preprint-links a{display:inline-flex;align-items:center;gap:6px}
 .preprint-links svg{flex:0 0 auto}
 
-.pool-masthead{display:block;width:100%;height:clamp(104px,15vw,240px);object-fit:cover;object-position:50% 41%}
+.pool-masthead{display:block;width:100%;height:clamp(104px,15vw,240px);background-image:url('/assets/footer/matisse-swimming-pool-second.jpg');background-size:cover;background-position:50% 41%}
 .profile-tools{position:sticky;top:0;height:0;padding:0;color:var(--ink)}
 .profile-tools>.language-switch{position:absolute;top:12px}
-@media(max-width:620px){
-    .pool-masthead{height:clamp(128px,33vw,180px);object-position:50% 22%}
+/* Both panels share the same mobile scale and crop. */
+@media(max-width:720px){
+    .pool-frieze{height:210px;background-size:1300px auto;background-position:48% 40%}
 }
