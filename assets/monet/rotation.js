@@ -13,7 +13,7 @@
   async function advance(revealVersion=null){
    await load();if(busy||!paintings.length)return;busy=true;
    const next=(position+1)%paintings.length,p=paintings[next];
-   try{await prepare(next);const dest=position<0?0:1-layer;layers[dest].src=p.url;layers[dest].dataset.active='true';layers[1-dest].dataset.active='false';position=next;layer=dest;card.dataset.painting=p.id;
+   try{await prepare(next);const dest=position<0?0:1-layer;layers[dest].src=p.url;layers[dest].style.objectPosition=p.position||'50% 50%';layers[dest].dataset.active='true';layers[1-dest].dataset.active='false';position=next;layer=dest;card.dataset.painting=p.id;
     if(touch.matches||(engaged&&(revealVersion===null||revealVersion===version))){
      requestAnimationFrame(()=>{if(engaged||touch.matches){card.dataset.artWaiting='false';card.dataset.artVisible='true'}});
     }
@@ -28,5 +28,5 @@
   const observer=new IntersectionObserver(entries=>{if(entries.some(x=>x.isIntersecting)){if(position<0&&!engaged)advance();observer.disconnect()}},{rootMargin:'180px'});observer.observe(card);
  }
  setup('#oceanography','/assets/monet/rotation.json');
- setup('#mathematics','/assets/classical/rotation.json?v=pastoral2');
+ setup('#mathematics','/assets/impressionist/rotation.json?v=20261113-math-paintings');
 })();
