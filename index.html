@@ -2,9 +2,7 @@
 
 <html lang="en">
 <head>
-<link rel="icon" href="/assets/icons/matisse-warm.ico" sizes="any">
-<link rel="icon" href="/assets/icons/matisse-warm-16.png" type="image/png" sizes="16x16">
-<link rel="icon" href="/assets/icons/matisse-warm-32.png" type="image/png" sizes="32x32">
+<link id="homepage-icon" rel="icon" href="/assets/icons/home-matisse-warm.png?v=20261115-home2" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/icons/matisse-warm-apple.png" sizes="180x180">
 
 <meta charset="utf-8"/>
@@ -22,7 +20,19 @@
 <link href="profile.css?v=20261113-matched-friezes" rel="stylesheet"/>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://loganchalmers.net/#person", "name": "Logan Chalmers", "url": "https://loganchalmers.net/", "sameAs": ["https://github.com/loganchal", "https://scholar.google.com/citations?user=fGeMPeEAAAAJ&hl=en", "https://orcid.org/0009-0001-6468-3889"], "image": "https://loganchalmers.net/assets/profile/logan-chalmers.jpg"}, {"@type": "WebSite", "@id": "https://loganchalmers.net/#website", "url": "https://loganchalmers.net/", "name": "Logan Chalmers · Oceanography and Mathematics", "author": {"@id": "https://loganchalmers.net/#person"}}]}</script>
-<link href="/paintings/" rel="license"/><script defer="" src="/assets/i18n/language.js?v=20261110-review1"></script></head>
+<link href="/paintings/" rel="license"/><script defer="" src="/assets/i18n/language.js?v=20261110-review1"></script><script>
+// Refresh the homepage icon on a restored Safari tab as well as a fresh load.
+window.addEventListener('pageshow', () => {
+  const old = document.getElementById('homepage-icon');
+  const icon = document.createElement('link');
+  icon.id = 'homepage-icon';
+  icon.rel = 'icon';
+  icon.type = 'image/png';
+  icon.sizes = '32x32';
+  icon.href = '/assets/icons/home-matisse-warm.png?v=20261115-home2-restored';
+  if (old) old.replaceWith(icon); else document.head.appendChild(icon);
+});
+</script></head>
 <body>
 <a class="skip" data-i18n="skip" href="#profile">Skip to profile</a>
 <div class="pool-frieze pool-masthead" aria-hidden="true"></div>
