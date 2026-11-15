@@ -1,0 +1,6 @@
+/* Shared typography matching the selected Anthropic pair preview. */
+@font-face{font-family:"Anthropic Serif";src:url("/assets/fonts/anthropic-serif.woff2") format("woff2");font-style:normal;font-weight:300 800;font-display:swap}
+@font-face{font-family:"Anthropic Sans";src:url("/assets/fonts/anthropic-sans.woff2") format("woff2");font-style:normal;font-weight:300 800;font-display:swap}
+body,body *{font-family:"Anthropic Serif",Georgia,serif!important}
+body :is(h1,h2,h3,.profile-name,.profile-heading){font-family:"Anthropic Sans",Arial,sans-serif!important;font-weight:600!important}
+body :is(nav,nav *,button,.area-number,.preprint-links,.preprint-links *,.publication-label,.journal-link){font-family:"Anthropic Sans",Arial,sans-serif!important}
