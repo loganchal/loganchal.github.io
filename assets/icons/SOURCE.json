@@ -1,6 +1,7 @@
 {
   "artwork": "Henri Matisse, The Swimming Pool, 1952",
   "source": "https://www.moma.org/collection/works/79462",
-  "adaptation": "Hand-redrawn vector contour from the first-panel motif, cobalt on cream. PNG and ICO files rendered directly from this SVG.",
-  "variants": "/icon-options/"
+  "adaptation": "Hand-redrawn vector contour from the first-panel motif, cobalt on warm paper. PNG and ICO files rendered directly from this SVG.",
+  "variants": "/icon-options/",
+  "selected_variant": "E \u2014 Warm paper"
 }
