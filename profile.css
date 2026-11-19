@@ -195,3 +195,5 @@ header > .language-switch[hidden]{display:none}
 @media(max-width:720px){
     .pool-frieze{height:210px;background-size:1300px auto;background-position:48% 40%}
 }
+
+.preprint-panel .paper-coauthor{font-size:15px;line-height:1.45;margin:-16px 0 26px;color:inherit}

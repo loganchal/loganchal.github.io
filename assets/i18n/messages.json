@@ -104,7 +104,9 @@
     "geometryFunctional": "Geometry and functional analysis",
     "combinatorics": "Combinatorics",
     "lean": "Lean formalisation",
-    "preprint": "Preprint"
+    "preprint": "Preprint",
+    "paper6": "The Bapat-Sunder eigenvalue conjecture fails over the reals",
+    "withAran": "with Aran S. Ziegler"
   },
   "mi": {
     "research": "Rangahau",
@@ -211,6 +213,8 @@
     "geometryFunctional": "Āhuahanga me te tātari taumahi",
     "combinatorics": "Te pāngarau pahekotanga",
     "lean": "He whakaōkawatanga Lean",
-    "preprint": "Tuhinga tōmua"
+    "preprint": "Tuhinga tōmua",
+    "paper6": "Ka hinga te whakapae uara pūtake a Bapat-Sunder mō ngā tau tūturu",
+    "withAran": "nā māua ko Aran S. Ziegler"
   }
 }

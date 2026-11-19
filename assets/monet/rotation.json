@@ -129,5 +129,43 @@
     "sha256": "d334f4aecef52cc49c1c341ecfe8ffe4216962860c2eab0a74735fb83033bdb7",
     "width": 1534,
     "height": 1600
+  },
+  {
+    "id": "pourville-cliffs",
+    "title": "Bord des falaises à Pourville",
+    "artist": "Claude Monet",
+    "date": "1882",
+    "url": "/assets/monet/pourville-cliffs.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Bord_des_falaises_%C3%A0_Pourville.jpg",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Claude_Monet_-_Bord_des_falaises_%C3%A0_Pourville.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+    "credit": "Claude Monet, Bord des falaises à Pourville, 1882. Reproduction via Wikimedia Commons / ArtLoversTravel.com.",
+    "rights": "Public-domain work; Commons identifies the reproduction as PD-Art / Public Domain Mark.",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "changes": "Converted to WebP at original resolution; displayed as cropped details.",
+    "sha256": "49753773ca3693a2bc8e60e54f3f965c68d3ec673e092f1ac9e1abb1dcf92554",
+    "width": 2048,
+    "height": 1176,
+    "position": "50% 50%"
+  },
+  {
+    "id": "sainte-adresse",
+    "title": "Terrace at Sainte-Adresse (Garden at Sainte-Adresse)",
+    "artist": "Claude Monet",
+    "date": "1867",
+    "url": "/assets/monet/sainte-adresse.webp",
+    "source": "https://www.metmuseum.org/art/collection/search/437133",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Garden_at_Sainte-Adresse_MET_DT48.jpg",
+    "credit": "The Metropolitan Museum of Art, Purchase, special contributions and funds given or bequeathed by friends of the Museum, 1967, 67.241.",
+    "rights": "CC0 reproduction donated by The Metropolitan Museum of Art via Wikimedia Commons.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Resized to 2400 pixels wide and converted to WebP; displayed as cropped details.",
+    "sha256": "4de231f8f5df5457594c79b6911a7e8633e8bdcf7390ccfe98ef5b4724477ad7",
+    "width": 2400,
+    "height": 1812,
+    "source_image_dimensions": [
+      3811,
+      2878
+    ],
+    "position": "50% 45%"
   }
 ]

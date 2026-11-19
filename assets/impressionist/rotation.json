@@ -14,6 +14,22 @@
     "position": "50% 50%"
   },
   {
+    "id": "monet-irises-orsay",
+    "url": "/assets/impressionist/monet-irises-orsay.webp",
+    "title": "The Artist's Garden at Giverny (Irises)",
+    "artist": "Claude Monet",
+    "date": "1900",
+    "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Monets_Garten_in_Giverny.jpg",
+    "credit": "Musée d’Orsay, Paris, RF 1983 6",
+    "rights": "Public-domain faithful reproduction per Wikimedia Commons (PD-Art).",
+    "sha256": "03e11239d8b92e6aca4779c82b1a6dd6b778249cb24dc6fffb37762ae7f9530c",
+    "width": 977,
+    "height": 871,
+    "changes": "Converted to WebP at source resolution; cropped in the hover panel.",
+    "paper_id": "bapat-sunder-paper",
+    "position": "50% 50%"
+  },
+  {
     "id": "cross-pink-cloud",
     "url": "/assets/impressionist/cross-pink-cloud.webp",
     "title": "The Pink Cloud",

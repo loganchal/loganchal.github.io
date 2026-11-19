@@ -27,6 +27,6 @@
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop()});reduced.addEventListener('change',stop);
   const observer=new IntersectionObserver(entries=>{if(entries.some(x=>x.isIntersecting)){if(position<0&&!engaged)advance();observer.disconnect()}},{rootMargin:'180px'});observer.observe(card);
  }
- setup('#oceanography','/assets/monet/rotation.json');
- setup('#mathematics','/assets/impressionist/rotation.json?v=20261113-math-paintings');
+ setup('#oceanography','/assets/monet/rotation.json?v=20261119-pourville1');
+ setup('#mathematics','/assets/impressionist/rotation.json?v=20261119-paper1');
 })();
