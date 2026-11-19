@@ -197,3 +197,6 @@ header > .language-switch[hidden]{display:none}
 }
 
 .preprint-panel .paper-coauthor{font-size:15px;line-height:1.45;margin:-16px 0 26px;color:inherit}
+
+/* Match the other topic headings and the shared 20px panel gap. */
+.paper-category>.published-paper{margin:0 0 20px}
